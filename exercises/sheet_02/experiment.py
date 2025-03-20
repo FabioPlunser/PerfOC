@@ -19,8 +19,8 @@ import shutil
 import sys
 
 # Set up directories with the provided root directory
-# ROOT_DIR = Path("/scratch/cb761223")
-ROOT_DIR = Path("/Users/fabioplunser/Nextcloud/Uni/7.Semester/POC/")
+ROOT_DIR = Path("/scratch/cb761223")
+#ROOT_DIR = Path("/Users/fabioplunser/Nextcloud/Uni/7.Semester/POC/")
 SCRIPT_DIR = ROOT_DIR / "perf-oriented-dev/small_samples/"
 CURRENT_DIR = ROOT_DIR / "exercises/sheet_02/"
 TOOLS_DIR = ROOT_DIR / "perf-oriented-dev/tools/"
@@ -327,8 +327,9 @@ def run_benchmarks():
                             shell=True,
                             stderr=subprocess.PIPE,
                             stdout=subprocess.PIPE,
-                            text=True,
+                            universal_newlines=True,
                         )
+
 
                         # Return to original directory
                         if config.get("io_bound", False):
@@ -734,20 +735,6 @@ def main():
         stop_io_load()
 
     print(f"End time: {time.strftime('%Y-%m-%d %H:%M:%S')}")
-
-
-def parse_args():
-    parser = argparse.ArgumentParser(
-        description="Run benchmarks with different load scenarios"
-    )
-    parser.add_argument(
-        "--root-dir",
-        type=str,
-        default="/scratch/cb761223",
-        help="Root directory for the project (default: /scratch/cb761223)",
-    )
-    return parser.parse_args()
-
 
 if __name__ == "__main__":
     main()

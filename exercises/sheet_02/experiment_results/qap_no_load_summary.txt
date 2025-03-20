@@ -1,0 +1,19 @@
+Summary for qap with no_load
+================================================================================
+
+Parameter: chr10a
+----------------------------------------
+Repetitions: 3
+Real Time (s): 0.260 ± 0.000 (0.0% CI)
+User Time (s): 0.000 ± 0.000
+System Time (s): 0.030 ± 0.000
+Max Memory (KB): 1362.7 ± 8.3
+
+Parameter: chr12a
+----------------------------------------
+Repetitions: 3
+Real Time (s): 0.250 ± 0.000 (0.0% CI)
+User Time (s): 0.003 ± 0.006
+System Time (s): 0.027 ± 0.006
+Max Memory (KB): 1430.7 ± 68.2
+

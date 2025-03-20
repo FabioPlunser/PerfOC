@@ -1,0 +1,11 @@
+Summary for find_largest_file with no_load
+================================================================================
+
+Parameter: 
+----------------------------------------
+Repetitions: 3
+Real Time (s): 0.000 ± 0.000 (nan% CI)
+User Time (s): 0.000 ± 0.000
+System Time (s): 0.000 ± 0.000
+Max Memory (KB): 972.0 ± 95.6
+
