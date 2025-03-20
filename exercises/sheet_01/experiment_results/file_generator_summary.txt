@@ -1,0 +1,17 @@
+Summary for file_generator
+================================================================================
+
+Parameter: small
+----------------------------------------
+Real Time (s): 0.000 ± 0.000
+User Time (s): 0.000 ± 0.000
+System Time (s): 0.000 ± 0.000
+Max Memory (KB): 1013.3 ± 112.0
+
+Parameter: medium
+----------------------------------------
+Real Time (s): 0.000 ± 0.000
+User Time (s): 0.000 ± 0.000
+System Time (s): 0.000 ± 0.000
+Max Memory (KB): 908.0 ± 38.2
+
