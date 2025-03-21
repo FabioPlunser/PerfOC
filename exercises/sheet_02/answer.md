@@ -1,29 +1,13 @@
 Exercise Sheet 2
 ================
+# Disclaimer
+There are a multitude of errors in the benchmarking code. 
+Because of time constraints I wasn't able to fix them.
+The caluclation of the confidence is surely wrong. 
 
-**Don't run either of these two exercises on the LCC3 headnode!**
+Also I couldn't quite figure it out yet, but the whole benchmarking must be hugefly flawed under cpu or I/O load there was nearly no difference in the results especially in time. There is a little bit of difference in memory usage. 
+So I rather conclude that my measurements or setups are wrong than that there is literally no difference in the benchmarks. 
 
-A) External CPU load
---------------------
-
-Have a look at `loadgen` in the tools folder.
-Use it (e.g. `exec_with_workstation_heavy.sh`) to generate external load while benchmarking and track the changes this causes to your measured performance metrics.
-
-Improve your experiment setup/script from the first exercise to dynamically adjust the number of repetitions performed until some statistical confidence interval is reached, and present your results.
-
-B) External I/O load
---------------------
-
-Create a load generator which produces a configurable I/O load on the file system.
-Document its working principle, and demonstrate its impact on the speed of the I/O-bound benchmarks in `small_samples`.
-
-**On the cluster, use the local file system for all FS benchmarking!**
-Do **not** use `/home` or `/scratch`.
-
-Submission
-----------
-Please submit your solutions by email to peter.thoman at UIBK, using the string "[Perf2025-sheet2]" in the subject line, before the start of the next VU at the latest.
-Try not to include attachments with a total size larger than 2 MiB.
 
 A) External CPU Load
 --------------------
@@ -70,9 +54,14 @@ To investigate the impact of external CPU load, the `loadgen` tool from the prov
 
 *Note:* The `file_generator`, `find_largest_file`, `matrix_mult` and `nbody` results show minimal impact from CPU load. However, the real time for `qap` seems to decrease with CPU load.
 
+![delannoy_memory_comparison](./experiment_results/graphs/delannoy_memory_comparison.png)
+![delannoy_real_time_comparison](./experiment_results/graphs/delannoy_real_time_comparison.png)
+![qap_real_time_comparison](./experiment_results/graphs/qap_real_time_comparison.png)
+![load_impact_summary](./experiment_results/graphs/load_impact_summary.png)
+
+
 B) External I/O Load
 --------------------
-
 An I/O load generator script `ioLoadGenerator.py` was created (see code below). Its working principle involves creating multiple threads that continuously write data to a directory on the local filesystem. The script can be configured for intensity (number of threads writing simultaneously), file size, and duration.
 
 **Explanation of `ioLoadGenerator.py` Code:**
@@ -144,12 +133,7 @@ class IOLoadGenerator:
         self.running = False
         self.threads = []
         self.stats = {
-            "bytes_written": 0,
-            "bytes_read": 0,
-            "files_created": 0,
-            "files_deleted": 0,
-            "start_time": None,
-            "end_time": None,
+
         }
 
     def start(self):
@@ -457,16 +441,14 @@ def main():
         parser.print_help()
 
 
-if __name__ == "__main__":
+if __name__ == "__main__"`
     main()
+```
 
 For this experiment, the I/O load generator was configured to write to a temporary directory on the local filesystem. The script's intensity was set to 4 concurrent writing threads. This generates a constant I/O pressure on the disk.
 
 To run the I/O benchmarks on the local filesystem (as mandated), the script temporarily changes the current directory to a temporary directory created by tempfile.mkdtemp() before running each I/O bound benchmark and changes the directory back to original after. This ensures the target dir is the same in both tests and avoids errors. The following results demonstrate the impact of the I/O load on the I/O-bound benchmarks file_generator and find_largest_file. The benchmarks were again run in the no_load scenario to show their baseline performance for comparison.
 
-### I/O Load Benchmarks Summaries
-
-#### `file_generator` Benchmark
 
 | Parameter | Load Scenario | Repetitions | Real Time (s) | User Time (s) | System Time (s) | Max Memory (KB) |
 | --------- | ------------- | ----------- | ------------- | ------------- | --------------- | --------------- |
