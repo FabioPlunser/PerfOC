@@ -1,0 +1,16 @@
+# started on Mon Mar 31 08:14:33 2025
+
+
+ Performance counter stats for '/gpfs/gpfs1/scratch/cb761223/perf-oriented-dev/larger_samples/npb_bt/build/npb_bt_s':
+
+             1,169      LLC-load-misses:u         #    0.55% of all LL-cache accesses  (50.21%)
+           212,077      LLC-loads:u                                                   (50.74%)
+                 6      LLC-prefetch-misses:u                                         (49.79%)
+           589,155      LLC-prefetches:u                                              (49.26%)
+
+       0.164129724 seconds time elapsed
+
+       0.096905000 seconds user
+       0.001008000 seconds sys
+
+

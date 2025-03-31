@@ -1,0 +1,63 @@
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP-C) - BT Benchmark
+
+ No input file inputbt.data. Using compiled defaults
+ Size:  102x 102x 102
+ Iterations:  200       dt:   0.0003000
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Verification being performed for class B
+ accuracy setting for epsilon =  1.0000000000000E-08
+ Comparison of RMS-norms of residual
+           1 1.4233597229287E+03 1.4233597229287E+03 7.3482401545462E-15
+           2 9.9330522590151E+01 9.9330522590150E+01 4.8642556962122E-15
+           3 3.5646025644535E+02 3.5646025644535E+02 3.0298608016653E-15
+           4 3.2485447959083E+02 3.2485447959084E+02 2.5547251692915E-14
+           5 3.2707541254660E+03 3.2707541254659E+03 7.6468922270923E-15
+ Comparison of RMS-norms of solution error
+           1 5.2969847140937E+01 5.2969847140937E+01 4.0242294858973E-16
+           2 4.4632896115671E+00 4.4632896115671E+00 1.9899636747710E-16
+           3 1.3122573342210E+01 1.3122573342210E+01 4.0609950344566E-16
+           4 1.2006925323559E+01 1.2006925323559E+01 2.9588871281057E-16
+           5 1.2459576151036E+02 1.2459576151036E+02 2.2811136659766E-16
+ Verification Successful
+
+
+ BT Benchmark Completed.
+ Class           =                        B
+ Size            =            102x 102x 102
+ Iterations      =                      200
+ Total threads   =                        1
+ Avail threads   =                        1
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              11 Nov 2013
+
+ Compile options:
+    CC           = gcc
+    CLINK        = $(CC)
+    C_LIB        = -lm
+    C_INC        = (none)
+    CFLAGS       = (unknown)
+    CLINKFLAGS   = (unknown)
+    RAND         = (none)
+
+--------------------------------------
+ Please send all errors/feedbacks to:
+ Center for Manycore Programming
+ cmp@aces.snu.ac.kr
+ http://aces.snu.ac.kr
+--------------------------------------
+

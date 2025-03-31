@@ -1,0 +1,16 @@
+# started on Mon Mar 31 08:14:33 2025
+
+
+ Performance counter stats for '/gpfs/gpfs1/scratch/cb761223/perf-oriented-dev/larger_samples/npb_bt/build/npb_bt_a':
+
+            19,602      iTLB-load-misses:u        #    0.00% of all iTLB cache accesses
+   406,238,074,523      iTLB-loads:u                                                
+             3,876      node-load-misses:u                                          
+       311,592,682      node-loads:u                                                
+
+      76.144895960 seconds time elapsed
+
+      75.852554000 seconds user
+       0.009961000 seconds sys
+
+

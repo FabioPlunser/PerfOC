@@ -1,0 +1,16 @@
+# started on Mon Mar 31 08:15:48 2025
+
+
+ Performance counter stats for '/gpfs/gpfs1/scratch/cb761223/perf-oriented-dev/larger_samples/npb_bt/build/npb_bt_c':
+
+   122,952,090,844      L1-dcache-load-misses:u   #    4.20% of all L1-dcache accesses
+ 2,924,708,057,715      L1-dcache-loads:u                                           
+                 0      L1-dcache-prefetch-misses:u                                   
+                 0      L1-dcache-prefetches:u                                      
+
+    1307.716159875 seconds time elapsed
+
+    1303.149328000 seconds user
+       0.168056000 seconds sys
+
+

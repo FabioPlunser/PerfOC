@@ -1,0 +1,702 @@
+desc: --massif-out-file=/gpfs/gpfs1/scratch/cb761223/exercises/sheet04/massif_outputs/massif.out.ssca2_s17_massif
+cmd: /gpfs/gpfs1/scratch/cb761223/perf-oriented-dev/larger_samples/ssca2/build/ssca2 17
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=238284
+mem_heap_B=32
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=2
+#-----------
+time=238378
+mem_heap_B=8388640
+mem_heap_extra_B=8088
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=3
+#-----------
+time=239378
+mem_heap_B=8393752
+mem_heap_extra_B=8104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=4
+#-----------
+time=240753
+mem_heap_B=8393756
+mem_heap_extra_B=8124
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=5
+#-----------
+time=241037
+mem_heap_B=8409180
+mem_heap_extra_B=8196
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=6
+#-----------
+time=3424199
+mem_heap_B=8409180
+mem_heap_extra_B=8196
+mem_stacks_B=0
+heap_tree=detailed
+n3: 8409180 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 4194304 0x4037AE: genScalData (in /gpfs/gpfs1/scratch/cb761223/perf-oriented-dev/larger_samples/ssca2/build/ssca2)
+  n0: 4194304 0x400B19: main (in /gpfs/gpfs1/scratch/cb761223/perf-oriented-dev/larger_samples/ssca2/build/ssca2)
+ n1: 4194304 0x4037C1: genScalData (in /gpfs/gpfs1/scratch/cb761223/perf-oriented-dev/larger_samples/ssca2/build/ssca2)
+  n0: 4194304 0x400B19: main (in /gpfs/gpfs1/scratch/cb761223/perf-oriented-dev/larger_samples/ssca2/build/ssca2)
+ n0: 20572 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=7
+#-----------
+time=3424199
+mem_heap_B=8409176
+mem_heap_extra_B=8176
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=8
+#-----------
+time=3672410
+mem_heap_B=8404064
+mem_heap_extra_B=8160
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=9
+#-----------
+time=3672444
+mem_heap_B=8404056
+mem_heap_extra_B=8144
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=10
+#-----------
+time=6324377232
+mem_heap_B=8928344
+mem_heap_extra_B=8152
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=11
+#-----------
+time=6343317202
+mem_heap_B=8928344
+mem_heap_extra_B=8152
+mem_stacks_B=0
+heap_tree=detailed
+n4: 8928344 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 4194304 0x4037AE: genScalData (in /gpfs/gpfs1/scratch/cb761223/perf-oriented-dev/larger_samples/ssca2/build/ssca2)
+  n0: 4194304 0x400B19: main (in /gpfs/gpfs1/scratch/cb761223/perf-oriented-dev/larger_samples/ssca2/build/ssca2)
+ n1: 4194304 0x4037C1: genScalData (in /gpfs/gpfs1/scratch/cb761223/perf-oriented-dev/larger_samples/ssca2/build/ssca2)
+  n0: 4194304 0x400B19: main (in /gpfs/gpfs1/scratch/cb761223/perf-oriented-dev/larger_samples/ssca2/build/ssca2)
+ n1: 524288 0x403AA0: genScalData (in /gpfs/gpfs1/scratch/cb761223/perf-oriented-dev/larger_samples/ssca2/build/ssca2)
+  n0: 524288 0x400B19: main (in /gpfs/gpfs1/scratch/cb761223/perf-oriented-dev/larger_samples/ssca2/build/ssca2)
+ n0: 15448 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=12
+#-----------
+time=6343317234
+mem_heap_B=12598360
+mem_heap_extra_B=12184
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=13
+#-----------
+time=6420911911
+mem_heap_B=12598360
+mem_heap_extra_B=12184
+mem_stacks_B=0
+heap_tree=detailed
+n4: 12598360 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 4194304 0x4037AE: genScalData (in /gpfs/gpfs1/scratch/cb761223/perf-oriented-dev/larger_samples/ssca2/build/ssca2)
+  n0: 4194304 0x400B19: main (in /gpfs/gpfs1/scratch/cb761223/perf-oriented-dev/larger_samples/ssca2/build/ssca2)
+ n1: 4194304 0x4037C1: genScalData (in /gpfs/gpfs1/scratch/cb761223/perf-oriented-dev/larger_samples/ssca2/build/ssca2)
+  n0: 4194304 0x400B19: main (in /gpfs/gpfs1/scratch/cb761223/perf-oriented-dev/larger_samples/ssca2/build/ssca2)
+ n1: 4194304 0x403CF3: genScalData (in /gpfs/gpfs1/scratch/cb761223/perf-oriented-dev/larger_samples/ssca2/build/ssca2)
+  n0: 4194304 0x400B19: main (in /gpfs/gpfs1/scratch/cb761223/perf-oriented-dev/larger_samples/ssca2/build/ssca2)
+ n0: 15448 in 3 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=14
+#-----------
+time=6420912698
+mem_heap_B=16777280
+mem_heap_extra_B=16176
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=15
+#-----------
+time=6420913461
+mem_heap_B=17301568
+mem_heap_extra_B=16184
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=16
+#-----------
+time=6430350692
+mem_heap_B=17825860
+mem_heap_extra_B=16204
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=17
+#-----------
+time=6430350729
+mem_heap_B=17825864
+mem_heap_extra_B=16224
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=18
+#-----------
+time=6431006138
+mem_heap_B=17825864
+mem_heap_extra_B=16224
+mem_stacks_B=0
+heap_tree=detailed
+n7: 17825864 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 4194304 0x401844: computeGraph (in /gpfs/gpfs1/scratch/cb761223/perf-oriented-dev/larger_samples/ssca2/build/ssca2)
+  n0: 4194304 0x400B67: main (in /gpfs/gpfs1/scratch/cb761223/perf-oriented-dev/larger_samples/ssca2/build/ssca2)
+ n1: 4194304 0x4037AE: genScalData (in /gpfs/gpfs1/scratch/cb761223/perf-oriented-dev/larger_samples/ssca2/build/ssca2)
+  n0: 4194304 0x400B19: main (in /gpfs/gpfs1/scratch/cb761223/perf-oriented-dev/larger_samples/ssca2/build/ssca2)
+ n1: 4194304 0x4037C1: genScalData (in /gpfs/gpfs1/scratch/cb761223/perf-oriented-dev/larger_samples/ssca2/build/ssca2)
+  n0: 4194304 0x400B19: main (in /gpfs/gpfs1/scratch/cb761223/perf-oriented-dev/larger_samples/ssca2/build/ssca2)
+ n1: 4194304 0x403CF3: genScalData (in /gpfs/gpfs1/scratch/cb761223/perf-oriented-dev/larger_samples/ssca2/build/ssca2)
+  n0: 4194304 0x400B19: main (in /gpfs/gpfs1/scratch/cb761223/perf-oriented-dev/larger_samples/ssca2/build/ssca2)
+ n1: 524292 0x40189F: computeGraph (in /gpfs/gpfs1/scratch/cb761223/perf-oriented-dev/larger_samples/ssca2/build/ssca2)
+  n0: 524292 0x400B67: main (in /gpfs/gpfs1/scratch/cb761223/perf-oriented-dev/larger_samples/ssca2/build/ssca2)
+ n1: 524288 0x401854: computeGraph (in /gpfs/gpfs1/scratch/cb761223/perf-oriented-dev/larger_samples/ssca2/build/ssca2)
+  n0: 524288 0x400B67: main (in /gpfs/gpfs1/scratch/cb761223/perf-oriented-dev/larger_samples/ssca2/build/ssca2)
+ n0: 68 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=19
+#-----------
+time=6431006237
+mem_heap_B=25690180
+mem_heap_extra_B=24276
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=20
+#-----------
+time=6442540616
+mem_heap_B=25690180
+mem_heap_extra_B=24276
+mem_stacks_B=0
+heap_tree=peak
+n8: 25690180 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 4194304 0x401844: computeGraph (in /gpfs/gpfs1/scratch/cb761223/perf-oriented-dev/larger_samples/ssca2/build/ssca2)
+  n0: 4194304 0x400B67: main (in /gpfs/gpfs1/scratch/cb761223/perf-oriented-dev/larger_samples/ssca2/build/ssca2)
+ n1: 4194304 0x4018DD: computeGraph (in /gpfs/gpfs1/scratch/cb761223/perf-oriented-dev/larger_samples/ssca2/build/ssca2)
+  n0: 4194304 0x400B67: main (in /gpfs/gpfs1/scratch/cb761223/perf-oriented-dev/larger_samples/ssca2/build/ssca2)
+ n1: 4194304 0x4018EA: computeGraph (in /gpfs/gpfs1/scratch/cb761223/perf-oriented-dev/larger_samples/ssca2/build/ssca2)
+  n0: 4194304 0x400B67: main (in /gpfs/gpfs1/scratch/cb761223/perf-oriented-dev/larger_samples/ssca2/build/ssca2)
+ n1: 4194304 0x4037AE: genScalData (in /gpfs/gpfs1/scratch/cb761223/perf-oriented-dev/larger_samples/ssca2/build/ssca2)
+  n0: 4194304 0x400B19: main (in /gpfs/gpfs1/scratch/cb761223/perf-oriented-dev/larger_samples/ssca2/build/ssca2)
+ n1: 4194304 0x4037C1: genScalData (in /gpfs/gpfs1/scratch/cb761223/perf-oriented-dev/larger_samples/ssca2/build/ssca2)
+  n0: 4194304 0x400B19: main (in /gpfs/gpfs1/scratch/cb761223/perf-oriented-dev/larger_samples/ssca2/build/ssca2)
+ n1: 4194304 0x403CF3: genScalData (in /gpfs/gpfs1/scratch/cb761223/perf-oriented-dev/larger_samples/ssca2/build/ssca2)
+  n0: 4194304 0x400B19: main (in /gpfs/gpfs1/scratch/cb761223/perf-oriented-dev/larger_samples/ssca2/build/ssca2)
+ n1: 524292 0x40189F: computeGraph (in /gpfs/gpfs1/scratch/cb761223/perf-oriented-dev/larger_samples/ssca2/build/ssca2)
+  n0: 524292 0x400B67: main (in /gpfs/gpfs1/scratch/cb761223/perf-oriented-dev/larger_samples/ssca2/build/ssca2)
+ n0: 64 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=21
+#-----------
+time=6442541467
+mem_heap_B=8928952
+mem_heap_extra_B=8160
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=22
+#-----------
+time=6452316525
+mem_heap_B=8928956
+mem_heap_extra_B=8180
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=23
+#-----------
+time=6452316803
+mem_heap_B=8913044
+mem_heap_extra_B=8116
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=24
+#-----------
+time=6452318394
+mem_heap_B=9437336
+mem_heap_extra_B=8136
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=25
+#-----------
+time=6452318704
+mem_heap_B=10092728
+mem_heap_extra_B=8184
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=26
+#-----------
+time=6452442370
+mem_heap_B=9961656
+mem_heap_extra_B=8176
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=27
+#-----------
+time=6452442426
+mem_heap_B=10092728
+mem_heap_extra_B=8184
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=28
+#-----------
+time=6452447055
+mem_heap_B=9961656
+mem_heap_extra_B=8176
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=29
+#-----------
+time=6452447111
+mem_heap_B=10092728
+mem_heap_extra_B=8184
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=30
+#-----------
+time=6452830378
+mem_heap_B=9961656
+mem_heap_extra_B=8176
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=31
+#-----------
+time=6452830434
+mem_heap_B=10092728
+mem_heap_extra_B=8184
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=32
+#-----------
+time=6452868701
+mem_heap_B=9961656
+mem_heap_extra_B=8176
+mem_stacks_B=0
+heap_tree=detailed
+n6: 9961656 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 4194304 0x4018DD: computeGraph (in /gpfs/gpfs1/scratch/cb761223/perf-oriented-dev/larger_samples/ssca2/build/ssca2)
+  n0: 4194304 0x400B67: main (in /gpfs/gpfs1/scratch/cb761223/perf-oriented-dev/larger_samples/ssca2/build/ssca2)
+ n1: 4194304 0x4018EA: computeGraph (in /gpfs/gpfs1/scratch/cb761223/perf-oriented-dev/larger_samples/ssca2/build/ssca2)
+  n0: 4194304 0x400B67: main (in /gpfs/gpfs1/scratch/cb761223/perf-oriented-dev/larger_samples/ssca2/build/ssca2)
+ n1: 524292 0x40189F: computeGraph (in /gpfs/gpfs1/scratch/cb761223/perf-oriented-dev/larger_samples/ssca2/build/ssca2)
+  n0: 524292 0x400B67: main (in /gpfs/gpfs1/scratch/cb761223/perf-oriented-dev/larger_samples/ssca2/build/ssca2)
+ n1: 524292 0x401A4D: findSubGraphs (in /gpfs/gpfs1/scratch/cb761223/perf-oriented-dev/larger_samples/ssca2/build/ssca2)
+  n0: 524292 0x400C2C: main (in /gpfs/gpfs1/scratch/cb761223/perf-oriented-dev/larger_samples/ssca2/build/ssca2)
+ n1: 524288 0x401A5F: findSubGraphs (in /gpfs/gpfs1/scratch/cb761223/perf-oriented-dev/larger_samples/ssca2/build/ssca2)
+  n0: 524288 0x400C2C: main (in /gpfs/gpfs1/scratch/cb761223/perf-oriented-dev/larger_samples/ssca2/build/ssca2)
+ n0: 176 in 20 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=33
+#-----------
+time=6452868757
+mem_heap_B=10092728
+mem_heap_extra_B=8184
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=34
+#-----------
+time=6458751088
+mem_heap_B=9961656
+mem_heap_extra_B=8176
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=35
+#-----------
+time=6458751144
+mem_heap_B=10092728
+mem_heap_extra_B=8184
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=36
+#-----------
+time=6458824090
+mem_heap_B=9961656
+mem_heap_extra_B=8176
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=37
+#-----------
+time=6458824146
+mem_heap_B=10092728
+mem_heap_extra_B=8184
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=38
+#-----------
+time=6458974103
+mem_heap_B=9568436
+mem_heap_extra_B=8164
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=39
+#-----------
+time=6458974562
+mem_heap_B=8912932
+mem_heap_extra_B=8108
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=40
+#-----------
+time=6458975051
+mem_heap_B=10490908
+mem_heap_extra_B=8140
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=41
+#-----------
+time=6458975986
+mem_heap_B=10506336
+mem_heap_extra_B=8248
+mem_stacks_B=0
+heap_tree=detailed
+n6: 10506336 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 4194304 0x4018DD: computeGraph (in /gpfs/gpfs1/scratch/cb761223/perf-oriented-dev/larger_samples/ssca2/build/ssca2)
+  n0: 4194304 0x400B67: main (in /gpfs/gpfs1/scratch/cb761223/perf-oriented-dev/larger_samples/ssca2/build/ssca2)
+ n1: 4194304 0x4018EA: computeGraph (in /gpfs/gpfs1/scratch/cb761223/perf-oriented-dev/larger_samples/ssca2/build/ssca2)
+  n0: 4194304 0x400B67: main (in /gpfs/gpfs1/scratch/cb761223/perf-oriented-dev/larger_samples/ssca2/build/ssca2)
+ n0: 1048576 0x400C7D: main (in /gpfs/gpfs1/scratch/cb761223/perf-oriented-dev/larger_samples/ssca2/build/ssca2)
+ n1: 524292 0x40189F: computeGraph (in /gpfs/gpfs1/scratch/cb761223/perf-oriented-dev/larger_samples/ssca2/build/ssca2)
+  n0: 524292 0x400B67: main (in /gpfs/gpfs1/scratch/cb761223/perf-oriented-dev/larger_samples/ssca2/build/ssca2)
+ n1: 524288 0x400E2B: betweennessCentrality (in /gpfs/gpfs1/scratch/cb761223/perf-oriented-dev/larger_samples/ssca2/build/ssca2)
+  n0: 524288 0x400C8B: main (in /gpfs/gpfs1/scratch/cb761223/perf-oriented-dev/larger_samples/ssca2/build/ssca2)
+ n0: 20572 in 22 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=42
+#-----------
+time=6462158462
+mem_heap_B=10506332
+mem_heap_extra_B=8212
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=43
+#-----------
+time=6462406673
+mem_heap_B=10501220
+mem_heap_extra_B=8196
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=44
+#-----------
+time=6462406707
+mem_heap_B=10501212
+mem_heap_extra_B=8180
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=45
+#-----------
+time=6472695962
+mem_heap_B=12598364
+mem_heap_extra_B=8188
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=46
+#-----------
+time=6472696104
+mem_heap_B=13646952
+mem_heap_extra_B=8264
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=47
+#-----------
+time=6478594401
+mem_heap_B=17841256
+mem_heap_extra_B=12304
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=48
+#-----------
+time=6479774099
+mem_heap_B=17316964
+mem_heap_extra_B=12284
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=49
+#-----------
+time=6479774330
+mem_heap_B=19938396
+mem_heap_extra_B=12260
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=50
+#-----------
+time=6479774370
+mem_heap_B=19938596
+mem_heap_extra_B=12276
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=51
+#-----------
+time=6479774407
+mem_heap_B=19938796
+mem_heap_extra_B=12292
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=52
+#-----------
+time=6479774444
+mem_heap_B=19938804
+mem_heap_extra_B=12324
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=53
+#-----------
+time=6479774481
+mem_heap_B=20987380
+mem_heap_extra_B=12332
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=54
+#-----------
+time=34542503114
+mem_heap_B=19938804
+mem_heap_extra_B=12324
+mem_stacks_B=0
+heap_tree=detailed
+n12: 19938804 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 4194304 0x400FD2: betweennessCentrality (in /gpfs/gpfs1/scratch/cb761223/perf-oriented-dev/larger_samples/ssca2/build/ssca2)
+  n0: 4194304 0x400C8B: main (in /gpfs/gpfs1/scratch/cb761223/perf-oriented-dev/larger_samples/ssca2/build/ssca2)
+ n1: 4194304 0x4018DD: computeGraph (in /gpfs/gpfs1/scratch/cb761223/perf-oriented-dev/larger_samples/ssca2/build/ssca2)
+  n0: 4194304 0x400B67: main (in /gpfs/gpfs1/scratch/cb761223/perf-oriented-dev/larger_samples/ssca2/build/ssca2)
+ n1: 4194304 0x4018EA: computeGraph (in /gpfs/gpfs1/scratch/cb761223/perf-oriented-dev/larger_samples/ssca2/build/ssca2)
+  n0: 4194304 0x400B67: main (in /gpfs/gpfs1/scratch/cb761223/perf-oriented-dev/larger_samples/ssca2/build/ssca2)
+ n1: 2097152 0x400F47: betweennessCentrality (in /gpfs/gpfs1/scratch/cb761223/perf-oriented-dev/larger_samples/ssca2/build/ssca2)
+  n0: 2097152 0x400C8B: main (in /gpfs/gpfs1/scratch/cb761223/perf-oriented-dev/larger_samples/ssca2/build/ssca2)
+ n0: 1048576 0x400C7D: main (in /gpfs/gpfs1/scratch/cb761223/perf-oriented-dev/larger_samples/ssca2/build/ssca2)
+ n1: 1048576 0x401074: betweennessCentrality (in /gpfs/gpfs1/scratch/cb761223/perf-oriented-dev/larger_samples/ssca2/build/ssca2)
+  n0: 1048576 0x400C8B: main (in /gpfs/gpfs1/scratch/cb761223/perf-oriented-dev/larger_samples/ssca2/build/ssca2)
+ n1: 1048576 0x401099: betweennessCentrality (in /gpfs/gpfs1/scratch/cb761223/perf-oriented-dev/larger_samples/ssca2/build/ssca2)
+  n0: 1048576 0x400C8B: main (in /gpfs/gpfs1/scratch/cb761223/perf-oriented-dev/larger_samples/ssca2/build/ssca2)
+ n1: 524292 0x40189F: computeGraph (in /gpfs/gpfs1/scratch/cb761223/perf-oriented-dev/larger_samples/ssca2/build/ssca2)
+  n0: 524292 0x400B67: main (in /gpfs/gpfs1/scratch/cb761223/perf-oriented-dev/larger_samples/ssca2/build/ssca2)
+ n1: 524288 0x400E2B: betweennessCentrality (in /gpfs/gpfs1/scratch/cb761223/perf-oriented-dev/larger_samples/ssca2/build/ssca2)
+  n0: 524288 0x400C8B: main (in /gpfs/gpfs1/scratch/cb761223/perf-oriented-dev/larger_samples/ssca2/build/ssca2)
+ n1: 524288 0x401065: betweennessCentrality (in /gpfs/gpfs1/scratch/cb761223/perf-oriented-dev/larger_samples/ssca2/build/ssca2)
+  n0: 524288 0x400C8B: main (in /gpfs/gpfs1/scratch/cb761223/perf-oriented-dev/larger_samples/ssca2/build/ssca2)
+ n1: 524288 0x401084: betweennessCentrality (in /gpfs/gpfs1/scratch/cb761223/perf-oriented-dev/larger_samples/ssca2/build/ssca2)
+  n0: 524288 0x400C8B: main (in /gpfs/gpfs1/scratch/cb761223/perf-oriented-dev/larger_samples/ssca2/build/ssca2)
+ n0: 15856 in 29 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=55
+#-----------
+time=34542503145
+mem_heap_B=19414516
+mem_heap_extra_B=12316
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=56
+#-----------
+time=34542503176
+mem_heap_B=15220212
+mem_heap_extra_B=8276
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=57
+#-----------
+time=34542503207
+mem_heap_B=13123060
+mem_heap_extra_B=8268
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=58
+#-----------
+time=34542503238
+mem_heap_B=12074484
+mem_heap_extra_B=8260
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=59
+#-----------
+time=34542503269
+mem_heap_B=11550196
+mem_heap_extra_B=8252
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=60
+#-----------
+time=34542503300
+mem_heap_B=10501620
+mem_heap_extra_B=8244
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=61
+#-----------
+time=34542503331
+mem_heap_B=10501420
+mem_heap_extra_B=8228
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=62
+#-----------
+time=34542503362
+mem_heap_B=10501220
+mem_heap_extra_B=8212
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=63
+#-----------
+time=34542503393
+mem_heap_B=10501212
+mem_heap_extra_B=8180
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=64
+#-----------
+time=34542503446
+mem_heap_B=9976924
+mem_heap_extra_B=8172
+mem_stacks_B=0
+heap_tree=detailed
+n5: 9976924 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 4194304 0x4018DD: computeGraph (in /gpfs/gpfs1/scratch/cb761223/perf-oriented-dev/larger_samples/ssca2/build/ssca2)
+  n0: 4194304 0x400B67: main (in /gpfs/gpfs1/scratch/cb761223/perf-oriented-dev/larger_samples/ssca2/build/ssca2)
+ n1: 4194304 0x4018EA: computeGraph (in /gpfs/gpfs1/scratch/cb761223/perf-oriented-dev/larger_samples/ssca2/build/ssca2)
+  n0: 4194304 0x400B67: main (in /gpfs/gpfs1/scratch/cb761223/perf-oriented-dev/larger_samples/ssca2/build/ssca2)
+ n0: 1048576 0x400C7D: main (in /gpfs/gpfs1/scratch/cb761223/perf-oriented-dev/larger_samples/ssca2/build/ssca2)
+ n1: 524292 0x40189F: computeGraph (in /gpfs/gpfs1/scratch/cb761223/perf-oriented-dev/larger_samples/ssca2/build/ssca2)
+  n0: 524292 0x400B67: main (in /gpfs/gpfs1/scratch/cb761223/perf-oriented-dev/larger_samples/ssca2/build/ssca2)
+ n0: 15448 in 36 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=65
+#-----------
+time=34542503483
+mem_heap_B=9971812
+mem_heap_extra_B=8156
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=66
+#-----------
+time=34542503514
+mem_heap_B=9966696
+mem_heap_extra_B=8144
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=67
+#-----------
+time=34542503545
+mem_heap_B=9961580
+mem_heap_extra_B=8132
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=68
+#-----------
+time=34542503576
+mem_heap_B=9961508
+mem_heap_extra_B=8116
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=69
+#-----------
+time=34542503621
+mem_heap_B=8912932
+mem_heap_extra_B=8108
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=70
+#-----------
+time=34542503652
+mem_heap_B=8388640
+mem_heap_extra_B=8088
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=71
+#-----------
+time=34542503683
+mem_heap_B=4194336
+mem_heap_extra_B=4048
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=72
+#-----------
+time=34542503714
+mem_heap_B=32
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=73
+#-----------
+time=34542503745
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty

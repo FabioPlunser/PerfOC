@@ -1,0 +1,16 @@
+# started on Mon Mar 31 08:20:30 2025
+
+
+ Performance counter stats for '/gpfs/gpfs1/scratch/cb761223/perf-oriented-dev/larger_samples/ssca2/build/ssca2 17':
+
+           109,690      iTLB-load-misses:u        #    0.00% of all iTLB cache accesses
+    34,542,853,674      iTLB-loads:u                                                
+               284      node-load-misses:u                                          
+       289,865,562      node-loads:u                                                
+
+      32.163440487 seconds time elapsed
+
+      32.035768000 seconds user
+       0.012967000 seconds sys
+
+

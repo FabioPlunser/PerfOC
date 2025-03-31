@@ -1,0 +1,16 @@
+# started on Mon Mar 31 08:19:57 2025
+
+
+ Performance counter stats for '/gpfs/gpfs1/scratch/cb761223/perf-oriented-dev/larger_samples/ssca2/build/ssca2 17':
+
+       652,716,983      L1-dcache-store-misses:u                                    
+     2,637,019,725      L1-dcache-stores:u                                          
+           213,477      L1-icache-load-misses:u   #    0.00% of all L1-icache accesses
+    31,088,270,029      L1-icache-loads:u                                           
+
+      32.331845632 seconds time elapsed
+
+      32.212670000 seconds user
+       0.014937000 seconds sys
+
+
