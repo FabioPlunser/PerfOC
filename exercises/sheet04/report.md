@@ -13,10 +13,10 @@ they are not in this report
 
 `Monstartup` as far as I can tell is the lib.c program which collects profiling data for massif. 
 
-![massif_time_perturbation_high_dpi.png](./massif_visualizer/massif_time_perturbation_high_dpi.png)
-![massif_npb_bt_a.png](./massif_visualizer/massif_npb_bt_a.png)
-![massif_ssca2_s8.png](./massif_visualizer/massif_ssca2_s8.png)
-![massif_ssca2_s17.png](./massif_visualizer/massif_ssca2_s17.png)
+![massif_time_perturbation_high_dpi.png](./massif/massif_visualizer/massif_time_perturbation_high_dpi.png)
+![massif_npb_bt_a.png](./massif/massif_visualizer/massif_npb_bt_a.png)
+![massif_ssca2_s8.png](./massif/massif_visualizer/massif_ssca2_s8.png)
+![massif_ssca2_s17.png](./massif/massif_visualizer/massif_ssca2_s17.png)
 
 # B) CPU Counters 
 Measure all `Hardware cache events`
