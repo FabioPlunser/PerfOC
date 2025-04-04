@@ -13,10 +13,10 @@ they are not in this report
 
 `Monstartup` as far as I can tell is the lib.c program which collects profiling data for massif. 
 
-![massif_time_perturbation_high_dpi.png](./massif/massif_visualizer/massif_time_perturbation_high_dpi.png)
-![massif_npb_bt_a.png](./massif/massif_visualizer/massif_npb_bt_a.png)
-![massif_ssca2_s8.png](./massif/massif_visualizer/massif_ssca2_s8.png)
-![massif_ssca2_s17.png](./massif/massif_visualizer/massif_ssca2_s17.png)
+![massif_time_perturbation_high_dpi.png](./images/massif_time_perturbation_high_dpi.png)
+![massif_npb_bt_a.png](./images/massif_npb_bt_a.png)
+![massif_ssca2_s8.png](./images/massif_ssca2_s8.png)
+![massif_ssca2_s17.png](./images/massif_ssca2_s17.png)
 
 # B) CPU Counters 
 Measure all `Hardware cache events`
@@ -80,7 +80,7 @@ Compares baseline execution time with the time taken for each `perf stat` group 
 
 ### Time Comparison Plot
 
-![perf_time_perturbation](./perf/analysis_report/perf_time_perturbation.png)
+![perf_time_perturbation](./images/perf_time_perturbation.png)
 
 ## Aggregated Performance Counters (Raw Values)
 
@@ -134,5 +134,5 @@ The relative metrics are calculated using the aggregated raw counters as follows
 
 Visual comparison of the calculated relative metrics.
 
-![relative_metrics_comparison](./perf/analysis_report/relative_metrics_comparison.png)
+![relative_metrics_comparison](./images/relative_metrics_comparison.png)
 

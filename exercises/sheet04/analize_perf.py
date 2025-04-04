@@ -141,6 +141,7 @@ def parse_perf_output(perf_file: Path) -> dict[str, float]:
 def calculate_relative_metrics(row: pd.Series) -> pd.Series:
     """Calculates relative metrics from aggregated counter columns."""
     # Define all potential metrics
+    print(row)
     metric_names = [
         'L1d_Load_Miss_Rate', 'L1d_Store_Miss_Rate', 'L1d_Prefetch_Miss_Rate',
         'L1i_Load_Miss_Rate',
