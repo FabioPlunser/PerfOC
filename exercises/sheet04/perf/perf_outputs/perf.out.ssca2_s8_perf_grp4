@@ -1,0 +1,16 @@
+# started on Mon Mar 31 08:19:57 2025
+
+
+ Performance counter stats for '/gpfs/gpfs1/scratch/cb761223/perf-oriented-dev/larger_samples/ssca2/build/ssca2 8':
+
+                 0      LLC-store-misses:u                                          
+             2,678      LLC-stores:u                                                
+         7,206,159      branch-load-misses:u                                        
+         4,149,377      branch-loads:u                                              
+
+       0.010805264 seconds time elapsed
+
+       0.008939000 seconds user
+       0.001788000 seconds sys
+
+

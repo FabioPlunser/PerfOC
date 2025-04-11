@@ -1,0 +1,16 @@
+# started on Mon Mar 31 08:20:36 2025
+
+
+ Performance counter stats for '/gpfs/gpfs1/scratch/cb761223/perf-oriented-dev/larger_samples/ssca2/build/ssca2 17':
+
+                 0      node-prefetch-misses:u                                        (50.00%)
+         1,012,582      node-prefetches:u                                             (50.00%)
+                 0      node-store-misses:u                                           (50.00%)
+        41,620,467      node-stores:u                                                 (50.00%)
+
+      32.311523200 seconds time elapsed
+
+      31.993414000 seconds user
+       0.010898000 seconds sys
+
+

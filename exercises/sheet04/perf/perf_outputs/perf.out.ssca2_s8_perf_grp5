@@ -1,0 +1,16 @@
+# started on Mon Mar 31 08:19:57 2025
+
+
+ Performance counter stats for '/gpfs/gpfs1/scratch/cb761223/perf-oriented-dev/larger_samples/ssca2/build/ssca2 8':
+
+               665      dTLB-load-misses:u        #    0.01% of all dTLB cache accesses
+         6,411,955      dTLB-loads:u                                                
+                49      dTLB-store-misses:u                                         
+         1,776,621      dTLB-stores:u                                               
+
+       0.015124719 seconds time elapsed
+
+       0.008945000 seconds user
+       0.001985000 seconds sys
+
+

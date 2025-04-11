@@ -1,0 +1,83 @@
+ {
+    "name": "nbody",
+    "src_dir": "/scratch/cb761223/perf-oriented-dev/small_samples/nbody", 
+    "build_type": "gcc",
+    "exe_name": "nbody",
+    "exe_subdir": ".",
+    "lang": "c",
+    "source_files": ["nbody.c"],
+    "include_dirs": [],
+    "link_libs": ["-lm"],
+    "parameters": {
+      "N": {"type": "compile", "default": 1000, "format": "-DN={value}"},
+      "M": {"type": "compile", "default": 100, "format": "-DM={value}"}
+    }
+  },
+  {
+    "name": "qap",
+    "src_dir": "/scratch/cb761223/perf-oriented-dev/small_samples/qap", 
+    "build_type": "gcc",
+    "exe_name": "qap",
+    "exe_subdir": ".",
+    "lang": "c++",
+    "source_files": ["qap.cpp"],
+    "include_dirs": ["include"],
+    "link_libs": [],
+    "parameters": {
+      "datafile": {
+        "type": "runtime",
+        "default": "data/chr15c.dat", 
+        "is_path": true
+      }
+    }
+  },
+  {
+    "name": "delannoy",
+    "src_dir": "/scratch/cb761223/perf-oriented-dev/small_samples/delannoy", 
+    "build_type": "gcc",
+    "exe_name": "delannoy",
+    "exe_subdir": ".",
+    "lang": "c",
+    "source_files": ["delannoy.c"],
+    "include_dirs": [],
+    "link_libs": ["-lm"],
+    "parameters": {
+      "size": {"type": "runtime", "default": 10}
+    }
+  },
+  {
+    "name": "npb_bt",
+    "src_dir": "/scratch/cb761223/perf-oriented-dev/larger_samples/npb_bt", 
+    "build_type": "cmake",
+    "exe_subdir": ".",
+    "lang": "c",
+    "cmake_base_c_flags": "-Wall -Wextra -Wno-unknown-pragmas -Wno-unused-parameter",
+    "parameters": {
+      "class": {
+        "type": "identity",
+        "default": "W",
+        "options": ["W"],
+        "name_format": "npb_bt_{value}",
+        "cli_suffix": true,
+        "updates_exe_name": true, 
+        "updates_cmake_target": true
+      }
+    }
+  },
+  {
+    "name": "ssca2",
+    "src_dir": "/scratch/cb761223/perf-oriented-dev/larger_samples/ssca2", 
+    "build_type": "cmake",
+    "exe_name": "ssca2",
+    "exe_subdir": ".",
+    "lang": "c",
+    "cmake_target": "ssca2",
+    "cmake_base_c_flags": "-Wall -Wextra -lm",
+    "parameters": {
+      "scale": {
+        "type": "runtime",
+        "default": 10,
+        "cli_arg_name": "s"
+      }
+    }
+  }

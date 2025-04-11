@@ -1,0 +1,28 @@
+--- Job Info ---
+Job ID: 189873
+Job Name: mmul_O2_plus_ftree_loop_distribution_run4
+Run Index: 4/5
+Program: mmul
+Flags ID: O2_plus_ftree_loop_distribution
+Build Dir: /gpfs/gpfs1/scratch/cb761223/exercises/sheet05/benchmark/benchmark_output/build/mmul/-O2_-ftree-loop-distribution
+Log File: /gpfs/gpfs1/scratch/cb761223/exercises/sheet05/benchmark/benchmark_output/slurm_logs/mmul_O2_plus_ftree_loop_distribution_run4.log
+Job started at: So 6. Apr 18:10:11 CEST 2025
+--- Loading Modules ---
+Loaded modules:
+Currently Loaded Modulefiles:
+ 1) gcc/12.2.0-gcc-8.5.0-p4pe45v                  
+ 2) cmake/3.24.3-gcc-8.5.0-svdlhox                
+ 3) ninja/1.11.1-python-3.10.8-gcc-8.5.0-2oc4wj6  
+--- Execution ---
+Changing directory to: /gpfs/gpfs1/scratch/cb761223/exercises/sheet05/benchmark/benchmark_output/build/mmul/-O2_-ftree-loop-distribution
+Running command: time -p ./mmul
+-------------------- Program Output Start --------------------
+Verification: OK
+real 2,08
+user 2,06
+sys 0,00
+-------------------- Program Output End ----------------------
+--- Completion ---
+Command finished with exit code: 0
+Job finished at: So 6. Apr 18:10:13 CEST 2025
+Timing information should be present in the log.

@@ -1,0 +1,90 @@
+--- Job Info ---
+Job ID: 190189
+Job Name: npb_bt_w_O2_plus_fpeel_loops_run5
+Run Index: 5/5
+Program: npb_bt_w
+Flags ID: O2_plus_fpeel_loops
+Build Dir: /gpfs/gpfs1/scratch/cb761223/exercises/sheet05/benchmark/benchmark_output/build/npb_bt_w/-O2_-fpeel-loops
+Log File: /gpfs/gpfs1/scratch/cb761223/exercises/sheet05/benchmark/benchmark_output/slurm_logs/npb_bt_w_O2_plus_fpeel_loops_run5.log
+Job started at: So 6. Apr 18:11:08 CEST 2025
+--- Loading Modules ---
+Loaded modules:
+Currently Loaded Modulefiles:
+ 1) gcc/12.2.0-gcc-8.5.0-p4pe45v                  
+ 2) cmake/3.24.3-gcc-8.5.0-svdlhox                
+ 3) ninja/1.11.1-python-3.10.8-gcc-8.5.0-2oc4wj6  
+--- Execution ---
+Changing directory to: /gpfs/gpfs1/scratch/cb761223/exercises/sheet05/benchmark/benchmark_output/build/npb_bt_w/-O2_-fpeel-loops
+Running command: time -p ./npb_bt_w
+-------------------- Program Output Start --------------------
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP-C) - BT Benchmark
+
+ No input file inputbt.data. Using compiled defaults
+ Size:   24x  24x  24
+ Iterations:  200       dt:   0.0008000
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Verification being performed for class W
+ accuracy setting for epsilon =  1.0000000000000E-08
+ Comparison of RMS-norms of residual
+           1 1.1255904093440E+02 1.1255904093440E+02 3.3583151765186E-14
+           2 1.1800075957308E+01 1.1800075957310E+01 2.0894639170184E-13
+           3 2.7103297678457E+01 2.7103297678460E+01 1.0289818866118E-13
+           4 2.4691749376689E+01 2.4691749376690E+01 2.7337698462521E-14
+           5 2.6384278743168E+02 2.6384278743170E+02 8.6824044060085E-14
+ Comparison of RMS-norms of solution error
+           1 4.4196557360080E+00 4.4196557360080E+00 9.0432448303329E-15
+           2 4.6385312600017E-01 4.6385312600020E-01 6.0435361541086E-14
+           3 1.0115517499669E+00 1.0115517499670E+00 1.3214435363216E-13
+           4 9.2358787299439E-01 9.2358787299440E-01 1.4545122332984E-14
+           5 1.0180458377175E+01 1.0180458377180E+01 4.5523637760592E-13
+ Verification Successful
+
+
+ BT Benchmark Completed.
+ Class           =                        W
+ Size            =             24x  24x  24
+ Iterations      =                      200
+ Total threads   =                        1
+ Avail threads   =                        1
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              11 Nov 2013
+
+ Compile options:
+    CC           = gcc
+    CLINK        = $(CC)
+    C_LIB        = -lm
+    C_INC        = (none)
+    CFLAGS       = (unknown)
+    CLINKFLAGS   = (unknown)
+    RAND         = (none)
+
+--------------------------------------
+ Please send all errors/feedbacks to:
+ Center for Manycore Programming
+ cmp@aces.snu.ac.kr
+ http://aces.snu.ac.kr
+--------------------------------------
+
+real 3,02
+user 3,01
+sys 0,00
+-------------------- Program Output End ----------------------
+--- Completion ---
+Command finished with exit code: 0
+Job finished at: So 6. Apr 18:11:12 CEST 2025
+Timing information should be present in the log.

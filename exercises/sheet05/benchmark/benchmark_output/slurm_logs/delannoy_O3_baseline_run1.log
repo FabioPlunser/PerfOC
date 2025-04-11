@@ -1,0 +1,28 @@
+--- Job Info ---
+Job ID: 190150
+Job Name: delannoy_O3_baseline_run1
+Run Index: 1/5
+Program: delannoy
+Flags ID: O3_baseline
+Build Dir: /gpfs/gpfs1/scratch/cb761223/exercises/sheet05/benchmark/benchmark_output/build/delannoy/-O3
+Log File: /gpfs/gpfs1/scratch/cb761223/exercises/sheet05/benchmark/benchmark_output/slurm_logs/delannoy_O3_baseline_run1.log
+Job started at: So 6. Apr 18:11:01 CEST 2025
+--- Loading Modules ---
+Loaded modules:
+Currently Loaded Modulefiles:
+ 1) gcc/12.2.0-gcc-8.5.0-p4pe45v                  
+ 2) cmake/3.24.3-gcc-8.5.0-svdlhox                
+ 3) ninja/1.11.1-python-3.10.8-gcc-8.5.0-2oc4wj6  
+--- Execution ---
+Changing directory to: /gpfs/gpfs1/scratch/cb761223/exercises/sheet05/benchmark/benchmark_output/build/delannoy/-O3
+Running command: time -p ./delannoy 10
+-------------------- Program Output Start --------------------
+Verification: OK
+real 0,03
+user 0,02
+sys 0,00
+-------------------- Program Output End ----------------------
+--- Completion ---
+Command finished with exit code: 0
+Job finished at: So 6. Apr 18:11:02 CEST 2025
+Timing information should be present in the log.

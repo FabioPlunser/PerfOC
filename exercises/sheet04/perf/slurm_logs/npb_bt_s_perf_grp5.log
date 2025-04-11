@@ -1,0 +1,252 @@
+--- Job Info ---
+Job ID: 179774
+Job Name: npb_bt_s_perf_grp5
+Running on host: n014.intern.lcc3.intra.uibk.ac.at
+Working directory: /scratch/cb761223/exercises/sheet04
+Output log: /gpfs/gpfs1/scratch/cb761223/exercises/sheet04/perf/slurm_logs/npb_bt_s_perf_grp5.log
+Job started at: Mon Mar 31 08:14:32 CEST 2025
+--- Loading Modules ---
+Currently Loaded Modulefiles:
+ 1) python/3.10.8-gcc-8.5.0-r5lf3ij               
+ 2) ninja/1.11.1-python-3.10.8-gcc-8.5.0-2oc4wj6  
+ 3) gcc/12.2.0-gcc-8.5.0-p4pe45v                  
+ 4) cmake/3.24.3-gcc-8.5.0-svdlhox                
+--- Environment ---
+ ;;
+ ;;
+}
+}
+}
+}
+}
+ACLOCAL_PATH=/usr/site/hpc/spack/v0.19-lcc3-20230919/opt/spack/linux-rocky8-westmere/gcc-8.5.0/cmake-3.24.3-svdlhoxqwq6pjo6rvag6qhceb4ykzdvm/share/aclocal
+BASH_FUNC_ml%%=() {  module ml "$@"
+BASH_FUNC_module%%=() {  local _mlredir=1;
+BASH_FUNC__module_raw%%=() {  eval "$(/usr/bin/tclsh '/usr/share/Modules/libexec/modulecmd.tcl' bash "$@")";
+BASH_FUNC_scl%%=() {  if [ "$1" = "load" -o "$1" = "unload" ]; then
+BASH_FUNC_which%%=() {  ( alias;
+BROWSER=/gpfs/gpfs1/scratch/cb761223/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/bin/helpers/browser.sh
+BUNDLED_DEBUGPY_PATH=/scratch/cb761223/.vscode-server/extensions/ms-python.debugpy-2025.4.1-linux-x64/bundled/libs/debugpy
+ case " $@ " in 
+CC=/usr/site/hpc/spack/v0.19-lcc3-20230919/opt/spack/linux-rocky8-westmere/gcc-8.5.0/gcc-12.2.0-p4pe45vebc7w5leppo2eeesyakewpbxf/bin/gcc
+CMAKE_PREFIX_PATH=/usr/site/hpc/spack/v0.19-lcc3-20230919/opt/spack/linux-rocky8-westmere/gcc-8.5.0/cmake-3.24.3-svdlhoxqwq6pjo6rvag6qhceb4ykzdvm/.:/usr/site/hpc/spack/v0.19-lcc3-20230919/opt/spack/linux-rocky8-westmere/gcc-8.5.0/gcc-12.2.0-p4pe45vebc7w5leppo2eeesyakewpbxf/.:/usr/site/hpc/spack/v0.19-lcc3-20230919/opt/spack/linux-rocky8-westmere/gcc-8.5.0/ninja-1.11.1-2oc4wj6kc2xydzttsyhbxoxxkkx4ovla/.:/usr/site/hpc/spack/v0.19-lcc3-20230919/opt/spack/linux-rocky8-westmere/gcc-8.5.0/python-3.10.8-r5lf3ij36vtxaqg2dca5cst62l5soj3c/.
+COBBLER_SERVER=hpc-dca.uibk.ac.at
+COLORTERM=truecolor
+CPATH=/usr/site/hpc/spack/v0.19-lcc3-20230919/opt/spack/linux-rocky8-westmere/gcc-8.5.0/gcc-12.2.0-p4pe45vebc7w5leppo2eeesyakewpbxf/include:/usr/site/hpc/spack/v0.19-lcc3-20230919/opt/spack/linux-rocky8-westmere/gcc-8.5.0/python-3.10.8-r5lf3ij36vtxaqg2dca5cst62l5soj3c/include/python3.10:/usr/site/hpc/spack/v0.19-lcc3-20230919/opt/spack/linux-rocky8-westmere/gcc-8.5.0/python-3.10.8-r5lf3ij36vtxaqg2dca5cst62l5soj3c/include
+CXX=/usr/site/hpc/spack/v0.19-lcc3-20230919/opt/spack/linux-rocky8-westmere/gcc-8.5.0/gcc-12.2.0-p4pe45vebc7w5leppo2eeesyakewpbxf/bin/g++
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/205548/bus
+DEBUGINFOD_URLS=https://debuginfod.centos.org/ 
+ else
+ else
+ else
+ENVIRONMENT=BATCH
+ esac;
+ eval ${which_declare} ) | /usr/bin/which --tty-only --read-alias --read-functions --show-tilde --show-dot $@
+ eval "module $@";
+F77=/usr/site/hpc/spack/v0.19-lcc3-20230919/opt/spack/linux-rocky8-westmere/gcc-8.5.0/gcc-12.2.0-p4pe45vebc7w5leppo2eeesyakewpbxf/bin/gfortran
+FC=/usr/site/hpc/spack/v0.19-lcc3-20230919/opt/spack/linux-rocky8-westmere/gcc-8.5.0/gcc-12.2.0-p4pe45vebc7w5leppo2eeesyakewpbxf/bin/gfortran
+ fi
+ fi
+ fi;
+ fi;
+ fi;
+GIT_ASKPASS=/gpfs/gpfs1/scratch/cb761223/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/extensions/git/dist/askpass.sh
+HISTCONTROL=ignoredups
+HISTSIZE=1000
+HOME=/home/cb76/cb761223
+HOSTNAME=n014
+HPC_SYSTEM=lcc3
+ if [ $_mlredir -eq 0 ]; then
+ if [ "$MODULES_REDIRECT_OUTPUT" = '0' ]; then
+ if [ "$MODULES_REDIRECT_OUTPUT" = '1' ]; then
+ if [ -n "${MODULES_REDIRECT_OUTPUT+x}" ]; then
+LANG=en_US.UTF-8
+LD_LIBRARY_PATH=/usr/site/hpc/spack/v0.19-lcc3-20230919/opt/spack/linux-rocky8-westmere/gcc-8.5.0/gcc-12.2.0-p4pe45vebc7w5leppo2eeesyakewpbxf/lib64:/usr/site/hpc/spack/v0.19-lcc3-20230919/opt/spack/linux-rocky8-westmere/gcc-8.5.0/gcc-12.2.0-p4pe45vebc7w5leppo2eeesyakewpbxf/lib:/usr/site/hpc/spack/v0.19-lcc3-20230919/opt/spack/linux-rocky8-westmere/gcc-8.5.0/python-3.10.8-r5lf3ij36vtxaqg2dca5cst62l5soj3c/lib
+LD_RUN_PATH=/usr/site/hpc/spack/v0.19-lcc3-20230919/opt/spack/linux-rocky8-westmere/gcc-8.5.0/gcc-12.2.0-p4pe45vebc7w5leppo2eeesyakewpbxf/lib64:/usr/site/hpc/spack/v0.19-lcc3-20230919/opt/spack/linux-rocky8-westmere/gcc-8.5.0/gcc-12.2.0-p4pe45vebc7w5leppo2eeesyakewpbxf/lib:/usr/site/hpc/spack/v0.19-lcc3-20230919/opt/spack/linux-rocky8-westmere/gcc-8.5.0/python-3.10.8-r5lf3ij36vtxaqg2dca5cst62l5soj3c/lib
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+LIBRARY_PATH=/usr/site/hpc/spack/v0.19-lcc3-20230919/opt/spack/linux-rocky8-westmere/gcc-8.5.0/gcc-12.2.0-p4pe45vebc7w5leppo2eeesyakewpbxf/lib64:/usr/site/hpc/spack/v0.19-lcc3-20230919/opt/spack/linux-rocky8-westmere/gcc-8.5.0/gcc-12.2.0-p4pe45vebc7w5leppo2eeesyakewpbxf/lib:/usr/site/hpc/spack/v0.19-lcc3-20230919/opt/spack/linux-rocky8-westmere/gcc-8.5.0/python-3.10.8-r5lf3ij36vtxaqg2dca5cst62l5soj3c/lib
+_LMFILES_=/usr/site/hpc/modules/lcc3/Spack-lcc3-20230921/python/3.10.8-gcc-8.5.0-r5lf3ij:/usr/site/hpc/modules/lcc3/Spack-lcc3-20230921/ninja/1.11.1-python-3.10.8-gcc-8.5.0-2oc4wj6:/usr/site/hpc/modules/lcc3/Spack-lcc3-20230921/gcc/12.2.0-gcc-8.5.0-p4pe45v:/usr/site/hpc/modules/lcc3/Spack-lcc3-20230921/cmake/3.24.3-gcc-8.5.0-svdlhox
+LOADEDMODULES=python/3.10.8-gcc-8.5.0-r5lf3ij:ninja/1.11.1-python-3.10.8-gcc-8.5.0-2oc4wj6:gcc/12.2.0-gcc-8.5.0-p4pe45v:cmake/3.24.3-gcc-8.5.0-svdlhox
+LOGNAME=cb761223
+LS_COLORS=rs=0:di=38;5;33:ln=38;5;51:mh=00:pi=40;38;5;11:so=38;5;13:do=38;5;5:bd=48;5;232;38;5;11:cd=48;5;232;38;5;3:or=48;5;232;38;5;9:mi=01;05;37;41:su=48;5;196;38;5;15:sg=48;5;11;38;5;16:ca=48;5;196;38;5;226:tw=48;5;10;38;5;16:ow=48;5;10;38;5;21:st=48;5;21;38;5;15:ex=38;5;40:*.tar=38;5;9:*.tgz=38;5;9:*.arc=38;5;9:*.arj=38;5;9:*.taz=38;5;9:*.lha=38;5;9:*.lz4=38;5;9:*.lzh=38;5;9:*.lzma=38;5;9:*.tlz=38;5;9:*.txz=38;5;9:*.tzo=38;5;9:*.t7z=38;5;9:*.zip=38;5;9:*.z=38;5;9:*.dz=38;5;9:*.gz=38;5;9:*.lrz=38;5;9:*.lz=38;5;9:*.lzo=38;5;9:*.xz=38;5;9:*.zst=38;5;9:*.tzst=38;5;9:*.bz2=38;5;9:*.bz=38;5;9:*.tbz=38;5;9:*.tbz2=38;5;9:*.tz=38;5;9:*.deb=38;5;9:*.rpm=38;5;9:*.jar=38;5;9:*.war=38;5;9:*.ear=38;5;9:*.sar=38;5;9:*.rar=38;5;9:*.alz=38;5;9:*.ace=38;5;9:*.zoo=38;5;9:*.cpio=38;5;9:*.7z=38;5;9:*.rz=38;5;9:*.cab=38;5;9:*.wim=38;5;9:*.swm=38;5;9:*.dwm=38;5;9:*.esd=38;5;9:*.jpg=38;5;13:*.jpeg=38;5;13:*.mjpg=38;5;13:*.mjpeg=38;5;13:*.gif=38;5;13:*.bmp=38;5;13:*.pbm=38;5;13:*.pgm=38;5;13:*.ppm=38;5;13:*.tga=38;5;13:*.xbm=38;5;13:*.xpm=38;5;13:*.tif=38;5;13:*.tiff=38;5;13:*.png=38;5;13:*.svg=38;5;13:*.svgz=38;5;13:*.mng=38;5;13:*.pcx=38;5;13:*.mov=38;5;13:*.mpg=38;5;13:*.mpeg=38;5;13:*.m2v=38;5;13:*.mkv=38;5;13:*.webm=38;5;13:*.ogm=38;5;13:*.mp4=38;5;13:*.m4v=38;5;13:*.mp4v=38;5;13:*.vob=38;5;13:*.qt=38;5;13:*.nuv=38;5;13:*.wmv=38;5;13:*.asf=38;5;13:*.rm=38;5;13:*.rmvb=38;5;13:*.flc=38;5;13:*.avi=38;5;13:*.fli=38;5;13:*.flv=38;5;13:*.gl=38;5;13:*.dl=38;5;13:*.xcf=38;5;13:*.xwd=38;5;13:*.yuv=38;5;13:*.cgm=38;5;13:*.emf=38;5;13:*.ogv=38;5;13:*.ogx=38;5;13:*.aac=38;5;45:*.au=38;5;45:*.flac=38;5;45:*.m4a=38;5;45:*.mid=38;5;45:*.midi=38;5;45:*.mka=38;5;45:*.mp3=38;5;45:*.mpc=38;5;45:*.ogg=38;5;45:*.ra=38;5;45:*.wav=38;5;45:*.oga=38;5;45:*.opus=38;5;45:*.spx=38;5;45:*.xspf=38;5;45:
+MAIL=/var/spool/mail/cb761223
+MANPATH=/usr/site/hpc/spack/v0.19-lcc3-20230919/opt/spack/linux-rocky8-westmere/gcc-8.5.0/gcc-12.2.0-p4pe45vebc7w5leppo2eeesyakewpbxf/share/man:/usr/site/hpc/spack/v0.19-lcc3-20230919/opt/spack/linux-rocky8-westmere/gcc-8.5.0/python-3.10.8-r5lf3ij36vtxaqg2dca5cst62l5soj3c/share/man:/usr/share/man:
+ _mlredir=0
+ _mlredir=0;
+ _mlredir=1
+ _mlredir=1;
+ _mlstatus=$?;
+MODULEPATH=/usr/site/hpc/modules/lcc3/Application-Software:/usr/site/hpc/modules/lcc3/Python+R-Anaconda3:/usr/site/hpc/modules/lcc3/Spack-lcc3-20230921
+ _module_raw "$@";
+ _module_raw "$@" 2>&1;
+MODULES_CMD=/usr/share/Modules/libexec/modulecmd.tcl
+MODULESHOME=/usr/share/Modules
+__MODULES_LMALTNAME=python/3.10.8-gcc-8.5.0-r5lf3ij&as|python/default&as|python/latest:ninja/1.11.1-python-3.10.8-gcc-8.5.0-2oc4wj6&as|ninja/default&as|ninja/latest:gcc/12.2.0-gcc-8.5.0-p4pe45v&as|gcc/default&as|gcc/latest:cmake/3.24.3-gcc-8.5.0-svdlhox&as|cmake/default&as|cmake/latest
+__MODULES_LMINIT=module use --append /usr/share/Modules/modulefiles:module use --append /etc/modulefiles:module use --append /usr/share/modulefiles
+MODULES_RUN_QUARANTINE=LD_LIBRARY_PATH LD_PRELOAD
+__MODULES_SHARE_MANPATH=:1
+ *' --no-redirect '*)
+OLDPWD=/scratch/cb761223/exercises
+PATH=/usr/site/hpc/spack/v0.19-lcc3-20230919/opt/spack/linux-rocky8-westmere/gcc-8.5.0/cmake-3.24.3-svdlhoxqwq6pjo6rvag6qhceb4ykzdvm/bin:/usr/site/hpc/spack/v0.19-lcc3-20230919/opt/spack/linux-rocky8-westmere/gcc-8.5.0/gcc-12.2.0-p4pe45vebc7w5leppo2eeesyakewpbxf/bin:/usr/site/hpc/spack/v0.19-lcc3-20230919/opt/spack/linux-rocky8-westmere/gcc-8.5.0/ninja-1.11.1-2oc4wj6kc2xydzttsyhbxoxxkkx4ovla/bin:/usr/site/hpc/spack/v0.19-lcc3-20230919/opt/spack/linux-rocky8-westmere/gcc-8.5.0/python-3.10.8-r5lf3ij36vtxaqg2dca5cst62l5soj3c/bin:/usr/slurm/bin:/gpfs/gpfs1/scratch/cb761223/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/bin/remote-cli:/usr/slurm/bin:/home/cb76/cb761223/.local/bin:/home/cb76/cb761223/bin:/usr/slurm/bin:/usr/share/Modules/bin:/usr/local/bin:/usr/bin:/scratch/cb761223/.vscode-server/extensions/ms-python.debugpy-2025.4.1-linux-x64/bundled/scripts/noConfigScripts
+PKG_CONFIG_PATH=/usr/site/hpc/spack/v0.19-lcc3-20230919/opt/spack/linux-rocky8-westmere/gcc-8.5.0/python-3.10.8-r5lf3ij36vtxaqg2dca5cst62l5soj3c/lib/pkgconfig
+PWD=/scratch/cb761223/exercises/sheet04
+PYDEVD_DISABLE_FILE_VALIDATION=1
+PYTHONPATH=/usr/site/hpc/spack/v0.19-lcc3-20230919/opt/spack/linux-rocky8-westmere/gcc-8.5.0/ninja-1.11.1-2oc4wj6kc2xydzttsyhbxoxxkkx4ovla/misc
+ *' --redirect '*)
+ return $_mlstatus
+S_COLORS=auto
+SCRATCH=/scratch/cb761223
+SHELL=/bin/bash
+SHLVL=7
+SINFO_FORMAT=%10P %.5a %.12L %.12l %.6D %.10T %N
+SLURM_CLUSTER_NAME=lcc3
+SLURM_CONF=/usr/site/hpcadmin/system/lcc3/slurm/23.02.6/install/etc/slurm.conf
+SLURM_CPUS_ON_NODE=12
+SLURMD_NODENAME=n014
+SLURM_GTIDS=0
+SLURM_HINT=nomultithread
+SLURM_JOB_ACCOUNT=uibk
+SLURM_JOB_CPUS_PER_NODE=12
+SLURM_JOB_END_TIME=1743405271
+SLURM_JOB_GID=825
+SLURM_JOB_ID=179774
+SLURM_JOBID=179774
+SLURM_JOB_NAME=npb_bt_s_perf_grp5
+SLURM_JOB_NODELIST=n014
+SLURM_JOB_NUM_NODES=1
+SLURM_JOB_PARTITION=lva
+SLURM_JOB_QOS=normal
+SLURM_JOB_START_TIME=1743401671
+SLURM_JOB_UID=205548
+SLURM_JOB_USER=cb761223
+SLURM_LOCALID=0
+SLURM_MEM_PER_CPU=3500
+SLURM_NNODES=1
+SLURM_NODE_ALIASES=(null)
+SLURM_NODEID=0
+SLURM_NODELIST=n014
+SLURM_NPROCS=1
+SLURM_NTASKS=1
+SLURM_NTASKS_PER_NODE=1
+SLURM_PRIO_PROCESS=0
+SLURM_PROCID=0
+SLURM_SUBMIT_DIR=/gpfs/gpfs1/scratch/cb761223/exercises/sheet04
+SLURM_SUBMIT_HOST=login.lcc3.uibk.ac.at
+SLURM_TASK_PID=47025
+SLURM_TASKS_PER_NODE=1
+SLURM_THREADS_PER_CORE=1
+SLURM_TOPOLOGY_ADDR=n014
+SLURM_TOPOLOGY_ADDR_PATTERN=node
+SLURM_WORKING_CLUSTER=lcc3:login:6817:9984:109
+SSH_ASKPASS=/usr/libexec/openssh/gnome-ssh-askpass
+SSH_CLIENT=172.25.7.226 51671 22
+SSH_CONNECTION=172.25.7.226 51671 138.232.77.129 22
+SSL_CERT_DIR=/etc/pki/tls/certs
+SSL_CERT_FILE=/etc/pki/ca-trust/extracted/pem/tls-ca-bundle.pem
+TERM_PROGRAM_VERSION=1.98.2
+TERM_PROGRAM=vscode
+TERM=xterm-256color
+TMPDIR=/tmp
+USER=cb761223
+_=/usr/bin/env
+ /usr/bin/scl "$@";
+VSCODE_DEBUGPY_ADAPTER_ENDPOINTS=/scratch/cb761223/.vscode-server/extensions/ms-python.debugpy-2025.4.1-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-4f90f61013490eca.txt
+VSCODE_GIT_ASKPASS_EXTRA_ARGS=
+VSCODE_GIT_ASKPASS_MAIN=/gpfs/gpfs1/scratch/cb761223/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/extensions/git/dist/askpass-main.js
+VSCODE_GIT_ASKPASS_NODE=/gpfs/gpfs1/scratch/cb761223/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/node
+VSCODE_GIT_IPC_HANDLE=/run/user/205548/vscode-git-b44a9c9a2c.sock
+VSCODE_IPC_HOOK_CLI=/run/user/205548/vscode-ipc-774d60ed-3376-4dbd-aa8b-492b4eae854b.sock
+which_declare=declare -f
+XDG_DATA_DIRS=/home/cb76/cb761223/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share
+XDG_RUNTIME_DIR=/run/user/205548
+XDG_SESSION_ID=545210
+--- Execution ---
+Executable directory: /gpfs/gpfs1/scratch/cb761223/perf-oriented-dev/larger_samples/npb_bt/build
+Executing command: perf stat -e dTLB-load-misses,dTLB-loads,dTLB-store-misses,dTLB-stores -o /gpfs/gpfs1/scratch/cb761223/exercises/sheet04/perf/perf_outputs/perf.out.npb_bt_s_perf_grp5 -- /gpfs/gpfs1/scratch/cb761223/perf-oriented-dev/larger_samples/npb_bt/build/npb_bt_s
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP-C) - BT Benchmark
+
+ No input file inputbt.data. Using compiled defaults
+ Size:   12x  12x  12
+ Iterations:   60       dt:   0.0100000
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Verification being performed for class S
+ accuracy setting for epsilon =  1.0000000000000E-08
+ Comparison of RMS-norms of residual
+           1 1.7034283709540E-01 1.7034283709541E-01 7.2019256173574E-14
+           2 1.2975252070029E-02 1.2975252070034E-02 3.6806173040703E-13
+           3 3.2527926989482E-02 3.2527926989486E-02 1.2756603136369E-13
+           4 2.6436421275145E-02 2.6436421275167E-02 8.0776614077239E-13
+           5 1.9211784131747E-01 1.9211784131744E-01 1.3493649234879E-13
+ Comparison of RMS-norms of solution error
+           1 4.9976913345802E-04 4.9976913345812E-04 1.9633124585146E-13
+           2 4.5195666782973E-05 4.5195666782962E-05 2.4124012041720E-13
+           3 7.3973765172966E-05 7.3973765172921E-05 6.0659907345327E-13
+           4 7.3821238632378E-05 7.3821238632440E-05 8.3751817270128E-13
+           5 8.9269630987488E-04 8.9269630987491E-04 3.4856873503481E-14
+ Verification Successful
+
+
+ BT Benchmark Completed.
+ Class           =                        S
+ Size            =             12x  12x  12
+ Iterations      =                       60
+ Total threads   =                        1
+ Avail threads   =                        1
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              11 Nov 2013
+
+ Compile options:
+    CC           = gcc
+    CLINK        = $(CC)
+    C_LIB        = -lm
+    C_INC        = (none)
+    CFLAGS       = (unknown)
+    CLINKFLAGS   = (unknown)
+    RAND         = (none)
+
+--------------------------------------
+ Please send all errors/feedbacks to:
+ Center for Manycore Programming
+ cmp@aces.snu.ac.kr
+ http://aces.snu.ac.kr
+--------------------------------------
+
+
+real	0m0.299s
+user	0m0.122s
+sys	0m0.012s
+--- Completion ---
+Command finished with exit code: 0
+Job finished at: Mon Mar 31 08:14:33 CEST 2025
+Perf output file generated: /gpfs/gpfs1/scratch/cb761223/exercises/sheet04/perf/perf_outputs/perf.out.npb_bt_s_perf_grp5
+--- Perf Output Preview (first/last 10 lines) ---
+# started on Mon Mar 31 08:14:33 2025
+
+
+ Performance counter stats for '/gpfs/gpfs1/scratch/cb761223/perf-oriented-dev/larger_samples/npb_bt/build/npb_bt_s':
+
+               712      dTLB-load-misses:u        #    0.00% of all dTLB cache accesses
+       239,726,921      dTLB-loads:u                                                
+               164      dTLB-store-misses:u                                         
+       106,873,606      dTLB-stores:u                                               
+
+...
+       239,726,921      dTLB-loads:u                                                
+               164      dTLB-store-misses:u                                         
+       106,873,606      dTLB-stores:u                                               
+
+       0.139703289 seconds time elapsed
+
+       0.098440000 seconds user
+       0.000000000 seconds sys
+
+
+--- End Perf Output Preview ---

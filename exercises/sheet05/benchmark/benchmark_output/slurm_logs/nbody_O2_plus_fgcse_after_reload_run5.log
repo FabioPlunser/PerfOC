@@ -1,0 +1,28 @@
+--- Job Info ---
+Job ID: 189909
+Job Name: nbody_O2_plus_fgcse_after_reload_run5
+Run Index: 5/5
+Program: nbody
+Flags ID: O2_plus_fgcse_after_reload
+Build Dir: /gpfs/gpfs1/scratch/cb761223/exercises/sheet05/benchmark/benchmark_output/build/nbody/-O2_-fgcse-after-reload
+Log File: /gpfs/gpfs1/scratch/cb761223/exercises/sheet05/benchmark/benchmark_output/slurm_logs/nbody_O2_plus_fgcse_after_reload_run5.log
+Job started at: So 6. Apr 18:10:16 CEST 2025
+--- Loading Modules ---
+Loaded modules:
+Currently Loaded Modulefiles:
+ 1) gcc/12.2.0-gcc-8.5.0-p4pe45v                  
+ 2) cmake/3.24.3-gcc-8.5.0-svdlhox                
+ 3) ninja/1.11.1-python-3.10.8-gcc-8.5.0-2oc4wj6  
+--- Execution ---
+Changing directory to: /gpfs/gpfs1/scratch/cb761223/exercises/sheet05/benchmark/benchmark_output/build/nbody/-O2_-fgcse-after-reload
+Running command: time -p ./nbody
+-------------------- Program Output Start --------------------
+Verification: OK
+real 2,58
+user 2,57
+sys 0,00
+-------------------- Program Output End ----------------------
+--- Completion ---
+Command finished with exit code: 0
+Job finished at: So 6. Apr 18:10:19 CEST 2025
+Timing information should be present in the log.

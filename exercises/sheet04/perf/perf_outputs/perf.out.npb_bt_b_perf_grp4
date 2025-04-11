@@ -1,0 +1,16 @@
+# started on Mon Mar 31 08:14:41 2025
+
+
+ Performance counter stats for '/gpfs/gpfs1/scratch/cb761223/perf-oriented-dev/larger_samples/npb_bt/build/npb_bt_b':
+
+       117,131,869      LLC-store-misses:u                                          
+     4,811,440,002      LLC-stores:u                                                
+    25,173,130,003      branch-load-misses:u                                        
+    28,083,407,888      branch-loads:u                                              
+
+     322.364392248 seconds time elapsed
+
+     321.257999000 seconds user
+       0.035663000 seconds sys
+
+

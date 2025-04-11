@@ -1,0 +1,16 @@
+# started on Mon Mar 31 08:19:55 2025
+
+
+ Performance counter stats for '/gpfs/gpfs1/scratch/cb761223/perf-oriented-dev/larger_samples/npb_bt/build/npb_bt_c':
+
+     5,465,559,214      node-prefetch-misses:u                                        (50.00%)
+     8,136,301,825      node-prefetches:u                                             (50.00%)
+       360,220,514      node-store-misses:u                                           (50.00%)
+       514,464,221      node-stores:u                                                 (50.00%)
+
+    1355.358394180 seconds time elapsed
+
+    1342.346629000 seconds user
+       0.111499000 seconds sys
+
+

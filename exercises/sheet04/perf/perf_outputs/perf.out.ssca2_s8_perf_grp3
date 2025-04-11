@@ -1,0 +1,16 @@
+# started on Mon Mar 31 08:19:57 2025
+
+
+ Performance counter stats for '/gpfs/gpfs1/scratch/cb761223/perf-oriented-dev/larger_samples/ssca2/build/ssca2 8':
+
+               569      LLC-load-misses:u         #   15.25% of all LL-cache accesses  (49.71%)
+             3,732      LLC-loads:u                                                   (59.61%)
+                 0      LLC-prefetch-misses:u                                         (50.29%)
+             2,240      LLC-prefetches:u                                              (40.39%)
+
+       0.010950301 seconds time elapsed
+
+       0.009730000 seconds user
+       0.001082000 seconds sys
+
+

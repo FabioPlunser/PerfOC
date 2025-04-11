@@ -1,0 +1,61 @@
+--- Job Info ---
+Job ID: 190283
+Job Name: ssca2_O2_plus_fsplit_loops_run4
+Run Index: 4/5
+Program: ssca2
+Flags ID: O2_plus_fsplit_loops
+Build Dir: /gpfs/gpfs1/scratch/cb761223/exercises/sheet05/benchmark/benchmark_output/build/ssca2/-O2_-fsplit-loops
+Log File: /gpfs/gpfs1/scratch/cb761223/exercises/sheet05/benchmark/benchmark_output/slurm_logs/ssca2_O2_plus_fsplit_loops_run4.log
+Job started at: So 6. Apr 18:11:24 CEST 2025
+--- Loading Modules ---
+Loaded modules:
+Currently Loaded Modulefiles:
+ 1) gcc/12.2.0-gcc-8.5.0-p4pe45v                  
+ 2) cmake/3.24.3-gcc-8.5.0-svdlhox                
+ 3) ninja/1.11.1-python-3.10.8-gcc-8.5.0-2oc4wj6  
+--- Execution ---
+Changing directory to: /gpfs/gpfs1/scratch/cb761223/exercises/sheet05/benchmark/benchmark_output/build/ssca2/-O2_-fsplit-loops
+Running command: time -p ./ssca2 10
+-------------------- Program Output Start --------------------
+
+HPCS SSCA Graph Analysis Benchmark v2.2
+Running...
+
+SCALE: 10
+
+Scalable Data Generator -- genScalData() beginning execution...
+
+	genScalData() completed execution
+
+Kernel 1 -- computeGraph() beginning execution...
+
+	computeGraph() completed execution
+
+Kernel 2 -- getStartLists() beginning execution...
+
+	getStartLists() completed execution
+
+Max. int wt. list size is 9
+
+Kernel 3 -- findSubGraphs() beginning execution...
+Search from <62, 883>, number of vertices visited: 635
+Search from <238, 397>, number of vertices visited: 785
+Search from <325, 322>, number of vertices visited: 93
+Search from <335, 750>, number of vertices visited: 525
+Search from <335, 32>, number of vertices visited: 680
+Search from <392, 196>, number of vertices visited: 636
+Search from <407, 407>, number of vertices visited: 712
+Search from <793, 209>, number of vertices visited: 252
+Search from <855, 813>, number of vertices visited: 401
+
+	findSubGraphs() completed execution
+
+Kernel 4 -- betweennessCentrality() beginning execution...
+real 0,09
+user 0,09
+sys 0,00
+-------------------- Program Output End ----------------------
+--- Completion ---
+Command finished with exit code: 0
+Job finished at: So 6. Apr 18:11:24 CEST 2025
+Timing information should be present in the log.
