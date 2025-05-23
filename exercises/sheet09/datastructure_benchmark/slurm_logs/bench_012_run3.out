@@ -1,0 +1,41 @@
+Starting benchmark: bench_012_run3
+Data Structure: array
+Elements: 1000
+Element Size: 8 bytes
+Ins/Del Ratio: 0.01
+Read/Write Ratio: 0.99
+Estimated Memory: 0.0 MB
+Timestamp: Fri May 23 10:02:28 CEST 2025
+----------------------------------------
+Benchmarking array: 1000 elements, 99.0% read/write, 1.0% ins/del, 10000000 ops
+Benchmark Results:
+Total Time: 0.118377 seconds
+Operations Completed: 10000000
+Operations per Second: 84475747.11
+Cycles per Operation: 31
+Checksum: 2060315012 (prevents optimization)
+	Command being timed: "/scratch/cb761223/exercises/sheet09/src/benchmark array 1000 0.99 0.01"
+	User time (seconds): 0.13
+	System time (seconds): 0.00
+	Percent of CPU this job got: 98%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.14
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 40232
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 631
+	Voluntary context switches: 2
+	Involuntary context switches: 5
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+----------------------------------------
+Benchmark completed at: Fri May 23 10:02:28 CEST 2025

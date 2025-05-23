@@ -1,0 +1,20 @@
+--- Job Info ---
+Job ID: 210294
+Job Name: mmul_tile16_run2
+Tile Size: 16
+Run Index: 2/5
+Executable: /gpfs/gpfs1/scratch/cb761223/exercises/sheet06/mmul_simple_benchmark/build/mmul_tiled_exec
+Log File: /gpfs/gpfs1/scratch/cb761223/exercises/sheet06/mmul_simple_benchmark/slurm_logs/mmul_tile16_run2.log
+Job started on n009.intern.lcc3.intra.uibk.ac.at at Thu May  1 20:33:42 CEST 2025
+--- Execution ---
+Running command: time -p /gpfs/gpfs1/scratch/cb761223/exercises/sheet06/mmul_simple_benchmark/build/mmul_tiled_exec 16
+-------------------- Program Output Start --------------------
+Verification: OK
+22.145121
+real 22.20
+user 22.09
+sys 0.01
+-------------------- Program Output End ----------------------
+--- Completion ---
+Command finished with exit code: 0
+Job finished at: Thu May  1 20:34:04 CEST 2025

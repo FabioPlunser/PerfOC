@@ -1,0 +1,802 @@
+[
+  {
+    "data_structure": "array",
+    "num_elements": 10,
+    "element_size": 8,
+    "ins_del_ratio": 0.0,
+    "read_write_ratio": 1.0,
+    "estimated_memory_mb": 0.00023651123046875
+  },
+  {
+    "data_structure": "array",
+    "num_elements": 10,
+    "element_size": 512,
+    "ins_del_ratio": 0.0,
+    "read_write_ratio": 1.0,
+    "estimated_memory_mb": 0.010406494140625
+  },
+  {
+    "data_structure": "array",
+    "num_elements": 10,
+    "element_size": 8388608,
+    "ins_del_ratio": 0.0,
+    "read_write_ratio": 1.0,
+    "estimated_memory_mb": 168.00015258789062
+  },
+  {
+    "data_structure": "array",
+    "num_elements": 1000,
+    "element_size": 8,
+    "ins_del_ratio": 0.0,
+    "read_write_ratio": 1.0,
+    "estimated_memory_mb": 0.023651123046875
+  },
+  {
+    "data_structure": "array",
+    "num_elements": 1000,
+    "element_size": 512,
+    "ins_del_ratio": 0.0,
+    "read_write_ratio": 1.0,
+    "estimated_memory_mb": 1.0406494140625
+  },
+  {
+    "data_structure": "array",
+    "num_elements": 100000,
+    "element_size": 8,
+    "ins_del_ratio": 0.0,
+    "read_write_ratio": 1.0,
+    "estimated_memory_mb": 2.3651123046875
+  },
+  {
+    "data_structure": "array",
+    "num_elements": 100000,
+    "element_size": 512,
+    "ins_del_ratio": 0.0,
+    "read_write_ratio": 1.0,
+    "estimated_memory_mb": 104.06494140625
+  },
+  {
+    "data_structure": "array",
+    "num_elements": 10000000,
+    "element_size": 8,
+    "ins_del_ratio": 0.0,
+    "read_write_ratio": 1.0,
+    "estimated_memory_mb": 236.51123046875
+  },
+  {
+    "data_structure": "array",
+    "num_elements": 10000000,
+    "element_size": 512,
+    "ins_del_ratio": 0.0,
+    "read_write_ratio": 1.0,
+    "estimated_memory_mb": 10406.494140625
+  },
+  {
+    "data_structure": "array",
+    "num_elements": 10,
+    "element_size": 8,
+    "ins_del_ratio": 0.01,
+    "read_write_ratio": 0.99,
+    "estimated_memory_mb": 0.00023651123046875
+  },
+  {
+    "data_structure": "array",
+    "num_elements": 10,
+    "element_size": 512,
+    "ins_del_ratio": 0.01,
+    "read_write_ratio": 0.99,
+    "estimated_memory_mb": 0.010406494140625
+  },
+  {
+    "data_structure": "array",
+    "num_elements": 10,
+    "element_size": 8388608,
+    "ins_del_ratio": 0.01,
+    "read_write_ratio": 0.99,
+    "estimated_memory_mb": 168.00015258789062
+  },
+  {
+    "data_structure": "array",
+    "num_elements": 1000,
+    "element_size": 8,
+    "ins_del_ratio": 0.01,
+    "read_write_ratio": 0.99,
+    "estimated_memory_mb": 0.023651123046875
+  },
+  {
+    "data_structure": "array",
+    "num_elements": 1000,
+    "element_size": 512,
+    "ins_del_ratio": 0.01,
+    "read_write_ratio": 0.99,
+    "estimated_memory_mb": 1.0406494140625
+  },
+  {
+    "data_structure": "array",
+    "num_elements": 100000,
+    "element_size": 8,
+    "ins_del_ratio": 0.01,
+    "read_write_ratio": 0.99,
+    "estimated_memory_mb": 2.3651123046875
+  },
+  {
+    "data_structure": "array",
+    "num_elements": 100000,
+    "element_size": 512,
+    "ins_del_ratio": 0.01,
+    "read_write_ratio": 0.99,
+    "estimated_memory_mb": 104.06494140625
+  },
+  {
+    "data_structure": "array",
+    "num_elements": 10000000,
+    "element_size": 8,
+    "ins_del_ratio": 0.01,
+    "read_write_ratio": 0.99,
+    "estimated_memory_mb": 236.51123046875
+  },
+  {
+    "data_structure": "array",
+    "num_elements": 10000000,
+    "element_size": 512,
+    "ins_del_ratio": 0.01,
+    "read_write_ratio": 0.99,
+    "estimated_memory_mb": 10406.494140625
+  },
+  {
+    "data_structure": "array",
+    "num_elements": 10,
+    "element_size": 8,
+    "ins_del_ratio": 0.1,
+    "read_write_ratio": 0.9,
+    "estimated_memory_mb": 0.00023651123046875
+  },
+  {
+    "data_structure": "array",
+    "num_elements": 10,
+    "element_size": 512,
+    "ins_del_ratio": 0.1,
+    "read_write_ratio": 0.9,
+    "estimated_memory_mb": 0.010406494140625
+  },
+  {
+    "data_structure": "array",
+    "num_elements": 10,
+    "element_size": 8388608,
+    "ins_del_ratio": 0.1,
+    "read_write_ratio": 0.9,
+    "estimated_memory_mb": 168.00015258789062
+  },
+  {
+    "data_structure": "array",
+    "num_elements": 1000,
+    "element_size": 8,
+    "ins_del_ratio": 0.1,
+    "read_write_ratio": 0.9,
+    "estimated_memory_mb": 0.023651123046875
+  },
+  {
+    "data_structure": "array",
+    "num_elements": 1000,
+    "element_size": 512,
+    "ins_del_ratio": 0.1,
+    "read_write_ratio": 0.9,
+    "estimated_memory_mb": 1.0406494140625
+  },
+  {
+    "data_structure": "array",
+    "num_elements": 100000,
+    "element_size": 8,
+    "ins_del_ratio": 0.1,
+    "read_write_ratio": 0.9,
+    "estimated_memory_mb": 2.3651123046875
+  },
+  {
+    "data_structure": "array",
+    "num_elements": 100000,
+    "element_size": 512,
+    "ins_del_ratio": 0.1,
+    "read_write_ratio": 0.9,
+    "estimated_memory_mb": 104.06494140625
+  },
+  {
+    "data_structure": "array",
+    "num_elements": 10000000,
+    "element_size": 8,
+    "ins_del_ratio": 0.1,
+    "read_write_ratio": 0.9,
+    "estimated_memory_mb": 236.51123046875
+  },
+  {
+    "data_structure": "array",
+    "num_elements": 10000000,
+    "element_size": 512,
+    "ins_del_ratio": 0.1,
+    "read_write_ratio": 0.9,
+    "estimated_memory_mb": 10406.494140625
+  },
+  {
+    "data_structure": "array",
+    "num_elements": 10,
+    "element_size": 8,
+    "ins_del_ratio": 0.5,
+    "read_write_ratio": 0.5,
+    "estimated_memory_mb": 0.00023651123046875
+  },
+  {
+    "data_structure": "array",
+    "num_elements": 10,
+    "element_size": 512,
+    "ins_del_ratio": 0.5,
+    "read_write_ratio": 0.5,
+    "estimated_memory_mb": 0.010406494140625
+  },
+  {
+    "data_structure": "array",
+    "num_elements": 10,
+    "element_size": 8388608,
+    "ins_del_ratio": 0.5,
+    "read_write_ratio": 0.5,
+    "estimated_memory_mb": 168.00015258789062
+  },
+  {
+    "data_structure": "array",
+    "num_elements": 1000,
+    "element_size": 8,
+    "ins_del_ratio": 0.5,
+    "read_write_ratio": 0.5,
+    "estimated_memory_mb": 0.023651123046875
+  },
+  {
+    "data_structure": "array",
+    "num_elements": 1000,
+    "element_size": 512,
+    "ins_del_ratio": 0.5,
+    "read_write_ratio": 0.5,
+    "estimated_memory_mb": 1.0406494140625
+  },
+  {
+    "data_structure": "array",
+    "num_elements": 100000,
+    "element_size": 8,
+    "ins_del_ratio": 0.5,
+    "read_write_ratio": 0.5,
+    "estimated_memory_mb": 2.3651123046875
+  },
+  {
+    "data_structure": "array",
+    "num_elements": 100000,
+    "element_size": 512,
+    "ins_del_ratio": 0.5,
+    "read_write_ratio": 0.5,
+    "estimated_memory_mb": 104.06494140625
+  },
+  {
+    "data_structure": "array",
+    "num_elements": 10000000,
+    "element_size": 8,
+    "ins_del_ratio": 0.5,
+    "read_write_ratio": 0.5,
+    "estimated_memory_mb": 236.51123046875
+  },
+  {
+    "data_structure": "array",
+    "num_elements": 10000000,
+    "element_size": 512,
+    "ins_del_ratio": 0.5,
+    "read_write_ratio": 0.5,
+    "estimated_memory_mb": 10406.494140625
+  },
+  {
+    "data_structure": "list_seq",
+    "num_elements": 10,
+    "element_size": 8,
+    "ins_del_ratio": 0.0,
+    "read_write_ratio": 1.0,
+    "estimated_memory_mb": 0.00023651123046875
+  },
+  {
+    "data_structure": "list_seq",
+    "num_elements": 10,
+    "element_size": 512,
+    "ins_del_ratio": 0.0,
+    "read_write_ratio": 1.0,
+    "estimated_memory_mb": 0.010406494140625
+  },
+  {
+    "data_structure": "list_seq",
+    "num_elements": 10,
+    "element_size": 8388608,
+    "ins_del_ratio": 0.0,
+    "read_write_ratio": 1.0,
+    "estimated_memory_mb": 168.00015258789062
+  },
+  {
+    "data_structure": "list_seq",
+    "num_elements": 1000,
+    "element_size": 8,
+    "ins_del_ratio": 0.0,
+    "read_write_ratio": 1.0,
+    "estimated_memory_mb": 0.023651123046875
+  },
+  {
+    "data_structure": "list_seq",
+    "num_elements": 1000,
+    "element_size": 512,
+    "ins_del_ratio": 0.0,
+    "read_write_ratio": 1.0,
+    "estimated_memory_mb": 1.0406494140625
+  },
+  {
+    "data_structure": "list_seq",
+    "num_elements": 100000,
+    "element_size": 8,
+    "ins_del_ratio": 0.0,
+    "read_write_ratio": 1.0,
+    "estimated_memory_mb": 2.3651123046875
+  },
+  {
+    "data_structure": "list_seq",
+    "num_elements": 100000,
+    "element_size": 512,
+    "ins_del_ratio": 0.0,
+    "read_write_ratio": 1.0,
+    "estimated_memory_mb": 104.06494140625
+  },
+  {
+    "data_structure": "list_seq",
+    "num_elements": 10000000,
+    "element_size": 8,
+    "ins_del_ratio": 0.0,
+    "read_write_ratio": 1.0,
+    "estimated_memory_mb": 236.51123046875
+  },
+  {
+    "data_structure": "list_seq",
+    "num_elements": 10,
+    "element_size": 8,
+    "ins_del_ratio": 0.01,
+    "read_write_ratio": 0.99,
+    "estimated_memory_mb": 0.00023651123046875
+  },
+  {
+    "data_structure": "list_seq",
+    "num_elements": 10,
+    "element_size": 512,
+    "ins_del_ratio": 0.01,
+    "read_write_ratio": 0.99,
+    "estimated_memory_mb": 0.010406494140625
+  },
+  {
+    "data_structure": "list_seq",
+    "num_elements": 10,
+    "element_size": 8388608,
+    "ins_del_ratio": 0.01,
+    "read_write_ratio": 0.99,
+    "estimated_memory_mb": 168.00015258789062
+  },
+  {
+    "data_structure": "list_seq",
+    "num_elements": 1000,
+    "element_size": 8,
+    "ins_del_ratio": 0.01,
+    "read_write_ratio": 0.99,
+    "estimated_memory_mb": 0.023651123046875
+  },
+  {
+    "data_structure": "list_seq",
+    "num_elements": 1000,
+    "element_size": 512,
+    "ins_del_ratio": 0.01,
+    "read_write_ratio": 0.99,
+    "estimated_memory_mb": 1.0406494140625
+  },
+  {
+    "data_structure": "list_seq",
+    "num_elements": 100000,
+    "element_size": 8,
+    "ins_del_ratio": 0.01,
+    "read_write_ratio": 0.99,
+    "estimated_memory_mb": 2.3651123046875
+  },
+  {
+    "data_structure": "list_seq",
+    "num_elements": 100000,
+    "element_size": 512,
+    "ins_del_ratio": 0.01,
+    "read_write_ratio": 0.99,
+    "estimated_memory_mb": 104.06494140625
+  },
+  {
+    "data_structure": "list_seq",
+    "num_elements": 10000000,
+    "element_size": 8,
+    "ins_del_ratio": 0.01,
+    "read_write_ratio": 0.99,
+    "estimated_memory_mb": 236.51123046875
+  },
+  {
+    "data_structure": "list_seq",
+    "num_elements": 10,
+    "element_size": 8,
+    "ins_del_ratio": 0.1,
+    "read_write_ratio": 0.9,
+    "estimated_memory_mb": 0.00023651123046875
+  },
+  {
+    "data_structure": "list_seq",
+    "num_elements": 10,
+    "element_size": 512,
+    "ins_del_ratio": 0.1,
+    "read_write_ratio": 0.9,
+    "estimated_memory_mb": 0.010406494140625
+  },
+  {
+    "data_structure": "list_seq",
+    "num_elements": 10,
+    "element_size": 8388608,
+    "ins_del_ratio": 0.1,
+    "read_write_ratio": 0.9,
+    "estimated_memory_mb": 168.00015258789062
+  },
+  {
+    "data_structure": "list_seq",
+    "num_elements": 1000,
+    "element_size": 8,
+    "ins_del_ratio": 0.1,
+    "read_write_ratio": 0.9,
+    "estimated_memory_mb": 0.023651123046875
+  },
+  {
+    "data_structure": "list_seq",
+    "num_elements": 1000,
+    "element_size": 512,
+    "ins_del_ratio": 0.1,
+    "read_write_ratio": 0.9,
+    "estimated_memory_mb": 1.0406494140625
+  },
+  {
+    "data_structure": "list_seq",
+    "num_elements": 100000,
+    "element_size": 8,
+    "ins_del_ratio": 0.1,
+    "read_write_ratio": 0.9,
+    "estimated_memory_mb": 2.3651123046875
+  },
+  {
+    "data_structure": "list_seq",
+    "num_elements": 100000,
+    "element_size": 512,
+    "ins_del_ratio": 0.1,
+    "read_write_ratio": 0.9,
+    "estimated_memory_mb": 104.06494140625
+  },
+  {
+    "data_structure": "list_seq",
+    "num_elements": 10000000,
+    "element_size": 8,
+    "ins_del_ratio": 0.1,
+    "read_write_ratio": 0.9,
+    "estimated_memory_mb": 236.51123046875
+  },
+  {
+    "data_structure": "list_seq",
+    "num_elements": 10,
+    "element_size": 8,
+    "ins_del_ratio": 0.5,
+    "read_write_ratio": 0.5,
+    "estimated_memory_mb": 0.00023651123046875
+  },
+  {
+    "data_structure": "list_seq",
+    "num_elements": 10,
+    "element_size": 512,
+    "ins_del_ratio": 0.5,
+    "read_write_ratio": 0.5,
+    "estimated_memory_mb": 0.010406494140625
+  },
+  {
+    "data_structure": "list_seq",
+    "num_elements": 10,
+    "element_size": 8388608,
+    "ins_del_ratio": 0.5,
+    "read_write_ratio": 0.5,
+    "estimated_memory_mb": 168.00015258789062
+  },
+  {
+    "data_structure": "list_seq",
+    "num_elements": 1000,
+    "element_size": 8,
+    "ins_del_ratio": 0.5,
+    "read_write_ratio": 0.5,
+    "estimated_memory_mb": 0.023651123046875
+  },
+  {
+    "data_structure": "list_seq",
+    "num_elements": 1000,
+    "element_size": 512,
+    "ins_del_ratio": 0.5,
+    "read_write_ratio": 0.5,
+    "estimated_memory_mb": 1.0406494140625
+  },
+  {
+    "data_structure": "list_seq",
+    "num_elements": 100000,
+    "element_size": 8,
+    "ins_del_ratio": 0.5,
+    "read_write_ratio": 0.5,
+    "estimated_memory_mb": 2.3651123046875
+  },
+  {
+    "data_structure": "list_seq",
+    "num_elements": 100000,
+    "element_size": 512,
+    "ins_del_ratio": 0.5,
+    "read_write_ratio": 0.5,
+    "estimated_memory_mb": 104.06494140625
+  },
+  {
+    "data_structure": "list_seq",
+    "num_elements": 10000000,
+    "element_size": 8,
+    "ins_del_ratio": 0.5,
+    "read_write_ratio": 0.5,
+    "estimated_memory_mb": 236.51123046875
+  },
+  {
+    "data_structure": "list_rand",
+    "num_elements": 10,
+    "element_size": 8,
+    "ins_del_ratio": 0.0,
+    "read_write_ratio": 1.0,
+    "estimated_memory_mb": 0.00023651123046875
+  },
+  {
+    "data_structure": "list_rand",
+    "num_elements": 10,
+    "element_size": 512,
+    "ins_del_ratio": 0.0,
+    "read_write_ratio": 1.0,
+    "estimated_memory_mb": 0.010406494140625
+  },
+  {
+    "data_structure": "list_rand",
+    "num_elements": 10,
+    "element_size": 8388608,
+    "ins_del_ratio": 0.0,
+    "read_write_ratio": 1.0,
+    "estimated_memory_mb": 168.00015258789062
+  },
+  {
+    "data_structure": "list_rand",
+    "num_elements": 1000,
+    "element_size": 8,
+    "ins_del_ratio": 0.0,
+    "read_write_ratio": 1.0,
+    "estimated_memory_mb": 0.023651123046875
+  },
+  {
+    "data_structure": "list_rand",
+    "num_elements": 1000,
+    "element_size": 512,
+    "ins_del_ratio": 0.0,
+    "read_write_ratio": 1.0,
+    "estimated_memory_mb": 1.0406494140625
+  },
+  {
+    "data_structure": "list_rand",
+    "num_elements": 100000,
+    "element_size": 8,
+    "ins_del_ratio": 0.0,
+    "read_write_ratio": 1.0,
+    "estimated_memory_mb": 2.3651123046875
+  },
+  {
+    "data_structure": "list_rand",
+    "num_elements": 100000,
+    "element_size": 512,
+    "ins_del_ratio": 0.0,
+    "read_write_ratio": 1.0,
+    "estimated_memory_mb": 104.06494140625
+  },
+  {
+    "data_structure": "list_rand",
+    "num_elements": 10000000,
+    "element_size": 8,
+    "ins_del_ratio": 0.0,
+    "read_write_ratio": 1.0,
+    "estimated_memory_mb": 236.51123046875
+  },
+  {
+    "data_structure": "list_rand",
+    "num_elements": 10,
+    "element_size": 8,
+    "ins_del_ratio": 0.01,
+    "read_write_ratio": 0.99,
+    "estimated_memory_mb": 0.00023651123046875
+  },
+  {
+    "data_structure": "list_rand",
+    "num_elements": 10,
+    "element_size": 512,
+    "ins_del_ratio": 0.01,
+    "read_write_ratio": 0.99,
+    "estimated_memory_mb": 0.010406494140625
+  },
+  {
+    "data_structure": "list_rand",
+    "num_elements": 10,
+    "element_size": 8388608,
+    "ins_del_ratio": 0.01,
+    "read_write_ratio": 0.99,
+    "estimated_memory_mb": 168.00015258789062
+  },
+  {
+    "data_structure": "list_rand",
+    "num_elements": 1000,
+    "element_size": 8,
+    "ins_del_ratio": 0.01,
+    "read_write_ratio": 0.99,
+    "estimated_memory_mb": 0.023651123046875
+  },
+  {
+    "data_structure": "list_rand",
+    "num_elements": 1000,
+    "element_size": 512,
+    "ins_del_ratio": 0.01,
+    "read_write_ratio": 0.99,
+    "estimated_memory_mb": 1.0406494140625
+  },
+  {
+    "data_structure": "list_rand",
+    "num_elements": 100000,
+    "element_size": 8,
+    "ins_del_ratio": 0.01,
+    "read_write_ratio": 0.99,
+    "estimated_memory_mb": 2.3651123046875
+  },
+  {
+    "data_structure": "list_rand",
+    "num_elements": 100000,
+    "element_size": 512,
+    "ins_del_ratio": 0.01,
+    "read_write_ratio": 0.99,
+    "estimated_memory_mb": 104.06494140625
+  },
+  {
+    "data_structure": "list_rand",
+    "num_elements": 10000000,
+    "element_size": 8,
+    "ins_del_ratio": 0.01,
+    "read_write_ratio": 0.99,
+    "estimated_memory_mb": 236.51123046875
+  },
+  {
+    "data_structure": "list_rand",
+    "num_elements": 10,
+    "element_size": 8,
+    "ins_del_ratio": 0.1,
+    "read_write_ratio": 0.9,
+    "estimated_memory_mb": 0.00023651123046875
+  },
+  {
+    "data_structure": "list_rand",
+    "num_elements": 10,
+    "element_size": 512,
+    "ins_del_ratio": 0.1,
+    "read_write_ratio": 0.9,
+    "estimated_memory_mb": 0.010406494140625
+  },
+  {
+    "data_structure": "list_rand",
+    "num_elements": 10,
+    "element_size": 8388608,
+    "ins_del_ratio": 0.1,
+    "read_write_ratio": 0.9,
+    "estimated_memory_mb": 168.00015258789062
+  },
+  {
+    "data_structure": "list_rand",
+    "num_elements": 1000,
+    "element_size": 8,
+    "ins_del_ratio": 0.1,
+    "read_write_ratio": 0.9,
+    "estimated_memory_mb": 0.023651123046875
+  },
+  {
+    "data_structure": "list_rand",
+    "num_elements": 1000,
+    "element_size": 512,
+    "ins_del_ratio": 0.1,
+    "read_write_ratio": 0.9,
+    "estimated_memory_mb": 1.0406494140625
+  },
+  {
+    "data_structure": "list_rand",
+    "num_elements": 100000,
+    "element_size": 8,
+    "ins_del_ratio": 0.1,
+    "read_write_ratio": 0.9,
+    "estimated_memory_mb": 2.3651123046875
+  },
+  {
+    "data_structure": "list_rand",
+    "num_elements": 100000,
+    "element_size": 512,
+    "ins_del_ratio": 0.1,
+    "read_write_ratio": 0.9,
+    "estimated_memory_mb": 104.06494140625
+  },
+  {
+    "data_structure": "list_rand",
+    "num_elements": 10000000,
+    "element_size": 8,
+    "ins_del_ratio": 0.1,
+    "read_write_ratio": 0.9,
+    "estimated_memory_mb": 236.51123046875
+  },
+  {
+    "data_structure": "list_rand",
+    "num_elements": 10,
+    "element_size": 8,
+    "ins_del_ratio": 0.5,
+    "read_write_ratio": 0.5,
+    "estimated_memory_mb": 0.00023651123046875
+  },
+  {
+    "data_structure": "list_rand",
+    "num_elements": 10,
+    "element_size": 512,
+    "ins_del_ratio": 0.5,
+    "read_write_ratio": 0.5,
+    "estimated_memory_mb": 0.010406494140625
+  },
+  {
+    "data_structure": "list_rand",
+    "num_elements": 10,
+    "element_size": 8388608,
+    "ins_del_ratio": 0.5,
+    "read_write_ratio": 0.5,
+    "estimated_memory_mb": 168.00015258789062
+  },
+  {
+    "data_structure": "list_rand",
+    "num_elements": 1000,
+    "element_size": 8,
+    "ins_del_ratio": 0.5,
+    "read_write_ratio": 0.5,
+    "estimated_memory_mb": 0.023651123046875
+  },
+  {
+    "data_structure": "list_rand",
+    "num_elements": 1000,
+    "element_size": 512,
+    "ins_del_ratio": 0.5,
+    "read_write_ratio": 0.5,
+    "estimated_memory_mb": 1.0406494140625
+  },
+  {
+    "data_structure": "list_rand",
+    "num_elements": 100000,
+    "element_size": 8,
+    "ins_del_ratio": 0.5,
+    "read_write_ratio": 0.5,
+    "estimated_memory_mb": 2.3651123046875
+  },
+  {
+    "data_structure": "list_rand",
+    "num_elements": 100000,
+    "element_size": 512,
+    "ins_del_ratio": 0.5,
+    "read_write_ratio": 0.5,
+    "estimated_memory_mb": 104.06494140625
+  },
+  {
+    "data_structure": "list_rand",
+    "num_elements": 10000000,
+    "element_size": 8,
+    "ins_del_ratio": 0.5,
+    "read_write_ratio": 0.5,
+    "estimated_memory_mb": 236.51123046875
+  }
+]

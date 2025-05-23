@@ -1,0 +1,25 @@
+--- Slurm Job Start ---
+Fr 9. Mai 08:04:55 CEST 2025
+Job ID: 223635
+Job Name: allocbench_none_run1
+Running on: n001.intern.lcc3.intra.uibk.ac.at
+CPUs per task: 1
+Working directory: /scratch/cb761223/exercises/sheet07/benchmark/slurm_scripts
+Allocator: none
+Run number: 1
+Metrics output file: /gpfs/gpfs1/scratch/cb761223/exercises/sheet07/benchmark/job_metrics_output/metrics_none_run1.txt
+Original Allscale source: /gpfs/gpfs1/scratch/cb761223/exercises/sheet07/benchmark/allscale_api
+LD_PRELOAD value: 
+--- Modules ---
+Currently Loaded Modulefiles:
+ 1) gcc/12.2.0-gcc-8.5.0-p4pe45v                  
+ 2) ninja/1.11.1-python-3.10.8-gcc-8.5.0-2oc4wj6  
+ 3) python/3.10.8-gcc-8.5.0-r5lf3ij               
+ 4) llvm/15.0.4-python-3.10.8-gcc-8.5.0-bq44zh7   
+--- Environment ---
+--- Setup Local Benchmark Directory ---
+/var/spool/slurm/slurmd/job223635/slurm_script: Zeile 42: cd: /tmp/cb761223/none_1/allscale_api_code: Datei oder Verzeichnis nicht gefunden
+--- CMake Configuration ---
+CMake Error: The source directory "/tmp/cb761223/none_1/allscale_api_code/code" does not exist.
+Specify --help for usage, or press the help button on the CMake GUI.
+ERROR: CMake failed.

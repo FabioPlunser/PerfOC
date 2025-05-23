@@ -1,0 +1,18 @@
+Command: ./benchmark array 10000000 0.99 0.01
+Return code: 0
+Wall time: 42.032891 seconds
+CPU time: 0.002167 seconds
+Memory before: 125.59 MB
+Memory after: 125.72 MB
+Memory delta: 0.12 MB
+==================================================
+STDOUT:
+Benchmarking array: 10000000 elements, 99.0% read/write, 1.0% ins/del, 10000000 ops
+Benchmark Results:
+Total Time: 42.012065 seconds
+Operations Completed: 10000000
+Operations per Second: 238026.86
+Checksum: 49004990648500 (prevents optimization)
+
+==================================================
+STDERR:

@@ -1,0 +1,15 @@
+{
+  "platform": "macOS-15.5-arm64-arm-64bit",
+  "system": "Darwin",
+  "machine": "arm64",
+  "processor": "arm",
+  "python_version": "3.12.8",
+  "cpu_count": 10,
+  "cpu_count_logical": 10,
+  "memory_total_gb": 16.0,
+  "timestamp": "2025-05-23T10:08:58.913288",
+  "cpu_freq_max_mhz": 3228,
+  "cpu_freq_current_mhz": 3228,
+  "cpu_model": "Apple M1 Pro",
+  "memory_total_bytes": 17179869184
+}

@@ -1,0 +1,41 @@
+Starting benchmark: bench_064_run1
+Data Structure: list_seq
+Elements: 1000
+Element Size: 512 bytes
+Ins/Del Ratio: 0.5
+Read/Write Ratio: 0.5
+Estimated Memory: 1.0 MB
+Timestamp: Fri May 23 10:07:06 CEST 2025
+----------------------------------------
+Benchmarking list_seq: 1000 elements, 50.0% read/write, 50.0% ins/del, 10000000 ops
+Benchmark Results:
+Total Time: 6.802200 seconds
+Operations Completed: 10000000
+Operations per Second: 1470112.53
+Cycles per Operation: 1813
+Checksum: 782592491 (prevents optimization)
+	Command being timed: "/scratch/cb761223/exercises/sheet09/src/benchmark list_seq 1000 0.5 0.5"
+	User time (seconds): 6.82
+	System time (seconds): 0.00
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:06.84
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 40340
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 643
+	Voluntary context switches: 2
+	Involuntary context switches: 7
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+----------------------------------------
+Benchmark completed at: Fri May 23 10:07:13 CEST 2025

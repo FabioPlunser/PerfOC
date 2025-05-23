@@ -1,0 +1,20 @@
+--- Job Info ---
+Job ID: 210305
+Job Name: mmul_tile64_run3
+Tile Size: 64
+Run Index: 3/5
+Executable: /gpfs/gpfs1/scratch/cb761223/exercises/sheet06/mmul_simple_benchmark/build/mmul_tiled_exec
+Log File: /gpfs/gpfs1/scratch/cb761223/exercises/sheet06/mmul_simple_benchmark/slurm_logs/mmul_tile64_run3.log
+Job started on n008.intern.lcc3.intra.uibk.ac.at at Thu May  1 20:34:04 CEST 2025
+--- Execution ---
+Running command: time -p /gpfs/gpfs1/scratch/cb761223/exercises/sheet06/mmul_simple_benchmark/build/mmul_tiled_exec 64
+-------------------- Program Output Start --------------------
+Verification: OK
+26.936598
+real 26.97
+user 26.90
+sys 0.01
+-------------------- Program Output End ----------------------
+--- Completion ---
+Command finished with exit code: 0
+Job finished at: Thu May  1 20:34:31 CEST 2025

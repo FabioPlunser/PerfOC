@@ -1,0 +1,20 @@
+--- Job Info ---
+Job ID: 210291
+Job Name: mmul_tile0_run4
+Tile Size: 0
+Run Index: 4/5
+Executable: /gpfs/gpfs1/scratch/cb761223/exercises/sheet06/mmul_simple_benchmark/build/mmul_tiled_exec
+Log File: /gpfs/gpfs1/scratch/cb761223/exercises/sheet06/mmul_simple_benchmark/slurm_logs/mmul_tile0_run4.log
+Job started on n006.intern.lcc3.intra.uibk.ac.at at Thu May  1 20:33:42 CEST 2025
+--- Execution ---
+Running command: time -p /gpfs/gpfs1/scratch/cb761223/exercises/sheet06/mmul_simple_benchmark/build/mmul_tiled_exec 0
+-------------------- Program Output Start --------------------
+Usage: /gpfs/gpfs1/scratch/cb761223/exercises/sheet06/mmul_simple_benchmark/build/mmul_tiled_exec [tile_size]
+tile_size must be a positive integer <= 2048
+real 0.00
+user 0.00
+sys 0.00
+-------------------- Program Output End ----------------------
+--- Completion ---
+Command finished with exit code: 1
+Job finished at: Thu May  1 20:33:42 CEST 2025

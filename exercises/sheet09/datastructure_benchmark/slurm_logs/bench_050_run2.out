@@ -1,0 +1,10 @@
+Starting benchmark: bench_050_run2
+Data Structure: list_seq
+Elements: 100000
+Element Size: 512 bytes
+Ins/Del Ratio: 0.01
+Read/Write Ratio: 0.99
+Estimated Memory: 104.1 MB
+Timestamp: Fri May 23 10:06:59 CEST 2025
+----------------------------------------
+slurmstepd-n003: error: *** JOB 230815 ON n003 CANCELLED AT 2025-05-23T10:09:27 DUE TO TIME LIMIT ***

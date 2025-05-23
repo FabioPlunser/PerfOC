@@ -1,0 +1,2317 @@
+2025-05-23 08:38:24,867 - INFO - Starting comprehensive data structure benchmark suite
+2025-05-23 08:38:24,869 - INFO - Working directory: /scratch/cb761223/exercises/sheet07/datastructure_benchmark
+2025-05-23 08:38:24,869 - INFO - Excluding array with 1000 elements of 8388608 bytes (estimated 16800.0 MB)
+2025-05-23 08:38:24,869 - INFO - Excluding array with 100000 elements of 8388608 bytes (estimated 1680001.5 MB)
+2025-05-23 08:38:24,870 - INFO - Excluding array with 10000000 elements of 8388608 bytes (estimated 168000152.6 MB)
+2025-05-23 08:38:24,870 - INFO - Excluding array with 1000 elements of 8388608 bytes (estimated 16800.0 MB)
+2025-05-23 08:38:24,870 - INFO - Excluding array with 100000 elements of 8388608 bytes (estimated 1680001.5 MB)
+2025-05-23 08:38:24,870 - INFO - Excluding array with 10000000 elements of 8388608 bytes (estimated 168000152.6 MB)
+2025-05-23 08:38:24,870 - INFO - Excluding array with 1000 elements of 8388608 bytes (estimated 16800.0 MB)
+2025-05-23 08:38:24,870 - INFO - Excluding array with 100000 elements of 8388608 bytes (estimated 1680001.5 MB)
+2025-05-23 08:38:24,871 - INFO - Excluding array with 10000000 elements of 8388608 bytes (estimated 168000152.6 MB)
+2025-05-23 08:38:24,871 - INFO - Excluding array with 1000 elements of 8388608 bytes (estimated 16800.0 MB)
+2025-05-23 08:38:24,871 - INFO - Excluding array with 100000 elements of 8388608 bytes (estimated 1680001.5 MB)
+2025-05-23 08:38:24,871 - INFO - Excluding array with 10000000 elements of 8388608 bytes (estimated 168000152.6 MB)
+2025-05-23 08:38:24,871 - INFO - Excluding list_seq with 1000 elements of 8388608 bytes (estimated 16800.0 MB)
+2025-05-23 08:38:24,871 - INFO - Excluding list_seq with 100000 elements of 8388608 bytes (estimated 1680001.5 MB)
+2025-05-23 08:38:24,872 - INFO - Excluding slow combination: list_seq with 10000000 elements of 512 bytes
+2025-05-23 08:38:24,872 - INFO - Excluding list_seq with 10000000 elements of 8388608 bytes (estimated 168000152.6 MB)
+2025-05-23 08:38:24,872 - INFO - Excluding list_seq with 1000 elements of 8388608 bytes (estimated 16800.0 MB)
+2025-05-23 08:38:24,872 - INFO - Excluding list_seq with 100000 elements of 8388608 bytes (estimated 1680001.5 MB)
+2025-05-23 08:38:24,872 - INFO - Excluding slow combination: list_seq with 10000000 elements of 512 bytes
+2025-05-23 08:38:24,872 - INFO - Excluding list_seq with 10000000 elements of 8388608 bytes (estimated 168000152.6 MB)
+2025-05-23 08:38:24,873 - INFO - Excluding list_seq with 1000 elements of 8388608 bytes (estimated 16800.0 MB)
+2025-05-23 08:38:24,873 - INFO - Excluding list_seq with 100000 elements of 8388608 bytes (estimated 1680001.5 MB)
+2025-05-23 08:38:24,873 - INFO - Excluding slow combination: list_seq with 10000000 elements of 512 bytes
+2025-05-23 08:38:24,873 - INFO - Excluding list_seq with 10000000 elements of 8388608 bytes (estimated 168000152.6 MB)
+2025-05-23 08:38:24,873 - INFO - Excluding list_seq with 1000 elements of 8388608 bytes (estimated 16800.0 MB)
+2025-05-23 08:38:24,873 - INFO - Excluding list_seq with 100000 elements of 8388608 bytes (estimated 1680001.5 MB)
+2025-05-23 08:38:24,873 - INFO - Excluding slow combination: list_seq with 10000000 elements of 512 bytes
+2025-05-23 08:38:24,874 - INFO - Excluding list_seq with 10000000 elements of 8388608 bytes (estimated 168000152.6 MB)
+2025-05-23 08:38:24,874 - INFO - Excluding list_rand with 1000 elements of 8388608 bytes (estimated 16800.0 MB)
+2025-05-23 08:38:24,874 - INFO - Excluding list_rand with 100000 elements of 8388608 bytes (estimated 1680001.5 MB)
+2025-05-23 08:38:24,874 - INFO - Excluding slow combination: list_rand with 10000000 elements of 512 bytes
+2025-05-23 08:38:24,874 - INFO - Excluding list_rand with 10000000 elements of 8388608 bytes (estimated 168000152.6 MB)
+2025-05-23 08:38:24,874 - INFO - Excluding list_rand with 1000 elements of 8388608 bytes (estimated 16800.0 MB)
+2025-05-23 08:38:24,875 - INFO - Excluding list_rand with 100000 elements of 8388608 bytes (estimated 1680001.5 MB)
+2025-05-23 08:38:24,875 - INFO - Excluding slow combination: list_rand with 10000000 elements of 512 bytes
+2025-05-23 08:38:24,876 - INFO - Excluding list_rand with 10000000 elements of 8388608 bytes (estimated 168000152.6 MB)
+2025-05-23 08:38:24,876 - INFO - Excluding list_rand with 1000 elements of 8388608 bytes (estimated 16800.0 MB)
+2025-05-23 08:38:24,876 - INFO - Excluding list_rand with 100000 elements of 8388608 bytes (estimated 1680001.5 MB)
+2025-05-23 08:38:24,876 - INFO - Excluding slow combination: list_rand with 10000000 elements of 512 bytes
+2025-05-23 08:38:24,876 - INFO - Excluding list_rand with 10000000 elements of 8388608 bytes (estimated 168000152.6 MB)
+2025-05-23 08:38:24,876 - INFO - Excluding list_rand with 1000 elements of 8388608 bytes (estimated 16800.0 MB)
+2025-05-23 08:38:24,877 - INFO - Excluding list_rand with 100000 elements of 8388608 bytes (estimated 1680001.5 MB)
+2025-05-23 08:38:24,877 - INFO - Excluding slow combination: list_rand with 10000000 elements of 512 bytes
+2025-05-23 08:38:24,877 - INFO - Excluding list_rand with 10000000 elements of 8388608 bytes (estimated 168000152.6 MB)
+2025-05-23 08:38:24,877 - INFO - Generated 100 valid combinations, excluded 44
+2025-05-23 08:38:24,881 - INFO - Total combinations to test: 100
+2025-05-23 08:38:24,881 - INFO - Total jobs to submit: 300
+2025-05-23 08:38:25,009 - INFO - Submitted job 229157: bench_000_run1
+2025-05-23 08:38:25,032 - INFO - Submitted job 229158: bench_000_run2
+2025-05-23 08:38:25,056 - INFO - Submitted job 229159: bench_000_run3
+2025-05-23 08:38:25,082 - INFO - Submitted job 229160: bench_001_run1
+2025-05-23 08:38:25,108 - INFO - Submitted job 229161: bench_001_run2
+2025-05-23 08:38:25,131 - INFO - Submitted job 229162: bench_001_run3
+2025-05-23 08:38:25,156 - INFO - Submitted job 229163: bench_002_run1
+2025-05-23 08:38:25,179 - INFO - Submitted job 229164: bench_002_run2
+2025-05-23 08:38:25,202 - INFO - Submitted job 229165: bench_002_run3
+2025-05-23 08:38:25,226 - INFO - Submitted job 229166: bench_003_run1
+2025-05-23 08:38:25,249 - INFO - Submitted job 229167: bench_003_run2
+2025-05-23 08:38:25,273 - INFO - Submitted job 229168: bench_003_run3
+2025-05-23 08:38:25,296 - INFO - Submitted job 229169: bench_004_run1
+2025-05-23 08:38:25,320 - INFO - Submitted job 229170: bench_004_run2
+2025-05-23 08:38:25,345 - INFO - Submitted job 229171: bench_004_run3
+2025-05-23 08:38:25,368 - INFO - Submitted job 229172: bench_005_run1
+2025-05-23 08:38:25,393 - INFO - Submitted job 229173: bench_005_run2
+2025-05-23 08:38:25,416 - INFO - Submitted job 229174: bench_005_run3
+2025-05-23 08:38:25,439 - INFO - Submitted job 229175: bench_006_run1
+2025-05-23 08:38:25,465 - INFO - Submitted job 229176: bench_006_run2
+2025-05-23 08:38:25,489 - INFO - Submitted job 229177: bench_006_run3
+2025-05-23 08:38:25,512 - INFO - Submitted job 229178: bench_007_run1
+2025-05-23 08:38:25,535 - INFO - Submitted job 229179: bench_007_run2
+2025-05-23 08:38:25,559 - INFO - Submitted job 229180: bench_007_run3
+2025-05-23 08:38:25,583 - INFO - Submitted job 229181: bench_008_run1
+2025-05-23 08:38:25,607 - INFO - Submitted job 229182: bench_008_run2
+2025-05-23 08:38:25,630 - INFO - Submitted job 229183: bench_008_run3
+2025-05-23 08:38:25,654 - INFO - Submitted job 229184: bench_009_run1
+2025-05-23 08:38:25,679 - INFO - Submitted job 229185: bench_009_run2
+2025-05-23 08:38:25,733 - INFO - Submitted job 229186: bench_009_run3
+2025-05-23 08:38:25,758 - INFO - Submitted job 229187: bench_010_run1
+2025-05-23 08:38:25,781 - INFO - Submitted job 229188: bench_010_run2
+2025-05-23 08:38:25,804 - INFO - Submitted job 229189: bench_010_run3
+2025-05-23 08:38:25,828 - INFO - Submitted job 229190: bench_011_run1
+2025-05-23 08:38:25,851 - INFO - Submitted job 229191: bench_011_run2
+2025-05-23 08:38:25,874 - INFO - Submitted job 229192: bench_011_run3
+2025-05-23 08:38:25,896 - INFO - Submitted job 229193: bench_012_run1
+2025-05-23 08:38:25,920 - INFO - Submitted job 229194: bench_012_run2
+2025-05-23 08:38:25,943 - INFO - Submitted job 229195: bench_012_run3
+2025-05-23 08:38:25,966 - INFO - Submitted job 229196: bench_013_run1
+2025-05-23 08:38:25,988 - INFO - Submitted job 229197: bench_013_run2
+2025-05-23 08:38:26,011 - INFO - Submitted job 229198: bench_013_run3
+2025-05-23 08:38:26,034 - INFO - Submitted job 229199: bench_014_run1
+2025-05-23 08:38:26,058 - INFO - Submitted job 229200: bench_014_run2
+2025-05-23 08:38:26,082 - INFO - Submitted job 229201: bench_014_run3
+2025-05-23 08:38:26,107 - INFO - Submitted job 229202: bench_015_run1
+2025-05-23 08:38:26,130 - INFO - Submitted job 229203: bench_015_run2
+2025-05-23 08:38:26,154 - INFO - Submitted job 229204: bench_015_run3
+2025-05-23 08:38:26,176 - INFO - Submitted job 229205: bench_016_run1
+2025-05-23 08:38:26,199 - INFO - Submitted job 229206: bench_016_run2
+2025-05-23 08:38:26,221 - INFO - Submitted job 229207: bench_016_run3
+2025-05-23 08:38:26,246 - INFO - Submitted job 229208: bench_017_run1
+2025-05-23 08:38:26,269 - INFO - Submitted job 229209: bench_017_run2
+2025-05-23 08:38:26,293 - INFO - Submitted job 229210: bench_017_run3
+2025-05-23 08:38:26,320 - INFO - Submitted job 229211: bench_018_run1
+2025-05-23 08:38:26,344 - INFO - Submitted job 229212: bench_018_run2
+2025-05-23 08:38:26,401 - INFO - Submitted job 229213: bench_018_run3
+2025-05-23 08:38:26,424 - INFO - Submitted job 229214: bench_019_run1
+2025-05-23 08:38:26,448 - INFO - Submitted job 229215: bench_019_run2
+2025-05-23 08:38:26,472 - INFO - Submitted job 229216: bench_019_run3
+2025-05-23 08:38:26,495 - INFO - Submitted job 229217: bench_020_run1
+2025-05-23 08:38:26,519 - INFO - Submitted job 229218: bench_020_run2
+2025-05-23 08:38:26,541 - INFO - Submitted job 229219: bench_020_run3
+2025-05-23 08:38:26,564 - INFO - Submitted job 229220: bench_021_run1
+2025-05-23 08:38:26,588 - INFO - Submitted job 229221: bench_021_run2
+2025-05-23 08:38:26,611 - INFO - Submitted job 229222: bench_021_run3
+2025-05-23 08:38:26,646 - INFO - Submitted job 229223: bench_022_run1
+2025-05-23 08:38:26,669 - INFO - Submitted job 229224: bench_022_run2
+2025-05-23 08:38:26,693 - INFO - Submitted job 229225: bench_022_run3
+2025-05-23 08:38:26,717 - INFO - Submitted job 229226: bench_023_run1
+2025-05-23 08:38:26,740 - INFO - Submitted job 229227: bench_023_run2
+2025-05-23 08:38:26,763 - INFO - Submitted job 229228: bench_023_run3
+2025-05-23 08:38:26,786 - INFO - Submitted job 229229: bench_024_run1
+2025-05-23 08:38:26,821 - INFO - Submitted job 229230: bench_024_run2
+2025-05-23 08:38:26,844 - INFO - Submitted job 229231: bench_024_run3
+2025-05-23 08:38:26,867 - INFO - Submitted job 229232: bench_025_run1
+2025-05-23 08:38:26,889 - INFO - Submitted job 229233: bench_025_run2
+2025-05-23 08:38:26,911 - INFO - Submitted job 229234: bench_025_run3
+2025-05-23 08:38:26,938 - INFO - Submitted job 229235: bench_026_run1
+2025-05-23 08:38:26,962 - INFO - Submitted job 229236: bench_026_run2
+2025-05-23 08:38:26,985 - INFO - Submitted job 229237: bench_026_run3
+2025-05-23 08:38:27,010 - INFO - Submitted job 229238: bench_027_run1
+2025-05-23 08:38:27,041 - INFO - Submitted job 229239: bench_027_run2
+2025-05-23 08:38:27,067 - INFO - Submitted job 229240: bench_027_run3
+2025-05-23 08:38:27,093 - INFO - Submitted job 229241: bench_028_run1
+2025-05-23 08:38:27,117 - INFO - Submitted job 229242: bench_028_run2
+2025-05-23 08:38:27,142 - INFO - Submitted job 229243: bench_028_run3
+2025-05-23 08:38:27,165 - INFO - Submitted job 229244: bench_029_run1
+2025-05-23 08:38:27,188 - INFO - Submitted job 229245: bench_029_run2
+2025-05-23 08:38:27,216 - INFO - Submitted job 229246: bench_029_run3
+2025-05-23 08:38:27,237 - INFO - Submitted job 229247: bench_030_run1
+2025-05-23 08:38:27,259 - INFO - Submitted job 229248: bench_030_run2
+2025-05-23 08:38:27,316 - INFO - Submitted job 229249: bench_030_run3
+2025-05-23 08:38:27,339 - INFO - Submitted job 229250: bench_031_run1
+2025-05-23 08:38:27,362 - INFO - Submitted job 229251: bench_031_run2
+2025-05-23 08:38:27,387 - INFO - Submitted job 229252: bench_031_run3
+2025-05-23 08:38:27,410 - INFO - Submitted job 229253: bench_032_run1
+2025-05-23 08:38:27,472 - INFO - Submitted job 229254: bench_032_run2
+2025-05-23 08:38:27,495 - INFO - Submitted job 229255: bench_032_run3
+2025-05-23 08:38:27,519 - INFO - Submitted job 229256: bench_033_run1
+2025-05-23 08:38:27,551 - INFO - Submitted job 229257: bench_033_run2
+2025-05-23 08:38:27,574 - INFO - Submitted job 229258: bench_033_run3
+2025-05-23 08:38:27,597 - INFO - Submitted job 229259: bench_034_run1
+2025-05-23 08:38:27,620 - INFO - Submitted job 229260: bench_034_run2
+2025-05-23 08:38:27,644 - INFO - Submitted job 229261: bench_034_run3
+2025-05-23 08:38:27,668 - INFO - Submitted job 229262: bench_035_run1
+2025-05-23 08:38:27,692 - INFO - Submitted job 229263: bench_035_run2
+2025-05-23 08:38:27,756 - INFO - Submitted job 229264: bench_035_run3
+2025-05-23 08:38:27,780 - INFO - Submitted job 229265: bench_036_run1
+2025-05-23 08:38:27,803 - INFO - Submitted job 229266: bench_036_run2
+2025-05-23 08:38:27,826 - INFO - Submitted job 229267: bench_036_run3
+2025-05-23 08:38:27,850 - INFO - Submitted job 229268: bench_037_run1
+2025-05-23 08:38:27,872 - INFO - Submitted job 229269: bench_037_run2
+2025-05-23 08:38:27,895 - INFO - Submitted job 229270: bench_037_run3
+2025-05-23 08:38:27,921 - INFO - Submitted job 229271: bench_038_run1
+2025-05-23 08:38:27,945 - INFO - Submitted job 229272: bench_038_run2
+2025-05-23 08:38:27,968 - INFO - Submitted job 229273: bench_038_run3
+2025-05-23 08:38:27,991 - INFO - Submitted job 229274: bench_039_run1
+2025-05-23 08:38:28,015 - INFO - Submitted job 229275: bench_039_run2
+2025-05-23 08:38:28,038 - INFO - Submitted job 229276: bench_039_run3
+2025-05-23 08:38:28,060 - INFO - Submitted job 229277: bench_040_run1
+2025-05-23 08:38:28,084 - INFO - Submitted job 229278: bench_040_run2
+2025-05-23 08:38:28,109 - INFO - Submitted job 229279: bench_040_run3
+2025-05-23 08:38:28,132 - INFO - Submitted job 229280: bench_041_run1
+2025-05-23 08:38:28,159 - INFO - Submitted job 229281: bench_041_run2
+2025-05-23 08:38:28,186 - INFO - Submitted job 229282: bench_041_run3
+2025-05-23 08:38:28,208 - INFO - Submitted job 229283: bench_042_run1
+2025-05-23 08:38:28,232 - INFO - Submitted job 229284: bench_042_run2
+2025-05-23 08:38:28,255 - INFO - Submitted job 229285: bench_042_run3
+2025-05-23 08:38:28,279 - INFO - Submitted job 229286: bench_043_run1
+2025-05-23 08:38:28,303 - INFO - Submitted job 229287: bench_043_run2
+2025-05-23 08:38:28,326 - INFO - Submitted job 229288: bench_043_run3
+2025-05-23 08:38:28,350 - INFO - Submitted job 229289: bench_044_run1
+2025-05-23 08:38:28,372 - INFO - Submitted job 229290: bench_044_run2
+2025-05-23 08:38:28,396 - INFO - Submitted job 229291: bench_044_run3
+2025-05-23 08:38:28,660 - INFO - Submitted job 229292: bench_045_run1
+2025-05-23 08:38:28,781 - INFO - Submitted job 229293: bench_045_run2
+2025-05-23 08:38:28,804 - INFO - Submitted job 229294: bench_045_run3
+2025-05-23 08:38:28,826 - INFO - Submitted job 229295: bench_046_run1
+2025-05-23 08:38:28,852 - INFO - Submitted job 229296: bench_046_run2
+2025-05-23 08:38:28,878 - INFO - Submitted job 229297: bench_046_run3
+2025-05-23 08:38:28,902 - INFO - Submitted job 229298: bench_047_run1
+2025-05-23 08:38:28,925 - INFO - Submitted job 229299: bench_047_run2
+2025-05-23 08:38:28,948 - INFO - Submitted job 229300: bench_047_run3
+2025-05-23 08:38:28,974 - INFO - Submitted job 229301: bench_048_run1
+2025-05-23 08:38:28,998 - INFO - Submitted job 229302: bench_048_run2
+2025-05-23 08:38:29,022 - INFO - Submitted job 229303: bench_048_run3
+2025-05-23 08:38:29,043 - INFO - Submitted job 229304: bench_049_run1
+2025-05-23 08:38:29,064 - INFO - Submitted job 229305: bench_049_run2
+2025-05-23 08:38:29,087 - INFO - Submitted job 229306: bench_049_run3
+2025-05-23 08:38:29,128 - INFO - Submitted job 229307: bench_050_run1
+2025-05-23 08:38:29,152 - INFO - Submitted job 229308: bench_050_run2
+2025-05-23 08:38:29,174 - INFO - Submitted job 229309: bench_050_run3
+2025-05-23 08:38:29,196 - INFO - Submitted job 229310: bench_051_run1
+2025-05-23 08:38:29,219 - INFO - Submitted job 229311: bench_051_run2
+2025-05-23 08:38:29,242 - INFO - Submitted job 229312: bench_051_run3
+2025-05-23 08:38:29,266 - INFO - Submitted job 229313: bench_052_run1
+2025-05-23 08:38:29,295 - INFO - Submitted job 229314: bench_052_run2
+2025-05-23 08:38:29,319 - INFO - Submitted job 229315: bench_052_run3
+2025-05-23 08:38:29,342 - INFO - Submitted job 229316: bench_053_run1
+2025-05-23 08:38:29,364 - INFO - Submitted job 229317: bench_053_run2
+2025-05-23 08:38:29,388 - INFO - Submitted job 229318: bench_053_run3
+2025-05-23 08:38:29,411 - INFO - Submitted job 229319: bench_054_run1
+2025-05-23 08:38:29,433 - INFO - Submitted job 229320: bench_054_run2
+2025-05-23 08:38:29,455 - INFO - Submitted job 229321: bench_054_run3
+2025-05-23 08:38:29,477 - INFO - Submitted job 229322: bench_055_run1
+2025-05-23 08:38:29,499 - INFO - Submitted job 229323: bench_055_run2
+2025-05-23 08:38:29,521 - INFO - Submitted job 229324: bench_055_run3
+2025-05-23 08:38:29,544 - INFO - Submitted job 229325: bench_056_run1
+2025-05-23 08:38:29,566 - INFO - Submitted job 229326: bench_056_run2
+2025-05-23 08:38:29,588 - INFO - Submitted job 229327: bench_056_run3
+2025-05-23 08:38:29,612 - INFO - Submitted job 229328: bench_057_run1
+2025-05-23 08:38:29,635 - INFO - Submitted job 229329: bench_057_run2
+2025-05-23 08:38:29,659 - INFO - Submitted job 229330: bench_057_run3
+2025-05-23 08:38:29,682 - INFO - Submitted job 229331: bench_058_run1
+2025-05-23 08:38:29,706 - INFO - Submitted job 229332: bench_058_run2
+2025-05-23 08:38:29,727 - INFO - Submitted job 229333: bench_058_run3
+2025-05-23 08:38:29,752 - INFO - Submitted job 229334: bench_059_run1
+2025-05-23 08:38:29,778 - INFO - Submitted job 229335: bench_059_run2
+2025-05-23 08:38:29,801 - INFO - Submitted job 229336: bench_059_run3
+2025-05-23 08:38:29,824 - INFO - Submitted job 229337: bench_060_run1
+2025-05-23 08:38:29,851 - INFO - Submitted job 229338: bench_060_run2
+2025-05-23 08:38:29,874 - INFO - Submitted job 229339: bench_060_run3
+2025-05-23 08:38:29,896 - INFO - Submitted job 229340: bench_061_run1
+2025-05-23 08:38:29,920 - INFO - Submitted job 229341: bench_061_run2
+2025-05-23 08:38:29,943 - INFO - Submitted job 229342: bench_061_run3
+2025-05-23 08:38:29,967 - INFO - Submitted job 229343: bench_062_run1
+2025-05-23 08:38:29,991 - INFO - Submitted job 229344: bench_062_run2
+2025-05-23 08:38:30,016 - INFO - Submitted job 229345: bench_062_run3
+2025-05-23 08:38:30,040 - INFO - Submitted job 229346: bench_063_run1
+2025-05-23 08:38:30,063 - INFO - Submitted job 229347: bench_063_run2
+2025-05-23 08:38:30,087 - INFO - Submitted job 229348: bench_063_run3
+2025-05-23 08:38:30,111 - INFO - Submitted job 229349: bench_064_run1
+2025-05-23 08:38:30,136 - INFO - Submitted job 229350: bench_064_run2
+2025-05-23 08:38:30,158 - INFO - Submitted job 229351: bench_064_run3
+2025-05-23 08:38:30,181 - INFO - Submitted job 229352: bench_065_run1
+2025-05-23 08:38:30,224 - INFO - Submitted job 229353: bench_065_run2
+2025-05-23 08:38:30,248 - INFO - Submitted job 229354: bench_065_run3
+2025-05-23 08:38:30,272 - INFO - Submitted job 229355: bench_066_run1
+2025-05-23 08:38:30,298 - INFO - Submitted job 229356: bench_066_run2
+2025-05-23 08:38:30,322 - INFO - Submitted job 229357: bench_066_run3
+2025-05-23 08:38:30,346 - INFO - Submitted job 229358: bench_067_run1
+2025-05-23 08:38:30,368 - INFO - Submitted job 229359: bench_067_run2
+2025-05-23 08:38:30,391 - INFO - Submitted job 229360: bench_067_run3
+2025-05-23 08:38:30,414 - INFO - Submitted job 229361: bench_068_run1
+2025-05-23 08:38:30,437 - INFO - Submitted job 229362: bench_068_run2
+2025-05-23 08:38:30,460 - INFO - Submitted job 229363: bench_068_run3
+2025-05-23 08:38:30,483 - INFO - Submitted job 229364: bench_069_run1
+2025-05-23 08:38:30,506 - INFO - Submitted job 229365: bench_069_run2
+2025-05-23 08:38:30,530 - INFO - Submitted job 229366: bench_069_run3
+2025-05-23 08:38:30,554 - INFO - Submitted job 229367: bench_070_run1
+2025-05-23 08:38:30,579 - INFO - Submitted job 229368: bench_070_run2
+2025-05-23 08:38:30,601 - INFO - Submitted job 229369: bench_070_run3
+2025-05-23 08:38:30,628 - INFO - Submitted job 229370: bench_071_run1
+2025-05-23 08:38:30,651 - INFO - Submitted job 229371: bench_071_run2
+2025-05-23 08:38:30,675 - INFO - Submitted job 229372: bench_071_run3
+2025-05-23 08:38:30,702 - INFO - Submitted job 229373: bench_072_run1
+2025-05-23 08:38:30,726 - INFO - Submitted job 229374: bench_072_run2
+2025-05-23 08:38:30,750 - INFO - Submitted job 229375: bench_072_run3
+2025-05-23 08:38:30,774 - INFO - Submitted job 229376: bench_073_run1
+2025-05-23 08:38:30,797 - INFO - Submitted job 229377: bench_073_run2
+2025-05-23 08:38:30,821 - INFO - Submitted job 229378: bench_073_run3
+2025-05-23 08:38:30,844 - INFO - Submitted job 229379: bench_074_run1
+2025-05-23 08:38:30,867 - INFO - Submitted job 229380: bench_074_run2
+2025-05-23 08:38:30,889 - INFO - Submitted job 229381: bench_074_run3
+2025-05-23 08:38:30,922 - INFO - Submitted job 229382: bench_075_run1
+2025-05-23 08:38:30,945 - INFO - Submitted job 229383: bench_075_run2
+2025-05-23 08:38:30,969 - INFO - Submitted job 229384: bench_075_run3
+2025-05-23 08:38:30,994 - INFO - Submitted job 229385: bench_076_run1
+2025-05-23 08:38:31,021 - INFO - Submitted job 229386: bench_076_run2
+2025-05-23 08:38:31,045 - INFO - Submitted job 229387: bench_076_run3
+2025-05-23 08:38:31,068 - INFO - Submitted job 229388: bench_077_run1
+2025-05-23 08:38:31,102 - INFO - Submitted job 229389: bench_077_run2
+2025-05-23 08:38:31,126 - INFO - Submitted job 229390: bench_077_run3
+2025-05-23 08:38:31,150 - INFO - Submitted job 229391: bench_078_run1
+2025-05-23 08:38:31,173 - INFO - Submitted job 229392: bench_078_run2
+2025-05-23 08:38:31,196 - INFO - Submitted job 229393: bench_078_run3
+2025-05-23 08:38:31,227 - INFO - Submitted job 229394: bench_079_run1
+2025-05-23 08:38:31,255 - INFO - Submitted job 229395: bench_079_run2
+2025-05-23 08:38:31,278 - INFO - Submitted job 229396: bench_079_run3
+2025-05-23 08:38:31,302 - INFO - Submitted job 229397: bench_080_run1
+2025-05-23 08:38:31,326 - INFO - Submitted job 229398: bench_080_run2
+2025-05-23 08:38:31,350 - INFO - Submitted job 229399: bench_080_run3
+2025-05-23 08:38:31,374 - INFO - Submitted job 229400: bench_081_run1
+2025-05-23 08:38:31,398 - INFO - Submitted job 229401: bench_081_run2
+2025-05-23 08:38:31,419 - INFO - Submitted job 229402: bench_081_run3
+2025-05-23 08:38:31,445 - INFO - Submitted job 229403: bench_082_run1
+2025-05-23 08:38:31,467 - INFO - Submitted job 229404: bench_082_run2
+2025-05-23 08:38:31,490 - INFO - Submitted job 229405: bench_082_run3
+2025-05-23 08:38:31,514 - INFO - Submitted job 229406: bench_083_run1
+2025-05-23 08:38:31,538 - INFO - Submitted job 229407: bench_083_run2
+2025-05-23 08:38:31,562 - INFO - Submitted job 229408: bench_083_run3
+2025-05-23 08:38:31,586 - INFO - Submitted job 229409: bench_084_run1
+2025-05-23 08:38:31,609 - INFO - Submitted job 229410: bench_084_run2
+2025-05-23 08:38:31,632 - INFO - Submitted job 229411: bench_084_run3
+2025-05-23 08:38:31,657 - INFO - Submitted job 229412: bench_085_run1
+2025-05-23 08:38:31,680 - INFO - Submitted job 229413: bench_085_run2
+2025-05-23 08:38:31,704 - INFO - Submitted job 229414: bench_085_run3
+2025-05-23 08:38:31,728 - INFO - Submitted job 229415: bench_086_run1
+2025-05-23 08:38:31,753 - INFO - Submitted job 229416: bench_086_run2
+2025-05-23 08:38:31,780 - INFO - Submitted job 229417: bench_086_run3
+2025-05-23 08:38:31,803 - INFO - Submitted job 229418: bench_087_run1
+2025-05-23 08:38:31,826 - INFO - Submitted job 229419: bench_087_run2
+2025-05-23 08:38:31,848 - INFO - Submitted job 229420: bench_087_run3
+2025-05-23 08:38:31,871 - INFO - Submitted job 229421: bench_088_run1
+2025-05-23 08:38:31,895 - INFO - Submitted job 229422: bench_088_run2
+2025-05-23 08:38:31,918 - INFO - Submitted job 229423: bench_088_run3
+2025-05-23 08:38:31,941 - INFO - Submitted job 229424: bench_089_run1
+2025-05-23 08:38:31,965 - INFO - Submitted job 229425: bench_089_run2
+2025-05-23 08:38:31,990 - INFO - Submitted job 229426: bench_089_run3
+2025-05-23 08:38:32,015 - INFO - Submitted job 229427: bench_090_run1
+2025-05-23 08:38:32,040 - INFO - Submitted job 229428: bench_090_run2
+2025-05-23 08:38:32,065 - INFO - Submitted job 229429: bench_090_run3
+2025-05-23 08:38:32,087 - INFO - Submitted job 229430: bench_091_run1
+2025-05-23 08:38:32,111 - INFO - Submitted job 229431: bench_091_run2
+2025-05-23 08:38:32,138 - INFO - Submitted job 229432: bench_091_run3
+2025-05-23 08:38:32,163 - INFO - Submitted job 229433: bench_092_run1
+2025-05-23 08:38:32,201 - INFO - Submitted job 229434: bench_092_run2
+2025-05-23 08:38:32,223 - INFO - Submitted job 229435: bench_092_run3
+2025-05-23 08:38:32,248 - INFO - Submitted job 229436: bench_093_run1
+2025-05-23 08:38:32,271 - INFO - Submitted job 229437: bench_093_run2
+2025-05-23 08:38:32,312 - INFO - Submitted job 229438: bench_093_run3
+2025-05-23 08:38:32,336 - INFO - Submitted job 229439: bench_094_run1
+2025-05-23 08:38:32,361 - INFO - Submitted job 229440: bench_094_run2
+2025-05-23 08:38:32,384 - INFO - Submitted job 229441: bench_094_run3
+2025-05-23 08:38:32,427 - INFO - Submitted job 229442: bench_095_run1
+2025-05-23 08:38:32,452 - INFO - Submitted job 229443: bench_095_run2
+2025-05-23 08:38:32,474 - INFO - Submitted job 229444: bench_095_run3
+2025-05-23 08:38:32,496 - INFO - Submitted job 229445: bench_096_run1
+2025-05-23 08:38:32,519 - INFO - Submitted job 229446: bench_096_run2
+2025-05-23 08:38:32,545 - INFO - Submitted job 229447: bench_096_run3
+2025-05-23 08:38:32,567 - INFO - Submitted job 229448: bench_097_run1
+2025-05-23 08:38:32,590 - INFO - Submitted job 229449: bench_097_run2
+2025-05-23 08:38:32,617 - INFO - Submitted job 229450: bench_097_run3
+2025-05-23 08:38:32,640 - INFO - Submitted job 229451: bench_098_run1
+2025-05-23 08:38:32,663 - INFO - Submitted job 229452: bench_098_run2
+2025-05-23 08:38:32,685 - INFO - Submitted job 229453: bench_098_run3
+2025-05-23 08:38:32,707 - INFO - Submitted job 229454: bench_099_run1
+2025-05-23 08:38:32,730 - INFO - Submitted job 229455: bench_099_run2
+2025-05-23 08:38:32,754 - INFO - Submitted job 229456: bench_099_run3
+2025-05-23 08:38:32,754 - INFO - Submitted 300 jobs to SLURM
+2025-05-23 08:38:32,754 - INFO - Waiting for 300 jobs to complete...
+2025-05-23 08:39:02,797 - INFO - Jobs completed: 288/300
+2025-05-23 08:39:32,847 - INFO - Jobs completed: 0/12
+2025-05-23 08:40:02,905 - INFO - Jobs completed: 0/12
+2025-05-23 08:40:32,952 - INFO - Jobs completed: 0/12
+2025-05-23 08:41:02,982 - INFO - Jobs completed: 0/12
+2025-05-23 08:41:33,023 - INFO - Jobs completed: 0/12
+2025-05-23 08:42:03,070 - INFO - Jobs completed: 0/12
+2025-05-23 08:42:33,103 - INFO - Jobs completed: 0/12
+2025-05-23 08:43:03,131 - INFO - Jobs completed: 0/12
+2025-05-23 08:43:33,178 - INFO - Jobs completed: 0/12
+2025-05-23 08:44:03,221 - INFO - Jobs completed: 0/12
+2025-05-23 08:44:33,265 - INFO - Jobs completed: 0/12
+2025-05-23 08:45:03,295 - INFO - Jobs completed: 0/12
+2025-05-23 08:45:33,321 - INFO - Jobs completed: 0/12
+2025-05-23 08:59:25,921 - INFO - Starting comprehensive data structure benchmark suite
+2025-05-23 08:59:26,042 - INFO - Working directory: /scratch/cb761223/exercises/sheet09/datastructure_benchmark
+2025-05-23 08:59:26,042 - INFO - Excluding array with 1000 elements of 8388608 bytes (estimated 16800.0 MB)
+2025-05-23 08:59:26,043 - INFO - Excluding array with 100000 elements of 8388608 bytes (estimated 1680001.5 MB)
+2025-05-23 08:59:26,043 - INFO - Excluding array with 10000000 elements of 8388608 bytes (estimated 168000152.6 MB)
+2025-05-23 08:59:26,043 - INFO - Excluding array with 1000 elements of 8388608 bytes (estimated 16800.0 MB)
+2025-05-23 08:59:26,043 - INFO - Excluding array with 100000 elements of 8388608 bytes (estimated 1680001.5 MB)
+2025-05-23 08:59:26,043 - INFO - Excluding array with 10000000 elements of 8388608 bytes (estimated 168000152.6 MB)
+2025-05-23 08:59:26,044 - INFO - Excluding array with 1000 elements of 8388608 bytes (estimated 16800.0 MB)
+2025-05-23 08:59:26,044 - INFO - Excluding array with 100000 elements of 8388608 bytes (estimated 1680001.5 MB)
+2025-05-23 08:59:26,044 - INFO - Excluding array with 10000000 elements of 8388608 bytes (estimated 168000152.6 MB)
+2025-05-23 08:59:26,044 - INFO - Excluding array with 1000 elements of 8388608 bytes (estimated 16800.0 MB)
+2025-05-23 08:59:26,044 - INFO - Excluding array with 100000 elements of 8388608 bytes (estimated 1680001.5 MB)
+2025-05-23 08:59:26,044 - INFO - Excluding array with 10000000 elements of 8388608 bytes (estimated 168000152.6 MB)
+2025-05-23 08:59:26,045 - INFO - Excluding list_seq with 1000 elements of 8388608 bytes (estimated 16800.0 MB)
+2025-05-23 08:59:26,045 - INFO - Excluding list_seq with 100000 elements of 8388608 bytes (estimated 1680001.5 MB)
+2025-05-23 08:59:26,045 - INFO - Excluding slow combination: list_seq with 10000000 elements of 512 bytes
+2025-05-23 08:59:26,045 - INFO - Excluding list_seq with 10000000 elements of 8388608 bytes (estimated 168000152.6 MB)
+2025-05-23 08:59:26,045 - INFO - Excluding list_seq with 1000 elements of 8388608 bytes (estimated 16800.0 MB)
+2025-05-23 08:59:26,045 - INFO - Excluding list_seq with 100000 elements of 8388608 bytes (estimated 1680001.5 MB)
+2025-05-23 08:59:26,046 - INFO - Excluding slow combination: list_seq with 10000000 elements of 512 bytes
+2025-05-23 08:59:26,046 - INFO - Excluding list_seq with 10000000 elements of 8388608 bytes (estimated 168000152.6 MB)
+2025-05-23 08:59:26,046 - INFO - Excluding list_seq with 1000 elements of 8388608 bytes (estimated 16800.0 MB)
+2025-05-23 08:59:26,046 - INFO - Excluding list_seq with 100000 elements of 8388608 bytes (estimated 1680001.5 MB)
+2025-05-23 08:59:26,046 - INFO - Excluding slow combination: list_seq with 10000000 elements of 512 bytes
+2025-05-23 08:59:26,046 - INFO - Excluding list_seq with 10000000 elements of 8388608 bytes (estimated 168000152.6 MB)
+2025-05-23 08:59:26,047 - INFO - Excluding list_seq with 1000 elements of 8388608 bytes (estimated 16800.0 MB)
+2025-05-23 08:59:26,047 - INFO - Excluding list_seq with 100000 elements of 8388608 bytes (estimated 1680001.5 MB)
+2025-05-23 08:59:26,047 - INFO - Excluding slow combination: list_seq with 10000000 elements of 512 bytes
+2025-05-23 08:59:26,047 - INFO - Excluding list_seq with 10000000 elements of 8388608 bytes (estimated 168000152.6 MB)
+2025-05-23 08:59:26,047 - INFO - Excluding list_rand with 1000 elements of 8388608 bytes (estimated 16800.0 MB)
+2025-05-23 08:59:26,047 - INFO - Excluding list_rand with 100000 elements of 8388608 bytes (estimated 1680001.5 MB)
+2025-05-23 08:59:26,048 - INFO - Excluding slow combination: list_rand with 10000000 elements of 512 bytes
+2025-05-23 08:59:26,048 - INFO - Excluding list_rand with 10000000 elements of 8388608 bytes (estimated 168000152.6 MB)
+2025-05-23 08:59:26,048 - INFO - Excluding list_rand with 1000 elements of 8388608 bytes (estimated 16800.0 MB)
+2025-05-23 08:59:26,048 - INFO - Excluding list_rand with 100000 elements of 8388608 bytes (estimated 1680001.5 MB)
+2025-05-23 08:59:26,048 - INFO - Excluding slow combination: list_rand with 10000000 elements of 512 bytes
+2025-05-23 08:59:26,049 - INFO - Excluding list_rand with 10000000 elements of 8388608 bytes (estimated 168000152.6 MB)
+2025-05-23 08:59:26,049 - INFO - Excluding list_rand with 1000 elements of 8388608 bytes (estimated 16800.0 MB)
+2025-05-23 08:59:26,049 - INFO - Excluding list_rand with 100000 elements of 8388608 bytes (estimated 1680001.5 MB)
+2025-05-23 08:59:26,049 - INFO - Excluding slow combination: list_rand with 10000000 elements of 512 bytes
+2025-05-23 08:59:26,049 - INFO - Excluding list_rand with 10000000 elements of 8388608 bytes (estimated 168000152.6 MB)
+2025-05-23 08:59:26,049 - INFO - Excluding list_rand with 1000 elements of 8388608 bytes (estimated 16800.0 MB)
+2025-05-23 08:59:26,050 - INFO - Excluding list_rand with 100000 elements of 8388608 bytes (estimated 1680001.5 MB)
+2025-05-23 08:59:26,050 - INFO - Excluding slow combination: list_rand with 10000000 elements of 512 bytes
+2025-05-23 08:59:26,050 - INFO - Excluding list_rand with 10000000 elements of 8388608 bytes (estimated 168000152.6 MB)
+2025-05-23 08:59:26,050 - INFO - Generated 100 valid combinations, excluded 44
+2025-05-23 08:59:26,056 - INFO - Total combinations to test: 100
+2025-05-23 08:59:26,056 - INFO - Total jobs to submit: 300
+2025-05-23 08:59:26,083 - INFO - Submitted job 229458: bench_000_run1
+2025-05-23 08:59:26,106 - INFO - Submitted job 229459: bench_000_run2
+2025-05-23 08:59:26,131 - INFO - Submitted job 229460: bench_000_run3
+2025-05-23 08:59:26,154 - INFO - Submitted job 229461: bench_001_run1
+2025-05-23 08:59:26,179 - INFO - Submitted job 229462: bench_001_run2
+2025-05-23 08:59:26,202 - INFO - Submitted job 229463: bench_001_run3
+2025-05-23 08:59:26,226 - INFO - Submitted job 229464: bench_002_run1
+2025-05-23 08:59:26,251 - INFO - Submitted job 229465: bench_002_run2
+2025-05-23 08:59:26,276 - INFO - Submitted job 229466: bench_002_run3
+2025-05-23 08:59:26,301 - INFO - Submitted job 229467: bench_003_run1
+2025-05-23 08:59:26,325 - INFO - Submitted job 229468: bench_003_run2
+2025-05-23 08:59:26,350 - INFO - Submitted job 229469: bench_003_run3
+2025-05-23 08:59:26,377 - INFO - Submitted job 229470: bench_004_run1
+2025-05-23 08:59:26,402 - INFO - Submitted job 229471: bench_004_run2
+2025-05-23 08:59:26,427 - INFO - Submitted job 229472: bench_004_run3
+2025-05-23 08:59:26,452 - INFO - Submitted job 229473: bench_005_run1
+2025-05-23 08:59:26,478 - INFO - Submitted job 229474: bench_005_run2
+2025-05-23 08:59:26,501 - INFO - Submitted job 229475: bench_005_run3
+2025-05-23 08:59:26,526 - INFO - Submitted job 229476: bench_006_run1
+2025-05-23 08:59:26,550 - INFO - Submitted job 229477: bench_006_run2
+2025-05-23 08:59:26,572 - INFO - Submitted job 229478: bench_006_run3
+2025-05-23 08:59:26,595 - INFO - Submitted job 229479: bench_007_run1
+2025-05-23 08:59:26,617 - INFO - Submitted job 229480: bench_007_run2
+2025-05-23 08:59:26,641 - INFO - Submitted job 229481: bench_007_run3
+2025-05-23 08:59:26,665 - INFO - Submitted job 229482: bench_008_run1
+2025-05-23 08:59:26,693 - INFO - Submitted job 229483: bench_008_run2
+2025-05-23 08:59:26,720 - INFO - Submitted job 229484: bench_008_run3
+2025-05-23 08:59:26,745 - INFO - Submitted job 229485: bench_009_run1
+2025-05-23 08:59:26,770 - INFO - Submitted job 229486: bench_009_run2
+2025-05-23 08:59:26,796 - INFO - Submitted job 229487: bench_009_run3
+2025-05-23 08:59:26,820 - INFO - Submitted job 229488: bench_010_run1
+2025-05-23 08:59:26,844 - INFO - Submitted job 229489: bench_010_run2
+2025-05-23 08:59:26,871 - INFO - Submitted job 229490: bench_010_run3
+2025-05-23 08:59:26,896 - INFO - Submitted job 229491: bench_011_run1
+2025-05-23 08:59:26,919 - INFO - Submitted job 229492: bench_011_run2
+2025-05-23 08:59:26,945 - INFO - Submitted job 229493: bench_011_run3
+2025-05-23 08:59:26,969 - INFO - Submitted job 229494: bench_012_run1
+2025-05-23 08:59:26,993 - INFO - Submitted job 229495: bench_012_run2
+2025-05-23 08:59:27,018 - INFO - Submitted job 229496: bench_012_run3
+2025-05-23 08:59:27,113 - INFO - Submitted job 229497: bench_013_run1
+2025-05-23 08:59:29,292 - INFO - Submitted job 229498: bench_013_run2
+2025-05-23 08:59:29,556 - INFO - Submitted job 229499: bench_013_run3
+2025-05-23 08:59:29,762 - INFO - Submitted job 229500: bench_014_run1
+2025-05-23 08:59:30,053 - INFO - Submitted job 229501: bench_014_run2
+2025-05-23 08:59:30,156 - INFO - Submitted job 229502: bench_014_run3
+2025-05-23 08:59:30,256 - INFO - Submitted job 229503: bench_015_run1
+2025-05-23 08:59:30,456 - INFO - Submitted job 229504: bench_015_run2
+2025-05-23 08:59:30,609 - INFO - Submitted job 229505: bench_015_run3
+2025-05-23 08:59:30,790 - INFO - Submitted job 229506: bench_016_run1
+2025-05-23 08:59:30,894 - INFO - Submitted job 229507: bench_016_run2
+2025-05-23 08:59:30,925 - INFO - Submitted job 229508: bench_016_run3
+2025-05-23 08:59:30,967 - INFO - Submitted job 229509: bench_017_run1
+2025-05-23 08:59:31,021 - INFO - Submitted job 229510: bench_017_run2
+2025-05-23 08:59:31,047 - INFO - Submitted job 229511: bench_017_run3
+2025-05-23 08:59:31,077 - INFO - Submitted job 229512: bench_018_run1
+2025-05-23 08:59:31,126 - INFO - Submitted job 229513: bench_018_run2
+2025-05-23 08:59:31,243 - INFO - Submitted job 229514: bench_018_run3
+2025-05-23 08:59:31,269 - INFO - Submitted job 229515: bench_019_run1
+2025-05-23 08:59:31,295 - INFO - Submitted job 229516: bench_019_run2
+2025-05-23 08:59:31,319 - INFO - Submitted job 229517: bench_019_run3
+2025-05-23 08:59:31,444 - INFO - Submitted job 229518: bench_020_run1
+2025-05-23 08:59:31,469 - INFO - Submitted job 229519: bench_020_run2
+2025-05-23 08:59:31,494 - INFO - Submitted job 229520: bench_020_run3
+2025-05-23 08:59:31,522 - INFO - Submitted job 229521: bench_021_run1
+2025-05-23 08:59:31,546 - INFO - Submitted job 229522: bench_021_run2
+2025-05-23 08:59:31,570 - INFO - Submitted job 229523: bench_021_run3
+2025-05-23 08:59:31,594 - INFO - Submitted job 229524: bench_022_run1
+2025-05-23 08:59:31,768 - INFO - Submitted job 229525: bench_022_run2
+2025-05-23 08:59:31,799 - INFO - Submitted job 229526: bench_022_run3
+2025-05-23 08:59:31,823 - INFO - Submitted job 229527: bench_023_run1
+2025-05-23 08:59:31,844 - INFO - Submitted job 229528: bench_023_run2
+2025-05-23 08:59:31,867 - INFO - Submitted job 229529: bench_023_run3
+2025-05-23 08:59:31,888 - INFO - Submitted job 229530: bench_024_run1
+2025-05-23 08:59:31,909 - INFO - Submitted job 229531: bench_024_run2
+2025-05-23 08:59:31,932 - INFO - Submitted job 229532: bench_024_run3
+2025-05-23 08:59:31,956 - INFO - Submitted job 229533: bench_025_run1
+2025-05-23 08:59:31,991 - INFO - Submitted job 229534: bench_025_run2
+2025-05-23 08:59:32,015 - INFO - Submitted job 229535: bench_025_run3
+2025-05-23 08:59:32,038 - INFO - Submitted job 229536: bench_026_run1
+2025-05-23 08:59:32,079 - INFO - Submitted job 229537: bench_026_run2
+2025-05-23 08:59:32,103 - INFO - Submitted job 229538: bench_026_run3
+2025-05-23 08:59:32,133 - INFO - Submitted job 229539: bench_027_run1
+2025-05-23 08:59:32,156 - INFO - Submitted job 229540: bench_027_run2
+2025-05-23 08:59:32,182 - INFO - Submitted job 229541: bench_027_run3
+2025-05-23 08:59:32,206 - INFO - Submitted job 229542: bench_028_run1
+2025-05-23 08:59:32,230 - INFO - Submitted job 229543: bench_028_run2
+2025-05-23 08:59:32,253 - INFO - Submitted job 229544: bench_028_run3
+2025-05-23 08:59:32,277 - INFO - Submitted job 229545: bench_029_run1
+2025-05-23 08:59:32,299 - INFO - Submitted job 229546: bench_029_run2
+2025-05-23 08:59:32,326 - INFO - Submitted job 229547: bench_029_run3
+2025-05-23 08:59:32,349 - INFO - Submitted job 229548: bench_030_run1
+2025-05-23 08:59:32,372 - INFO - Submitted job 229549: bench_030_run2
+2025-05-23 08:59:32,396 - INFO - Submitted job 229550: bench_030_run3
+2025-05-23 08:59:32,421 - INFO - Submitted job 229551: bench_031_run1
+2025-05-23 08:59:32,445 - INFO - Submitted job 229552: bench_031_run2
+2025-05-23 08:59:32,469 - INFO - Submitted job 229553: bench_031_run3
+2025-05-23 08:59:32,509 - INFO - Submitted job 229554: bench_032_run1
+2025-05-23 08:59:32,534 - INFO - Submitted job 229555: bench_032_run2
+2025-05-23 08:59:32,557 - INFO - Submitted job 229556: bench_032_run3
+2025-05-23 08:59:32,581 - INFO - Submitted job 229557: bench_033_run1
+2025-05-23 08:59:32,604 - INFO - Submitted job 229558: bench_033_run2
+2025-05-23 08:59:32,628 - INFO - Submitted job 229559: bench_033_run3
+2025-05-23 08:59:32,652 - INFO - Submitted job 229560: bench_034_run1
+2025-05-23 08:59:32,682 - INFO - Submitted job 229561: bench_034_run2
+2025-05-23 08:59:32,702 - INFO - Submitted job 229562: bench_034_run3
+2025-05-23 08:59:32,727 - INFO - Submitted job 229563: bench_035_run1
+2025-05-23 08:59:32,751 - INFO - Submitted job 229564: bench_035_run2
+2025-05-23 08:59:32,775 - INFO - Submitted job 229565: bench_035_run3
+2025-05-23 08:59:32,806 - INFO - Submitted job 229566: bench_036_run1
+2025-05-23 08:59:32,834 - INFO - Submitted job 229567: bench_036_run2
+2025-05-23 08:59:32,858 - INFO - Submitted job 229568: bench_036_run3
+2025-05-23 08:59:32,882 - INFO - Submitted job 229569: bench_037_run1
+2025-05-23 08:59:32,905 - INFO - Submitted job 229570: bench_037_run2
+2025-05-23 08:59:32,929 - INFO - Submitted job 229571: bench_037_run3
+2025-05-23 08:59:32,957 - INFO - Submitted job 229572: bench_038_run1
+2025-05-23 08:59:32,986 - INFO - Submitted job 229573: bench_038_run2
+2025-05-23 08:59:33,010 - INFO - Submitted job 229574: bench_038_run3
+2025-05-23 08:59:33,058 - INFO - Submitted job 229575: bench_039_run1
+2025-05-23 08:59:33,082 - INFO - Submitted job 229576: bench_039_run2
+2025-05-23 08:59:33,105 - INFO - Submitted job 229577: bench_039_run3
+2025-05-23 08:59:33,132 - INFO - Submitted job 229578: bench_040_run1
+2025-05-23 08:59:33,365 - INFO - Submitted job 229579: bench_040_run2
+2025-05-23 08:59:33,777 - INFO - Submitted job 229580: bench_040_run3
+2025-05-23 08:59:34,017 - INFO - Submitted job 229581: bench_041_run1
+2025-05-23 08:59:34,148 - INFO - Submitted job 229582: bench_041_run2
+2025-05-23 08:59:34,335 - INFO - Submitted job 229583: bench_041_run3
+2025-05-23 08:59:34,469 - INFO - Submitted job 229584: bench_042_run1
+2025-05-23 08:59:34,663 - INFO - Submitted job 229585: bench_042_run2
+2025-05-23 08:59:34,931 - INFO - Submitted job 229586: bench_042_run3
+2025-05-23 08:59:34,999 - INFO - Submitted job 229587: bench_043_run1
+2025-05-23 08:59:35,315 - INFO - Submitted job 229588: bench_043_run2
+2025-05-23 08:59:35,522 - INFO - Submitted job 229589: bench_043_run3
+2025-05-23 08:59:35,651 - INFO - Submitted job 229590: bench_044_run1
+2025-05-23 08:59:35,763 - INFO - Submitted job 229591: bench_044_run2
+2025-05-23 08:59:35,793 - INFO - Submitted job 229592: bench_044_run3
+2025-05-23 08:59:35,959 - INFO - Submitted job 229593: bench_045_run1
+2025-05-23 08:59:36,041 - INFO - Submitted job 229594: bench_045_run2
+2025-05-23 08:59:36,115 - INFO - Submitted job 229595: bench_045_run3
+2025-05-23 08:59:36,266 - INFO - Submitted job 229596: bench_046_run1
+2025-05-23 08:59:36,324 - INFO - Submitted job 229597: bench_046_run2
+2025-05-23 08:59:36,536 - INFO - Submitted job 229598: bench_046_run3
+2025-05-23 08:59:36,558 - INFO - Submitted job 229599: bench_047_run1
+2025-05-23 08:59:36,580 - INFO - Submitted job 229600: bench_047_run2
+2025-05-23 08:59:36,603 - INFO - Submitted job 229601: bench_047_run3
+2025-05-23 08:59:36,627 - INFO - Submitted job 229602: bench_048_run1
+2025-05-23 08:59:36,649 - INFO - Submitted job 229603: bench_048_run2
+2025-05-23 08:59:36,672 - INFO - Submitted job 229604: bench_048_run3
+2025-05-23 08:59:36,697 - INFO - Submitted job 229605: bench_049_run1
+2025-05-23 08:59:36,722 - INFO - Submitted job 229606: bench_049_run2
+2025-05-23 08:59:36,754 - INFO - Submitted job 229607: bench_049_run3
+2025-05-23 08:59:36,779 - INFO - Submitted job 229608: bench_050_run1
+2025-05-23 08:59:36,803 - INFO - Submitted job 229609: bench_050_run2
+2025-05-23 08:59:36,830 - INFO - Submitted job 229610: bench_050_run3
+2025-05-23 08:59:36,882 - INFO - Submitted job 229611: bench_051_run1
+2025-05-23 08:59:36,907 - INFO - Submitted job 229612: bench_051_run2
+2025-05-23 08:59:36,931 - INFO - Submitted job 229613: bench_051_run3
+2025-05-23 08:59:36,955 - INFO - Submitted job 229614: bench_052_run1
+2025-05-23 08:59:36,978 - INFO - Submitted job 229615: bench_052_run2
+2025-05-23 08:59:37,002 - INFO - Submitted job 229616: bench_052_run3
+2025-05-23 08:59:37,025 - INFO - Submitted job 229617: bench_053_run1
+2025-05-23 08:59:37,048 - INFO - Submitted job 229618: bench_053_run2
+2025-05-23 08:59:37,071 - INFO - Submitted job 229619: bench_053_run3
+2025-05-23 08:59:37,094 - INFO - Submitted job 229620: bench_054_run1
+2025-05-23 08:59:37,118 - INFO - Submitted job 229621: bench_054_run2
+2025-05-23 08:59:37,140 - INFO - Submitted job 229622: bench_054_run3
+2025-05-23 08:59:37,163 - INFO - Submitted job 229623: bench_055_run1
+2025-05-23 08:59:37,457 - INFO - Submitted job 229624: bench_055_run2
+2025-05-23 08:59:37,481 - INFO - Submitted job 229625: bench_055_run3
+2025-05-23 08:59:37,505 - INFO - Submitted job 229626: bench_056_run1
+2025-05-23 08:59:37,528 - INFO - Submitted job 229627: bench_056_run2
+2025-05-23 08:59:37,551 - INFO - Submitted job 229628: bench_056_run3
+2025-05-23 08:59:37,576 - INFO - Submitted job 229629: bench_057_run1
+2025-05-23 08:59:37,599 - INFO - Submitted job 229630: bench_057_run2
+2025-05-23 08:59:37,622 - INFO - Submitted job 229631: bench_057_run3
+2025-05-23 08:59:37,646 - INFO - Submitted job 229632: bench_058_run1
+2025-05-23 08:59:37,669 - INFO - Submitted job 229633: bench_058_run2
+2025-05-23 08:59:37,693 - INFO - Submitted job 229634: bench_058_run3
+2025-05-23 08:59:37,716 - INFO - Submitted job 229635: bench_059_run1
+2025-05-23 08:59:37,740 - INFO - Submitted job 229636: bench_059_run2
+2025-05-23 08:59:37,767 - INFO - Submitted job 229637: bench_059_run3
+2025-05-23 08:59:37,858 - INFO - Submitted job 229638: bench_060_run1
+2025-05-23 08:59:37,882 - INFO - Submitted job 229639: bench_060_run2
+2025-05-23 08:59:37,906 - INFO - Submitted job 229640: bench_060_run3
+2025-05-23 08:59:37,930 - INFO - Submitted job 229641: bench_061_run1
+2025-05-23 08:59:37,954 - INFO - Submitted job 229642: bench_061_run2
+2025-05-23 08:59:37,978 - INFO - Submitted job 229643: bench_061_run3
+2025-05-23 08:59:38,002 - INFO - Submitted job 229644: bench_062_run1
+2025-05-23 08:59:38,026 - INFO - Submitted job 229645: bench_062_run2
+2025-05-23 08:59:38,050 - INFO - Submitted job 229646: bench_062_run3
+2025-05-23 08:59:38,108 - INFO - Submitted job 229647: bench_063_run1
+2025-05-23 08:59:38,139 - INFO - Submitted job 229648: bench_063_run2
+2025-05-23 08:59:38,163 - INFO - Submitted job 229649: bench_063_run3
+2025-05-23 08:59:38,187 - INFO - Submitted job 229650: bench_064_run1
+2025-05-23 08:59:38,210 - INFO - Submitted job 229651: bench_064_run2
+2025-05-23 08:59:38,233 - INFO - Submitted job 229652: bench_064_run3
+2025-05-23 08:59:38,257 - INFO - Submitted job 229653: bench_065_run1
+2025-05-23 08:59:38,281 - INFO - Submitted job 229654: bench_065_run2
+2025-05-23 08:59:38,306 - INFO - Submitted job 229655: bench_065_run3
+2025-05-23 08:59:38,331 - INFO - Submitted job 229656: bench_066_run1
+2025-05-23 08:59:38,368 - INFO - Submitted job 229657: bench_066_run2
+2025-05-23 08:59:38,391 - INFO - Submitted job 229658: bench_066_run3
+2025-05-23 08:59:38,417 - INFO - Submitted job 229659: bench_067_run1
+2025-05-23 08:59:38,441 - INFO - Submitted job 229660: bench_067_run2
+2025-05-23 08:59:38,464 - INFO - Submitted job 229661: bench_067_run3
+2025-05-23 08:59:38,487 - INFO - Submitted job 229662: bench_068_run1
+2025-05-23 08:59:38,511 - INFO - Submitted job 229663: bench_068_run2
+2025-05-23 08:59:38,536 - INFO - Submitted job 229664: bench_068_run3
+2025-05-23 08:59:38,559 - INFO - Submitted job 229665: bench_069_run1
+2025-05-23 08:59:38,583 - INFO - Submitted job 229666: bench_069_run2
+2025-05-23 08:59:38,606 - INFO - Submitted job 229667: bench_069_run3
+2025-05-23 08:59:38,629 - INFO - Submitted job 229668: bench_070_run1
+2025-05-23 08:59:38,653 - INFO - Submitted job 229669: bench_070_run2
+2025-05-23 08:59:38,675 - INFO - Submitted job 229670: bench_070_run3
+2025-05-23 08:59:38,698 - INFO - Submitted job 229671: bench_071_run1
+2025-05-23 08:59:38,720 - INFO - Submitted job 229672: bench_071_run2
+2025-05-23 08:59:38,743 - INFO - Submitted job 229673: bench_071_run3
+2025-05-23 08:59:38,776 - INFO - Submitted job 229674: bench_072_run1
+2025-05-23 08:59:38,801 - INFO - Submitted job 229675: bench_072_run2
+2025-05-23 08:59:38,824 - INFO - Submitted job 229676: bench_072_run3
+2025-05-23 08:59:38,847 - INFO - Submitted job 229677: bench_073_run1
+2025-05-23 08:59:38,892 - INFO - Submitted job 229678: bench_073_run2
+2025-05-23 08:59:38,918 - INFO - Submitted job 229679: bench_073_run3
+2025-05-23 08:59:38,941 - INFO - Submitted job 229680: bench_074_run1
+2025-05-23 08:59:38,965 - INFO - Submitted job 229681: bench_074_run2
+2025-05-23 08:59:38,988 - INFO - Submitted job 229682: bench_074_run3
+2025-05-23 08:59:39,042 - INFO - Submitted job 229683: bench_075_run1
+2025-05-23 08:59:39,066 - INFO - Submitted job 229684: bench_075_run2
+2025-05-23 08:59:39,089 - INFO - Submitted job 229685: bench_075_run3
+2025-05-23 08:59:39,113 - INFO - Submitted job 229686: bench_076_run1
+2025-05-23 08:59:39,137 - INFO - Submitted job 229687: bench_076_run2
+2025-05-23 08:59:39,161 - INFO - Submitted job 229688: bench_076_run3
+2025-05-23 08:59:39,184 - INFO - Submitted job 229689: bench_077_run1
+2025-05-23 08:59:39,208 - INFO - Submitted job 229690: bench_077_run2
+2025-05-23 08:59:39,231 - INFO - Submitted job 229691: bench_077_run3
+2025-05-23 08:59:39,262 - INFO - Submitted job 229692: bench_078_run1
+2025-05-23 08:59:39,286 - INFO - Submitted job 229693: bench_078_run2
+2025-05-23 08:59:39,309 - INFO - Submitted job 229694: bench_078_run3
+2025-05-23 08:59:39,332 - INFO - Submitted job 229695: bench_079_run1
+2025-05-23 08:59:39,360 - INFO - Submitted job 229696: bench_079_run2
+2025-05-23 08:59:39,383 - INFO - Submitted job 229697: bench_079_run3
+2025-05-23 08:59:39,407 - INFO - Submitted job 229698: bench_080_run1
+2025-05-23 08:59:39,430 - INFO - Submitted job 229699: bench_080_run2
+2025-05-23 08:59:39,454 - INFO - Submitted job 229700: bench_080_run3
+2025-05-23 08:59:39,478 - INFO - Submitted job 229701: bench_081_run1
+2025-05-23 08:59:39,509 - INFO - Submitted job 229702: bench_081_run2
+2025-05-23 08:59:39,532 - INFO - Submitted job 229703: bench_081_run3
+2025-05-23 08:59:39,555 - INFO - Submitted job 229704: bench_082_run1
+2025-05-23 08:59:39,578 - INFO - Submitted job 229705: bench_082_run2
+2025-05-23 08:59:39,601 - INFO - Submitted job 229706: bench_082_run3
+2025-05-23 08:59:39,624 - INFO - Submitted job 229707: bench_083_run1
+2025-05-23 08:59:39,649 - INFO - Submitted job 229708: bench_083_run2
+2025-05-23 08:59:39,672 - INFO - Submitted job 229709: bench_083_run3
+2025-05-23 08:59:39,703 - INFO - Submitted job 229710: bench_084_run1
+2025-05-23 08:59:39,727 - INFO - Submitted job 229711: bench_084_run2
+2025-05-23 08:59:39,751 - INFO - Submitted job 229712: bench_084_run3
+2025-05-23 08:59:39,773 - INFO - Submitted job 229713: bench_085_run1
+2025-05-23 08:59:39,798 - INFO - Submitted job 229714: bench_085_run2
+2025-05-23 08:59:39,822 - INFO - Submitted job 229715: bench_085_run3
+2025-05-23 08:59:39,849 - INFO - Submitted job 229716: bench_086_run1
+2025-05-23 08:59:39,884 - INFO - Submitted job 229717: bench_086_run2
+2025-05-23 08:59:39,908 - INFO - Submitted job 229718: bench_086_run3
+2025-05-23 08:59:39,930 - INFO - Submitted job 229719: bench_087_run1
+2025-05-23 08:59:39,955 - INFO - Submitted job 229720: bench_087_run2
+2025-05-23 08:59:40,155 - INFO - Submitted job 229721: bench_087_run3
+2025-05-23 08:59:40,231 - INFO - Submitted job 229722: bench_088_run1
+2025-05-23 08:59:40,254 - INFO - Submitted job 229723: bench_088_run2
+2025-05-23 08:59:40,278 - INFO - Submitted job 229724: bench_088_run3
+2025-05-23 08:59:40,302 - INFO - Submitted job 229725: bench_089_run1
+2025-05-23 08:59:40,347 - INFO - Submitted job 229726: bench_089_run2
+2025-05-23 08:59:40,381 - INFO - Submitted job 229727: bench_089_run3
+2025-05-23 08:59:40,406 - INFO - Submitted job 229728: bench_090_run1
+2025-05-23 08:59:40,524 - INFO - Submitted job 229729: bench_090_run2
+2025-05-23 08:59:40,554 - INFO - Submitted job 229730: bench_090_run3
+2025-05-23 08:59:40,579 - INFO - Submitted job 229731: bench_091_run1
+2025-05-23 08:59:40,603 - INFO - Submitted job 229732: bench_091_run2
+2025-05-23 08:59:40,626 - INFO - Submitted job 229733: bench_091_run3
+2025-05-23 08:59:40,648 - INFO - Submitted job 229734: bench_092_run1
+2025-05-23 08:59:40,725 - INFO - Submitted job 229735: bench_092_run2
+2025-05-23 08:59:40,749 - INFO - Submitted job 229736: bench_092_run3
+2025-05-23 08:59:40,772 - INFO - Submitted job 229737: bench_093_run1
+2025-05-23 08:59:40,796 - INFO - Submitted job 229738: bench_093_run2
+2025-05-23 08:59:40,821 - INFO - Submitted job 229739: bench_093_run3
+2025-05-23 08:59:40,862 - INFO - Submitted job 229740: bench_094_run1
+2025-05-23 08:59:40,887 - INFO - Submitted job 229741: bench_094_run2
+2025-05-23 08:59:40,912 - INFO - Submitted job 229742: bench_094_run3
+2025-05-23 08:59:40,937 - INFO - Submitted job 229743: bench_095_run1
+2025-05-23 08:59:40,966 - INFO - Submitted job 229744: bench_095_run2
+2025-05-23 08:59:40,989 - INFO - Submitted job 229745: bench_095_run3
+2025-05-23 08:59:41,014 - INFO - Submitted job 229746: bench_096_run1
+2025-05-23 08:59:41,039 - INFO - Submitted job 229747: bench_096_run2
+2025-05-23 08:59:41,062 - INFO - Submitted job 229748: bench_096_run3
+2025-05-23 08:59:41,106 - INFO - Submitted job 229749: bench_097_run1
+2025-05-23 08:59:41,132 - INFO - Submitted job 229750: bench_097_run2
+2025-05-23 08:59:41,156 - INFO - Submitted job 229751: bench_097_run3
+2025-05-23 08:59:41,179 - INFO - Submitted job 229752: bench_098_run1
+2025-05-23 08:59:41,215 - INFO - Submitted job 229753: bench_098_run2
+2025-05-23 08:59:41,246 - INFO - Submitted job 229754: bench_098_run3
+2025-05-23 08:59:41,269 - INFO - Submitted job 229755: bench_099_run1
+2025-05-23 08:59:41,290 - INFO - Submitted job 229756: bench_099_run2
+2025-05-23 08:59:41,313 - INFO - Submitted job 229757: bench_099_run3
+2025-05-23 08:59:41,314 - INFO - Submitted 300 jobs to SLURM
+2025-05-23 08:59:41,314 - INFO - Waiting for 300 jobs to complete...
+2025-05-23 09:00:11,364 - INFO - Jobs completed: 288/300
+2025-05-23 09:01:08,006 - INFO - Starting comprehensive data structure benchmark suite
+2025-05-23 09:01:08,006 - INFO - Working directory: /scratch/cb761223/exercises/sheet09/datastructure_benchmark
+2025-05-23 09:01:08,006 - INFO - Excluding array with 1000 elements of 8388608 bytes (estimated 16800.0 MB)
+2025-05-23 09:01:08,007 - INFO - Excluding array with 100000 elements of 8388608 bytes (estimated 1680001.5 MB)
+2025-05-23 09:01:08,007 - INFO - Excluding array with 10000000 elements of 8388608 bytes (estimated 168000152.6 MB)
+2025-05-23 09:01:08,007 - INFO - Excluding array with 1000 elements of 8388608 bytes (estimated 16800.0 MB)
+2025-05-23 09:01:08,007 - INFO - Excluding array with 100000 elements of 8388608 bytes (estimated 1680001.5 MB)
+2025-05-23 09:01:08,007 - INFO - Excluding array with 10000000 elements of 8388608 bytes (estimated 168000152.6 MB)
+2025-05-23 09:01:08,007 - INFO - Excluding array with 1000 elements of 8388608 bytes (estimated 16800.0 MB)
+2025-05-23 09:01:08,007 - INFO - Excluding array with 100000 elements of 8388608 bytes (estimated 1680001.5 MB)
+2025-05-23 09:01:08,008 - INFO - Excluding array with 10000000 elements of 8388608 bytes (estimated 168000152.6 MB)
+2025-05-23 09:01:08,008 - INFO - Excluding array with 1000 elements of 8388608 bytes (estimated 16800.0 MB)
+2025-05-23 09:01:08,008 - INFO - Excluding array with 100000 elements of 8388608 bytes (estimated 1680001.5 MB)
+2025-05-23 09:01:08,008 - INFO - Excluding array with 10000000 elements of 8388608 bytes (estimated 168000152.6 MB)
+2025-05-23 09:01:08,008 - INFO - Excluding list_seq with 1000 elements of 8388608 bytes (estimated 16800.0 MB)
+2025-05-23 09:01:08,008 - INFO - Excluding list_seq with 100000 elements of 8388608 bytes (estimated 1680001.5 MB)
+2025-05-23 09:01:08,008 - INFO - Excluding slow combination: list_seq with 10000000 elements of 512 bytes
+2025-05-23 09:01:08,009 - INFO - Excluding list_seq with 10000000 elements of 8388608 bytes (estimated 168000152.6 MB)
+2025-05-23 09:01:08,009 - INFO - Excluding list_seq with 1000 elements of 8388608 bytes (estimated 16800.0 MB)
+2025-05-23 09:01:08,009 - INFO - Excluding list_seq with 100000 elements of 8388608 bytes (estimated 1680001.5 MB)
+2025-05-23 09:01:08,009 - INFO - Excluding slow combination: list_seq with 10000000 elements of 512 bytes
+2025-05-23 09:01:08,009 - INFO - Excluding list_seq with 10000000 elements of 8388608 bytes (estimated 168000152.6 MB)
+2025-05-23 09:01:08,009 - INFO - Excluding list_seq with 1000 elements of 8388608 bytes (estimated 16800.0 MB)
+2025-05-23 09:01:08,009 - INFO - Excluding list_seq with 100000 elements of 8388608 bytes (estimated 1680001.5 MB)
+2025-05-23 09:01:08,010 - INFO - Excluding slow combination: list_seq with 10000000 elements of 512 bytes
+2025-05-23 09:01:08,010 - INFO - Excluding list_seq with 10000000 elements of 8388608 bytes (estimated 168000152.6 MB)
+2025-05-23 09:01:08,010 - INFO - Excluding list_seq with 1000 elements of 8388608 bytes (estimated 16800.0 MB)
+2025-05-23 09:01:08,010 - INFO - Excluding list_seq with 100000 elements of 8388608 bytes (estimated 1680001.5 MB)
+2025-05-23 09:01:08,010 - INFO - Excluding slow combination: list_seq with 10000000 elements of 512 bytes
+2025-05-23 09:01:08,010 - INFO - Excluding list_seq with 10000000 elements of 8388608 bytes (estimated 168000152.6 MB)
+2025-05-23 09:01:08,010 - INFO - Excluding list_rand with 1000 elements of 8388608 bytes (estimated 16800.0 MB)
+2025-05-23 09:01:08,011 - INFO - Excluding list_rand with 100000 elements of 8388608 bytes (estimated 1680001.5 MB)
+2025-05-23 09:01:08,012 - INFO - Excluding slow combination: list_rand with 10000000 elements of 512 bytes
+2025-05-23 09:01:08,012 - INFO - Excluding list_rand with 10000000 elements of 8388608 bytes (estimated 168000152.6 MB)
+2025-05-23 09:01:08,012 - INFO - Excluding list_rand with 1000 elements of 8388608 bytes (estimated 16800.0 MB)
+2025-05-23 09:01:08,012 - INFO - Excluding list_rand with 100000 elements of 8388608 bytes (estimated 1680001.5 MB)
+2025-05-23 09:01:08,012 - INFO - Excluding slow combination: list_rand with 10000000 elements of 512 bytes
+2025-05-23 09:01:08,012 - INFO - Excluding list_rand with 10000000 elements of 8388608 bytes (estimated 168000152.6 MB)
+2025-05-23 09:01:08,012 - INFO - Excluding list_rand with 1000 elements of 8388608 bytes (estimated 16800.0 MB)
+2025-05-23 09:01:08,013 - INFO - Excluding list_rand with 100000 elements of 8388608 bytes (estimated 1680001.5 MB)
+2025-05-23 09:01:08,013 - INFO - Excluding slow combination: list_rand with 10000000 elements of 512 bytes
+2025-05-23 09:01:08,013 - INFO - Excluding list_rand with 10000000 elements of 8388608 bytes (estimated 168000152.6 MB)
+2025-05-23 09:01:08,013 - INFO - Excluding list_rand with 1000 elements of 8388608 bytes (estimated 16800.0 MB)
+2025-05-23 09:01:08,013 - INFO - Excluding list_rand with 100000 elements of 8388608 bytes (estimated 1680001.5 MB)
+2025-05-23 09:01:08,013 - INFO - Excluding slow combination: list_rand with 10000000 elements of 512 bytes
+2025-05-23 09:01:08,013 - INFO - Excluding list_rand with 10000000 elements of 8388608 bytes (estimated 168000152.6 MB)
+2025-05-23 09:01:08,014 - INFO - Generated 100 valid combinations, excluded 44
+2025-05-23 09:01:08,019 - INFO - Total combinations to test: 100
+2025-05-23 09:01:08,019 - INFO - Total jobs to submit: 300
+2025-05-23 09:01:08,043 - INFO - Submitted job 229759: bench_000_run1
+2025-05-23 09:01:08,064 - INFO - Submitted job 229760: bench_000_run2
+2025-05-23 09:01:08,085 - INFO - Submitted job 229761: bench_000_run3
+2025-05-23 09:01:08,106 - INFO - Submitted job 229762: bench_001_run1
+2025-05-23 09:01:08,127 - INFO - Submitted job 229763: bench_001_run2
+2025-05-23 09:01:08,147 - INFO - Submitted job 229764: bench_001_run3
+2025-05-23 09:01:08,169 - INFO - Submitted job 229765: bench_002_run1
+2025-05-23 09:01:08,191 - INFO - Submitted job 229766: bench_002_run2
+2025-05-23 09:01:08,213 - INFO - Submitted job 229767: bench_002_run3
+2025-05-23 09:01:08,235 - INFO - Submitted job 229768: bench_003_run1
+2025-05-23 09:01:08,257 - INFO - Submitted job 229769: bench_003_run2
+2025-05-23 09:01:08,279 - INFO - Submitted job 229770: bench_003_run3
+2025-05-23 09:01:08,301 - INFO - Submitted job 229771: bench_004_run1
+2025-05-23 09:01:08,327 - INFO - Submitted job 229772: bench_004_run2
+2025-05-23 09:01:08,348 - INFO - Submitted job 229773: bench_004_run3
+2025-05-23 09:01:08,375 - INFO - Submitted job 229774: bench_005_run1
+2025-05-23 09:01:08,398 - INFO - Submitted job 229775: bench_005_run2
+2025-05-23 09:01:08,420 - INFO - Submitted job 229776: bench_005_run3
+2025-05-23 09:01:08,446 - INFO - Submitted job 229777: bench_006_run1
+2025-05-23 09:01:08,472 - INFO - Submitted job 229778: bench_006_run2
+2025-05-23 09:01:08,494 - INFO - Submitted job 229779: bench_006_run3
+2025-05-23 09:01:08,516 - INFO - Submitted job 229780: bench_007_run1
+2025-05-23 09:01:08,538 - INFO - Submitted job 229781: bench_007_run2
+2025-05-23 09:01:08,560 - INFO - Submitted job 229782: bench_007_run3
+2025-05-23 09:01:08,582 - INFO - Submitted job 229783: bench_008_run1
+2025-05-23 09:01:08,603 - INFO - Submitted job 229784: bench_008_run2
+2025-05-23 09:01:08,624 - INFO - Submitted job 229785: bench_008_run3
+2025-05-23 09:01:08,653 - INFO - Submitted job 229786: bench_009_run1
+2025-05-23 09:01:08,674 - INFO - Submitted job 229787: bench_009_run2
+2025-05-23 09:01:08,696 - INFO - Submitted job 229788: bench_009_run3
+2025-05-23 09:01:08,719 - INFO - Submitted job 229789: bench_010_run1
+2025-05-23 09:01:08,742 - INFO - Submitted job 229790: bench_010_run2
+2025-05-23 09:01:08,765 - INFO - Submitted job 229791: bench_010_run3
+2025-05-23 09:01:08,788 - INFO - Submitted job 229792: bench_011_run1
+2025-05-23 09:01:08,809 - INFO - Submitted job 229793: bench_011_run2
+2025-05-23 09:01:08,833 - INFO - Submitted job 229794: bench_011_run3
+2025-05-23 09:01:08,853 - INFO - Submitted job 229795: bench_012_run1
+2025-05-23 09:01:08,876 - INFO - Submitted job 229796: bench_012_run2
+2025-05-23 09:01:08,899 - INFO - Submitted job 229797: bench_012_run3
+2025-05-23 09:01:08,921 - INFO - Submitted job 229798: bench_013_run1
+2025-05-23 09:01:08,943 - INFO - Submitted job 229799: bench_013_run2
+2025-05-23 09:01:08,965 - INFO - Submitted job 229800: bench_013_run3
+2025-05-23 09:01:08,987 - INFO - Submitted job 229801: bench_014_run1
+2025-05-23 09:01:09,008 - INFO - Submitted job 229802: bench_014_run2
+2025-05-23 09:01:09,032 - INFO - Submitted job 229803: bench_014_run3
+2025-05-23 09:01:09,054 - INFO - Submitted job 229804: bench_015_run1
+2025-05-23 09:01:09,078 - INFO - Submitted job 229805: bench_015_run2
+2025-05-23 09:01:09,100 - INFO - Submitted job 229806: bench_015_run3
+2025-05-23 09:01:09,122 - INFO - Submitted job 229807: bench_016_run1
+2025-05-23 09:01:09,144 - INFO - Submitted job 229808: bench_016_run2
+2025-05-23 09:01:09,174 - INFO - Submitted job 229809: bench_016_run3
+2025-05-23 09:01:09,197 - INFO - Submitted job 229810: bench_017_run1
+2025-05-23 09:01:09,219 - INFO - Submitted job 229811: bench_017_run2
+2025-05-23 09:01:09,244 - INFO - Submitted job 229812: bench_017_run3
+2025-05-23 09:01:09,265 - INFO - Submitted job 229813: bench_018_run1
+2025-05-23 09:01:09,287 - INFO - Submitted job 229814: bench_018_run2
+2025-05-23 09:01:09,314 - INFO - Submitted job 229815: bench_018_run3
+2025-05-23 09:01:09,335 - INFO - Submitted job 229816: bench_019_run1
+2025-05-23 09:01:09,357 - INFO - Submitted job 229817: bench_019_run2
+2025-05-23 09:01:09,384 - INFO - Submitted job 229818: bench_019_run3
+2025-05-23 09:01:09,406 - INFO - Submitted job 229819: bench_020_run1
+2025-05-23 09:01:09,430 - INFO - Submitted job 229820: bench_020_run2
+2025-05-23 09:01:09,452 - INFO - Submitted job 229821: bench_020_run3
+2025-05-23 09:01:09,471 - INFO - Submitted job 229822: bench_021_run1
+2025-05-23 09:01:09,492 - INFO - Submitted job 229823: bench_021_run2
+2025-05-23 09:01:09,515 - INFO - Submitted job 229824: bench_021_run3
+2025-05-23 09:01:09,535 - INFO - Submitted job 229825: bench_022_run1
+2025-05-23 09:01:09,555 - INFO - Submitted job 229826: bench_022_run2
+2025-05-23 09:01:09,575 - INFO - Submitted job 229827: bench_022_run3
+2025-05-23 09:01:09,597 - INFO - Submitted job 229828: bench_023_run1
+2025-05-23 09:01:09,618 - INFO - Submitted job 229829: bench_023_run2
+2025-05-23 09:01:09,641 - INFO - Submitted job 229830: bench_023_run3
+2025-05-23 09:01:09,662 - INFO - Submitted job 229831: bench_024_run1
+2025-05-23 09:01:09,692 - INFO - Submitted job 229832: bench_024_run2
+2025-05-23 09:01:09,714 - INFO - Submitted job 229833: bench_024_run3
+2025-05-23 09:01:09,736 - INFO - Submitted job 229834: bench_025_run1
+2025-05-23 09:01:09,758 - INFO - Submitted job 229835: bench_025_run2
+2025-05-23 09:01:09,778 - INFO - Submitted job 229836: bench_025_run3
+2025-05-23 09:01:09,800 - INFO - Submitted job 229837: bench_026_run1
+2025-05-23 09:01:09,821 - INFO - Submitted job 229838: bench_026_run2
+2025-05-23 09:01:09,843 - INFO - Submitted job 229839: bench_026_run3
+2025-05-23 09:01:09,865 - INFO - Submitted job 229840: bench_027_run1
+2025-05-23 09:01:09,886 - INFO - Submitted job 229841: bench_027_run2
+2025-05-23 09:01:09,909 - INFO - Submitted job 229842: bench_027_run3
+2025-05-23 09:01:09,929 - INFO - Submitted job 229843: bench_028_run1
+2025-05-23 09:01:09,952 - INFO - Submitted job 229844: bench_028_run2
+2025-05-23 09:01:09,974 - INFO - Submitted job 229845: bench_028_run3
+2025-05-23 09:01:09,996 - INFO - Submitted job 229846: bench_029_run1
+2025-05-23 09:01:10,017 - INFO - Submitted job 229847: bench_029_run2
+2025-05-23 09:01:10,040 - INFO - Submitted job 229848: bench_029_run3
+2025-05-23 09:01:10,060 - INFO - Submitted job 229849: bench_030_run1
+2025-05-23 09:01:10,080 - INFO - Submitted job 229850: bench_030_run2
+2025-05-23 09:01:10,101 - INFO - Submitted job 229851: bench_030_run3
+2025-05-23 09:01:10,123 - INFO - Submitted job 229852: bench_031_run1
+2025-05-23 09:01:10,144 - INFO - Submitted job 229853: bench_031_run2
+2025-05-23 09:01:10,164 - INFO - Submitted job 229854: bench_031_run3
+2025-05-23 09:01:10,184 - INFO - Submitted job 229855: bench_032_run1
+2025-05-23 09:01:10,205 - INFO - Submitted job 229856: bench_032_run2
+2025-05-23 09:01:10,226 - INFO - Submitted job 229857: bench_032_run3
+2025-05-23 09:01:10,255 - INFO - Submitted job 229858: bench_033_run1
+2025-05-23 09:01:10,276 - INFO - Submitted job 229859: bench_033_run2
+2025-05-23 09:01:10,297 - INFO - Submitted job 229860: bench_033_run3
+2025-05-23 09:01:10,319 - INFO - Submitted job 229861: bench_034_run1
+2025-05-23 09:01:10,341 - INFO - Submitted job 229862: bench_034_run2
+2025-05-23 09:01:10,362 - INFO - Submitted job 229863: bench_034_run3
+2025-05-23 09:01:10,384 - INFO - Submitted job 229864: bench_035_run1
+2025-05-23 09:01:10,406 - INFO - Submitted job 229865: bench_035_run2
+2025-05-23 09:01:10,427 - INFO - Submitted job 229866: bench_035_run3
+2025-05-23 09:01:10,449 - INFO - Submitted job 229867: bench_036_run1
+2025-05-23 09:01:10,469 - INFO - Submitted job 229868: bench_036_run2
+2025-05-23 09:01:10,493 - INFO - Submitted job 229869: bench_036_run3
+2025-05-23 09:01:10,514 - INFO - Submitted job 229870: bench_037_run1
+2025-05-23 09:01:10,536 - INFO - Submitted job 229871: bench_037_run2
+2025-05-23 09:01:10,558 - INFO - Submitted job 229872: bench_037_run3
+2025-05-23 09:01:10,581 - INFO - Submitted job 229873: bench_038_run1
+2025-05-23 09:01:10,608 - INFO - Submitted job 229874: bench_038_run2
+2025-05-23 09:01:10,630 - INFO - Submitted job 229875: bench_038_run3
+2025-05-23 09:01:10,654 - INFO - Submitted job 229876: bench_039_run1
+2025-05-23 09:01:10,676 - INFO - Submitted job 229877: bench_039_run2
+2025-05-23 09:01:10,698 - INFO - Submitted job 229878: bench_039_run3
+2025-05-23 09:01:10,720 - INFO - Submitted job 229879: bench_040_run1
+2025-05-23 09:01:10,741 - INFO - Submitted job 229880: bench_040_run2
+2025-05-23 09:01:10,764 - INFO - Submitted job 229881: bench_040_run3
+2025-05-23 09:01:10,792 - INFO - Submitted job 229882: bench_041_run1
+2025-05-23 09:01:10,814 - INFO - Submitted job 229883: bench_041_run2
+2025-05-23 09:01:10,836 - INFO - Submitted job 229884: bench_041_run3
+2025-05-23 09:01:10,859 - INFO - Submitted job 229885: bench_042_run1
+2025-05-23 09:01:10,883 - INFO - Submitted job 229886: bench_042_run2
+2025-05-23 09:01:10,904 - INFO - Submitted job 229887: bench_042_run3
+2025-05-23 09:01:10,926 - INFO - Submitted job 229888: bench_043_run1
+2025-05-23 09:01:10,946 - INFO - Submitted job 229889: bench_043_run2
+2025-05-23 09:01:10,966 - INFO - Submitted job 229890: bench_043_run3
+2025-05-23 09:01:10,987 - INFO - Submitted job 229891: bench_044_run1
+2025-05-23 09:01:11,009 - INFO - Submitted job 229892: bench_044_run2
+2025-05-23 09:01:11,032 - INFO - Submitted job 229893: bench_044_run3
+2025-05-23 09:01:11,052 - INFO - Submitted job 229894: bench_045_run1
+2025-05-23 09:01:11,077 - INFO - Submitted job 229895: bench_045_run2
+2025-05-23 09:01:11,097 - INFO - Submitted job 229896: bench_045_run3
+2025-05-23 09:01:11,118 - INFO - Submitted job 229897: bench_046_run1
+2025-05-23 09:01:11,139 - INFO - Submitted job 229898: bench_046_run2
+2025-05-23 09:01:11,161 - INFO - Submitted job 229899: bench_046_run3
+2025-05-23 09:01:11,181 - INFO - Submitted job 229900: bench_047_run1
+2025-05-23 09:01:11,201 - INFO - Submitted job 229901: bench_047_run2
+2025-05-23 09:01:11,223 - INFO - Submitted job 229902: bench_047_run3
+2025-05-23 09:01:11,246 - INFO - Submitted job 229903: bench_048_run1
+2025-05-23 09:01:11,266 - INFO - Submitted job 229904: bench_048_run2
+2025-05-23 09:01:11,288 - INFO - Submitted job 229905: bench_048_run3
+2025-05-23 09:01:11,310 - INFO - Submitted job 229906: bench_049_run1
+2025-05-23 09:01:11,331 - INFO - Submitted job 229907: bench_049_run2
+2025-05-23 09:01:11,352 - INFO - Submitted job 229908: bench_049_run3
+2025-05-23 09:01:11,375 - INFO - Submitted job 229909: bench_050_run1
+2025-05-23 09:01:11,396 - INFO - Submitted job 229910: bench_050_run2
+2025-05-23 09:01:11,416 - INFO - Submitted job 229911: bench_050_run3
+2025-05-23 09:01:11,446 - INFO - Submitted job 229912: bench_051_run1
+2025-05-23 09:01:11,471 - INFO - Submitted job 229913: bench_051_run2
+2025-05-23 09:01:11,493 - INFO - Submitted job 229914: bench_051_run3
+2025-05-23 09:01:11,516 - INFO - Submitted job 229915: bench_052_run1
+2025-05-23 09:01:11,538 - INFO - Submitted job 229916: bench_052_run2
+2025-05-23 09:01:11,558 - INFO - Submitted job 229917: bench_052_run3
+2025-05-23 09:01:11,611 - INFO - Submitted job 229918: bench_053_run1
+2025-05-23 09:01:11,798 - INFO - Submitted job 229919: bench_053_run2
+2025-05-23 09:01:11,865 - INFO - Submitted job 229920: bench_053_run3
+2025-05-23 09:01:11,888 - INFO - Submitted job 229921: bench_054_run1
+2025-05-23 09:01:11,909 - INFO - Submitted job 229922: bench_054_run2
+2025-05-23 09:01:11,933 - INFO - Submitted job 229923: bench_054_run3
+2025-05-23 09:01:11,955 - INFO - Submitted job 229924: bench_055_run1
+2025-05-23 09:01:11,977 - INFO - Submitted job 229925: bench_055_run2
+2025-05-23 09:01:11,999 - INFO - Submitted job 229926: bench_055_run3
+2025-05-23 09:01:12,021 - INFO - Submitted job 229927: bench_056_run1
+2025-05-23 09:01:12,043 - INFO - Submitted job 229928: bench_056_run2
+2025-05-23 09:01:12,064 - INFO - Submitted job 229929: bench_056_run3
+2025-05-23 09:01:12,085 - INFO - Submitted job 229930: bench_057_run1
+2025-05-23 09:01:12,107 - INFO - Submitted job 229931: bench_057_run2
+2025-05-23 09:01:12,128 - INFO - Submitted job 229932: bench_057_run3
+2025-05-23 09:01:12,150 - INFO - Submitted job 229933: bench_058_run1
+2025-05-23 09:01:12,171 - INFO - Submitted job 229934: bench_058_run2
+2025-05-23 09:01:12,192 - INFO - Submitted job 229935: bench_058_run3
+2025-05-23 09:01:12,213 - INFO - Submitted job 229936: bench_059_run1
+2025-05-23 09:01:12,234 - INFO - Submitted job 229937: bench_059_run2
+2025-05-23 09:01:12,259 - INFO - Submitted job 229938: bench_059_run3
+2025-05-23 09:01:12,282 - INFO - Submitted job 229939: bench_060_run1
+2025-05-23 09:01:12,303 - INFO - Submitted job 229940: bench_060_run2
+2025-05-23 09:01:12,324 - INFO - Submitted job 229941: bench_060_run3
+2025-05-23 09:01:12,347 - INFO - Submitted job 229942: bench_061_run1
+2025-05-23 09:01:12,370 - INFO - Submitted job 229943: bench_061_run2
+2025-05-23 09:01:12,390 - INFO - Submitted job 229944: bench_061_run3
+2025-05-23 09:01:12,412 - INFO - Submitted job 229945: bench_062_run1
+2025-05-23 09:01:12,435 - INFO - Submitted job 229946: bench_062_run2
+2025-05-23 09:01:12,457 - INFO - Submitted job 229947: bench_062_run3
+2025-05-23 09:01:12,489 - INFO - Submitted job 229948: bench_063_run1
+2025-05-23 09:01:12,510 - INFO - Submitted job 229949: bench_063_run2
+2025-05-23 09:01:12,533 - INFO - Submitted job 229950: bench_063_run3
+2025-05-23 09:01:12,555 - INFO - Submitted job 229951: bench_064_run1
+2025-05-23 09:01:12,583 - INFO - Submitted job 229952: bench_064_run2
+2025-05-23 09:01:12,605 - INFO - Submitted job 229953: bench_064_run3
+2025-05-23 09:01:12,627 - INFO - Submitted job 229954: bench_065_run1
+2025-05-23 09:01:12,649 - INFO - Submitted job 229955: bench_065_run2
+2025-05-23 09:01:12,670 - INFO - Submitted job 229956: bench_065_run3
+2025-05-23 09:01:12,691 - INFO - Submitted job 229957: bench_066_run1
+2025-05-23 09:01:12,712 - INFO - Submitted job 229958: bench_066_run2
+2025-05-23 09:01:12,733 - INFO - Submitted job 229959: bench_066_run3
+2025-05-23 09:01:12,755 - INFO - Submitted job 229960: bench_067_run1
+2025-05-23 09:01:12,777 - INFO - Submitted job 229961: bench_067_run2
+2025-05-23 09:01:12,809 - INFO - Submitted job 229962: bench_067_run3
+2025-05-23 09:01:12,830 - INFO - Submitted job 229963: bench_068_run1
+2025-05-23 09:01:12,852 - INFO - Submitted job 229964: bench_068_run2
+2025-05-23 09:01:12,874 - INFO - Submitted job 229965: bench_068_run3
+2025-05-23 09:01:12,896 - INFO - Submitted job 229966: bench_069_run1
+2025-05-23 09:01:12,918 - INFO - Submitted job 229967: bench_069_run2
+2025-05-23 09:01:12,940 - INFO - Submitted job 229968: bench_069_run3
+2025-05-23 09:01:12,962 - INFO - Submitted job 229969: bench_070_run1
+2025-05-23 09:01:12,983 - INFO - Submitted job 229970: bench_070_run2
+2025-05-23 09:01:13,005 - INFO - Submitted job 229971: bench_070_run3
+2025-05-23 09:01:13,028 - INFO - Submitted job 229972: bench_071_run1
+2025-05-23 09:01:13,071 - INFO - Submitted job 229973: bench_071_run2
+2025-05-23 09:01:13,095 - INFO - Submitted job 229974: bench_071_run3
+2025-05-23 09:01:13,117 - INFO - Submitted job 229975: bench_072_run1
+2025-05-23 09:01:13,139 - INFO - Submitted job 229976: bench_072_run2
+2025-05-23 09:01:13,160 - INFO - Submitted job 229977: bench_072_run3
+2025-05-23 09:01:13,181 - INFO - Submitted job 229978: bench_073_run1
+2025-05-23 09:01:13,201 - INFO - Submitted job 229979: bench_073_run2
+2025-05-23 09:01:13,229 - INFO - Submitted job 229980: bench_073_run3
+2025-05-23 09:01:13,256 - INFO - Submitted job 229981: bench_074_run1
+2025-05-23 09:01:13,278 - INFO - Submitted job 229982: bench_074_run2
+2025-05-23 09:01:13,300 - INFO - Submitted job 229983: bench_074_run3
+2025-05-23 09:01:13,322 - INFO - Submitted job 229984: bench_075_run1
+2025-05-23 09:01:13,343 - INFO - Submitted job 229985: bench_075_run2
+2025-05-23 09:01:13,364 - INFO - Submitted job 229986: bench_075_run3
+2025-05-23 09:01:13,386 - INFO - Submitted job 229987: bench_076_run1
+2025-05-23 09:01:13,409 - INFO - Submitted job 229988: bench_076_run2
+2025-05-23 09:01:13,431 - INFO - Submitted job 229989: bench_076_run3
+2025-05-23 09:01:13,455 - INFO - Submitted job 229990: bench_077_run1
+2025-05-23 09:01:13,477 - INFO - Submitted job 229991: bench_077_run2
+2025-05-23 09:01:13,499 - INFO - Submitted job 229992: bench_077_run3
+2025-05-23 09:01:13,521 - INFO - Submitted job 229993: bench_078_run1
+2025-05-23 09:01:13,543 - INFO - Submitted job 229994: bench_078_run2
+2025-05-23 09:01:13,565 - INFO - Submitted job 229995: bench_078_run3
+2025-05-23 09:01:13,585 - INFO - Submitted job 229996: bench_079_run1
+2025-05-23 09:01:13,606 - INFO - Submitted job 229997: bench_079_run2
+2025-05-23 09:01:13,628 - INFO - Submitted job 229998: bench_079_run3
+2025-05-23 09:01:13,649 - INFO - Submitted job 229999: bench_080_run1
+2025-05-23 09:01:13,714 - INFO - Submitted job 230000: bench_080_run2
+2025-05-23 09:01:13,759 - INFO - Submitted job 230001: bench_080_run3
+2025-05-23 09:01:13,780 - INFO - Submitted job 230002: bench_081_run1
+2025-05-23 09:01:13,801 - INFO - Submitted job 230003: bench_081_run2
+2025-05-23 09:01:13,822 - INFO - Submitted job 230004: bench_081_run3
+2025-05-23 09:01:13,844 - INFO - Submitted job 230005: bench_082_run1
+2025-05-23 09:01:13,865 - INFO - Submitted job 230006: bench_082_run2
+2025-05-23 09:01:13,886 - INFO - Submitted job 230007: bench_082_run3
+2025-05-23 09:01:13,908 - INFO - Submitted job 230008: bench_083_run1
+2025-05-23 09:01:13,929 - INFO - Submitted job 230009: bench_083_run2
+2025-05-23 09:01:13,953 - INFO - Submitted job 230010: bench_083_run3
+2025-05-23 09:01:13,975 - INFO - Submitted job 230011: bench_084_run1
+2025-05-23 09:01:13,997 - INFO - Submitted job 230012: bench_084_run2
+2025-05-23 09:01:14,019 - INFO - Submitted job 230013: bench_084_run3
+2025-05-23 09:01:14,052 - INFO - Submitted job 230014: bench_085_run1
+2025-05-23 09:01:14,074 - INFO - Submitted job 230015: bench_085_run2
+2025-05-23 09:01:14,097 - INFO - Submitted job 230016: bench_085_run3
+2025-05-23 09:01:14,119 - INFO - Submitted job 230017: bench_086_run1
+2025-05-23 09:01:14,141 - INFO - Submitted job 230018: bench_086_run2
+2025-05-23 09:01:14,163 - INFO - Submitted job 230019: bench_086_run3
+2025-05-23 09:01:14,185 - INFO - Submitted job 230020: bench_087_run1
+2025-05-23 09:01:14,208 - INFO - Submitted job 230021: bench_087_run2
+2025-05-23 09:01:14,231 - INFO - Submitted job 230022: bench_087_run3
+2025-05-23 09:01:14,253 - INFO - Submitted job 230023: bench_088_run1
+2025-05-23 09:01:14,275 - INFO - Submitted job 230024: bench_088_run2
+2025-05-23 09:01:14,296 - INFO - Submitted job 230025: bench_088_run3
+2025-05-23 09:01:14,316 - INFO - Submitted job 230026: bench_089_run1
+2025-05-23 09:01:14,339 - INFO - Submitted job 230027: bench_089_run2
+2025-05-23 09:01:14,360 - INFO - Submitted job 230028: bench_089_run3
+2025-05-23 09:01:14,381 - INFO - Submitted job 230029: bench_090_run1
+2025-05-23 09:01:14,401 - INFO - Submitted job 230030: bench_090_run2
+2025-05-23 09:01:14,423 - INFO - Submitted job 230031: bench_090_run3
+2025-05-23 09:01:14,450 - INFO - Submitted job 230032: bench_091_run1
+2025-05-23 09:01:14,473 - INFO - Submitted job 230033: bench_091_run2
+2025-05-23 09:01:14,494 - INFO - Submitted job 230034: bench_091_run3
+2025-05-23 09:01:14,516 - INFO - Submitted job 230035: bench_092_run1
+2025-05-23 09:01:14,537 - INFO - Submitted job 230036: bench_092_run2
+2025-05-23 09:01:14,558 - INFO - Submitted job 230037: bench_092_run3
+2025-05-23 09:01:14,580 - INFO - Submitted job 230038: bench_093_run1
+2025-05-23 09:01:14,602 - INFO - Submitted job 230039: bench_093_run2
+2025-05-23 09:01:14,623 - INFO - Submitted job 230040: bench_093_run3
+2025-05-23 09:01:14,644 - INFO - Submitted job 230041: bench_094_run1
+2025-05-23 09:01:14,665 - INFO - Submitted job 230042: bench_094_run2
+2025-05-23 09:01:14,686 - INFO - Submitted job 230043: bench_094_run3
+2025-05-23 09:01:14,708 - INFO - Submitted job 230044: bench_095_run1
+2025-05-23 09:01:14,729 - INFO - Submitted job 230045: bench_095_run2
+2025-05-23 09:01:14,751 - INFO - Submitted job 230046: bench_095_run3
+2025-05-23 09:01:14,772 - INFO - Submitted job 230047: bench_096_run1
+2025-05-23 09:01:14,793 - INFO - Submitted job 230048: bench_096_run2
+2025-05-23 09:01:14,814 - INFO - Submitted job 230049: bench_096_run3
+2025-05-23 09:01:14,835 - INFO - Submitted job 230050: bench_097_run1
+2025-05-23 09:01:14,857 - INFO - Submitted job 230051: bench_097_run2
+2025-05-23 09:01:14,878 - INFO - Submitted job 230052: bench_097_run3
+2025-05-23 09:01:14,898 - INFO - Submitted job 230053: bench_098_run1
+2025-05-23 09:01:14,920 - INFO - Submitted job 230054: bench_098_run2
+2025-05-23 09:01:14,942 - INFO - Submitted job 230055: bench_098_run3
+2025-05-23 09:01:14,965 - INFO - Submitted job 230056: bench_099_run1
+2025-05-23 09:01:14,987 - INFO - Submitted job 230057: bench_099_run2
+2025-05-23 09:01:15,009 - INFO - Submitted job 230058: bench_099_run3
+2025-05-23 09:01:15,010 - INFO - Submitted 300 jobs to SLURM
+2025-05-23 09:01:15,010 - INFO - Waiting for 300 jobs to complete...
+2025-05-23 09:01:45,062 - INFO - Jobs completed: 57/300
+2025-05-23 09:02:15,091 - INFO - Jobs completed: 0/243
+2025-05-23 09:02:45,142 - INFO - Jobs completed: 6/243
+2025-05-23 09:03:15,169 - INFO - Jobs completed: 0/237
+2025-05-23 09:03:45,220 - INFO - Jobs completed: 0/237
+2025-05-23 09:04:15,275 - INFO - Jobs completed: 0/237
+2025-05-23 09:04:45,325 - INFO - Jobs completed: 1/237
+2025-05-23 09:05:15,379 - INFO - Jobs completed: 0/236
+2025-05-23 09:05:45,424 - INFO - Jobs completed: 0/236
+2025-05-23 09:06:15,475 - INFO - Jobs completed: 0/236
+2025-05-23 09:06:45,521 - INFO - Jobs completed: 2/236
+2025-05-23 09:07:15,571 - INFO - Jobs completed: 0/234
+2025-05-23 09:07:45,617 - INFO - Jobs completed: 0/234
+2025-05-23 09:08:15,665 - INFO - Jobs completed: 0/234
+2025-05-23 09:08:45,710 - INFO - Jobs completed: 0/234
+2025-05-23 09:09:15,757 - INFO - Jobs completed: 0/234
+2025-05-23 09:09:45,803 - INFO - Jobs completed: 0/234
+2025-05-23 09:11:04,140 - INFO - Starting comprehensive data structure benchmark suite
+2025-05-23 09:11:04,142 - INFO - Working directory: /scratch/cb761223/exercises/sheet09/datastructure_benchmark
+2025-05-23 09:11:04,142 - INFO - Excluding array with 1000 elements of 8388608 bytes (estimated 16800.0 MB)
+2025-05-23 09:11:04,142 - INFO - Excluding array with 100000 elements of 8388608 bytes (estimated 1680001.5 MB)
+2025-05-23 09:11:04,143 - INFO - Excluding array with 10000000 elements of 8388608 bytes (estimated 168000152.6 MB)
+2025-05-23 09:11:04,143 - INFO - Excluding array with 1000 elements of 8388608 bytes (estimated 16800.0 MB)
+2025-05-23 09:11:04,143 - INFO - Excluding array with 100000 elements of 8388608 bytes (estimated 1680001.5 MB)
+2025-05-23 09:11:04,144 - INFO - Excluding array with 10000000 elements of 8388608 bytes (estimated 168000152.6 MB)
+2025-05-23 09:11:04,144 - INFO - Excluding array with 1000 elements of 8388608 bytes (estimated 16800.0 MB)
+2025-05-23 09:11:04,144 - INFO - Excluding array with 100000 elements of 8388608 bytes (estimated 1680001.5 MB)
+2025-05-23 09:11:04,145 - INFO - Excluding array with 10000000 elements of 8388608 bytes (estimated 168000152.6 MB)
+2025-05-23 09:11:04,145 - INFO - Excluding array with 1000 elements of 8388608 bytes (estimated 16800.0 MB)
+2025-05-23 09:11:04,145 - INFO - Excluding array with 100000 elements of 8388608 bytes (estimated 1680001.5 MB)
+2025-05-23 09:11:04,145 - INFO - Excluding array with 10000000 elements of 8388608 bytes (estimated 168000152.6 MB)
+2025-05-23 09:11:04,145 - INFO - Excluding list_seq with 1000 elements of 8388608 bytes (estimated 16800.0 MB)
+2025-05-23 09:11:04,145 - INFO - Excluding list_seq with 100000 elements of 8388608 bytes (estimated 1680001.5 MB)
+2025-05-23 09:11:04,145 - INFO - Excluding slow combination: list_seq with 10000000 elements of 512 bytes
+2025-05-23 09:11:04,146 - INFO - Excluding list_seq with 10000000 elements of 8388608 bytes (estimated 168000152.6 MB)
+2025-05-23 09:11:04,146 - INFO - Excluding list_seq with 1000 elements of 8388608 bytes (estimated 16800.0 MB)
+2025-05-23 09:11:04,146 - INFO - Excluding list_seq with 100000 elements of 8388608 bytes (estimated 1680001.5 MB)
+2025-05-23 09:11:04,146 - INFO - Excluding slow combination: list_seq with 10000000 elements of 512 bytes
+2025-05-23 09:11:04,146 - INFO - Excluding list_seq with 10000000 elements of 8388608 bytes (estimated 168000152.6 MB)
+2025-05-23 09:11:04,146 - INFO - Excluding list_seq with 1000 elements of 8388608 bytes (estimated 16800.0 MB)
+2025-05-23 09:11:04,146 - INFO - Excluding list_seq with 100000 elements of 8388608 bytes (estimated 1680001.5 MB)
+2025-05-23 09:11:04,147 - INFO - Excluding slow combination: list_seq with 10000000 elements of 512 bytes
+2025-05-23 09:11:04,147 - INFO - Excluding list_seq with 10000000 elements of 8388608 bytes (estimated 168000152.6 MB)
+2025-05-23 09:11:04,147 - INFO - Excluding list_seq with 1000 elements of 8388608 bytes (estimated 16800.0 MB)
+2025-05-23 09:11:04,147 - INFO - Excluding list_seq with 100000 elements of 8388608 bytes (estimated 1680001.5 MB)
+2025-05-23 09:11:04,147 - INFO - Excluding slow combination: list_seq with 10000000 elements of 512 bytes
+2025-05-23 09:11:04,147 - INFO - Excluding list_seq with 10000000 elements of 8388608 bytes (estimated 168000152.6 MB)
+2025-05-23 09:11:04,148 - INFO - Excluding list_rand with 1000 elements of 8388608 bytes (estimated 16800.0 MB)
+2025-05-23 09:11:04,148 - INFO - Excluding list_rand with 100000 elements of 8388608 bytes (estimated 1680001.5 MB)
+2025-05-23 09:11:04,148 - INFO - Excluding slow combination: list_rand with 10000000 elements of 512 bytes
+2025-05-23 09:11:04,148 - INFO - Excluding list_rand with 10000000 elements of 8388608 bytes (estimated 168000152.6 MB)
+2025-05-23 09:11:04,148 - INFO - Excluding list_rand with 1000 elements of 8388608 bytes (estimated 16800.0 MB)
+2025-05-23 09:11:04,148 - INFO - Excluding list_rand with 100000 elements of 8388608 bytes (estimated 1680001.5 MB)
+2025-05-23 09:11:04,148 - INFO - Excluding slow combination: list_rand with 10000000 elements of 512 bytes
+2025-05-23 09:11:04,149 - INFO - Excluding list_rand with 10000000 elements of 8388608 bytes (estimated 168000152.6 MB)
+2025-05-23 09:11:04,149 - INFO - Excluding list_rand with 1000 elements of 8388608 bytes (estimated 16800.0 MB)
+2025-05-23 09:11:04,149 - INFO - Excluding list_rand with 100000 elements of 8388608 bytes (estimated 1680001.5 MB)
+2025-05-23 09:11:04,149 - INFO - Excluding slow combination: list_rand with 10000000 elements of 512 bytes
+2025-05-23 09:11:04,149 - INFO - Excluding list_rand with 10000000 elements of 8388608 bytes (estimated 168000152.6 MB)
+2025-05-23 09:11:04,149 - INFO - Excluding list_rand with 1000 elements of 8388608 bytes (estimated 16800.0 MB)
+2025-05-23 09:11:04,149 - INFO - Excluding list_rand with 100000 elements of 8388608 bytes (estimated 1680001.5 MB)
+2025-05-23 09:11:04,150 - INFO - Excluding slow combination: list_rand with 10000000 elements of 512 bytes
+2025-05-23 09:11:04,150 - INFO - Excluding list_rand with 10000000 elements of 8388608 bytes (estimated 168000152.6 MB)
+2025-05-23 09:11:04,150 - INFO - Generated 100 valid combinations, excluded 44
+2025-05-23 09:11:04,153 - INFO - Total combinations to test: 100
+2025-05-23 09:11:04,153 - INFO - Total jobs to submit: 300
+2025-05-23 09:11:35,962 - INFO - Starting comprehensive data structure benchmark suite
+2025-05-23 09:11:35,962 - INFO - Working directory: /scratch/cb761223/exercises/sheet09/datastructure_benchmark
+2025-05-23 09:11:35,962 - INFO - Excluding array with 1000 elements of 8388608 bytes (estimated 16800.0 MB)
+2025-05-23 09:11:35,962 - INFO - Excluding array with 100000 elements of 8388608 bytes (estimated 1680001.5 MB)
+2025-05-23 09:11:35,962 - INFO - Excluding array with 10000000 elements of 8388608 bytes (estimated 168000152.6 MB)
+2025-05-23 09:11:35,963 - INFO - Excluding array with 1000 elements of 8388608 bytes (estimated 16800.0 MB)
+2025-05-23 09:11:35,963 - INFO - Excluding array with 100000 elements of 8388608 bytes (estimated 1680001.5 MB)
+2025-05-23 09:11:35,963 - INFO - Excluding array with 10000000 elements of 8388608 bytes (estimated 168000152.6 MB)
+2025-05-23 09:11:35,963 - INFO - Excluding array with 1000 elements of 8388608 bytes (estimated 16800.0 MB)
+2025-05-23 09:11:35,963 - INFO - Excluding array with 100000 elements of 8388608 bytes (estimated 1680001.5 MB)
+2025-05-23 09:11:35,963 - INFO - Excluding array with 10000000 elements of 8388608 bytes (estimated 168000152.6 MB)
+2025-05-23 09:11:35,963 - INFO - Excluding array with 1000 elements of 8388608 bytes (estimated 16800.0 MB)
+2025-05-23 09:11:35,964 - INFO - Excluding array with 100000 elements of 8388608 bytes (estimated 1680001.5 MB)
+2025-05-23 09:11:35,964 - INFO - Excluding array with 10000000 elements of 8388608 bytes (estimated 168000152.6 MB)
+2025-05-23 09:11:35,964 - INFO - Excluding list_seq with 1000 elements of 8388608 bytes (estimated 16800.0 MB)
+2025-05-23 09:11:35,964 - INFO - Excluding list_seq with 100000 elements of 8388608 bytes (estimated 1680001.5 MB)
+2025-05-23 09:11:35,964 - INFO - Excluding slow combination: list_seq with 10000000 elements of 512 bytes
+2025-05-23 09:11:35,964 - INFO - Excluding list_seq with 10000000 elements of 8388608 bytes (estimated 168000152.6 MB)
+2025-05-23 09:11:35,964 - INFO - Excluding list_seq with 1000 elements of 8388608 bytes (estimated 16800.0 MB)
+2025-05-23 09:11:35,965 - INFO - Excluding list_seq with 100000 elements of 8388608 bytes (estimated 1680001.5 MB)
+2025-05-23 09:11:35,965 - INFO - Excluding slow combination: list_seq with 10000000 elements of 512 bytes
+2025-05-23 09:11:35,965 - INFO - Excluding list_seq with 10000000 elements of 8388608 bytes (estimated 168000152.6 MB)
+2025-05-23 09:11:35,965 - INFO - Excluding list_seq with 1000 elements of 8388608 bytes (estimated 16800.0 MB)
+2025-05-23 09:11:35,965 - INFO - Excluding list_seq with 100000 elements of 8388608 bytes (estimated 1680001.5 MB)
+2025-05-23 09:11:35,965 - INFO - Excluding slow combination: list_seq with 10000000 elements of 512 bytes
+2025-05-23 09:11:35,965 - INFO - Excluding list_seq with 10000000 elements of 8388608 bytes (estimated 168000152.6 MB)
+2025-05-23 09:11:35,966 - INFO - Excluding list_seq with 1000 elements of 8388608 bytes (estimated 16800.0 MB)
+2025-05-23 09:11:35,966 - INFO - Excluding list_seq with 100000 elements of 8388608 bytes (estimated 1680001.5 MB)
+2025-05-23 09:11:35,966 - INFO - Excluding slow combination: list_seq with 10000000 elements of 512 bytes
+2025-05-23 09:11:35,966 - INFO - Excluding list_seq with 10000000 elements of 8388608 bytes (estimated 168000152.6 MB)
+2025-05-23 09:11:35,966 - INFO - Excluding list_rand with 1000 elements of 8388608 bytes (estimated 16800.0 MB)
+2025-05-23 09:11:35,966 - INFO - Excluding list_rand with 100000 elements of 8388608 bytes (estimated 1680001.5 MB)
+2025-05-23 09:11:35,967 - INFO - Excluding slow combination: list_rand with 10000000 elements of 512 bytes
+2025-05-23 09:11:35,967 - INFO - Excluding list_rand with 10000000 elements of 8388608 bytes (estimated 168000152.6 MB)
+2025-05-23 09:11:35,968 - INFO - Excluding list_rand with 1000 elements of 8388608 bytes (estimated 16800.0 MB)
+2025-05-23 09:11:35,968 - INFO - Excluding list_rand with 100000 elements of 8388608 bytes (estimated 1680001.5 MB)
+2025-05-23 09:11:35,968 - INFO - Excluding slow combination: list_rand with 10000000 elements of 512 bytes
+2025-05-23 09:11:35,968 - INFO - Excluding list_rand with 10000000 elements of 8388608 bytes (estimated 168000152.6 MB)
+2025-05-23 09:11:35,968 - INFO - Excluding list_rand with 1000 elements of 8388608 bytes (estimated 16800.0 MB)
+2025-05-23 09:11:35,968 - INFO - Excluding list_rand with 100000 elements of 8388608 bytes (estimated 1680001.5 MB)
+2025-05-23 09:11:35,968 - INFO - Excluding slow combination: list_rand with 10000000 elements of 512 bytes
+2025-05-23 09:11:35,969 - INFO - Excluding list_rand with 10000000 elements of 8388608 bytes (estimated 168000152.6 MB)
+2025-05-23 09:11:35,969 - INFO - Excluding list_rand with 1000 elements of 8388608 bytes (estimated 16800.0 MB)
+2025-05-23 09:11:35,969 - INFO - Excluding list_rand with 100000 elements of 8388608 bytes (estimated 1680001.5 MB)
+2025-05-23 09:11:35,969 - INFO - Excluding slow combination: list_rand with 10000000 elements of 512 bytes
+2025-05-23 09:11:35,969 - INFO - Excluding list_rand with 10000000 elements of 8388608 bytes (estimated 168000152.6 MB)
+2025-05-23 09:11:35,969 - INFO - Generated 100 valid combinations, excluded 44
+2025-05-23 09:11:35,975 - INFO - Total combinations to test: 100
+2025-05-23 09:11:35,975 - INFO - Total jobs to submit: 300
+2025-05-23 09:11:36,196 - INFO - Submitted job 230060: bench_000_run1
+2025-05-23 09:11:36,226 - INFO - Submitted job 230061: bench_000_run2
+2025-05-23 09:11:36,259 - INFO - Submitted job 230062: bench_000_run3
+2025-05-23 09:11:36,285 - INFO - Submitted job 230063: bench_001_run1
+2025-05-23 09:11:36,315 - INFO - Submitted job 230064: bench_001_run2
+2025-05-23 09:11:36,345 - INFO - Submitted job 230065: bench_001_run3
+2025-05-23 09:11:36,372 - INFO - Submitted job 230066: bench_002_run1
+2025-05-23 09:11:36,403 - INFO - Submitted job 230067: bench_002_run2
+2025-05-23 09:11:36,433 - INFO - Submitted job 230068: bench_002_run3
+2025-05-23 09:11:36,461 - INFO - Submitted job 230069: bench_003_run1
+2025-05-23 09:11:36,494 - INFO - Submitted job 230070: bench_003_run2
+2025-05-23 09:11:36,520 - INFO - Submitted job 230071: bench_003_run3
+2025-05-23 09:11:36,546 - INFO - Submitted job 230072: bench_004_run1
+2025-05-23 09:11:36,580 - INFO - Submitted job 230073: bench_004_run2
+2025-05-23 09:11:36,611 - INFO - Submitted job 230074: bench_004_run3
+2025-05-23 09:11:36,676 - INFO - Submitted job 230075: bench_005_run1
+2025-05-23 09:11:36,711 - INFO - Submitted job 230076: bench_005_run2
+2025-05-23 09:11:36,741 - INFO - Submitted job 230077: bench_005_run3
+2025-05-23 09:11:36,772 - INFO - Submitted job 230078: bench_006_run1
+2025-05-23 09:11:36,799 - INFO - Submitted job 230079: bench_006_run2
+2025-05-23 09:11:36,825 - INFO - Submitted job 230080: bench_006_run3
+2025-05-23 09:11:36,849 - INFO - Submitted job 230081: bench_007_run1
+2025-05-23 09:11:36,876 - INFO - Submitted job 230082: bench_007_run2
+2025-05-23 09:11:36,902 - INFO - Submitted job 230083: bench_007_run3
+2025-05-23 09:11:36,927 - INFO - Submitted job 230084: bench_008_run1
+2025-05-23 09:11:36,954 - INFO - Submitted job 230085: bench_008_run2
+2025-05-23 09:11:36,978 - INFO - Submitted job 230086: bench_008_run3
+2025-05-23 09:11:37,006 - INFO - Submitted job 230087: bench_009_run1
+2025-05-23 09:11:37,044 - INFO - Submitted job 230088: bench_009_run2
+2025-05-23 09:11:37,069 - INFO - Submitted job 230089: bench_009_run3
+2025-05-23 09:11:37,096 - INFO - Submitted job 230090: bench_010_run1
+2025-05-23 09:11:37,122 - INFO - Submitted job 230091: bench_010_run2
+2025-05-23 09:11:37,155 - INFO - Submitted job 230092: bench_010_run3
+2025-05-23 09:11:37,179 - INFO - Submitted job 230093: bench_011_run1
+2025-05-23 09:11:37,206 - INFO - Submitted job 230094: bench_011_run2
+2025-05-23 09:11:37,234 - INFO - Submitted job 230095: bench_011_run3
+2025-05-23 09:11:37,259 - INFO - Submitted job 230096: bench_012_run1
+2025-05-23 09:11:37,283 - INFO - Submitted job 230097: bench_012_run2
+2025-05-23 09:11:37,309 - INFO - Submitted job 230098: bench_012_run3
+2025-05-23 09:11:37,333 - INFO - Submitted job 230099: bench_013_run1
+2025-05-23 09:11:37,359 - INFO - Submitted job 230100: bench_013_run2
+2025-05-23 09:11:37,383 - INFO - Submitted job 230101: bench_013_run3
+2025-05-23 09:11:37,411 - INFO - Submitted job 230102: bench_014_run1
+2025-05-23 09:11:37,439 - INFO - Submitted job 230103: bench_014_run2
+2025-05-23 09:11:37,467 - INFO - Submitted job 230104: bench_014_run3
+2025-05-23 09:11:37,495 - INFO - Submitted job 230105: bench_015_run1
+2025-05-23 09:11:37,521 - INFO - Submitted job 230106: bench_015_run2
+2025-05-23 09:11:37,547 - INFO - Submitted job 230107: bench_015_run3
+2025-05-23 09:11:37,575 - INFO - Submitted job 230108: bench_016_run1
+2025-05-23 09:11:37,605 - INFO - Submitted job 230109: bench_016_run2
+2025-05-23 09:11:37,630 - INFO - Submitted job 230110: bench_016_run3
+2025-05-23 09:11:37,661 - INFO - Submitted job 230111: bench_017_run1
+2025-05-23 09:11:37,688 - INFO - Submitted job 230112: bench_017_run2
+2025-05-23 09:11:37,718 - INFO - Submitted job 230113: bench_017_run3
+2025-05-23 09:11:37,744 - INFO - Submitted job 230114: bench_018_run1
+2025-05-23 09:11:37,771 - INFO - Submitted job 230115: bench_018_run2
+2025-05-23 09:11:37,801 - INFO - Submitted job 230116: bench_018_run3
+2025-05-23 09:11:37,833 - INFO - Submitted job 230117: bench_019_run1
+2025-05-23 09:11:37,859 - INFO - Submitted job 230118: bench_019_run2
+2025-05-23 09:11:37,893 - INFO - Submitted job 230119: bench_019_run3
+2025-05-23 09:11:37,919 - INFO - Submitted job 230120: bench_020_run1
+2025-05-23 09:11:37,947 - INFO - Submitted job 230121: bench_020_run2
+2025-05-23 09:11:37,975 - INFO - Submitted job 230122: bench_020_run3
+2025-05-23 09:11:38,005 - INFO - Submitted job 230123: bench_021_run1
+2025-05-23 09:11:38,036 - INFO - Submitted job 230124: bench_021_run2
+2025-05-23 09:11:38,070 - INFO - Submitted job 230125: bench_021_run3
+2025-05-23 09:11:38,099 - INFO - Submitted job 230126: bench_022_run1
+2025-05-23 09:11:38,127 - INFO - Submitted job 230127: bench_022_run2
+2025-05-23 09:11:38,159 - INFO - Submitted job 230128: bench_022_run3
+2025-05-23 09:11:38,196 - INFO - Submitted job 230129: bench_023_run1
+2025-05-23 09:11:38,223 - INFO - Submitted job 230130: bench_023_run2
+2025-05-23 09:11:38,254 - INFO - Submitted job 230131: bench_023_run3
+2025-05-23 09:11:38,289 - INFO - Submitted job 230132: bench_024_run1
+2025-05-23 09:11:38,315 - INFO - Submitted job 230133: bench_024_run2
+2025-05-23 09:11:38,350 - INFO - Submitted job 230134: bench_024_run3
+2025-05-23 09:11:38,382 - INFO - Submitted job 230135: bench_025_run1
+2025-05-23 09:11:38,415 - INFO - Submitted job 230136: bench_025_run2
+2025-05-23 09:11:38,446 - INFO - Submitted job 230137: bench_025_run3
+2025-05-23 09:11:38,479 - INFO - Submitted job 230138: bench_026_run1
+2025-05-23 09:11:38,511 - INFO - Submitted job 230139: bench_026_run2
+2025-05-23 09:11:38,542 - INFO - Submitted job 230140: bench_026_run3
+2025-05-23 09:11:38,571 - INFO - Submitted job 230141: bench_027_run1
+2025-05-23 09:11:38,600 - INFO - Submitted job 230142: bench_027_run2
+2025-05-23 09:11:38,630 - INFO - Submitted job 230143: bench_027_run3
+2025-05-23 09:11:38,661 - INFO - Submitted job 230144: bench_028_run1
+2025-05-23 09:11:38,689 - INFO - Submitted job 230145: bench_028_run2
+2025-05-23 09:11:38,717 - INFO - Submitted job 230146: bench_028_run3
+2025-05-23 09:11:38,749 - INFO - Submitted job 230147: bench_029_run1
+2025-05-23 09:11:38,775 - INFO - Submitted job 230148: bench_029_run2
+2025-05-23 09:11:38,803 - INFO - Submitted job 230149: bench_029_run3
+2025-05-23 09:11:38,835 - INFO - Submitted job 230150: bench_030_run1
+2025-05-23 09:11:38,863 - INFO - Submitted job 230151: bench_030_run2
+2025-05-23 09:11:38,889 - INFO - Submitted job 230152: bench_030_run3
+2025-05-23 09:11:38,928 - INFO - Submitted job 230153: bench_031_run1
+2025-05-23 09:11:38,953 - INFO - Submitted job 230154: bench_031_run2
+2025-05-23 09:11:38,991 - INFO - Submitted job 230155: bench_031_run3
+2025-05-23 09:11:39,022 - INFO - Submitted job 230156: bench_032_run1
+2025-05-23 09:11:39,052 - INFO - Submitted job 230157: bench_032_run2
+2025-05-23 09:11:39,080 - INFO - Submitted job 230158: bench_032_run3
+2025-05-23 09:11:39,108 - INFO - Submitted job 230159: bench_033_run1
+2025-05-23 09:11:39,135 - INFO - Submitted job 230160: bench_033_run2
+2025-05-23 09:11:39,168 - INFO - Submitted job 230161: bench_033_run3
+2025-05-23 09:11:39,195 - INFO - Submitted job 230162: bench_034_run1
+2025-05-23 09:11:39,223 - INFO - Submitted job 230163: bench_034_run2
+2025-05-23 09:11:39,251 - INFO - Submitted job 230164: bench_034_run3
+2025-05-23 09:11:39,280 - INFO - Submitted job 230165: bench_035_run1
+2025-05-23 09:11:39,314 - INFO - Submitted job 230166: bench_035_run2
+2025-05-23 09:11:39,340 - INFO - Submitted job 230167: bench_035_run3
+2025-05-23 09:11:39,368 - INFO - Submitted job 230168: bench_036_run1
+2025-05-23 09:11:39,397 - INFO - Submitted job 230169: bench_036_run2
+2025-05-23 09:11:39,427 - INFO - Submitted job 230170: bench_036_run3
+2025-05-23 09:11:39,509 - INFO - Submitted job 230171: bench_037_run1
+2025-05-23 09:11:39,540 - INFO - Submitted job 230172: bench_037_run2
+2025-05-23 09:11:39,574 - INFO - Submitted job 230173: bench_037_run3
+2025-05-23 09:11:39,607 - INFO - Submitted job 230174: bench_038_run1
+2025-05-23 09:11:39,635 - INFO - Submitted job 230175: bench_038_run2
+2025-05-23 09:11:39,661 - INFO - Submitted job 230176: bench_038_run3
+2025-05-23 09:11:39,698 - INFO - Submitted job 230177: bench_039_run1
+2025-05-23 09:11:39,724 - INFO - Submitted job 230178: bench_039_run2
+2025-05-23 09:11:39,755 - INFO - Submitted job 230179: bench_039_run3
+2025-05-23 09:11:39,788 - INFO - Submitted job 230180: bench_040_run1
+2025-05-23 09:11:39,817 - INFO - Submitted job 230181: bench_040_run2
+2025-05-23 09:11:39,842 - INFO - Submitted job 230182: bench_040_run3
+2025-05-23 09:11:39,867 - INFO - Submitted job 230183: bench_041_run1
+2025-05-23 09:11:39,893 - INFO - Submitted job 230184: bench_041_run2
+2025-05-23 09:11:39,918 - INFO - Submitted job 230185: bench_041_run3
+2025-05-23 09:11:39,944 - INFO - Submitted job 230186: bench_042_run1
+2025-05-23 09:11:39,969 - INFO - Submitted job 230187: bench_042_run2
+2025-05-23 09:11:39,995 - INFO - Submitted job 230188: bench_042_run3
+2025-05-23 09:11:40,021 - INFO - Submitted job 230189: bench_043_run1
+2025-05-23 09:11:40,045 - INFO - Submitted job 230190: bench_043_run2
+2025-05-23 09:11:40,071 - INFO - Submitted job 230191: bench_043_run3
+2025-05-23 09:11:40,097 - INFO - Submitted job 230192: bench_044_run1
+2025-05-23 09:11:40,125 - INFO - Submitted job 230193: bench_044_run2
+2025-05-23 09:11:40,152 - INFO - Submitted job 230194: bench_044_run3
+2025-05-23 09:11:40,192 - INFO - Submitted job 230195: bench_045_run1
+2025-05-23 09:11:40,225 - INFO - Submitted job 230196: bench_045_run2
+2025-05-23 09:11:40,256 - INFO - Submitted job 230197: bench_045_run3
+2025-05-23 09:11:40,282 - INFO - Submitted job 230198: bench_046_run1
+2025-05-23 09:11:40,310 - INFO - Submitted job 230199: bench_046_run2
+2025-05-23 09:11:40,339 - INFO - Submitted job 230200: bench_046_run3
+2025-05-23 09:11:40,365 - INFO - Submitted job 230201: bench_047_run1
+2025-05-23 09:11:40,394 - INFO - Submitted job 230202: bench_047_run2
+2025-05-23 09:11:40,422 - INFO - Submitted job 230203: bench_047_run3
+2025-05-23 09:11:40,448 - INFO - Submitted job 230204: bench_048_run1
+2025-05-23 09:11:40,479 - INFO - Submitted job 230205: bench_048_run2
+2025-05-23 09:11:40,507 - INFO - Submitted job 230206: bench_048_run3
+2025-05-23 09:11:40,533 - INFO - Submitted job 230207: bench_049_run1
+2025-05-23 09:11:40,564 - INFO - Submitted job 230208: bench_049_run2
+2025-05-23 09:11:40,594 - INFO - Submitted job 230209: bench_049_run3
+2025-05-23 09:11:40,620 - INFO - Submitted job 230210: bench_050_run1
+2025-05-23 09:11:40,647 - INFO - Submitted job 230211: bench_050_run2
+2025-05-23 09:11:40,679 - INFO - Submitted job 230212: bench_050_run3
+2025-05-23 09:11:40,708 - INFO - Submitted job 230213: bench_051_run1
+2025-05-23 09:11:40,742 - INFO - Submitted job 230214: bench_051_run2
+2025-05-23 09:11:40,775 - INFO - Submitted job 230215: bench_051_run3
+2025-05-23 09:11:40,831 - INFO - Submitted job 230216: bench_052_run1
+2025-05-23 09:11:40,865 - INFO - Submitted job 230217: bench_052_run2
+2025-05-23 09:11:40,904 - INFO - Submitted job 230218: bench_052_run3
+2025-05-23 09:11:40,931 - INFO - Submitted job 230219: bench_053_run1
+2025-05-23 09:11:40,961 - INFO - Submitted job 230220: bench_053_run2
+2025-05-23 09:11:40,991 - INFO - Submitted job 230221: bench_053_run3
+2025-05-23 09:11:41,022 - INFO - Submitted job 230222: bench_054_run1
+2025-05-23 09:11:41,053 - INFO - Submitted job 230223: bench_054_run2
+2025-05-23 09:11:41,084 - INFO - Submitted job 230224: bench_054_run3
+2025-05-23 09:11:41,115 - INFO - Submitted job 230225: bench_055_run1
+2025-05-23 09:11:41,144 - INFO - Submitted job 230226: bench_055_run2
+2025-05-23 09:11:41,176 - INFO - Submitted job 230227: bench_055_run3
+2025-05-23 09:11:41,232 - INFO - Submitted job 230228: bench_056_run1
+2025-05-23 09:11:41,261 - INFO - Submitted job 230229: bench_056_run2
+2025-05-23 09:11:41,293 - INFO - Submitted job 230230: bench_056_run3
+2025-05-23 09:11:41,320 - INFO - Submitted job 230231: bench_057_run1
+2025-05-23 09:11:41,345 - INFO - Submitted job 230232: bench_057_run2
+2025-05-23 09:11:41,374 - INFO - Submitted job 230233: bench_057_run3
+2025-05-23 09:11:41,403 - INFO - Submitted job 230234: bench_058_run1
+2025-05-23 09:11:41,432 - INFO - Submitted job 230235: bench_058_run2
+2025-05-23 09:11:41,455 - INFO - Submitted job 230236: bench_058_run3
+2025-05-23 09:11:41,480 - INFO - Submitted job 230237: bench_059_run1
+2025-05-23 09:11:41,508 - INFO - Submitted job 230238: bench_059_run2
+2025-05-23 09:11:41,535 - INFO - Submitted job 230239: bench_059_run3
+2025-05-23 09:11:41,563 - INFO - Submitted job 230240: bench_060_run1
+2025-05-23 09:11:41,604 - INFO - Submitted job 230241: bench_060_run2
+2025-05-23 09:11:41,645 - INFO - Submitted job 230242: bench_060_run3
+2025-05-23 09:11:41,676 - INFO - Submitted job 230243: bench_061_run1
+2025-05-23 09:11:41,713 - INFO - Submitted job 230244: bench_061_run2
+2025-05-23 09:11:41,746 - INFO - Submitted job 230245: bench_061_run3
+2025-05-23 09:11:41,775 - INFO - Submitted job 230246: bench_062_run1
+2025-05-23 09:11:41,804 - INFO - Submitted job 230247: bench_062_run2
+2025-05-23 09:11:41,831 - INFO - Submitted job 230248: bench_062_run3
+2025-05-23 09:11:41,859 - INFO - Submitted job 230249: bench_063_run1
+2025-05-23 09:11:41,887 - INFO - Submitted job 230250: bench_063_run2
+2025-05-23 09:11:41,917 - INFO - Submitted job 230251: bench_063_run3
+2025-05-23 09:11:41,946 - INFO - Submitted job 230252: bench_064_run1
+2025-05-23 09:11:41,971 - INFO - Submitted job 230253: bench_064_run2
+2025-05-23 09:11:42,017 - INFO - Submitted job 230254: bench_064_run3
+2025-05-23 09:11:42,048 - INFO - Submitted job 230255: bench_065_run1
+2025-05-23 09:11:42,081 - INFO - Submitted job 230256: bench_065_run2
+2025-05-23 09:11:42,109 - INFO - Submitted job 230257: bench_065_run3
+2025-05-23 09:11:42,136 - INFO - Submitted job 230258: bench_066_run1
+2025-05-23 09:11:42,162 - INFO - Submitted job 230259: bench_066_run2
+2025-05-23 09:11:42,226 - INFO - Submitted job 230260: bench_066_run3
+2025-05-23 09:11:42,260 - INFO - Submitted job 230261: bench_067_run1
+2025-05-23 09:11:42,367 - INFO - Submitted job 230262: bench_067_run2
+2025-05-23 09:11:42,391 - INFO - Submitted job 230263: bench_067_run3
+2025-05-23 09:11:42,418 - INFO - Submitted job 230264: bench_068_run1
+2025-05-23 09:11:42,444 - INFO - Submitted job 230265: bench_068_run2
+2025-05-23 09:11:42,471 - INFO - Submitted job 230266: bench_068_run3
+2025-05-23 09:11:42,504 - INFO - Submitted job 230267: bench_069_run1
+2025-05-23 09:11:42,531 - INFO - Submitted job 230268: bench_069_run2
+2025-05-23 09:11:42,558 - INFO - Submitted job 230269: bench_069_run3
+2025-05-23 09:11:42,583 - INFO - Submitted job 230270: bench_070_run1
+2025-05-23 09:11:42,607 - INFO - Submitted job 230271: bench_070_run2
+2025-05-23 09:11:42,632 - INFO - Submitted job 230272: bench_070_run3
+2025-05-23 09:11:42,656 - INFO - Submitted job 230273: bench_071_run1
+2025-05-23 09:11:42,682 - INFO - Submitted job 230274: bench_071_run2
+2025-05-23 09:11:42,709 - INFO - Submitted job 230275: bench_071_run3
+2025-05-23 09:11:42,734 - INFO - Submitted job 230276: bench_072_run1
+2025-05-23 09:11:42,759 - INFO - Submitted job 230277: bench_072_run2
+2025-05-23 09:11:42,785 - INFO - Submitted job 230278: bench_072_run3
+2025-05-23 09:11:42,810 - INFO - Submitted job 230279: bench_073_run1
+2025-05-23 09:11:42,837 - INFO - Submitted job 230280: bench_073_run2
+2025-05-23 09:11:42,862 - INFO - Submitted job 230281: bench_073_run3
+2025-05-23 09:11:42,888 - INFO - Submitted job 230282: bench_074_run1
+2025-05-23 09:11:42,914 - INFO - Submitted job 230283: bench_074_run2
+2025-05-23 09:11:42,940 - INFO - Submitted job 230284: bench_074_run3
+2025-05-23 09:11:42,966 - INFO - Submitted job 230285: bench_075_run1
+2025-05-23 09:11:42,990 - INFO - Submitted job 230286: bench_075_run2
+2025-05-23 09:11:43,017 - INFO - Submitted job 230287: bench_075_run3
+2025-05-23 09:11:43,042 - INFO - Submitted job 230288: bench_076_run1
+2025-05-23 09:11:43,068 - INFO - Submitted job 230289: bench_076_run2
+2025-05-23 09:11:43,093 - INFO - Submitted job 230290: bench_076_run3
+2025-05-23 09:11:43,118 - INFO - Submitted job 230291: bench_077_run1
+2025-05-23 09:11:43,143 - INFO - Submitted job 230292: bench_077_run2
+2025-05-23 09:11:43,169 - INFO - Submitted job 230293: bench_077_run3
+2025-05-23 09:11:43,195 - INFO - Submitted job 230294: bench_078_run1
+2025-05-23 09:11:43,221 - INFO - Submitted job 230295: bench_078_run2
+2025-05-23 09:11:43,246 - INFO - Submitted job 230296: bench_078_run3
+2025-05-23 09:11:43,272 - INFO - Submitted job 230297: bench_079_run1
+2025-05-23 09:11:43,300 - INFO - Submitted job 230298: bench_079_run2
+2025-05-23 09:11:43,325 - INFO - Submitted job 230299: bench_079_run3
+2025-05-23 09:11:43,350 - INFO - Submitted job 230300: bench_080_run1
+2025-05-23 09:11:43,377 - INFO - Submitted job 230301: bench_080_run2
+2025-05-23 09:11:43,402 - INFO - Submitted job 230302: bench_080_run3
+2025-05-23 09:11:43,427 - INFO - Submitted job 230303: bench_081_run1
+2025-05-23 09:11:43,452 - INFO - Submitted job 230304: bench_081_run2
+2025-05-23 09:11:43,478 - INFO - Submitted job 230305: bench_081_run3
+2025-05-23 09:11:43,503 - INFO - Submitted job 230306: bench_082_run1
+2025-05-23 09:11:43,529 - INFO - Submitted job 230307: bench_082_run2
+2025-05-23 09:11:43,553 - INFO - Submitted job 230308: bench_082_run3
+2025-05-23 09:11:43,580 - INFO - Submitted job 230309: bench_083_run1
+2025-05-23 09:11:43,606 - INFO - Submitted job 230310: bench_083_run2
+2025-05-23 09:11:43,631 - INFO - Submitted job 230311: bench_083_run3
+2025-05-23 09:11:43,656 - INFO - Submitted job 230312: bench_084_run1
+2025-05-23 09:11:43,687 - INFO - Submitted job 230313: bench_084_run2
+2025-05-23 09:11:43,713 - INFO - Submitted job 230314: bench_084_run3
+2025-05-23 09:11:43,737 - INFO - Submitted job 230315: bench_085_run1
+2025-05-23 09:11:43,762 - INFO - Submitted job 230316: bench_085_run2
+2025-05-23 09:11:43,787 - INFO - Submitted job 230317: bench_085_run3
+2025-05-23 09:11:43,811 - INFO - Submitted job 230318: bench_086_run1
+2025-05-23 09:11:43,837 - INFO - Submitted job 230319: bench_086_run2
+2025-05-23 09:11:43,862 - INFO - Submitted job 230320: bench_086_run3
+2025-05-23 09:11:43,887 - INFO - Submitted job 230321: bench_087_run1
+2025-05-23 09:11:43,913 - INFO - Submitted job 230322: bench_087_run2
+2025-05-23 09:11:43,937 - INFO - Submitted job 230323: bench_087_run3
+2025-05-23 09:11:43,961 - INFO - Submitted job 230324: bench_088_run1
+2025-05-23 09:11:43,986 - INFO - Submitted job 230325: bench_088_run2
+2025-05-23 09:11:44,011 - INFO - Submitted job 230326: bench_088_run3
+2025-05-23 09:11:44,037 - INFO - Submitted job 230327: bench_089_run1
+2025-05-23 09:11:44,063 - INFO - Submitted job 230328: bench_089_run2
+2025-05-23 09:11:44,089 - INFO - Submitted job 230329: bench_089_run3
+2025-05-23 09:11:44,114 - INFO - Submitted job 230330: bench_090_run1
+2025-05-23 09:11:44,140 - INFO - Submitted job 230331: bench_090_run2
+2025-05-23 09:11:44,165 - INFO - Submitted job 230332: bench_090_run3
+2025-05-23 09:11:44,191 - INFO - Submitted job 230333: bench_091_run1
+2025-05-23 09:11:44,217 - INFO - Submitted job 230334: bench_091_run2
+2025-05-23 09:11:44,241 - INFO - Submitted job 230335: bench_091_run3
+2025-05-23 09:11:44,267 - INFO - Submitted job 230336: bench_092_run1
+2025-05-23 09:11:44,293 - INFO - Submitted job 230337: bench_092_run2
+2025-05-23 09:11:44,318 - INFO - Submitted job 230338: bench_092_run3
+2025-05-23 09:11:44,343 - INFO - Submitted job 230339: bench_093_run1
+2025-05-23 09:11:44,369 - INFO - Submitted job 230340: bench_093_run2
+2025-05-23 09:11:44,399 - INFO - Submitted job 230341: bench_093_run3
+2025-05-23 09:11:44,425 - INFO - Submitted job 230342: bench_094_run1
+2025-05-23 09:11:44,450 - INFO - Submitted job 230343: bench_094_run2
+2025-05-23 09:11:44,473 - INFO - Submitted job 230344: bench_094_run3
+2025-05-23 09:11:44,501 - INFO - Submitted job 230345: bench_095_run1
+2025-05-23 09:11:44,533 - INFO - Submitted job 230346: bench_095_run2
+2025-05-23 09:11:44,560 - INFO - Submitted job 230347: bench_095_run3
+2025-05-23 09:11:44,584 - INFO - Submitted job 230348: bench_096_run1
+2025-05-23 09:11:44,610 - INFO - Submitted job 230349: bench_096_run2
+2025-05-23 09:11:44,636 - INFO - Submitted job 230350: bench_096_run3
+2025-05-23 09:11:44,661 - INFO - Submitted job 230351: bench_097_run1
+2025-05-23 09:11:44,686 - INFO - Submitted job 230352: bench_097_run2
+2025-05-23 09:11:44,710 - INFO - Submitted job 230353: bench_097_run3
+2025-05-23 09:11:44,738 - INFO - Submitted job 230354: bench_098_run1
+2025-05-23 09:11:44,764 - INFO - Submitted job 230355: bench_098_run2
+2025-05-23 09:11:44,789 - INFO - Submitted job 230356: bench_098_run3
+2025-05-23 09:11:44,815 - INFO - Submitted job 230357: bench_099_run1
+2025-05-23 09:11:44,848 - INFO - Submitted job 230358: bench_099_run2
+2025-05-23 09:11:44,873 - INFO - Submitted job 230359: bench_099_run3
+2025-05-23 09:11:44,873 - INFO - Submitted 300 jobs to SLURM
+2025-05-23 09:11:44,873 - INFO - Waiting for 300 jobs to complete...
+2025-05-23 09:12:14,951 - INFO - Jobs completed: 42/300
+2025-05-23 09:12:45,010 - INFO - Jobs completed: 0/258
+2025-05-23 09:13:15,061 - INFO - Jobs completed: 0/258
+2025-05-23 09:13:45,119 - INFO - Jobs completed: 0/258
+2025-05-23 09:14:15,141 - INFO - Jobs completed: 0/258
+2025-05-23 09:14:45,193 - INFO - Jobs completed: 0/258
+2025-05-23 09:15:15,366 - INFO - Jobs completed: 2/258
+2025-05-23 09:15:45,415 - INFO - Jobs completed: 0/256
+2025-05-23 09:16:15,466 - INFO - Jobs completed: 0/256
+2025-05-23 09:16:45,517 - INFO - Jobs completed: 0/256
+2025-05-23 09:17:15,565 - INFO - Jobs completed: 19/256
+2025-05-23 09:17:45,613 - INFO - Jobs completed: 0/237
+2025-05-23 09:18:15,671 - INFO - Jobs completed: 3/237
+2025-05-23 09:18:45,702 - INFO - Jobs completed: 0/234
+2025-05-23 09:19:15,728 - INFO - Jobs completed: 3/234
+2025-05-23 09:19:45,813 - INFO - Jobs completed: 0/231
+2025-05-23 09:20:15,855 - INFO - Jobs completed: 0/231
+2025-05-23 09:20:45,903 - INFO - Jobs completed: 0/231
+2025-05-23 09:21:15,950 - INFO - Jobs completed: 0/231
+2025-05-23 09:21:45,999 - INFO - Jobs completed: 0/231
+2025-05-23 09:22:16,039 - INFO - Jobs completed: 0/231
+2025-05-23 09:22:46,069 - INFO - Jobs completed: 0/231
+2025-05-23 09:23:16,115 - INFO - Jobs completed: 0/231
+2025-05-23 09:23:46,164 - INFO - Jobs completed: 0/231
+2025-05-23 09:24:16,210 - INFO - Jobs completed: 0/231
+2025-05-23 09:25:19,568 - INFO - Starting comprehensive data structure benchmark suite
+2025-05-23 09:25:19,568 - INFO - Working directory: /scratch/cb761223/exercises/sheet09/datastructure_benchmark
+2025-05-23 09:25:19,570 - INFO - Excluding array with 1000 elements of 8388608 bytes (estimated 16800.0 MB)
+2025-05-23 09:25:19,570 - INFO - Excluding array with 100000 elements of 8388608 bytes (estimated 1680001.5 MB)
+2025-05-23 09:25:19,570 - INFO - Excluding array with 10000000 elements of 8388608 bytes (estimated 168000152.6 MB)
+2025-05-23 09:25:19,570 - INFO - Excluding array with 1000 elements of 8388608 bytes (estimated 16800.0 MB)
+2025-05-23 09:25:19,570 - INFO - Excluding array with 100000 elements of 8388608 bytes (estimated 1680001.5 MB)
+2025-05-23 09:25:19,570 - INFO - Excluding array with 10000000 elements of 8388608 bytes (estimated 168000152.6 MB)
+2025-05-23 09:25:19,571 - INFO - Excluding array with 1000 elements of 8388608 bytes (estimated 16800.0 MB)
+2025-05-23 09:25:19,571 - INFO - Excluding array with 100000 elements of 8388608 bytes (estimated 1680001.5 MB)
+2025-05-23 09:25:19,571 - INFO - Excluding array with 10000000 elements of 8388608 bytes (estimated 168000152.6 MB)
+2025-05-23 09:25:19,571 - INFO - Excluding array with 1000 elements of 8388608 bytes (estimated 16800.0 MB)
+2025-05-23 09:25:19,571 - INFO - Excluding array with 100000 elements of 8388608 bytes (estimated 1680001.5 MB)
+2025-05-23 09:25:19,571 - INFO - Excluding array with 10000000 elements of 8388608 bytes (estimated 168000152.6 MB)
+2025-05-23 09:25:19,571 - INFO - Excluding list_seq with 1000 elements of 8388608 bytes (estimated 16800.0 MB)
+2025-05-23 09:25:19,572 - INFO - Excluding list_seq with 100000 elements of 8388608 bytes (estimated 1680001.5 MB)
+2025-05-23 09:25:19,572 - INFO - Excluding slow combination: list_seq with 10000000 elements of 512 bytes
+2025-05-23 09:25:19,572 - INFO - Excluding list_seq with 10000000 elements of 8388608 bytes (estimated 168000152.6 MB)
+2025-05-23 09:25:19,572 - INFO - Excluding list_seq with 1000 elements of 8388608 bytes (estimated 16800.0 MB)
+2025-05-23 09:25:19,572 - INFO - Excluding list_seq with 100000 elements of 8388608 bytes (estimated 1680001.5 MB)
+2025-05-23 09:25:19,572 - INFO - Excluding slow combination: list_seq with 10000000 elements of 512 bytes
+2025-05-23 09:25:19,572 - INFO - Excluding list_seq with 10000000 elements of 8388608 bytes (estimated 168000152.6 MB)
+2025-05-23 09:25:19,573 - INFO - Excluding list_seq with 1000 elements of 8388608 bytes (estimated 16800.0 MB)
+2025-05-23 09:25:19,573 - INFO - Excluding list_seq with 100000 elements of 8388608 bytes (estimated 1680001.5 MB)
+2025-05-23 09:25:19,573 - INFO - Excluding slow combination: list_seq with 10000000 elements of 512 bytes
+2025-05-23 09:25:19,573 - INFO - Excluding list_seq with 10000000 elements of 8388608 bytes (estimated 168000152.6 MB)
+2025-05-23 09:25:19,573 - INFO - Excluding list_seq with 1000 elements of 8388608 bytes (estimated 16800.0 MB)
+2025-05-23 09:25:19,573 - INFO - Excluding list_seq with 100000 elements of 8388608 bytes (estimated 1680001.5 MB)
+2025-05-23 09:25:19,573 - INFO - Excluding slow combination: list_seq with 10000000 elements of 512 bytes
+2025-05-23 09:25:19,574 - INFO - Excluding list_seq with 10000000 elements of 8388608 bytes (estimated 168000152.6 MB)
+2025-05-23 09:25:19,574 - INFO - Excluding list_rand with 1000 elements of 8388608 bytes (estimated 16800.0 MB)
+2025-05-23 09:25:19,574 - INFO - Excluding list_rand with 100000 elements of 8388608 bytes (estimated 1680001.5 MB)
+2025-05-23 09:25:19,574 - INFO - Excluding slow combination: list_rand with 10000000 elements of 512 bytes
+2025-05-23 09:25:19,574 - INFO - Excluding list_rand with 10000000 elements of 8388608 bytes (estimated 168000152.6 MB)
+2025-05-23 09:25:19,574 - INFO - Excluding list_rand with 1000 elements of 8388608 bytes (estimated 16800.0 MB)
+2025-05-23 09:25:19,574 - INFO - Excluding list_rand with 100000 elements of 8388608 bytes (estimated 1680001.5 MB)
+2025-05-23 09:25:19,575 - INFO - Excluding slow combination: list_rand with 10000000 elements of 512 bytes
+2025-05-23 09:25:19,575 - INFO - Excluding list_rand with 10000000 elements of 8388608 bytes (estimated 168000152.6 MB)
+2025-05-23 09:25:19,575 - INFO - Excluding list_rand with 1000 elements of 8388608 bytes (estimated 16800.0 MB)
+2025-05-23 09:25:19,575 - INFO - Excluding list_rand with 100000 elements of 8388608 bytes (estimated 1680001.5 MB)
+2025-05-23 09:25:19,575 - INFO - Excluding slow combination: list_rand with 10000000 elements of 512 bytes
+2025-05-23 09:25:19,575 - INFO - Excluding list_rand with 10000000 elements of 8388608 bytes (estimated 168000152.6 MB)
+2025-05-23 09:25:19,575 - INFO - Excluding list_rand with 1000 elements of 8388608 bytes (estimated 16800.0 MB)
+2025-05-23 09:25:19,576 - INFO - Excluding list_rand with 100000 elements of 8388608 bytes (estimated 1680001.5 MB)
+2025-05-23 09:25:19,576 - INFO - Excluding slow combination: list_rand with 10000000 elements of 512 bytes
+2025-05-23 09:25:19,576 - INFO - Excluding list_rand with 10000000 elements of 8388608 bytes (estimated 168000152.6 MB)
+2025-05-23 09:25:19,576 - INFO - Generated 100 valid combinations, excluded 44
+2025-05-23 09:25:19,581 - INFO - Total combinations to test: 100
+2025-05-23 09:25:19,581 - INFO - Total jobs to submit: 300
+2025-05-23 09:25:19,605 - INFO - Submitted job 230361: bench_000_run1
+2025-05-23 09:25:19,628 - INFO - Submitted job 230362: bench_000_run2
+2025-05-23 09:25:19,648 - INFO - Submitted job 230363: bench_000_run3
+2025-05-23 09:25:19,670 - INFO - Submitted job 230364: bench_001_run1
+2025-05-23 09:25:19,692 - INFO - Submitted job 230365: bench_001_run2
+2025-05-23 09:25:19,714 - INFO - Submitted job 230366: bench_001_run3
+2025-05-23 09:25:19,738 - INFO - Submitted job 230367: bench_002_run1
+2025-05-23 09:25:19,760 - INFO - Submitted job 230368: bench_002_run2
+2025-05-23 09:25:19,783 - INFO - Submitted job 230369: bench_002_run3
+2025-05-23 09:25:19,805 - INFO - Submitted job 230370: bench_003_run1
+2025-05-23 09:25:19,827 - INFO - Submitted job 230371: bench_003_run2
+2025-05-23 09:25:19,849 - INFO - Submitted job 230372: bench_003_run3
+2025-05-23 09:25:19,870 - INFO - Submitted job 230373: bench_004_run1
+2025-05-23 09:25:19,890 - INFO - Submitted job 230374: bench_004_run2
+2025-05-23 09:25:19,913 - INFO - Submitted job 230375: bench_004_run3
+2025-05-23 09:25:19,935 - INFO - Submitted job 230376: bench_005_run1
+2025-05-23 09:25:19,955 - INFO - Submitted job 230377: bench_005_run2
+2025-05-23 09:25:19,978 - INFO - Submitted job 230378: bench_005_run3
+2025-05-23 09:25:19,999 - INFO - Submitted job 230379: bench_006_run1
+2025-05-23 09:25:20,021 - INFO - Submitted job 230380: bench_006_run2
+2025-05-23 09:25:20,046 - INFO - Submitted job 230381: bench_006_run3
+2025-05-23 09:25:20,069 - INFO - Submitted job 230382: bench_007_run1
+2025-05-23 09:25:20,090 - INFO - Submitted job 230383: bench_007_run2
+2025-05-23 09:25:20,110 - INFO - Submitted job 230384: bench_007_run3
+2025-05-23 09:25:20,133 - INFO - Submitted job 230385: bench_008_run1
+2025-05-23 09:25:20,156 - INFO - Submitted job 230386: bench_008_run2
+2025-05-23 09:25:20,178 - INFO - Submitted job 230387: bench_008_run3
+2025-05-23 09:25:20,200 - INFO - Submitted job 230388: bench_009_run1
+2025-05-23 09:25:20,229 - INFO - Submitted job 230389: bench_009_run2
+2025-05-23 09:25:20,249 - INFO - Submitted job 230390: bench_009_run3
+2025-05-23 09:25:20,271 - INFO - Submitted job 230391: bench_010_run1
+2025-05-23 09:25:20,294 - INFO - Submitted job 230392: bench_010_run2
+2025-05-23 09:25:20,317 - INFO - Submitted job 230393: bench_010_run3
+2025-05-23 09:25:20,339 - INFO - Submitted job 230394: bench_011_run1
+2025-05-23 09:25:20,361 - INFO - Submitted job 230395: bench_011_run2
+2025-05-23 09:25:20,383 - INFO - Submitted job 230396: bench_011_run3
+2025-05-23 09:25:20,405 - INFO - Submitted job 230397: bench_012_run1
+2025-05-23 09:25:20,428 - INFO - Submitted job 230398: bench_012_run2
+2025-05-23 09:25:20,451 - INFO - Submitted job 230399: bench_012_run3
+2025-05-23 09:25:20,474 - INFO - Submitted job 230400: bench_013_run1
+2025-05-23 09:25:20,499 - INFO - Submitted job 230401: bench_013_run2
+2025-05-23 09:25:20,528 - INFO - Submitted job 230402: bench_013_run3
+2025-05-23 09:25:20,572 - INFO - Submitted job 230403: bench_014_run1
+2025-05-23 09:25:20,595 - INFO - Submitted job 230404: bench_014_run2
+2025-05-23 09:25:20,777 - INFO - Submitted job 230405: bench_014_run3
+2025-05-23 09:25:20,835 - INFO - Submitted job 230406: bench_015_run1
+2025-05-23 09:25:20,857 - INFO - Submitted job 230407: bench_015_run2
+2025-05-23 09:25:20,880 - INFO - Submitted job 230408: bench_015_run3
+2025-05-23 09:25:20,901 - INFO - Submitted job 230409: bench_016_run1
+2025-05-23 09:25:20,923 - INFO - Submitted job 230410: bench_016_run2
+2025-05-23 09:25:20,944 - INFO - Submitted job 230411: bench_016_run3
+2025-05-23 09:25:20,968 - INFO - Submitted job 230412: bench_017_run1
+2025-05-23 09:25:20,990 - INFO - Submitted job 230413: bench_017_run2
+2025-05-23 09:25:21,012 - INFO - Submitted job 230414: bench_017_run3
+2025-05-23 09:25:21,033 - INFO - Submitted job 230415: bench_018_run1
+2025-05-23 09:25:21,054 - INFO - Submitted job 230416: bench_018_run2
+2025-05-23 09:25:21,076 - INFO - Submitted job 230417: bench_018_run3
+2025-05-23 09:25:21,098 - INFO - Submitted job 230418: bench_019_run1
+2025-05-23 09:25:21,120 - INFO - Submitted job 230419: bench_019_run2
+2025-05-23 09:25:21,143 - INFO - Submitted job 230420: bench_019_run3
+2025-05-23 09:25:21,167 - INFO - Submitted job 230421: bench_020_run1
+2025-05-23 09:25:21,190 - INFO - Submitted job 230422: bench_020_run2
+2025-05-23 09:25:21,213 - INFO - Submitted job 230423: bench_020_run3
+2025-05-23 09:25:21,235 - INFO - Submitted job 230424: bench_021_run1
+2025-05-23 09:25:21,257 - INFO - Submitted job 230425: bench_021_run2
+2025-05-23 09:25:21,279 - INFO - Submitted job 230426: bench_021_run3
+2025-05-23 09:25:21,301 - INFO - Submitted job 230427: bench_022_run1
+2025-05-23 09:25:21,323 - INFO - Submitted job 230428: bench_022_run2
+2025-05-23 09:25:21,344 - INFO - Submitted job 230429: bench_022_run3
+2025-05-23 09:25:21,366 - INFO - Submitted job 230430: bench_023_run1
+2025-05-23 09:25:21,389 - INFO - Submitted job 230431: bench_023_run2
+2025-05-23 09:25:21,413 - INFO - Submitted job 230432: bench_023_run3
+2025-05-23 09:25:21,436 - INFO - Submitted job 230433: bench_024_run1
+2025-05-23 09:25:21,458 - INFO - Submitted job 230434: bench_024_run2
+2025-05-23 09:25:21,482 - INFO - Submitted job 230435: bench_024_run3
+2025-05-23 09:25:21,505 - INFO - Submitted job 230436: bench_025_run1
+2025-05-23 09:25:21,527 - INFO - Submitted job 230437: bench_025_run2
+2025-05-23 09:25:21,548 - INFO - Submitted job 230438: bench_025_run3
+2025-05-23 09:25:21,570 - INFO - Submitted job 230439: bench_026_run1
+2025-05-23 09:25:21,593 - INFO - Submitted job 230440: bench_026_run2
+2025-05-23 09:25:21,616 - INFO - Submitted job 230441: bench_026_run3
+2025-05-23 09:25:21,639 - INFO - Submitted job 230442: bench_027_run1
+2025-05-23 09:25:21,661 - INFO - Submitted job 230443: bench_027_run2
+2025-05-23 09:25:21,683 - INFO - Submitted job 230444: bench_027_run3
+2025-05-23 09:25:21,706 - INFO - Submitted job 230445: bench_028_run1
+2025-05-23 09:25:21,728 - INFO - Submitted job 230446: bench_028_run2
+2025-05-23 09:25:21,751 - INFO - Submitted job 230447: bench_028_run3
+2025-05-23 09:25:21,773 - INFO - Submitted job 230448: bench_029_run1
+2025-05-23 09:25:21,795 - INFO - Submitted job 230449: bench_029_run2
+2025-05-23 09:25:21,817 - INFO - Submitted job 230450: bench_029_run3
+2025-05-23 09:25:21,842 - INFO - Submitted job 230451: bench_030_run1
+2025-05-23 09:25:21,864 - INFO - Submitted job 230452: bench_030_run2
+2025-05-23 09:25:21,886 - INFO - Submitted job 230453: bench_030_run3
+2025-05-23 09:25:21,910 - INFO - Submitted job 230454: bench_031_run1
+2025-05-23 09:25:21,932 - INFO - Submitted job 230455: bench_031_run2
+2025-05-23 09:25:21,954 - INFO - Submitted job 230456: bench_031_run3
+2025-05-23 09:25:21,975 - INFO - Submitted job 230457: bench_032_run1
+2025-05-23 09:25:21,997 - INFO - Submitted job 230458: bench_032_run2
+2025-05-23 09:25:22,020 - INFO - Submitted job 230459: bench_032_run3
+2025-05-23 09:25:22,053 - INFO - Submitted job 230460: bench_033_run1
+2025-05-23 09:25:22,077 - INFO - Submitted job 230461: bench_033_run2
+2025-05-23 09:25:22,098 - INFO - Submitted job 230462: bench_033_run3
+2025-05-23 09:25:22,142 - INFO - Submitted job 230463: bench_034_run1
+2025-05-23 09:25:22,164 - INFO - Submitted job 230464: bench_034_run2
+2025-05-23 09:25:22,191 - INFO - Submitted job 230465: bench_034_run3
+2025-05-23 09:25:22,214 - INFO - Submitted job 230466: bench_035_run1
+2025-05-23 09:25:22,236 - INFO - Submitted job 230467: bench_035_run2
+2025-05-23 09:25:22,259 - INFO - Submitted job 230468: bench_035_run3
+2025-05-23 09:25:22,280 - INFO - Submitted job 230469: bench_036_run1
+2025-05-23 09:25:22,300 - INFO - Submitted job 230470: bench_036_run2
+2025-05-23 09:25:22,323 - INFO - Submitted job 230471: bench_036_run3
+2025-05-23 09:25:22,345 - INFO - Submitted job 230472: bench_037_run1
+2025-05-23 09:25:22,368 - INFO - Submitted job 230473: bench_037_run2
+2025-05-23 09:25:22,460 - INFO - Submitted job 230474: bench_037_run3
+2025-05-23 09:25:22,483 - INFO - Submitted job 230475: bench_038_run1
+2025-05-23 09:25:22,505 - INFO - Submitted job 230476: bench_038_run2
+2025-05-23 09:25:22,526 - INFO - Submitted job 230477: bench_038_run3
+2025-05-23 09:25:22,547 - INFO - Submitted job 230478: bench_039_run1
+2025-05-23 09:25:22,569 - INFO - Submitted job 230479: bench_039_run2
+2025-05-23 09:25:22,592 - INFO - Submitted job 230480: bench_039_run3
+2025-05-23 09:25:22,616 - INFO - Submitted job 230481: bench_040_run1
+2025-05-23 09:25:22,640 - INFO - Submitted job 230482: bench_040_run2
+2025-05-23 09:25:22,662 - INFO - Submitted job 230483: bench_040_run3
+2025-05-23 09:25:22,687 - INFO - Submitted job 230484: bench_041_run1
+2025-05-23 09:25:22,710 - INFO - Submitted job 230485: bench_041_run2
+2025-05-23 09:25:22,733 - INFO - Submitted job 230486: bench_041_run3
+2025-05-23 09:25:22,754 - INFO - Submitted job 230487: bench_042_run1
+2025-05-23 09:25:22,776 - INFO - Submitted job 230488: bench_042_run2
+2025-05-23 09:25:22,796 - INFO - Submitted job 230489: bench_042_run3
+2025-05-23 09:25:22,823 - INFO - Submitted job 230490: bench_043_run1
+2025-05-23 09:25:22,845 - INFO - Submitted job 230491: bench_043_run2
+2025-05-23 09:25:22,867 - INFO - Submitted job 230492: bench_043_run3
+2025-05-23 09:25:22,889 - INFO - Submitted job 230493: bench_044_run1
+2025-05-23 09:25:22,911 - INFO - Submitted job 230494: bench_044_run2
+2025-05-23 09:25:22,933 - INFO - Submitted job 230495: bench_044_run3
+2025-05-23 09:25:22,956 - INFO - Submitted job 230496: bench_045_run1
+2025-05-23 09:25:22,979 - INFO - Submitted job 230497: bench_045_run2
+2025-05-23 09:25:23,001 - INFO - Submitted job 230498: bench_045_run3
+2025-05-23 09:25:23,024 - INFO - Submitted job 230499: bench_046_run1
+2025-05-23 09:25:23,048 - INFO - Submitted job 230500: bench_046_run2
+2025-05-23 09:25:23,071 - INFO - Submitted job 230501: bench_046_run3
+2025-05-23 09:25:23,096 - INFO - Submitted job 230502: bench_047_run1
+2025-05-23 09:25:23,120 - INFO - Submitted job 230503: bench_047_run2
+2025-05-23 09:25:23,143 - INFO - Submitted job 230504: bench_047_run3
+2025-05-23 09:25:23,166 - INFO - Submitted job 230505: bench_048_run1
+2025-05-23 09:25:23,190 - INFO - Submitted job 230506: bench_048_run2
+2025-05-23 09:25:23,214 - INFO - Submitted job 230507: bench_048_run3
+2025-05-23 09:25:23,236 - INFO - Submitted job 230508: bench_049_run1
+2025-05-23 09:25:23,259 - INFO - Submitted job 230509: bench_049_run2
+2025-05-23 09:25:23,281 - INFO - Submitted job 230510: bench_049_run3
+2025-05-23 09:25:23,304 - INFO - Submitted job 230511: bench_050_run1
+2025-05-23 09:25:23,326 - INFO - Submitted job 230512: bench_050_run2
+2025-05-23 09:25:23,351 - INFO - Submitted job 230513: bench_050_run3
+2025-05-23 09:25:23,375 - INFO - Submitted job 230514: bench_051_run1
+2025-05-23 09:25:23,397 - INFO - Submitted job 230515: bench_051_run2
+2025-05-23 09:25:23,420 - INFO - Submitted job 230516: bench_051_run3
+2025-05-23 09:25:23,443 - INFO - Submitted job 230517: bench_052_run1
+2025-05-23 09:25:23,465 - INFO - Submitted job 230518: bench_052_run2
+2025-05-23 09:25:23,488 - INFO - Submitted job 230519: bench_052_run3
+2025-05-23 09:25:23,512 - INFO - Submitted job 230520: bench_053_run1
+2025-05-23 09:25:23,536 - INFO - Submitted job 230521: bench_053_run2
+2025-05-23 09:25:23,560 - INFO - Submitted job 230522: bench_053_run3
+2025-05-23 09:25:23,583 - INFO - Submitted job 230523: bench_054_run1
+2025-05-23 09:25:23,606 - INFO - Submitted job 230524: bench_054_run2
+2025-05-23 09:25:23,630 - INFO - Submitted job 230525: bench_054_run3
+2025-05-23 09:25:23,654 - INFO - Submitted job 230526: bench_055_run1
+2025-05-23 09:25:23,679 - INFO - Submitted job 230527: bench_055_run2
+2025-05-23 09:25:23,710 - INFO - Submitted job 230528: bench_055_run3
+2025-05-23 09:25:23,733 - INFO - Submitted job 230529: bench_056_run1
+2025-05-23 09:25:23,754 - INFO - Submitted job 230530: bench_056_run2
+2025-05-23 09:25:23,775 - INFO - Submitted job 230531: bench_056_run3
+2025-05-23 09:25:23,798 - INFO - Submitted job 230532: bench_057_run1
+2025-05-23 09:25:23,821 - INFO - Submitted job 230533: bench_057_run2
+2025-05-23 09:25:23,846 - INFO - Submitted job 230534: bench_057_run3
+2025-05-23 09:25:23,870 - INFO - Submitted job 230535: bench_058_run1
+2025-05-23 09:25:23,893 - INFO - Submitted job 230536: bench_058_run2
+2025-05-23 09:25:23,917 - INFO - Submitted job 230537: bench_058_run3
+2025-05-23 09:25:23,941 - INFO - Submitted job 230538: bench_059_run1
+2025-05-23 09:25:23,964 - INFO - Submitted job 230539: bench_059_run2
+2025-05-23 09:25:23,987 - INFO - Submitted job 230540: bench_059_run3
+2025-05-23 09:25:24,010 - INFO - Submitted job 230541: bench_060_run1
+2025-05-23 09:25:24,033 - INFO - Submitted job 230542: bench_060_run2
+2025-05-23 09:25:24,054 - INFO - Submitted job 230543: bench_060_run3
+2025-05-23 09:25:24,078 - INFO - Submitted job 230544: bench_061_run1
+2025-05-23 09:25:24,101 - INFO - Submitted job 230545: bench_061_run2
+2025-05-23 09:25:24,124 - INFO - Submitted job 230546: bench_061_run3
+2025-05-23 09:25:24,147 - INFO - Submitted job 230547: bench_062_run1
+2025-05-23 09:25:24,169 - INFO - Submitted job 230548: bench_062_run2
+2025-05-23 09:25:24,191 - INFO - Submitted job 230549: bench_062_run3
+2025-05-23 09:25:24,213 - INFO - Submitted job 230550: bench_063_run1
+2025-05-23 09:25:24,237 - INFO - Submitted job 230551: bench_063_run2
+2025-05-23 09:25:24,260 - INFO - Submitted job 230552: bench_063_run3
+2025-05-23 09:25:24,281 - INFO - Submitted job 230553: bench_064_run1
+2025-05-23 09:25:24,302 - INFO - Submitted job 230554: bench_064_run2
+2025-05-23 09:25:24,324 - INFO - Submitted job 230555: bench_064_run3
+2025-05-23 09:25:24,348 - INFO - Submitted job 230556: bench_065_run1
+2025-05-23 09:25:24,371 - INFO - Submitted job 230557: bench_065_run2
+2025-05-23 09:25:24,393 - INFO - Submitted job 230558: bench_065_run3
+2025-05-23 09:25:24,414 - INFO - Submitted job 230559: bench_066_run1
+2025-05-23 09:25:24,435 - INFO - Submitted job 230560: bench_066_run2
+2025-05-23 09:25:24,457 - INFO - Submitted job 230561: bench_066_run3
+2025-05-23 09:25:24,479 - INFO - Submitted job 230562: bench_067_run1
+2025-05-23 09:25:24,503 - INFO - Submitted job 230563: bench_067_run2
+2025-05-23 09:25:24,528 - INFO - Submitted job 230564: bench_067_run3
+2025-05-23 09:25:24,551 - INFO - Submitted job 230565: bench_068_run1
+2025-05-23 09:25:24,575 - INFO - Submitted job 230566: bench_068_run2
+2025-05-23 09:25:24,600 - INFO - Submitted job 230567: bench_068_run3
+2025-05-23 09:25:24,622 - INFO - Submitted job 230568: bench_069_run1
+2025-05-23 09:25:24,645 - INFO - Submitted job 230569: bench_069_run2
+2025-05-23 09:25:24,668 - INFO - Submitted job 230570: bench_069_run3
+2025-05-23 09:25:24,691 - INFO - Submitted job 230571: bench_070_run1
+2025-05-23 09:25:24,712 - INFO - Submitted job 230572: bench_070_run2
+2025-05-23 09:25:24,736 - INFO - Submitted job 230573: bench_070_run3
+2025-05-23 09:25:24,759 - INFO - Submitted job 230574: bench_071_run1
+2025-05-23 09:25:24,783 - INFO - Submitted job 230575: bench_071_run2
+2025-05-23 09:25:24,807 - INFO - Submitted job 230576: bench_071_run3
+2025-05-23 09:25:24,830 - INFO - Submitted job 230577: bench_072_run1
+2025-05-23 09:25:24,853 - INFO - Submitted job 230578: bench_072_run2
+2025-05-23 09:25:24,877 - INFO - Submitted job 230579: bench_072_run3
+2025-05-23 09:25:24,899 - INFO - Submitted job 230580: bench_073_run1
+2025-05-23 09:25:24,921 - INFO - Submitted job 230581: bench_073_run2
+2025-05-23 09:25:24,944 - INFO - Submitted job 230582: bench_073_run3
+2025-05-23 09:25:24,965 - INFO - Submitted job 230583: bench_074_run1
+2025-05-23 09:25:24,987 - INFO - Submitted job 230584: bench_074_run2
+2025-05-23 09:25:25,011 - INFO - Submitted job 230585: bench_074_run3
+2025-05-23 09:25:25,035 - INFO - Submitted job 230586: bench_075_run1
+2025-05-23 09:25:25,058 - INFO - Submitted job 230587: bench_075_run2
+2025-05-23 09:25:25,082 - INFO - Submitted job 230588: bench_075_run3
+2025-05-23 09:25:25,105 - INFO - Submitted job 230589: bench_076_run1
+2025-05-23 09:25:25,128 - INFO - Submitted job 230590: bench_076_run2
+2025-05-23 09:25:25,150 - INFO - Submitted job 230591: bench_076_run3
+2025-05-23 09:25:25,172 - INFO - Submitted job 230592: bench_077_run1
+2025-05-23 09:25:25,193 - INFO - Submitted job 230593: bench_077_run2
+2025-05-23 09:25:25,215 - INFO - Submitted job 230594: bench_077_run3
+2025-05-23 09:25:25,238 - INFO - Submitted job 230595: bench_078_run1
+2025-05-23 09:25:25,260 - INFO - Submitted job 230596: bench_078_run2
+2025-05-23 09:25:25,283 - INFO - Submitted job 230597: bench_078_run3
+2025-05-23 09:25:25,306 - INFO - Submitted job 230598: bench_079_run1
+2025-05-23 09:25:25,328 - INFO - Submitted job 230599: bench_079_run2
+2025-05-23 09:25:25,350 - INFO - Submitted job 230600: bench_079_run3
+2025-05-23 09:25:25,371 - INFO - Submitted job 230601: bench_080_run1
+2025-05-23 09:25:25,392 - INFO - Submitted job 230602: bench_080_run2
+2025-05-23 09:25:25,412 - INFO - Submitted job 230603: bench_080_run3
+2025-05-23 09:25:25,434 - INFO - Submitted job 230604: bench_081_run1
+2025-05-23 09:25:25,454 - INFO - Submitted job 230605: bench_081_run2
+2025-05-23 09:25:25,477 - INFO - Submitted job 230606: bench_081_run3
+2025-05-23 09:25:25,499 - INFO - Submitted job 230607: bench_082_run1
+2025-05-23 09:25:25,522 - INFO - Submitted job 230608: bench_082_run2
+2025-05-23 09:25:25,547 - INFO - Submitted job 230609: bench_082_run3
+2025-05-23 09:25:25,569 - INFO - Submitted job 230610: bench_083_run1
+2025-05-23 09:25:25,591 - INFO - Submitted job 230611: bench_083_run2
+2025-05-23 09:25:25,613 - INFO - Submitted job 230612: bench_083_run3
+2025-05-23 09:25:25,635 - INFO - Submitted job 230613: bench_084_run1
+2025-05-23 09:25:25,659 - INFO - Submitted job 230614: bench_084_run2
+2025-05-23 09:25:25,682 - INFO - Submitted job 230615: bench_084_run3
+2025-05-23 09:25:25,707 - INFO - Submitted job 230616: bench_085_run1
+2025-05-23 09:25:25,730 - INFO - Submitted job 230617: bench_085_run2
+2025-05-23 09:25:25,754 - INFO - Submitted job 230618: bench_085_run3
+2025-05-23 09:25:25,779 - INFO - Submitted job 230619: bench_086_run1
+2025-05-23 09:25:25,802 - INFO - Submitted job 230620: bench_086_run2
+2025-05-23 09:25:25,826 - INFO - Submitted job 230621: bench_086_run3
+2025-05-23 09:25:25,851 - INFO - Submitted job 230622: bench_087_run1
+2025-05-23 09:25:25,875 - INFO - Submitted job 230623: bench_087_run2
+2025-05-23 09:25:25,898 - INFO - Submitted job 230624: bench_087_run3
+2025-05-23 09:25:25,920 - INFO - Submitted job 230625: bench_088_run1
+2025-05-23 09:25:25,943 - INFO - Submitted job 230626: bench_088_run2
+2025-05-23 09:25:25,966 - INFO - Submitted job 230627: bench_088_run3
+2025-05-23 09:25:25,990 - INFO - Submitted job 230628: bench_089_run1
+2025-05-23 09:25:26,014 - INFO - Submitted job 230629: bench_089_run2
+2025-05-23 09:25:26,040 - INFO - Submitted job 230630: bench_089_run3
+2025-05-23 09:25:26,065 - INFO - Submitted job 230631: bench_090_run1
+2025-05-23 09:25:26,088 - INFO - Submitted job 230632: bench_090_run2
+2025-05-23 09:25:26,110 - INFO - Submitted job 230633: bench_090_run3
+2025-05-23 09:25:26,134 - INFO - Submitted job 230634: bench_091_run1
+2025-05-23 09:25:26,155 - INFO - Submitted job 230635: bench_091_run2
+2025-05-23 09:25:26,178 - INFO - Submitted job 230636: bench_091_run3
+2025-05-23 09:25:26,201 - INFO - Submitted job 230637: bench_092_run1
+2025-05-23 09:25:26,224 - INFO - Submitted job 230638: bench_092_run2
+2025-05-23 09:25:26,248 - INFO - Submitted job 230639: bench_092_run3
+2025-05-23 09:25:26,272 - INFO - Submitted job 230640: bench_093_run1
+2025-05-23 09:25:26,294 - INFO - Submitted job 230641: bench_093_run2
+2025-05-23 09:25:26,316 - INFO - Submitted job 230642: bench_093_run3
+2025-05-23 09:25:26,337 - INFO - Submitted job 230643: bench_094_run1
+2025-05-23 09:25:26,359 - INFO - Submitted job 230644: bench_094_run2
+2025-05-23 09:25:26,379 - INFO - Submitted job 230645: bench_094_run3
+2025-05-23 09:25:26,401 - INFO - Submitted job 230646: bench_095_run1
+2025-05-23 09:25:26,424 - INFO - Submitted job 230647: bench_095_run2
+2025-05-23 09:25:26,447 - INFO - Submitted job 230648: bench_095_run3
+2025-05-23 09:25:26,469 - INFO - Submitted job 230649: bench_096_run1
+2025-05-23 09:25:26,491 - INFO - Submitted job 230650: bench_096_run2
+2025-05-23 09:25:26,512 - INFO - Submitted job 230651: bench_096_run3
+2025-05-23 09:25:26,535 - INFO - Submitted job 230652: bench_097_run1
+2025-05-23 09:25:26,557 - INFO - Submitted job 230653: bench_097_run2
+2025-05-23 09:25:26,579 - INFO - Submitted job 230654: bench_097_run3
+2025-05-23 09:25:26,601 - INFO - Submitted job 230655: bench_098_run1
+2025-05-23 09:25:26,625 - INFO - Submitted job 230656: bench_098_run2
+2025-05-23 09:25:26,648 - INFO - Submitted job 230657: bench_098_run3
+2025-05-23 09:25:26,670 - INFO - Submitted job 230658: bench_099_run1
+2025-05-23 09:25:26,693 - INFO - Submitted job 230659: bench_099_run2
+2025-05-23 09:25:26,717 - INFO - Submitted job 230660: bench_099_run3
+2025-05-23 09:25:26,717 - INFO - Submitted 300 jobs to SLURM
+2025-05-23 09:25:26,717 - INFO - Waiting for 300 jobs to complete...
+2025-05-23 09:25:57,615 - INFO - Jobs completed: 42/300
+2025-05-23 09:26:27,639 - INFO - Jobs completed: 0/258
+2025-05-23 09:26:57,690 - INFO - Jobs completed: 0/258
+2025-05-23 09:27:27,744 - INFO - Jobs completed: 0/258
+2025-05-23 09:27:57,791 - INFO - Jobs completed: 0/258
+2025-05-23 09:28:27,844 - INFO - Jobs completed: 0/258
+2025-05-23 09:28:57,886 - INFO - Jobs completed: 2/258
+2025-05-23 09:29:27,914 - INFO - Jobs completed: 0/256
+2025-05-23 09:29:57,944 - INFO - Jobs completed: 0/256
+2025-05-23 09:30:27,983 - INFO - Jobs completed: 0/256
+2025-05-23 09:30:58,030 - INFO - Jobs completed: 19/256
+2025-05-23 09:31:28,087 - INFO - Jobs completed: 0/237
+2025-05-23 09:31:58,134 - INFO - Jobs completed: 3/237
+2025-05-23 09:32:28,184 - INFO - Jobs completed: 0/234
+2025-05-23 09:32:58,230 - INFO - Jobs completed: 3/234
+2025-05-23 09:33:28,263 - INFO - Jobs completed: 0/231
+2025-05-23 09:33:58,309 - INFO - Jobs completed: 0/231
+2025-05-23 09:34:28,347 - INFO - Jobs completed: 0/231
+2025-05-23 09:34:58,379 - INFO - Jobs completed: 0/231
+2025-05-23 09:35:28,425 - INFO - Jobs completed: 0/231
+2025-05-23 09:35:58,451 - INFO - Jobs completed: 0/231
+2025-05-23 09:36:28,501 - INFO - Jobs completed: 0/231
+2025-05-23 09:36:58,547 - INFO - Jobs completed: 0/231
+2025-05-23 09:37:28,597 - INFO - Jobs completed: 0/231
+2025-05-23 09:37:58,644 - INFO - Jobs completed: 0/231
+2025-05-23 09:38:28,692 - INFO - Jobs completed: 0/231
+2025-05-23 09:38:58,712 - INFO - Jobs completed: 0/231
+2025-05-23 09:39:28,742 - INFO - Jobs completed: 0/231
+2025-05-23 09:39:58,789 - INFO - Jobs completed: 0/231
+2025-05-23 09:40:28,837 - INFO - Jobs completed: 0/231
+2025-05-23 09:40:58,884 - INFO - Jobs completed: 0/231
+2025-05-23 09:41:28,932 - INFO - Jobs completed: 27/231
+2025-05-23 09:41:59,102 - INFO - Jobs completed: 6/204
+2025-05-23 09:42:29,151 - INFO - Jobs completed: 12/198
+2025-05-23 09:42:59,185 - INFO - Jobs completed: 0/186
+2025-05-23 09:43:29,235 - INFO - Jobs completed: 0/186
+2025-05-23 09:43:59,282 - INFO - Jobs completed: 0/186
+2025-05-23 09:44:29,320 - INFO - Jobs completed: 0/186
+2025-05-23 09:44:59,365 - INFO - Jobs completed: 2/186
+2025-05-23 09:45:29,415 - INFO - Jobs completed: 0/184
+2025-05-23 09:45:59,455 - INFO - Jobs completed: 0/184
+2025-05-23 09:46:29,478 - INFO - Jobs completed: 0/184
+2025-05-23 09:46:59,525 - INFO - Jobs completed: 1/184
+2025-05-23 09:47:29,574 - INFO - Jobs completed: 0/183
+2025-05-23 09:47:59,604 - INFO - Jobs completed: 0/183
+2025-05-23 09:48:29,653 - INFO - Jobs completed: 0/183
+2025-05-23 09:48:59,700 - INFO - Jobs completed: 3/183
+2025-05-23 09:49:29,749 - INFO - Jobs completed: 0/180
+2025-05-23 09:49:59,778 - INFO - Jobs completed: 0/180
+2025-05-23 09:50:29,828 - INFO - Jobs completed: 0/180
+2025-05-23 09:50:59,874 - INFO - Jobs completed: 0/180
+2025-05-23 09:51:29,914 - INFO - Jobs completed: 0/180
+2025-05-23 09:51:59,955 - INFO - Jobs completed: 0/180
+2025-05-23 09:52:29,989 - INFO - Jobs completed: 0/180
+2025-05-23 09:53:00,021 - INFO - Jobs completed: 0/180
+2025-05-23 09:53:30,102 - INFO - Jobs completed: 0/180
+2025-05-23 09:54:00,147 - INFO - Jobs completed: 0/180
+2025-05-23 09:54:30,187 - INFO - Jobs completed: 0/180
+2025-05-23 09:55:00,233 - INFO - Jobs completed: 0/180
+2025-05-23 09:55:30,282 - INFO - Jobs completed: 0/180
+2025-05-23 09:56:00,319 - INFO - Jobs completed: 0/180
+2025-05-23 10:02:25,441 - INFO - Starting comprehensive data structure benchmark suite
+2025-05-23 10:02:25,441 - INFO - Working directory: /scratch/cb761223/exercises/sheet09/datastructure_benchmark
+2025-05-23 10:02:25,441 - INFO - Excluding array with 1000 elements of 8388608 bytes (estimated 16800.0 MB)
+2025-05-23 10:02:25,441 - INFO - Excluding array with 100000 elements of 8388608 bytes (estimated 1680001.5 MB)
+2025-05-23 10:02:25,441 - INFO - Excluding array with 10000000 elements of 8388608 bytes (estimated 168000152.6 MB)
+2025-05-23 10:02:25,442 - INFO - Excluding array with 1000 elements of 8388608 bytes (estimated 16800.0 MB)
+2025-05-23 10:02:25,442 - INFO - Excluding array with 100000 elements of 8388608 bytes (estimated 1680001.5 MB)
+2025-05-23 10:02:25,442 - INFO - Excluding array with 10000000 elements of 8388608 bytes (estimated 168000152.6 MB)
+2025-05-23 10:02:25,442 - INFO - Excluding array with 1000 elements of 8388608 bytes (estimated 16800.0 MB)
+2025-05-23 10:02:25,442 - INFO - Excluding array with 100000 elements of 8388608 bytes (estimated 1680001.5 MB)
+2025-05-23 10:02:25,442 - INFO - Excluding array with 10000000 elements of 8388608 bytes (estimated 168000152.6 MB)
+2025-05-23 10:02:25,442 - INFO - Excluding array with 1000 elements of 8388608 bytes (estimated 16800.0 MB)
+2025-05-23 10:02:25,443 - INFO - Excluding array with 100000 elements of 8388608 bytes (estimated 1680001.5 MB)
+2025-05-23 10:02:25,443 - INFO - Excluding array with 10000000 elements of 8388608 bytes (estimated 168000152.6 MB)
+2025-05-23 10:02:25,443 - INFO - Excluding list_seq with 1000 elements of 8388608 bytes (estimated 16800.0 MB)
+2025-05-23 10:02:25,443 - INFO - Excluding list_seq with 100000 elements of 8388608 bytes (estimated 1680001.5 MB)
+2025-05-23 10:02:25,443 - INFO - Excluding slow combination: list_seq with 10000000 elements of 512 bytes
+2025-05-23 10:02:25,443 - INFO - Excluding list_seq with 10000000 elements of 8388608 bytes (estimated 168000152.6 MB)
+2025-05-23 10:02:25,443 - INFO - Excluding list_seq with 1000 elements of 8388608 bytes (estimated 16800.0 MB)
+2025-05-23 10:02:25,443 - INFO - Excluding list_seq with 100000 elements of 8388608 bytes (estimated 1680001.5 MB)
+2025-05-23 10:02:25,444 - INFO - Excluding slow combination: list_seq with 10000000 elements of 512 bytes
+2025-05-23 10:02:25,444 - INFO - Excluding list_seq with 10000000 elements of 8388608 bytes (estimated 168000152.6 MB)
+2025-05-23 10:02:25,444 - INFO - Excluding list_seq with 1000 elements of 8388608 bytes (estimated 16800.0 MB)
+2025-05-23 10:02:25,444 - INFO - Excluding list_seq with 100000 elements of 8388608 bytes (estimated 1680001.5 MB)
+2025-05-23 10:02:25,444 - INFO - Excluding slow combination: list_seq with 10000000 elements of 512 bytes
+2025-05-23 10:02:25,444 - INFO - Excluding list_seq with 10000000 elements of 8388608 bytes (estimated 168000152.6 MB)
+2025-05-23 10:02:25,444 - INFO - Excluding list_seq with 1000 elements of 8388608 bytes (estimated 16800.0 MB)
+2025-05-23 10:02:25,445 - INFO - Excluding list_seq with 100000 elements of 8388608 bytes (estimated 1680001.5 MB)
+2025-05-23 10:02:25,446 - INFO - Excluding slow combination: list_seq with 10000000 elements of 512 bytes
+2025-05-23 10:02:25,446 - INFO - Excluding list_seq with 10000000 elements of 8388608 bytes (estimated 168000152.6 MB)
+2025-05-23 10:02:25,446 - INFO - Excluding list_rand with 1000 elements of 8388608 bytes (estimated 16800.0 MB)
+2025-05-23 10:02:25,446 - INFO - Excluding list_rand with 100000 elements of 8388608 bytes (estimated 1680001.5 MB)
+2025-05-23 10:02:25,446 - INFO - Excluding slow combination: list_rand with 10000000 elements of 512 bytes
+2025-05-23 10:02:25,446 - INFO - Excluding list_rand with 10000000 elements of 8388608 bytes (estimated 168000152.6 MB)
+2025-05-23 10:02:25,447 - INFO - Excluding list_rand with 1000 elements of 8388608 bytes (estimated 16800.0 MB)
+2025-05-23 10:02:25,447 - INFO - Excluding list_rand with 100000 elements of 8388608 bytes (estimated 1680001.5 MB)
+2025-05-23 10:02:25,447 - INFO - Excluding slow combination: list_rand with 10000000 elements of 512 bytes
+2025-05-23 10:02:25,447 - INFO - Excluding list_rand with 10000000 elements of 8388608 bytes (estimated 168000152.6 MB)
+2025-05-23 10:02:25,447 - INFO - Excluding list_rand with 1000 elements of 8388608 bytes (estimated 16800.0 MB)
+2025-05-23 10:02:25,447 - INFO - Excluding list_rand with 100000 elements of 8388608 bytes (estimated 1680001.5 MB)
+2025-05-23 10:02:25,447 - INFO - Excluding slow combination: list_rand with 10000000 elements of 512 bytes
+2025-05-23 10:02:25,447 - INFO - Excluding list_rand with 10000000 elements of 8388608 bytes (estimated 168000152.6 MB)
+2025-05-23 10:02:25,448 - INFO - Excluding list_rand with 1000 elements of 8388608 bytes (estimated 16800.0 MB)
+2025-05-23 10:02:25,448 - INFO - Excluding list_rand with 100000 elements of 8388608 bytes (estimated 1680001.5 MB)
+2025-05-23 10:02:25,448 - INFO - Excluding slow combination: list_rand with 10000000 elements of 512 bytes
+2025-05-23 10:02:25,448 - INFO - Excluding list_rand with 10000000 elements of 8388608 bytes (estimated 168000152.6 MB)
+2025-05-23 10:02:25,448 - INFO - Generated 100 valid combinations, excluded 44
+2025-05-23 10:02:25,454 - INFO - Total combinations to test: 100
+2025-05-23 10:02:25,454 - INFO - Total jobs to submit: 300
+2025-05-23 10:02:25,480 - INFO - Submitted job 230664: bench_000_run1
+2025-05-23 10:02:25,505 - INFO - Submitted job 230665: bench_000_run2
+2025-05-23 10:02:25,528 - INFO - Submitted job 230666: bench_000_run3
+2025-05-23 10:02:25,551 - INFO - Submitted job 230667: bench_001_run1
+2025-05-23 10:02:25,574 - INFO - Submitted job 230668: bench_001_run2
+2025-05-23 10:02:25,597 - INFO - Submitted job 230669: bench_001_run3
+2025-05-23 10:02:25,621 - INFO - Submitted job 230670: bench_002_run1
+2025-05-23 10:02:25,643 - INFO - Submitted job 230671: bench_002_run2
+2025-05-23 10:02:25,667 - INFO - Submitted job 230672: bench_002_run3
+2025-05-23 10:02:25,691 - INFO - Submitted job 230673: bench_003_run1
+2025-05-23 10:02:25,714 - INFO - Submitted job 230674: bench_003_run2
+2025-05-23 10:02:25,738 - INFO - Submitted job 230675: bench_003_run3
+2025-05-23 10:02:25,762 - INFO - Submitted job 230676: bench_004_run1
+2025-05-23 10:02:25,786 - INFO - Submitted job 230677: bench_004_run2
+2025-05-23 10:02:25,808 - INFO - Submitted job 230678: bench_004_run3
+2025-05-23 10:02:25,833 - INFO - Submitted job 230679: bench_005_run1
+2025-05-23 10:02:25,856 - INFO - Submitted job 230680: bench_005_run2
+2025-05-23 10:02:25,880 - INFO - Submitted job 230681: bench_005_run3
+2025-05-23 10:02:25,904 - INFO - Submitted job 230682: bench_006_run1
+2025-05-23 10:02:25,933 - INFO - Submitted job 230683: bench_006_run2
+2025-05-23 10:02:25,958 - INFO - Submitted job 230684: bench_006_run3
+2025-05-23 10:02:25,984 - INFO - Submitted job 230685: bench_007_run1
+2025-05-23 10:02:26,008 - INFO - Submitted job 230686: bench_007_run2
+2025-05-23 10:02:26,033 - INFO - Submitted job 230687: bench_007_run3
+2025-05-23 10:02:26,057 - INFO - Submitted job 230688: bench_008_run1
+2025-05-23 10:02:26,082 - INFO - Submitted job 230689: bench_008_run2
+2025-05-23 10:02:26,109 - INFO - Submitted job 230690: bench_008_run3
+2025-05-23 10:02:26,134 - INFO - Submitted job 230691: bench_009_run1
+2025-05-23 10:02:26,161 - INFO - Submitted job 230692: bench_009_run2
+2025-05-23 10:02:26,185 - INFO - Submitted job 230693: bench_009_run3
+2025-05-23 10:02:26,208 - INFO - Submitted job 230694: bench_010_run1
+2025-05-23 10:02:26,232 - INFO - Submitted job 230695: bench_010_run2
+2025-05-23 10:02:26,257 - INFO - Submitted job 230696: bench_010_run3
+2025-05-23 10:02:26,280 - INFO - Submitted job 230697: bench_011_run1
+2025-05-23 10:02:26,303 - INFO - Submitted job 230698: bench_011_run2
+2025-05-23 10:02:26,327 - INFO - Submitted job 230699: bench_011_run3
+2025-05-23 10:02:26,352 - INFO - Submitted job 230700: bench_012_run1
+2025-05-23 10:02:26,377 - INFO - Submitted job 230701: bench_012_run2
+2025-05-23 10:02:26,401 - INFO - Submitted job 230702: bench_012_run3
+2025-05-23 10:02:26,425 - INFO - Submitted job 230703: bench_013_run1
+2025-05-23 10:02:26,449 - INFO - Submitted job 230704: bench_013_run2
+2025-05-23 10:02:26,474 - INFO - Submitted job 230705: bench_013_run3
+2025-05-23 10:02:26,498 - INFO - Submitted job 230706: bench_014_run1
+2025-05-23 10:02:26,522 - INFO - Submitted job 230707: bench_014_run2
+2025-05-23 10:02:26,547 - INFO - Submitted job 230708: bench_014_run3
+2025-05-23 10:02:26,571 - INFO - Submitted job 230709: bench_015_run1
+2025-05-23 10:02:26,595 - INFO - Submitted job 230710: bench_015_run2
+2025-05-23 10:02:26,621 - INFO - Submitted job 230711: bench_015_run3
+2025-05-23 10:02:26,645 - INFO - Submitted job 230712: bench_016_run1
+2025-05-23 10:02:26,670 - INFO - Submitted job 230713: bench_016_run2
+2025-05-23 10:02:26,693 - INFO - Submitted job 230714: bench_016_run3
+2025-05-23 10:02:26,718 - INFO - Submitted job 230715: bench_017_run1
+2025-05-23 10:02:26,743 - INFO - Submitted job 230716: bench_017_run2
+2025-05-23 10:02:26,767 - INFO - Submitted job 230717: bench_017_run3
+2025-05-23 10:02:26,791 - INFO - Submitted job 230718: bench_018_run1
+2025-05-23 10:02:26,814 - INFO - Submitted job 230719: bench_018_run2
+2025-05-23 10:02:26,838 - INFO - Submitted job 230720: bench_018_run3
+2025-05-23 10:02:26,862 - INFO - Submitted job 230721: bench_019_run1
+2025-05-23 10:02:26,886 - INFO - Submitted job 230722: bench_019_run2
+2025-05-23 10:02:26,911 - INFO - Submitted job 230723: bench_019_run3
+2025-05-23 10:02:26,935 - INFO - Submitted job 230724: bench_020_run1
+2025-05-23 10:02:26,960 - INFO - Submitted job 230725: bench_020_run2
+2025-05-23 10:02:26,984 - INFO - Submitted job 230726: bench_020_run3
+2025-05-23 10:02:27,011 - INFO - Submitted job 230727: bench_021_run1
+2025-05-23 10:02:27,036 - INFO - Submitted job 230728: bench_021_run2
+2025-05-23 10:02:27,059 - INFO - Submitted job 230729: bench_021_run3
+2025-05-23 10:02:27,084 - INFO - Submitted job 230730: bench_022_run1
+2025-05-23 10:02:27,112 - INFO - Submitted job 230731: bench_022_run2
+2025-05-23 10:02:27,135 - INFO - Submitted job 230732: bench_022_run3
+2025-05-23 10:02:27,158 - INFO - Submitted job 230733: bench_023_run1
+2025-05-23 10:02:27,183 - INFO - Submitted job 230734: bench_023_run2
+2025-05-23 10:02:27,206 - INFO - Submitted job 230735: bench_023_run3
+2025-05-23 10:02:27,230 - INFO - Submitted job 230736: bench_024_run1
+2025-05-23 10:02:27,254 - INFO - Submitted job 230737: bench_024_run2
+2025-05-23 10:02:27,278 - INFO - Submitted job 230738: bench_024_run3
+2025-05-23 10:02:27,302 - INFO - Submitted job 230739: bench_025_run1
+2025-05-23 10:02:27,328 - INFO - Submitted job 230740: bench_025_run2
+2025-05-23 10:02:27,352 - INFO - Submitted job 230741: bench_025_run3
+2025-05-23 10:02:27,377 - INFO - Submitted job 230742: bench_026_run1
+2025-05-23 10:02:27,402 - INFO - Submitted job 230743: bench_026_run2
+2025-05-23 10:02:27,425 - INFO - Submitted job 230744: bench_026_run3
+2025-05-23 10:02:27,449 - INFO - Submitted job 230745: bench_027_run1
+2025-05-23 10:02:27,473 - INFO - Submitted job 230746: bench_027_run2
+2025-05-23 10:02:27,499 - INFO - Submitted job 230747: bench_027_run3
+2025-05-23 10:02:27,524 - INFO - Submitted job 230748: bench_028_run1
+2025-05-23 10:02:27,549 - INFO - Submitted job 230749: bench_028_run2
+2025-05-23 10:02:27,574 - INFO - Submitted job 230750: bench_028_run3
+2025-05-23 10:02:27,598 - INFO - Submitted job 230751: bench_029_run1
+2025-05-23 10:02:27,621 - INFO - Submitted job 230752: bench_029_run2
+2025-05-23 10:02:27,644 - INFO - Submitted job 230753: bench_029_run3
+2025-05-23 10:02:27,667 - INFO - Submitted job 230754: bench_030_run1
+2025-05-23 10:02:27,690 - INFO - Submitted job 230755: bench_030_run2
+2025-05-23 10:02:27,712 - INFO - Submitted job 230756: bench_030_run3
+2025-05-23 10:02:27,736 - INFO - Submitted job 230757: bench_031_run1
+2025-05-23 10:02:27,761 - INFO - Submitted job 230758: bench_031_run2
+2025-05-23 10:02:27,785 - INFO - Submitted job 230759: bench_031_run3
+2025-05-23 10:02:27,808 - INFO - Submitted job 230760: bench_032_run1
+2025-05-23 10:02:27,831 - INFO - Submitted job 230761: bench_032_run2
+2025-05-23 10:02:27,855 - INFO - Submitted job 230762: bench_032_run3
+2025-05-23 10:02:27,879 - INFO - Submitted job 230763: bench_033_run1
+2025-05-23 10:02:27,902 - INFO - Submitted job 230764: bench_033_run2
+2025-05-23 10:02:27,925 - INFO - Submitted job 230765: bench_033_run3
+2025-05-23 10:02:27,948 - INFO - Submitted job 230766: bench_034_run1
+2025-05-23 10:02:27,972 - INFO - Submitted job 230767: bench_034_run2
+2025-05-23 10:02:27,996 - INFO - Submitted job 230768: bench_034_run3
+2025-05-23 10:02:28,020 - INFO - Submitted job 230769: bench_035_run1
+2025-05-23 10:02:28,045 - INFO - Submitted job 230770: bench_035_run2
+2025-05-23 10:02:28,140 - INFO - Submitted job 230771: bench_035_run3
+2025-05-23 10:02:28,164 - INFO - Submitted job 230772: bench_036_run1
+2025-05-23 10:02:28,188 - INFO - Submitted job 230773: bench_036_run2
+2025-05-23 10:02:28,211 - INFO - Submitted job 230774: bench_036_run3
+2025-05-23 10:02:28,234 - INFO - Submitted job 230775: bench_037_run1
+2025-05-23 10:02:28,259 - INFO - Submitted job 230776: bench_037_run2
+2025-05-23 10:02:28,282 - INFO - Submitted job 230777: bench_037_run3
+2025-05-23 10:02:28,305 - INFO - Submitted job 230778: bench_038_run1
+2025-05-23 10:02:28,329 - INFO - Submitted job 230779: bench_038_run2
+2025-05-23 10:02:28,353 - INFO - Submitted job 230780: bench_038_run3
+2025-05-23 10:02:28,377 - INFO - Submitted job 230781: bench_039_run1
+2025-05-23 10:02:28,403 - INFO - Submitted job 230782: bench_039_run2
+2025-05-23 10:02:28,428 - INFO - Submitted job 230783: bench_039_run3
+2025-05-23 10:02:28,451 - INFO - Submitted job 230784: bench_040_run1
+2025-05-23 10:02:28,475 - INFO - Submitted job 230785: bench_040_run2
+2025-05-23 10:02:28,498 - INFO - Submitted job 230786: bench_040_run3
+2025-05-23 10:02:28,521 - INFO - Submitted job 230787: bench_041_run1
+2025-05-23 10:02:28,545 - INFO - Submitted job 230788: bench_041_run2
+2025-05-23 10:02:28,570 - INFO - Submitted job 230789: bench_041_run3
+2025-05-23 10:02:28,595 - INFO - Submitted job 230790: bench_042_run1
+2025-05-23 10:02:28,619 - INFO - Submitted job 230791: bench_042_run2
+2025-05-23 10:02:28,642 - INFO - Submitted job 230792: bench_042_run3
+2025-05-23 10:02:28,667 - INFO - Submitted job 230793: bench_043_run1
+2025-05-23 10:02:28,692 - INFO - Submitted job 230794: bench_043_run2
+2025-05-23 10:02:28,717 - INFO - Submitted job 230795: bench_043_run3
+2025-05-23 10:02:28,741 - INFO - Submitted job 230796: bench_044_run1
+2025-05-23 10:02:28,767 - INFO - Submitted job 230797: bench_044_run2
+2025-05-23 10:02:28,794 - INFO - Submitted job 230798: bench_044_run3
+2025-05-23 10:02:28,819 - INFO - Submitted job 230799: bench_045_run1
+2025-05-23 10:02:28,844 - INFO - Submitted job 230800: bench_045_run2
+2025-05-23 10:02:28,868 - INFO - Submitted job 230801: bench_045_run3
+2025-05-23 10:02:28,892 - INFO - Submitted job 230802: bench_046_run1
+2025-05-23 10:02:28,916 - INFO - Submitted job 230803: bench_046_run2
+2025-05-23 10:02:28,941 - INFO - Submitted job 230804: bench_046_run3
+2025-05-23 10:02:28,967 - INFO - Submitted job 230805: bench_047_run1
+2025-05-23 10:02:28,990 - INFO - Submitted job 230806: bench_047_run2
+2025-05-23 10:02:29,014 - INFO - Submitted job 230807: bench_047_run3
+2025-05-23 10:02:29,038 - INFO - Submitted job 230808: bench_048_run1
+2025-05-23 10:02:29,062 - INFO - Submitted job 230809: bench_048_run2
+2025-05-23 10:02:29,087 - INFO - Submitted job 230810: bench_048_run3
+2025-05-23 10:02:29,111 - INFO - Submitted job 230811: bench_049_run1
+2025-05-23 10:02:29,134 - INFO - Submitted job 230812: bench_049_run2
+2025-05-23 10:02:29,159 - INFO - Submitted job 230813: bench_049_run3
+2025-05-23 10:02:29,182 - INFO - Submitted job 230814: bench_050_run1
+2025-05-23 10:02:29,206 - INFO - Submitted job 230815: bench_050_run2
+2025-05-23 10:02:29,230 - INFO - Submitted job 230816: bench_050_run3
+2025-05-23 10:02:29,253 - INFO - Submitted job 230817: bench_051_run1
+2025-05-23 10:02:29,279 - INFO - Submitted job 230818: bench_051_run2
+2025-05-23 10:02:29,304 - INFO - Submitted job 230819: bench_051_run3
+2025-05-23 10:02:29,328 - INFO - Submitted job 230820: bench_052_run1
+2025-05-23 10:02:29,353 - INFO - Submitted job 230821: bench_052_run2
+2025-05-23 10:02:29,377 - INFO - Submitted job 230822: bench_052_run3
+2025-05-23 10:02:29,402 - INFO - Submitted job 230823: bench_053_run1
+2025-05-23 10:02:29,425 - INFO - Submitted job 230824: bench_053_run2
+2025-05-23 10:02:29,448 - INFO - Submitted job 230825: bench_053_run3
+2025-05-23 10:02:29,470 - INFO - Submitted job 230826: bench_054_run1
+2025-05-23 10:02:29,493 - INFO - Submitted job 230827: bench_054_run2
+2025-05-23 10:02:29,517 - INFO - Submitted job 230828: bench_054_run3
+2025-05-23 10:02:29,541 - INFO - Submitted job 230829: bench_055_run1
+2025-05-23 10:02:29,565 - INFO - Submitted job 230830: bench_055_run2
+2025-05-23 10:02:29,589 - INFO - Submitted job 230831: bench_055_run3
+2025-05-23 10:02:29,615 - INFO - Submitted job 230832: bench_056_run1
+2025-05-23 10:02:29,639 - INFO - Submitted job 230833: bench_056_run2
+2025-05-23 10:02:29,662 - INFO - Submitted job 230834: bench_056_run3
+2025-05-23 10:02:29,685 - INFO - Submitted job 230835: bench_057_run1
+2025-05-23 10:02:29,708 - INFO - Submitted job 230836: bench_057_run2
+2025-05-23 10:02:29,732 - INFO - Submitted job 230837: bench_057_run3
+2025-05-23 10:02:29,755 - INFO - Submitted job 230838: bench_058_run1
+2025-05-23 10:02:29,778 - INFO - Submitted job 230839: bench_058_run2
+2025-05-23 10:02:29,802 - INFO - Submitted job 230840: bench_058_run3
+2025-05-23 10:02:29,826 - INFO - Submitted job 230841: bench_059_run1
+2025-05-23 10:02:29,850 - INFO - Submitted job 230842: bench_059_run2
+2025-05-23 10:02:29,873 - INFO - Submitted job 230843: bench_059_run3
+2025-05-23 10:02:29,897 - INFO - Submitted job 230844: bench_060_run1
+2025-05-23 10:02:29,921 - INFO - Submitted job 230845: bench_060_run2
+2025-05-23 10:02:29,945 - INFO - Submitted job 230846: bench_060_run3
+2025-05-23 10:02:29,969 - INFO - Submitted job 230847: bench_061_run1
+2025-05-23 10:02:29,992 - INFO - Submitted job 230848: bench_061_run2
+2025-05-23 10:02:30,016 - INFO - Submitted job 230849: bench_061_run3
+2025-05-23 10:02:30,041 - INFO - Submitted job 230850: bench_062_run1
+2025-05-23 10:02:30,065 - INFO - Submitted job 230851: bench_062_run2
+2025-05-23 10:02:30,092 - INFO - Submitted job 230852: bench_062_run3
+2025-05-23 10:02:30,119 - INFO - Submitted job 230853: bench_063_run1
+2025-05-23 10:02:30,144 - INFO - Submitted job 230854: bench_063_run2
+2025-05-23 10:02:30,168 - INFO - Submitted job 230855: bench_063_run3
+2025-05-23 10:02:30,194 - INFO - Submitted job 230856: bench_064_run1
+2025-05-23 10:02:30,217 - INFO - Submitted job 230857: bench_064_run2
+2025-05-23 10:02:30,243 - INFO - Submitted job 230858: bench_064_run3
+2025-05-23 10:02:30,267 - INFO - Submitted job 230859: bench_065_run1
+2025-05-23 10:02:30,292 - INFO - Submitted job 230860: bench_065_run2
+2025-05-23 10:02:30,314 - INFO - Submitted job 230861: bench_065_run3
+2025-05-23 10:02:30,338 - INFO - Submitted job 230862: bench_066_run1
+2025-05-23 10:02:30,361 - INFO - Submitted job 230863: bench_066_run2
+2025-05-23 10:02:30,384 - INFO - Submitted job 230864: bench_066_run3
+2025-05-23 10:02:30,407 - INFO - Submitted job 230865: bench_067_run1
+2025-05-23 10:02:30,429 - INFO - Submitted job 230866: bench_067_run2
+2025-05-23 10:02:30,453 - INFO - Submitted job 230867: bench_067_run3
+2025-05-23 10:02:30,476 - INFO - Submitted job 230868: bench_068_run1
+2025-05-23 10:02:30,500 - INFO - Submitted job 230869: bench_068_run2
+2025-05-23 10:02:30,523 - INFO - Submitted job 230870: bench_068_run3
+2025-05-23 10:02:30,548 - INFO - Submitted job 230871: bench_069_run1
+2025-05-23 10:02:30,571 - INFO - Submitted job 230872: bench_069_run2
+2025-05-23 10:02:30,596 - INFO - Submitted job 230873: bench_069_run3
+2025-05-23 10:02:30,620 - INFO - Submitted job 230874: bench_070_run1
+2025-05-23 10:02:30,642 - INFO - Submitted job 230875: bench_070_run2
+2025-05-23 10:02:30,666 - INFO - Submitted job 230876: bench_070_run3
+2025-05-23 10:02:30,690 - INFO - Submitted job 230877: bench_071_run1
+2025-05-23 10:02:30,715 - INFO - Submitted job 230878: bench_071_run2
+2025-05-23 10:02:30,739 - INFO - Submitted job 230879: bench_071_run3
+2025-05-23 10:02:30,764 - INFO - Submitted job 230880: bench_072_run1
+2025-05-23 10:02:30,787 - INFO - Submitted job 230881: bench_072_run2
+2025-05-23 10:02:30,811 - INFO - Submitted job 230882: bench_072_run3
+2025-05-23 10:02:30,834 - INFO - Submitted job 230883: bench_073_run1
+2025-05-23 10:02:30,857 - INFO - Submitted job 230884: bench_073_run2
+2025-05-23 10:02:30,881 - INFO - Submitted job 230885: bench_073_run3
+2025-05-23 10:02:30,903 - INFO - Submitted job 230886: bench_074_run1
+2025-05-23 10:02:30,926 - INFO - Submitted job 230887: bench_074_run2
+2025-05-23 10:02:30,950 - INFO - Submitted job 230888: bench_074_run3
+2025-05-23 10:02:30,974 - INFO - Submitted job 230889: bench_075_run1
+2025-05-23 10:02:30,998 - INFO - Submitted job 230890: bench_075_run2
+2025-05-23 10:02:31,022 - INFO - Submitted job 230891: bench_075_run3
+2025-05-23 10:02:31,048 - INFO - Submitted job 230892: bench_076_run1
+2025-05-23 10:02:31,072 - INFO - Submitted job 230893: bench_076_run2
+2025-05-23 10:02:31,096 - INFO - Submitted job 230894: bench_076_run3
+2025-05-23 10:02:31,121 - INFO - Submitted job 230895: bench_077_run1
+2025-05-23 10:02:31,144 - INFO - Submitted job 230896: bench_077_run2
+2025-05-23 10:02:31,167 - INFO - Submitted job 230897: bench_077_run3
+2025-05-23 10:02:31,191 - INFO - Submitted job 230898: bench_078_run1
+2025-05-23 10:02:31,215 - INFO - Submitted job 230899: bench_078_run2
+2025-05-23 10:02:31,237 - INFO - Submitted job 230900: bench_078_run3
+2025-05-23 10:02:31,260 - INFO - Submitted job 230901: bench_079_run1
+2025-05-23 10:02:31,284 - INFO - Submitted job 230902: bench_079_run2
+2025-05-23 10:02:31,308 - INFO - Submitted job 230903: bench_079_run3
+2025-05-23 10:02:31,330 - INFO - Submitted job 230904: bench_080_run1
+2025-05-23 10:02:31,353 - INFO - Submitted job 230905: bench_080_run2
+2025-05-23 10:02:31,377 - INFO - Submitted job 230906: bench_080_run3
+2025-05-23 10:02:31,402 - INFO - Submitted job 230907: bench_081_run1
+2025-05-23 10:02:31,428 - INFO - Submitted job 230908: bench_081_run2
+2025-05-23 10:02:31,452 - INFO - Submitted job 230909: bench_081_run3
+2025-05-23 10:02:31,475 - INFO - Submitted job 230910: bench_082_run1
+2025-05-23 10:02:31,499 - INFO - Submitted job 230911: bench_082_run2
+2025-05-23 10:02:31,524 - INFO - Submitted job 230912: bench_082_run3
+2025-05-23 10:02:31,549 - INFO - Submitted job 230913: bench_083_run1
+2025-05-23 10:02:31,575 - INFO - Submitted job 230914: bench_083_run2
+2025-05-23 10:02:31,599 - INFO - Submitted job 230915: bench_083_run3
+2025-05-23 10:02:31,622 - INFO - Submitted job 230916: bench_084_run1
+2025-05-23 10:02:31,646 - INFO - Submitted job 230917: bench_084_run2
+2025-05-23 10:02:31,670 - INFO - Submitted job 230918: bench_084_run3
+2025-05-23 10:02:31,694 - INFO - Submitted job 230919: bench_085_run1
+2025-05-23 10:02:31,718 - INFO - Submitted job 230920: bench_085_run2
+2025-05-23 10:02:31,742 - INFO - Submitted job 230921: bench_085_run3
+2025-05-23 10:02:31,766 - INFO - Submitted job 230922: bench_086_run1
+2025-05-23 10:02:31,791 - INFO - Submitted job 230923: bench_086_run2
+2025-05-23 10:02:31,815 - INFO - Submitted job 230924: bench_086_run3
+2025-05-23 10:02:31,840 - INFO - Submitted job 230925: bench_087_run1
+2025-05-23 10:02:31,863 - INFO - Submitted job 230926: bench_087_run2
+2025-05-23 10:02:31,887 - INFO - Submitted job 230927: bench_087_run3
+2025-05-23 10:02:31,909 - INFO - Submitted job 230928: bench_088_run1
+2025-05-23 10:02:31,931 - INFO - Submitted job 230929: bench_088_run2
+2025-05-23 10:02:31,953 - INFO - Submitted job 230930: bench_088_run3
+2025-05-23 10:02:31,977 - INFO - Submitted job 230931: bench_089_run1
+2025-05-23 10:02:32,001 - INFO - Submitted job 230932: bench_089_run2
+2025-05-23 10:02:32,028 - INFO - Submitted job 230933: bench_089_run3
+2025-05-23 10:02:32,055 - INFO - Submitted job 230934: bench_090_run1
+2025-05-23 10:02:32,081 - INFO - Submitted job 230935: bench_090_run2
+2025-05-23 10:02:32,106 - INFO - Submitted job 230936: bench_090_run3
+2025-05-23 10:02:32,132 - INFO - Submitted job 230937: bench_091_run1
+2025-05-23 10:02:32,156 - INFO - Submitted job 230938: bench_091_run2
+2025-05-23 10:02:32,180 - INFO - Submitted job 230939: bench_091_run3
+2025-05-23 10:02:32,204 - INFO - Submitted job 230940: bench_092_run1
+2025-05-23 10:02:32,228 - INFO - Submitted job 230941: bench_092_run2
+2025-05-23 10:02:32,252 - INFO - Submitted job 230942: bench_092_run3
+2025-05-23 10:02:32,276 - INFO - Submitted job 230943: bench_093_run1
+2025-05-23 10:02:32,300 - INFO - Submitted job 230944: bench_093_run2
+2025-05-23 10:02:32,321 - INFO - Submitted job 230945: bench_093_run3
+2025-05-23 10:02:32,344 - INFO - Submitted job 230946: bench_094_run1
+2025-05-23 10:02:32,367 - INFO - Submitted job 230947: bench_094_run2
+2025-05-23 10:02:32,393 - INFO - Submitted job 230948: bench_094_run3
+2025-05-23 10:02:32,419 - INFO - Submitted job 230949: bench_095_run1
+2025-05-23 10:02:32,445 - INFO - Submitted job 230950: bench_095_run2
+2025-05-23 10:02:32,470 - INFO - Submitted job 230951: bench_095_run3
+2025-05-23 10:02:32,494 - INFO - Submitted job 230952: bench_096_run1
+2025-05-23 10:02:32,517 - INFO - Submitted job 230953: bench_096_run2
+2025-05-23 10:02:32,541 - INFO - Submitted job 230954: bench_096_run3
+2025-05-23 10:02:32,564 - INFO - Submitted job 230955: bench_097_run1
+2025-05-23 10:02:32,587 - INFO - Submitted job 230956: bench_097_run2
+2025-05-23 10:02:32,611 - INFO - Submitted job 230957: bench_097_run3
+2025-05-23 10:02:32,635 - INFO - Submitted job 230958: bench_098_run1
+2025-05-23 10:02:32,661 - INFO - Submitted job 230959: bench_098_run2
+2025-05-23 10:02:32,684 - INFO - Submitted job 230960: bench_098_run3
+2025-05-23 10:02:32,706 - INFO - Submitted job 230961: bench_099_run1
+2025-05-23 10:02:32,730 - INFO - Submitted job 230962: bench_099_run2
+2025-05-23 10:02:32,754 - INFO - Submitted job 230963: bench_099_run3
+2025-05-23 10:02:32,754 - INFO - Submitted 300 jobs to SLURM
+2025-05-23 10:02:32,755 - INFO - Waiting for 300 jobs to complete...
+2025-05-23 10:03:02,876 - INFO - Jobs completed: 42/300
+2025-05-23 10:03:32,933 - INFO - Jobs completed: 0/258
+2025-05-23 10:04:02,984 - INFO - Jobs completed: 0/258
+2025-05-23 10:04:33,064 - INFO - Jobs completed: 42/258
+2025-05-23 10:05:03,128 - INFO - Jobs completed: 9/216
+2025-05-23 10:05:33,280 - INFO - Jobs completed: 18/207
+2025-05-23 10:06:03,334 - INFO - Jobs completed: 3/189
+2025-05-23 10:06:33,374 - INFO - Jobs completed: 0/186
+2025-05-23 10:07:03,424 - INFO - Jobs completed: 30/186
+2025-05-23 10:07:33,457 - INFO - Jobs completed: 33/156
+2025-05-23 10:08:03,517 - INFO - Jobs completed: 3/123
+2025-05-23 10:08:33,539 - INFO - Jobs completed: 0/120
+2025-05-23 10:09:03,590 - INFO - Jobs completed: 0/120
+2025-05-23 10:09:33,628 - INFO - Jobs completed: 30/120
+2025-05-23 10:10:03,676 - INFO - Jobs completed: 27/90
+2025-05-23 10:10:33,699 - INFO - Jobs completed: 24/63
+2025-05-23 10:11:03,745 - INFO - Jobs completed: 39/39
+2025-05-23 10:11:03,745 - INFO - All jobs completed!
+2025-05-23 10:11:03,745 - INFO - Collecting results...
+2025-05-23 10:11:05,007 - WARNING - Log file not found: /scratch/cb761223/exercises/sheet09/datastructure_benchmark/slurm_logs/bench_099_run1.out
+2025-05-23 10:11:05,007 - WARNING - Log file not found: /scratch/cb761223/exercises/sheet09/datastructure_benchmark/slurm_logs/bench_099_run2.out
+2025-05-23 10:11:05,007 - WARNING - Log file not found: /scratch/cb761223/exercises/sheet09/datastructure_benchmark/slurm_logs/bench_099_run3.out
+2025-05-23 10:11:05,618 - INFO - Summary tables saved to /scratch/cb761223/exercises/sheet09/datastructure_benchmark/results/tables
+2025-05-23 10:11:13,142 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-05-23 10:11:13,150 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-05-23 10:11:16,798 - INFO - Plots saved to /scratch/cb761223/exercises/sheet09/datastructure_benchmark/results/plots
+2025-05-23 10:11:16,798 - INFO - 
+==================================================
+2025-05-23 10:11:16,798 - INFO - BENCHMARK SUMMARY
+2025-05-23 10:11:16,798 - INFO - ==================================================
+2025-05-23 10:11:16,798 - INFO - Total combinations tested: 100
+2025-05-23 10:11:16,798 - INFO - Total runs: 297
+2025-05-23 10:11:16,799 - INFO - Successful runs: 297
+2025-05-23 10:11:16,800 - INFO - Failed runs: 0
+2025-05-23 10:11:16,801 - INFO - 
+Fastest configuration:
+2025-05-23 10:11:16,801 - INFO -   array with 10 elements
+2025-05-23 10:11:16,801 - INFO -   88049732 ops/sec
+2025-05-23 10:11:16,801 - INFO - 
+Slowest configuration:
+2025-05-23 10:11:16,801 - INFO -   array with 100000 elements
+2025-05-23 10:11:16,801 - INFO -   192769 ops/sec
+2025-05-23 10:11:16,802 - INFO - Running local benchmarks for comparison...
+2025-05-23 10:11:16,802 - INFO - Local run 1/10, repetition 1

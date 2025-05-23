@@ -1,0 +1,18 @@
+Command: ./benchmark list_seq 10 1.0 0.0
+Return code: 0
+Wall time: 0.003569 seconds
+CPU time: 0.001201 seconds
+Memory before: 54.61 MB
+Memory after: 54.75 MB
+Memory delta: 0.14 MB
+==================================================
+STDOUT:
+Benchmarking list_seq: 10 elements, 100.0% read/write, 0.0% ins/del, 100000 ops
+Benchmark Results:
+Total Time: 0.000368 seconds
+Operations Completed: 100000
+Operations per Second: 271739135.15
+Checksum: 454500 (prevents optimization)
+
+==================================================
+STDERR:

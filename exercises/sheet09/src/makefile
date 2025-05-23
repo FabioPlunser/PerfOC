@@ -1,0 +1,1 @@
+gcc -O2 -o benchmark main.c array.c linkedlist.c benchmark.c timing.c

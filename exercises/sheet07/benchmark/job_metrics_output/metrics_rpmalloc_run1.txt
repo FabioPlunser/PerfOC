@@ -1,0 +1,896 @@
+[1/110] Creating directories for 'googletest'
+[2/110] Performing download step (download, verify and extract) for 'googletest'
+-- Downloading...
+   dst='/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/gtest-1.8.0.tar.gz'
+   timeout='none'
+   inactivity timeout='none'
+-- Using src='http://insieme-compiler.org/ext_libs/gtest-1.8.0.tar.gz'
+-- verifying file...
+       file='/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/gtest-1.8.0.tar.gz'
+-- Downloading... done
+-- extracting...
+     src='/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/gtest-1.8.0.tar.gz'
+     dst='/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest'
+-- extracting... [tar xfz]
+-- extracting... [analysis]
+-- extracting... [rename]
+-- extracting... [clean up]
+-- extracting... done
+[3/110] No update step for 'googletest'
+[4/110] No patch step for 'googletest'
+[5/110] Performing configure step for 'googletest'
+CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+-- The C compiler identification is GNU 12.2.0
+-- The CXX compiler identification is GNU 12.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/site/hpc/spack/v0.19-lcc3-20230919/opt/spack/linux-rocky8-westmere/gcc-8.5.0/gcc-12.2.0-p4pe45vebc7w5leppo2eeesyakewpbxf/bin/gcc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/site/hpc/spack/v0.19-lcc3-20230919/opt/spack/linux-rocky8-westmere/gcc-8.5.0/gcc-12.2.0-p4pe45vebc7w5leppo2eeesyakewpbxf/bin/g++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+CMake Deprecation Warning at googlemock/CMakeLists.txt:41 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+CMake Deprecation Warning at googletest/CMakeLists.txt:48 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+-- Found PythonInterp: /usr/site/hpc/spack/v0.19-lcc3-20230919/opt/spack/linux-rocky8-westmere/gcc-8.5.0/python-3.10.8-r5lf3ij36vtxaqg2dca5cst62l5soj3c/bin/python (found version "3.10.8") 
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Configuring done (1.4s)
+-- Generating done (0.0s)
+-- Build files have been written to: /tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest-build
+[6/110] Building CXX object api/CMakeFiles/api_allscale-perf.dir/src/allscale-perf.cxx.o
+In file included from /tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/api/include/allscale/api/core/impl/reference/task_id.h:8,
+                 from /tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/api/include/allscale/api/core/impl/reference/profiling.h:10,
+                 from /tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/api/src/allscale-perf.cxx:8:
+/tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/utils/include/allscale/utils/serializer.h: In static member function 'static allscale::utils::Archive allscale::utils::Archive::load(allscale::utils::ArchiveReader&)':
+/tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/utils/include/allscale/utils/serializer.h:551:33: warning: redundant move in return statement [-Wredundant-move]
+  551 |                 return std::move(data);
+      |                        ~~~~~~~~~^~~~~~
+/tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/utils/include/allscale/utils/serializer.h:551:33: note: remove 'std::move' call
+[7/110] Linking CXX executable api/allscale-perf
+[8/110] Performing build step for 'googletest'
+[1/11] Building CXX object googlemock/gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
+[2/11] Building CXX object googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o
+In file included from /tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-spec-builders.h:75,
+                 from /tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-generated-function-mockers.h:43,
+                 from /tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock.h:61,
+                 from /tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/src/gmock_main.cc:33:
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-matchers.h: In instantiation of 'testing::PolymorphicMatcher<Impl>::PolymorphicMatcher(const Impl&) [with Impl = testing::internal::StrEqualityMatcher<std::__cxx11::basic_string<char> >]':
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-matchers.h:497:10:   required from 'testing::PolymorphicMatcher<Impl> testing::MakePolymorphicMatcher(const Impl&) [with Impl = internal::StrEqualityMatcher<std::__cxx11::basic_string<char> >]'
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-matchers.h:3956:32:   required from here
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-matchers.h:432:54: warning: implicitly-declared 'testing::internal::StrEqualityMatcher<std::__cxx11::basic_string<char> >::StrEqualityMatcher(const testing::internal::StrEqualityMatcher<std::__cxx11::basic_string<char> >&)' is deprecated [-Wdeprecated-copy]
+  432 |   explicit PolymorphicMatcher(const Impl& an_impl) : impl_(an_impl) {}
+      |                                                      ^~~~~~~~~~~~~~
+In file included from /tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googletest/include/gtest/internal/gtest-linked_ptr.h:74,
+                 from /tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/internal/gmock-port.h:53,
+                 from /tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/internal/gmock-generated-internal-utils.h:44,
+                 from /tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/internal/gmock-internal-utils.h:45,
+                 from /tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-actions.h:46,
+                 from /tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock.h:58:
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googletest/include/gtest/internal/gtest-port.h:870:8: note: because 'testing::internal::StrEqualityMatcher<std::__cxx11::basic_string<char> >' has user-provided 'void testing::internal::StrEqualityMatcher<StringType>::operator=(const testing::internal::StrEqualityMatcher<StringType>&) [with StringType = std::__cxx11::basic_string<char>]'
+  870 |   void operator=(type const &)
+      |        ^~~~~~~~
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-matchers.h:1180:3: note: in expansion of macro 'GTEST_DISALLOW_ASSIGN_'
+ 1180 |   GTEST_DISALLOW_ASSIGN_(StrEqualityMatcher);
+      |   ^~~~~~~~~~~~~~~~~~~~~~
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-matchers.h: In instantiation of 'testing::PolymorphicMatcher<Impl>::PolymorphicMatcher(const Impl&) [with Impl = testing::internal::HasSubstrMatcher<std::__cxx11::basic_string<char> >]':
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-matchers.h:497:10:   required from 'testing::PolymorphicMatcher<Impl> testing::MakePolymorphicMatcher(const Impl&) [with Impl = internal::HasSubstrMatcher<std::__cxx11::basic_string<char> >]'
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-matchers.h:3985:32:   required from here
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-matchers.h:432:54: warning: implicitly-declared 'testing::internal::HasSubstrMatcher<std::__cxx11::basic_string<char> >::HasSubstrMatcher(const testing::internal::HasSubstrMatcher<std::__cxx11::basic_string<char> >&)' is deprecated [-Wdeprecated-copy]
+  432 |   explicit PolymorphicMatcher(const Impl& an_impl) : impl_(an_impl) {}
+      |                                                      ^~~~~~~~~~~~~~
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googletest/include/gtest/internal/gtest-port.h:870:8: note: because 'testing::internal::HasSubstrMatcher<std::__cxx11::basic_string<char> >' has user-provided 'void testing::internal::HasSubstrMatcher<StringType>::operator=(const testing::internal::HasSubstrMatcher<StringType>&) [with StringType = std::__cxx11::basic_string<char>]'
+  870 |   void operator=(type const &)
+      |        ^~~~~~~~
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-matchers.h:1227:3: note: in expansion of macro 'GTEST_DISALLOW_ASSIGN_'
+ 1227 |   GTEST_DISALLOW_ASSIGN_(HasSubstrMatcher);
+      |   ^~~~~~~~~~~~~~~~~~~~~~
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-matchers.h: In instantiation of 'testing::PolymorphicMatcher<Impl>::PolymorphicMatcher(const Impl&) [with Impl = testing::internal::StartsWithMatcher<std::__cxx11::basic_string<char> >]':
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-matchers.h:497:10:   required from 'testing::PolymorphicMatcher<Impl> testing::MakePolymorphicMatcher(const Impl&) [with Impl = internal::StartsWithMatcher<std::__cxx11::basic_string<char> >]'
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-matchers.h:3992:32:   required from here
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-matchers.h:432:54: warning: implicitly-declared 'testing::internal::StartsWithMatcher<std::__cxx11::basic_string<char> >::StartsWithMatcher(const testing::internal::StartsWithMatcher<std::__cxx11::basic_string<char> >&)' is deprecated [-Wdeprecated-copy]
+  432 |   explicit PolymorphicMatcher(const Impl& an_impl) : impl_(an_impl) {}
+      |                                                      ^~~~~~~~~~~~~~
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googletest/include/gtest/internal/gtest-port.h:870:8: note: because 'testing::internal::StartsWithMatcher<std::__cxx11::basic_string<char> >' has user-provided 'void testing::internal::StartsWithMatcher<StringType>::operator=(const testing::internal::StartsWithMatcher<StringType>&) [with StringType = std::__cxx11::basic_string<char>]'
+  870 |   void operator=(type const &)
+      |        ^~~~~~~~
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-matchers.h:1274:3: note: in expansion of macro 'GTEST_DISALLOW_ASSIGN_'
+ 1274 |   GTEST_DISALLOW_ASSIGN_(StartsWithMatcher);
+      |   ^~~~~~~~~~~~~~~~~~~~~~
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-matchers.h: In instantiation of 'testing::PolymorphicMatcher<Impl>::PolymorphicMatcher(const Impl&) [with Impl = testing::internal::EndsWithMatcher<std::__cxx11::basic_string<char> >]':
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-matchers.h:497:10:   required from 'testing::PolymorphicMatcher<Impl> testing::MakePolymorphicMatcher(const Impl&) [with Impl = internal::EndsWithMatcher<std::__cxx11::basic_string<char> >]'
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-matchers.h:3999:32:   required from here
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-matchers.h:432:54: warning: implicitly-declared 'testing::internal::EndsWithMatcher<std::__cxx11::basic_string<char> >::EndsWithMatcher(const testing::internal::EndsWithMatcher<std::__cxx11::basic_string<char> >&)' is deprecated [-Wdeprecated-copy]
+  432 |   explicit PolymorphicMatcher(const Impl& an_impl) : impl_(an_impl) {}
+      |                                                      ^~~~~~~~~~~~~~
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googletest/include/gtest/internal/gtest-port.h:870:8: note: because 'testing::internal::EndsWithMatcher<std::__cxx11::basic_string<char> >' has user-provided 'void testing::internal::EndsWithMatcher<StringType>::operator=(const testing::internal::EndsWithMatcher<StringType>&) [with StringType = std::__cxx11::basic_string<char>]'
+  870 |   void operator=(type const &)
+      |        ^~~~~~~~
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-matchers.h:1320:3: note: in expansion of macro 'GTEST_DISALLOW_ASSIGN_'
+ 1320 |   GTEST_DISALLOW_ASSIGN_(EndsWithMatcher);
+      |   ^~~~~~~~~~~~~~~~~~~~~~
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-matchers.h: In instantiation of 'testing::PolymorphicMatcher<Impl>::PolymorphicMatcher(const Impl&) [with Impl = testing::internal::MatchesRegexMatcher]':
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-matchers.h:497:10:   required from 'testing::PolymorphicMatcher<Impl> testing::MakePolymorphicMatcher(const Impl&) [with Impl = internal::MatchesRegexMatcher]'
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-matchers.h:4007:32:   required from here
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-matchers.h:432:54: warning: implicitly-declared 'testing::internal::MatchesRegexMatcher::MatchesRegexMatcher(const testing::internal::MatchesRegexMatcher&)' is deprecated [-Wdeprecated-copy]
+  432 |   explicit PolymorphicMatcher(const Impl& an_impl) : impl_(an_impl) {}
+      |                                                      ^~~~~~~~~~~~~~
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googletest/include/gtest/internal/gtest-port.h:870:8: note: because 'testing::internal::MatchesRegexMatcher' has user-provided 'void testing::internal::MatchesRegexMatcher::operator=(const testing::internal::MatchesRegexMatcher&)'
+  870 |   void operator=(type const &)
+      |        ^~~~~~~~
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-matchers.h:1369:3: note: in expansion of macro 'GTEST_DISALLOW_ASSIGN_'
+ 1369 |   GTEST_DISALLOW_ASSIGN_(MatchesRegexMatcher);
+      |   ^~~~~~~~~~~~~~~~~~~~~~
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-matchers.h: In instantiation of 'testing::PolymorphicMatcher<Impl>::PolymorphicMatcher(const Impl&) [with Impl = testing::internal::StrEqualityMatcher<std::__cxx11::basic_string<wchar_t> >]':
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-matchers.h:497:10:   required from 'testing::PolymorphicMatcher<Impl> testing::MakePolymorphicMatcher(const Impl&) [with Impl = internal::StrEqualityMatcher<std::__cxx11::basic_string<wchar_t> >]'
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-matchers.h:4031:32:   required from here
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-matchers.h:432:54: warning: implicitly-declared 'testing::internal::StrEqualityMatcher<std::__cxx11::basic_string<wchar_t> >::StrEqualityMatcher(const testing::internal::StrEqualityMatcher<std::__cxx11::basic_string<wchar_t> >&)' is deprecated [-Wdeprecated-copy]
+  432 |   explicit PolymorphicMatcher(const Impl& an_impl) : impl_(an_impl) {}
+      |                                                      ^~~~~~~~~~~~~~
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googletest/include/gtest/internal/gtest-port.h:870:8: note: because 'testing::internal::StrEqualityMatcher<std::__cxx11::basic_string<wchar_t> >' has user-provided 'void testing::internal::StrEqualityMatcher<StringType>::operator=(const testing::internal::StrEqualityMatcher<StringType>&) [with StringType = std::__cxx11::basic_string<wchar_t>]'
+  870 |   void operator=(type const &)
+      |        ^~~~~~~~
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-matchers.h:1180:3: note: in expansion of macro 'GTEST_DISALLOW_ASSIGN_'
+ 1180 |   GTEST_DISALLOW_ASSIGN_(StrEqualityMatcher);
+      |   ^~~~~~~~~~~~~~~~~~~~~~
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-matchers.h: In instantiation of 'testing::PolymorphicMatcher<Impl>::PolymorphicMatcher(const Impl&) [with Impl = testing::internal::HasSubstrMatcher<std::__cxx11::basic_string<wchar_t> >]':
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-matchers.h:497:10:   required from 'testing::PolymorphicMatcher<Impl> testing::MakePolymorphicMatcher(const Impl&) [with Impl = internal::HasSubstrMatcher<std::__cxx11::basic_string<wchar_t> >]'
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-matchers.h:4060:32:   required from here
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-matchers.h:432:54: warning: implicitly-declared 'testing::internal::HasSubstrMatcher<std::__cxx11::basic_string<wchar_t> >::HasSubstrMatcher(const testing::internal::HasSubstrMatcher<std::__cxx11::basic_string<wchar_t> >&)' is deprecated [-Wdeprecated-copy]
+  432 |   explicit PolymorphicMatcher(const Impl& an_impl) : impl_(an_impl) {}
+      |                                                      ^~~~~~~~~~~~~~
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googletest/include/gtest/internal/gtest-port.h:870:8: note: because 'testing::internal::HasSubstrMatcher<std::__cxx11::basic_string<wchar_t> >' has user-provided 'void testing::internal::HasSubstrMatcher<StringType>::operator=(const testing::internal::HasSubstrMatcher<StringType>&) [with StringType = std::__cxx11::basic_string<wchar_t>]'
+  870 |   void operator=(type const &)
+      |        ^~~~~~~~
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-matchers.h:1227:3: note: in expansion of macro 'GTEST_DISALLOW_ASSIGN_'
+ 1227 |   GTEST_DISALLOW_ASSIGN_(HasSubstrMatcher);
+      |   ^~~~~~~~~~~~~~~~~~~~~~
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-matchers.h: In instantiation of 'testing::PolymorphicMatcher<Impl>::PolymorphicMatcher(const Impl&) [with Impl = testing::internal::StartsWithMatcher<std::__cxx11::basic_string<wchar_t> >]':
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-matchers.h:497:10:   required from 'testing::PolymorphicMatcher<Impl> testing::MakePolymorphicMatcher(const Impl&) [with Impl = internal::StartsWithMatcher<std::__cxx11::basic_string<wchar_t> >]'
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-matchers.h:4067:32:   required from here
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-matchers.h:432:54: warning: implicitly-declared 'testing::internal::StartsWithMatcher<std::__cxx11::basic_string<wchar_t> >::StartsWithMatcher(const testing::internal::StartsWithMatcher<std::__cxx11::basic_string<wchar_t> >&)' is deprecated [-Wdeprecated-copy]
+  432 |   explicit PolymorphicMatcher(const Impl& an_impl) : impl_(an_impl) {}
+      |                                                      ^~~~~~~~~~~~~~
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googletest/include/gtest/internal/gtest-port.h:870:8: note: because 'testing::internal::StartsWithMatcher<std::__cxx11::basic_string<wchar_t> >' has user-provided 'void testing::internal::StartsWithMatcher<StringType>::operator=(const testing::internal::StartsWithMatcher<StringType>&) [with StringType = std::__cxx11::basic_string<wchar_t>]'
+  870 |   void operator=(type const &)
+      |        ^~~~~~~~
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-matchers.h:1274:3: note: in expansion of macro 'GTEST_DISALLOW_ASSIGN_'
+ 1274 |   GTEST_DISALLOW_ASSIGN_(StartsWithMatcher);
+      |   ^~~~~~~~~~~~~~~~~~~~~~
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-matchers.h: In instantiation of 'testing::PolymorphicMatcher<Impl>::PolymorphicMatcher(const Impl&) [with Impl = testing::internal::EndsWithMatcher<std::__cxx11::basic_string<wchar_t> >]':
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-matchers.h:497:10:   required from 'testing::PolymorphicMatcher<Impl> testing::MakePolymorphicMatcher(const Impl&) [with Impl = internal::EndsWithMatcher<std::__cxx11::basic_string<wchar_t> >]'
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-matchers.h:4074:32:   required from here
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-matchers.h:432:54: warning: implicitly-declared 'testing::internal::EndsWithMatcher<std::__cxx11::basic_string<wchar_t> >::EndsWithMatcher(const testing::internal::EndsWithMatcher<std::__cxx11::basic_string<wchar_t> >&)' is deprecated [-Wdeprecated-copy]
+  432 |   explicit PolymorphicMatcher(const Impl& an_impl) : impl_(an_impl) {}
+      |                                                      ^~~~~~~~~~~~~~
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googletest/include/gtest/internal/gtest-port.h:870:8: note: because 'testing::internal::EndsWithMatcher<std::__cxx11::basic_string<wchar_t> >' has user-provided 'void testing::internal::EndsWithMatcher<StringType>::operator=(const testing::internal::EndsWithMatcher<StringType>&) [with StringType = std::__cxx11::basic_string<wchar_t>]'
+  870 |   void operator=(type const &)
+      |        ^~~~~~~~
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-matchers.h:1320:3: note: in expansion of macro 'GTEST_DISALLOW_ASSIGN_'
+ 1320 |   GTEST_DISALLOW_ASSIGN_(EndsWithMatcher);
+      |   ^~~~~~~~~~~~~~~~~~~~~~
+[3/11] Building CXX object googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o
+In file included from /tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-spec-builders.h:75,
+                 from /tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-generated-function-mockers.h:43,
+                 from /tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock.h:61,
+                 from /tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/src/gmock-all.cc:40:
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-matchers.h: In instantiation of 'testing::PolymorphicMatcher<Impl>::PolymorphicMatcher(const Impl&) [with Impl = testing::internal::StrEqualityMatcher<std::__cxx11::basic_string<char> >]':
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-matchers.h:497:10:   required from 'testing::PolymorphicMatcher<Impl> testing::MakePolymorphicMatcher(const Impl&) [with Impl = internal::StrEqualityMatcher<std::__cxx11::basic_string<char> >]'
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-matchers.h:3956:32:   required from here
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-matchers.h:432:54: warning: implicitly-declared 'testing::internal::StrEqualityMatcher<std::__cxx11::basic_string<char> >::StrEqualityMatcher(const testing::internal::StrEqualityMatcher<std::__cxx11::basic_string<char> >&)' is deprecated [-Wdeprecated-copy]
+  432 |   explicit PolymorphicMatcher(const Impl& an_impl) : impl_(an_impl) {}
+      |                                                      ^~~~~~~~~~~~~~
+In file included from /tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googletest/include/gtest/internal/gtest-linked_ptr.h:74,
+                 from /tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/internal/gmock-port.h:53,
+                 from /tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/internal/gmock-generated-internal-utils.h:44,
+                 from /tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/internal/gmock-internal-utils.h:45,
+                 from /tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-actions.h:46,
+                 from /tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock.h:58:
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googletest/include/gtest/internal/gtest-port.h:870:8: note: because 'testing::internal::StrEqualityMatcher<std::__cxx11::basic_string<char> >' has user-provided 'void testing::internal::StrEqualityMatcher<StringType>::operator=(const testing::internal::StrEqualityMatcher<StringType>&) [with StringType = std::__cxx11::basic_string<char>]'
+  870 |   void operator=(type const &)
+      |        ^~~~~~~~
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-matchers.h:1180:3: note: in expansion of macro 'GTEST_DISALLOW_ASSIGN_'
+ 1180 |   GTEST_DISALLOW_ASSIGN_(StrEqualityMatcher);
+      |   ^~~~~~~~~~~~~~~~~~~~~~
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-matchers.h: In instantiation of 'testing::PolymorphicMatcher<Impl>::PolymorphicMatcher(const Impl&) [with Impl = testing::internal::HasSubstrMatcher<std::__cxx11::basic_string<char> >]':
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-matchers.h:497:10:   required from 'testing::PolymorphicMatcher<Impl> testing::MakePolymorphicMatcher(const Impl&) [with Impl = internal::HasSubstrMatcher<std::__cxx11::basic_string<char> >]'
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-matchers.h:3985:32:   required from here
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-matchers.h:432:54: warning: implicitly-declared 'testing::internal::HasSubstrMatcher<std::__cxx11::basic_string<char> >::HasSubstrMatcher(const testing::internal::HasSubstrMatcher<std::__cxx11::basic_string<char> >&)' is deprecated [-Wdeprecated-copy]
+  432 |   explicit PolymorphicMatcher(const Impl& an_impl) : impl_(an_impl) {}
+      |                                                      ^~~~~~~~~~~~~~
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googletest/include/gtest/internal/gtest-port.h:870:8: note: because 'testing::internal::HasSubstrMatcher<std::__cxx11::basic_string<char> >' has user-provided 'void testing::internal::HasSubstrMatcher<StringType>::operator=(const testing::internal::HasSubstrMatcher<StringType>&) [with StringType = std::__cxx11::basic_string<char>]'
+  870 |   void operator=(type const &)
+      |        ^~~~~~~~
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-matchers.h:1227:3: note: in expansion of macro 'GTEST_DISALLOW_ASSIGN_'
+ 1227 |   GTEST_DISALLOW_ASSIGN_(HasSubstrMatcher);
+      |   ^~~~~~~~~~~~~~~~~~~~~~
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-matchers.h: In instantiation of 'testing::PolymorphicMatcher<Impl>::PolymorphicMatcher(const Impl&) [with Impl = testing::internal::StartsWithMatcher<std::__cxx11::basic_string<char> >]':
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-matchers.h:497:10:   required from 'testing::PolymorphicMatcher<Impl> testing::MakePolymorphicMatcher(const Impl&) [with Impl = internal::StartsWithMatcher<std::__cxx11::basic_string<char> >]'
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-matchers.h:3992:32:   required from here
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-matchers.h:432:54: warning: implicitly-declared 'testing::internal::StartsWithMatcher<std::__cxx11::basic_string<char> >::StartsWithMatcher(const testing::internal::StartsWithMatcher<std::__cxx11::basic_string<char> >&)' is deprecated [-Wdeprecated-copy]
+  432 |   explicit PolymorphicMatcher(const Impl& an_impl) : impl_(an_impl) {}
+      |                                                      ^~~~~~~~~~~~~~
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googletest/include/gtest/internal/gtest-port.h:870:8: note: because 'testing::internal::StartsWithMatcher<std::__cxx11::basic_string<char> >' has user-provided 'void testing::internal::StartsWithMatcher<StringType>::operator=(const testing::internal::StartsWithMatcher<StringType>&) [with StringType = std::__cxx11::basic_string<char>]'
+  870 |   void operator=(type const &)
+      |        ^~~~~~~~
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-matchers.h:1274:3: note: in expansion of macro 'GTEST_DISALLOW_ASSIGN_'
+ 1274 |   GTEST_DISALLOW_ASSIGN_(StartsWithMatcher);
+      |   ^~~~~~~~~~~~~~~~~~~~~~
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-matchers.h: In instantiation of 'testing::PolymorphicMatcher<Impl>::PolymorphicMatcher(const Impl&) [with Impl = testing::internal::EndsWithMatcher<std::__cxx11::basic_string<char> >]':
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-matchers.h:497:10:   required from 'testing::PolymorphicMatcher<Impl> testing::MakePolymorphicMatcher(const Impl&) [with Impl = internal::EndsWithMatcher<std::__cxx11::basic_string<char> >]'
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-matchers.h:3999:32:   required from here
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-matchers.h:432:54: warning: implicitly-declared 'testing::internal::EndsWithMatcher<std::__cxx11::basic_string<char> >::EndsWithMatcher(const testing::internal::EndsWithMatcher<std::__cxx11::basic_string<char> >&)' is deprecated [-Wdeprecated-copy]
+  432 |   explicit PolymorphicMatcher(const Impl& an_impl) : impl_(an_impl) {}
+      |                                                      ^~~~~~~~~~~~~~
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googletest/include/gtest/internal/gtest-port.h:870:8: note: because 'testing::internal::EndsWithMatcher<std::__cxx11::basic_string<char> >' has user-provided 'void testing::internal::EndsWithMatcher<StringType>::operator=(const testing::internal::EndsWithMatcher<StringType>&) [with StringType = std::__cxx11::basic_string<char>]'
+  870 |   void operator=(type const &)
+      |        ^~~~~~~~
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-matchers.h:1320:3: note: in expansion of macro 'GTEST_DISALLOW_ASSIGN_'
+ 1320 |   GTEST_DISALLOW_ASSIGN_(EndsWithMatcher);
+      |   ^~~~~~~~~~~~~~~~~~~~~~
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-matchers.h: In instantiation of 'testing::PolymorphicMatcher<Impl>::PolymorphicMatcher(const Impl&) [with Impl = testing::internal::MatchesRegexMatcher]':
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-matchers.h:497:10:   required from 'testing::PolymorphicMatcher<Impl> testing::MakePolymorphicMatcher(const Impl&) [with Impl = internal::MatchesRegexMatcher]'
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-matchers.h:4007:32:   required from here
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-matchers.h:432:54: warning: implicitly-declared 'testing::internal::MatchesRegexMatcher::MatchesRegexMatcher(const testing::internal::MatchesRegexMatcher&)' is deprecated [-Wdeprecated-copy]
+  432 |   explicit PolymorphicMatcher(const Impl& an_impl) : impl_(an_impl) {}
+      |                                                      ^~~~~~~~~~~~~~
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googletest/include/gtest/internal/gtest-port.h:870:8: note: because 'testing::internal::MatchesRegexMatcher' has user-provided 'void testing::internal::MatchesRegexMatcher::operator=(const testing::internal::MatchesRegexMatcher&)'
+  870 |   void operator=(type const &)
+      |        ^~~~~~~~
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-matchers.h:1369:3: note: in expansion of macro 'GTEST_DISALLOW_ASSIGN_'
+ 1369 |   GTEST_DISALLOW_ASSIGN_(MatchesRegexMatcher);
+      |   ^~~~~~~~~~~~~~~~~~~~~~
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-matchers.h: In instantiation of 'testing::PolymorphicMatcher<Impl>::PolymorphicMatcher(const Impl&) [with Impl = testing::internal::StrEqualityMatcher<std::__cxx11::basic_string<wchar_t> >]':
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-matchers.h:497:10:   required from 'testing::PolymorphicMatcher<Impl> testing::MakePolymorphicMatcher(const Impl&) [with Impl = internal::StrEqualityMatcher<std::__cxx11::basic_string<wchar_t> >]'
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-matchers.h:4031:32:   required from here
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-matchers.h:432:54: warning: implicitly-declared 'testing::internal::StrEqualityMatcher<std::__cxx11::basic_string<wchar_t> >::StrEqualityMatcher(const testing::internal::StrEqualityMatcher<std::__cxx11::basic_string<wchar_t> >&)' is deprecated [-Wdeprecated-copy]
+  432 |   explicit PolymorphicMatcher(const Impl& an_impl) : impl_(an_impl) {}
+      |                                                      ^~~~~~~~~~~~~~
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googletest/include/gtest/internal/gtest-port.h:870:8: note: because 'testing::internal::StrEqualityMatcher<std::__cxx11::basic_string<wchar_t> >' has user-provided 'void testing::internal::StrEqualityMatcher<StringType>::operator=(const testing::internal::StrEqualityMatcher<StringType>&) [with StringType = std::__cxx11::basic_string<wchar_t>]'
+  870 |   void operator=(type const &)
+      |        ^~~~~~~~
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-matchers.h:1180:3: note: in expansion of macro 'GTEST_DISALLOW_ASSIGN_'
+ 1180 |   GTEST_DISALLOW_ASSIGN_(StrEqualityMatcher);
+      |   ^~~~~~~~~~~~~~~~~~~~~~
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-matchers.h: In instantiation of 'testing::PolymorphicMatcher<Impl>::PolymorphicMatcher(const Impl&) [with Impl = testing::internal::HasSubstrMatcher<std::__cxx11::basic_string<wchar_t> >]':
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-matchers.h:497:10:   required from 'testing::PolymorphicMatcher<Impl> testing::MakePolymorphicMatcher(const Impl&) [with Impl = internal::HasSubstrMatcher<std::__cxx11::basic_string<wchar_t> >]'
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-matchers.h:4060:32:   required from here
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-matchers.h:432:54: warning: implicitly-declared 'testing::internal::HasSubstrMatcher<std::__cxx11::basic_string<wchar_t> >::HasSubstrMatcher(const testing::internal::HasSubstrMatcher<std::__cxx11::basic_string<wchar_t> >&)' is deprecated [-Wdeprecated-copy]
+  432 |   explicit PolymorphicMatcher(const Impl& an_impl) : impl_(an_impl) {}
+      |                                                      ^~~~~~~~~~~~~~
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googletest/include/gtest/internal/gtest-port.h:870:8: note: because 'testing::internal::HasSubstrMatcher<std::__cxx11::basic_string<wchar_t> >' has user-provided 'void testing::internal::HasSubstrMatcher<StringType>::operator=(const testing::internal::HasSubstrMatcher<StringType>&) [with StringType = std::__cxx11::basic_string<wchar_t>]'
+  870 |   void operator=(type const &)
+      |        ^~~~~~~~
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-matchers.h:1227:3: note: in expansion of macro 'GTEST_DISALLOW_ASSIGN_'
+ 1227 |   GTEST_DISALLOW_ASSIGN_(HasSubstrMatcher);
+      |   ^~~~~~~~~~~~~~~~~~~~~~
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-matchers.h: In instantiation of 'testing::PolymorphicMatcher<Impl>::PolymorphicMatcher(const Impl&) [with Impl = testing::internal::StartsWithMatcher<std::__cxx11::basic_string<wchar_t> >]':
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-matchers.h:497:10:   required from 'testing::PolymorphicMatcher<Impl> testing::MakePolymorphicMatcher(const Impl&) [with Impl = internal::StartsWithMatcher<std::__cxx11::basic_string<wchar_t> >]'
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-matchers.h:4067:32:   required from here
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-matchers.h:432:54: warning: implicitly-declared 'testing::internal::StartsWithMatcher<std::__cxx11::basic_string<wchar_t> >::StartsWithMatcher(const testing::internal::StartsWithMatcher<std::__cxx11::basic_string<wchar_t> >&)' is deprecated [-Wdeprecated-copy]
+  432 |   explicit PolymorphicMatcher(const Impl& an_impl) : impl_(an_impl) {}
+      |                                                      ^~~~~~~~~~~~~~
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googletest/include/gtest/internal/gtest-port.h:870:8: note: because 'testing::internal::StartsWithMatcher<std::__cxx11::basic_string<wchar_t> >' has user-provided 'void testing::internal::StartsWithMatcher<StringType>::operator=(const testing::internal::StartsWithMatcher<StringType>&) [with StringType = std::__cxx11::basic_string<wchar_t>]'
+  870 |   void operator=(type const &)
+      |        ^~~~~~~~
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-matchers.h:1274:3: note: in expansion of macro 'GTEST_DISALLOW_ASSIGN_'
+ 1274 |   GTEST_DISALLOW_ASSIGN_(StartsWithMatcher);
+      |   ^~~~~~~~~~~~~~~~~~~~~~
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-matchers.h: In instantiation of 'testing::PolymorphicMatcher<Impl>::PolymorphicMatcher(const Impl&) [with Impl = testing::internal::EndsWithMatcher<std::__cxx11::basic_string<wchar_t> >]':
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-matchers.h:497:10:   required from 'testing::PolymorphicMatcher<Impl> testing::MakePolymorphicMatcher(const Impl&) [with Impl = internal::EndsWithMatcher<std::__cxx11::basic_string<wchar_t> >]'
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-matchers.h:4074:32:   required from here
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-matchers.h:432:54: warning: implicitly-declared 'testing::internal::EndsWithMatcher<std::__cxx11::basic_string<wchar_t> >::EndsWithMatcher(const testing::internal::EndsWithMatcher<std::__cxx11::basic_string<wchar_t> >&)' is deprecated [-Wdeprecated-copy]
+  432 |   explicit PolymorphicMatcher(const Impl& an_impl) : impl_(an_impl) {}
+      |                                                      ^~~~~~~~~~~~~~
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googletest/include/gtest/internal/gtest-port.h:870:8: note: because 'testing::internal::EndsWithMatcher<std::__cxx11::basic_string<wchar_t> >' has user-provided 'void testing::internal::EndsWithMatcher<StringType>::operator=(const testing::internal::EndsWithMatcher<StringType>&) [with StringType = std::__cxx11::basic_string<wchar_t>]'
+  870 |   void operator=(type const &)
+      |        ^~~~~~~~
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-matchers.h:1320:3: note: in expansion of macro 'GTEST_DISALLOW_ASSIGN_'
+ 1320 |   GTEST_DISALLOW_ASSIGN_(EndsWithMatcher);
+      |   ^~~~~~~~~~~~~~~~~~~~~~
+[4/11] Building CXX object googlemock/CMakeFiles/gmock_main.dir/src/gmock-all.cc.o
+In file included from /tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-spec-builders.h:75,
+                 from /tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-generated-function-mockers.h:43,
+                 from /tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock.h:61,
+                 from /tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/src/gmock-all.cc:40:
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-matchers.h: In instantiation of 'testing::PolymorphicMatcher<Impl>::PolymorphicMatcher(const Impl&) [with Impl = testing::internal::StrEqualityMatcher<std::__cxx11::basic_string<char> >]':
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-matchers.h:497:10:   required from 'testing::PolymorphicMatcher<Impl> testing::MakePolymorphicMatcher(const Impl&) [with Impl = internal::StrEqualityMatcher<std::__cxx11::basic_string<char> >]'
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-matchers.h:3956:32:   required from here
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-matchers.h:432:54: warning: implicitly-declared 'testing::internal::StrEqualityMatcher<std::__cxx11::basic_string<char> >::StrEqualityMatcher(const testing::internal::StrEqualityMatcher<std::__cxx11::basic_string<char> >&)' is deprecated [-Wdeprecated-copy]
+  432 |   explicit PolymorphicMatcher(const Impl& an_impl) : impl_(an_impl) {}
+      |                                                      ^~~~~~~~~~~~~~
+In file included from /tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googletest/include/gtest/internal/gtest-linked_ptr.h:74,
+                 from /tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/internal/gmock-port.h:53,
+                 from /tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/internal/gmock-generated-internal-utils.h:44,
+                 from /tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/internal/gmock-internal-utils.h:45,
+                 from /tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-actions.h:46,
+                 from /tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock.h:58:
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googletest/include/gtest/internal/gtest-port.h:870:8: note: because 'testing::internal::StrEqualityMatcher<std::__cxx11::basic_string<char> >' has user-provided 'void testing::internal::StrEqualityMatcher<StringType>::operator=(const testing::internal::StrEqualityMatcher<StringType>&) [with StringType = std::__cxx11::basic_string<char>]'
+  870 |   void operator=(type const &)
+      |        ^~~~~~~~
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-matchers.h:1180:3: note: in expansion of macro 'GTEST_DISALLOW_ASSIGN_'
+ 1180 |   GTEST_DISALLOW_ASSIGN_(StrEqualityMatcher);
+      |   ^~~~~~~~~~~~~~~~~~~~~~
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-matchers.h: In instantiation of 'testing::PolymorphicMatcher<Impl>::PolymorphicMatcher(const Impl&) [with Impl = testing::internal::HasSubstrMatcher<std::__cxx11::basic_string<char> >]':
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-matchers.h:497:10:   required from 'testing::PolymorphicMatcher<Impl> testing::MakePolymorphicMatcher(const Impl&) [with Impl = internal::HasSubstrMatcher<std::__cxx11::basic_string<char> >]'
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-matchers.h:3985:32:   required from here
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-matchers.h:432:54: warning: implicitly-declared 'testing::internal::HasSubstrMatcher<std::__cxx11::basic_string<char> >::HasSubstrMatcher(const testing::internal::HasSubstrMatcher<std::__cxx11::basic_string<char> >&)' is deprecated [-Wdeprecated-copy]
+  432 |   explicit PolymorphicMatcher(const Impl& an_impl) : impl_(an_impl) {}
+      |                                                      ^~~~~~~~~~~~~~
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googletest/include/gtest/internal/gtest-port.h:870:8: note: because 'testing::internal::HasSubstrMatcher<std::__cxx11::basic_string<char> >' has user-provided 'void testing::internal::HasSubstrMatcher<StringType>::operator=(const testing::internal::HasSubstrMatcher<StringType>&) [with StringType = std::__cxx11::basic_string<char>]'
+  870 |   void operator=(type const &)
+      |        ^~~~~~~~
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-matchers.h:1227:3: note: in expansion of macro 'GTEST_DISALLOW_ASSIGN_'
+ 1227 |   GTEST_DISALLOW_ASSIGN_(HasSubstrMatcher);
+      |   ^~~~~~~~~~~~~~~~~~~~~~
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-matchers.h: In instantiation of 'testing::PolymorphicMatcher<Impl>::PolymorphicMatcher(const Impl&) [with Impl = testing::internal::StartsWithMatcher<std::__cxx11::basic_string<char> >]':
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-matchers.h:497:10:   required from 'testing::PolymorphicMatcher<Impl> testing::MakePolymorphicMatcher(const Impl&) [with Impl = internal::StartsWithMatcher<std::__cxx11::basic_string<char> >]'
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-matchers.h:3992:32:   required from here
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-matchers.h:432:54: warning: implicitly-declared 'testing::internal::StartsWithMatcher<std::__cxx11::basic_string<char> >::StartsWithMatcher(const testing::internal::StartsWithMatcher<std::__cxx11::basic_string<char> >&)' is deprecated [-Wdeprecated-copy]
+  432 |   explicit PolymorphicMatcher(const Impl& an_impl) : impl_(an_impl) {}
+      |                                                      ^~~~~~~~~~~~~~
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googletest/include/gtest/internal/gtest-port.h:870:8: note: because 'testing::internal::StartsWithMatcher<std::__cxx11::basic_string<char> >' has user-provided 'void testing::internal::StartsWithMatcher<StringType>::operator=(const testing::internal::StartsWithMatcher<StringType>&) [with StringType = std::__cxx11::basic_string<char>]'
+  870 |   void operator=(type const &)
+      |        ^~~~~~~~
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-matchers.h:1274:3: note: in expansion of macro 'GTEST_DISALLOW_ASSIGN_'
+ 1274 |   GTEST_DISALLOW_ASSIGN_(StartsWithMatcher);
+      |   ^~~~~~~~~~~~~~~~~~~~~~
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-matchers.h: In instantiation of 'testing::PolymorphicMatcher<Impl>::PolymorphicMatcher(const Impl&) [with Impl = testing::internal::EndsWithMatcher<std::__cxx11::basic_string<char> >]':
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-matchers.h:497:10:   required from 'testing::PolymorphicMatcher<Impl> testing::MakePolymorphicMatcher(const Impl&) [with Impl = internal::EndsWithMatcher<std::__cxx11::basic_string<char> >]'
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-matchers.h:3999:32:   required from here
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-matchers.h:432:54: warning: implicitly-declared 'testing::internal::EndsWithMatcher<std::__cxx11::basic_string<char> >::EndsWithMatcher(const testing::internal::EndsWithMatcher<std::__cxx11::basic_string<char> >&)' is deprecated [-Wdeprecated-copy]
+  432 |   explicit PolymorphicMatcher(const Impl& an_impl) : impl_(an_impl) {}
+      |                                                      ^~~~~~~~~~~~~~
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googletest/include/gtest/internal/gtest-port.h:870:8: note: because 'testing::internal::EndsWithMatcher<std::__cxx11::basic_string<char> >' has user-provided 'void testing::internal::EndsWithMatcher<StringType>::operator=(const testing::internal::EndsWithMatcher<StringType>&) [with StringType = std::__cxx11::basic_string<char>]'
+  870 |   void operator=(type const &)
+      |        ^~~~~~~~
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-matchers.h:1320:3: note: in expansion of macro 'GTEST_DISALLOW_ASSIGN_'
+ 1320 |   GTEST_DISALLOW_ASSIGN_(EndsWithMatcher);
+      |   ^~~~~~~~~~~~~~~~~~~~~~
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-matchers.h: In instantiation of 'testing::PolymorphicMatcher<Impl>::PolymorphicMatcher(const Impl&) [with Impl = testing::internal::MatchesRegexMatcher]':
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-matchers.h:497:10:   required from 'testing::PolymorphicMatcher<Impl> testing::MakePolymorphicMatcher(const Impl&) [with Impl = internal::MatchesRegexMatcher]'
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-matchers.h:4007:32:   required from here
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-matchers.h:432:54: warning: implicitly-declared 'testing::internal::MatchesRegexMatcher::MatchesRegexMatcher(const testing::internal::MatchesRegexMatcher&)' is deprecated [-Wdeprecated-copy]
+  432 |   explicit PolymorphicMatcher(const Impl& an_impl) : impl_(an_impl) {}
+      |                                                      ^~~~~~~~~~~~~~
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googletest/include/gtest/internal/gtest-port.h:870:8: note: because 'testing::internal::MatchesRegexMatcher' has user-provided 'void testing::internal::MatchesRegexMatcher::operator=(const testing::internal::MatchesRegexMatcher&)'
+  870 |   void operator=(type const &)
+      |        ^~~~~~~~
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-matchers.h:1369:3: note: in expansion of macro 'GTEST_DISALLOW_ASSIGN_'
+ 1369 |   GTEST_DISALLOW_ASSIGN_(MatchesRegexMatcher);
+      |   ^~~~~~~~~~~~~~~~~~~~~~
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-matchers.h: In instantiation of 'testing::PolymorphicMatcher<Impl>::PolymorphicMatcher(const Impl&) [with Impl = testing::internal::StrEqualityMatcher<std::__cxx11::basic_string<wchar_t> >]':
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-matchers.h:497:10:   required from 'testing::PolymorphicMatcher<Impl> testing::MakePolymorphicMatcher(const Impl&) [with Impl = internal::StrEqualityMatcher<std::__cxx11::basic_string<wchar_t> >]'
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-matchers.h:4031:32:   required from here
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-matchers.h:432:54: warning: implicitly-declared 'testing::internal::StrEqualityMatcher<std::__cxx11::basic_string<wchar_t> >::StrEqualityMatcher(const testing::internal::StrEqualityMatcher<std::__cxx11::basic_string<wchar_t> >&)' is deprecated [-Wdeprecated-copy]
+  432 |   explicit PolymorphicMatcher(const Impl& an_impl) : impl_(an_impl) {}
+      |                                                      ^~~~~~~~~~~~~~
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googletest/include/gtest/internal/gtest-port.h:870:8: note: because 'testing::internal::StrEqualityMatcher<std::__cxx11::basic_string<wchar_t> >' has user-provided 'void testing::internal::StrEqualityMatcher<StringType>::operator=(const testing::internal::StrEqualityMatcher<StringType>&) [with StringType = std::__cxx11::basic_string<wchar_t>]'
+  870 |   void operator=(type const &)
+      |        ^~~~~~~~
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-matchers.h:1180:3: note: in expansion of macro 'GTEST_DISALLOW_ASSIGN_'
+ 1180 |   GTEST_DISALLOW_ASSIGN_(StrEqualityMatcher);
+      |   ^~~~~~~~~~~~~~~~~~~~~~
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-matchers.h: In instantiation of 'testing::PolymorphicMatcher<Impl>::PolymorphicMatcher(const Impl&) [with Impl = testing::internal::HasSubstrMatcher<std::__cxx11::basic_string<wchar_t> >]':
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-matchers.h:497:10:   required from 'testing::PolymorphicMatcher<Impl> testing::MakePolymorphicMatcher(const Impl&) [with Impl = internal::HasSubstrMatcher<std::__cxx11::basic_string<wchar_t> >]'
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-matchers.h:4060:32:   required from here
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-matchers.h:432:54: warning: implicitly-declared 'testing::internal::HasSubstrMatcher<std::__cxx11::basic_string<wchar_t> >::HasSubstrMatcher(const testing::internal::HasSubstrMatcher<std::__cxx11::basic_string<wchar_t> >&)' is deprecated [-Wdeprecated-copy]
+  432 |   explicit PolymorphicMatcher(const Impl& an_impl) : impl_(an_impl) {}
+      |                                                      ^~~~~~~~~~~~~~
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googletest/include/gtest/internal/gtest-port.h:870:8: note: because 'testing::internal::HasSubstrMatcher<std::__cxx11::basic_string<wchar_t> >' has user-provided 'void testing::internal::HasSubstrMatcher<StringType>::operator=(const testing::internal::HasSubstrMatcher<StringType>&) [with StringType = std::__cxx11::basic_string<wchar_t>]'
+  870 |   void operator=(type const &)
+      |        ^~~~~~~~
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-matchers.h:1227:3: note: in expansion of macro 'GTEST_DISALLOW_ASSIGN_'
+ 1227 |   GTEST_DISALLOW_ASSIGN_(HasSubstrMatcher);
+      |   ^~~~~~~~~~~~~~~~~~~~~~
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-matchers.h: In instantiation of 'testing::PolymorphicMatcher<Impl>::PolymorphicMatcher(const Impl&) [with Impl = testing::internal::StartsWithMatcher<std::__cxx11::basic_string<wchar_t> >]':
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-matchers.h:497:10:   required from 'testing::PolymorphicMatcher<Impl> testing::MakePolymorphicMatcher(const Impl&) [with Impl = internal::StartsWithMatcher<std::__cxx11::basic_string<wchar_t> >]'
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-matchers.h:4067:32:   required from here
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-matchers.h:432:54: warning: implicitly-declared 'testing::internal::StartsWithMatcher<std::__cxx11::basic_string<wchar_t> >::StartsWithMatcher(const testing::internal::StartsWithMatcher<std::__cxx11::basic_string<wchar_t> >&)' is deprecated [-Wdeprecated-copy]
+  432 |   explicit PolymorphicMatcher(const Impl& an_impl) : impl_(an_impl) {}
+      |                                                      ^~~~~~~~~~~~~~
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googletest/include/gtest/internal/gtest-port.h:870:8: note: because 'testing::internal::StartsWithMatcher<std::__cxx11::basic_string<wchar_t> >' has user-provided 'void testing::internal::StartsWithMatcher<StringType>::operator=(const testing::internal::StartsWithMatcher<StringType>&) [with StringType = std::__cxx11::basic_string<wchar_t>]'
+  870 |   void operator=(type const &)
+      |        ^~~~~~~~
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-matchers.h:1274:3: note: in expansion of macro 'GTEST_DISALLOW_ASSIGN_'
+ 1274 |   GTEST_DISALLOW_ASSIGN_(StartsWithMatcher);
+      |   ^~~~~~~~~~~~~~~~~~~~~~
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-matchers.h: In instantiation of 'testing::PolymorphicMatcher<Impl>::PolymorphicMatcher(const Impl&) [with Impl = testing::internal::EndsWithMatcher<std::__cxx11::basic_string<wchar_t> >]':
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-matchers.h:497:10:   required from 'testing::PolymorphicMatcher<Impl> testing::MakePolymorphicMatcher(const Impl&) [with Impl = internal::EndsWithMatcher<std::__cxx11::basic_string<wchar_t> >]'
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-matchers.h:4074:32:   required from here
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-matchers.h:432:54: warning: implicitly-declared 'testing::internal::EndsWithMatcher<std::__cxx11::basic_string<wchar_t> >::EndsWithMatcher(const testing::internal::EndsWithMatcher<std::__cxx11::basic_string<wchar_t> >&)' is deprecated [-Wdeprecated-copy]
+  432 |   explicit PolymorphicMatcher(const Impl& an_impl) : impl_(an_impl) {}
+      |                                                      ^~~~~~~~~~~~~~
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googletest/include/gtest/internal/gtest-port.h:870:8: note: because 'testing::internal::EndsWithMatcher<std::__cxx11::basic_string<wchar_t> >' has user-provided 'void testing::internal::EndsWithMatcher<StringType>::operator=(const testing::internal::EndsWithMatcher<StringType>&) [with StringType = std::__cxx11::basic_string<wchar_t>]'
+  870 |   void operator=(type const &)
+      |        ^~~~~~~~
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googlemock/include/gmock/gmock-matchers.h:1320:3: note: in expansion of macro 'GTEST_DISALLOW_ASSIGN_'
+ 1320 |   GTEST_DISALLOW_ASSIGN_(EndsWithMatcher);
+      |   ^~~~~~~~~~~~~~~~~~~~~~
+[5/11] Building CXX object googlemock/CMakeFiles/gmock_main.dir/__/googletest/src/gtest-all.cc.o
+In file included from /tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googletest/src/gtest-all.cc:43:
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googletest/src/gtest-death-test.cc: In function 'bool testing::internal::StackGrowsDown()':
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googletest/src/gtest-death-test.cc:1009:24: warning: 'dummy' may be used uninitialized [-Wmaybe-uninitialized]
+ 1009 |   StackLowerThanAddress(&dummy, &result);
+      |   ~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googletest/src/gtest-death-test.cc:999:6: note: by argument 1 of type 'const void*' to 'void testing::internal::StackLowerThanAddress(const void*, bool*)' declared here
+  999 | void StackLowerThanAddress(const void* ptr, bool* result) {
+      |      ^~~~~~~~~~~~~~~~~~~~~
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googletest/src/gtest-death-test.cc:1007:7: note: 'dummy' declared here
+ 1007 |   int dummy;
+      |       ^~~~~
+[6/11] Building CXX object googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
+In file included from /tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googletest/src/gtest-all.cc:43:
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googletest/src/gtest-death-test.cc: In function 'bool testing::internal::StackGrowsDown()':
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googletest/src/gtest-death-test.cc:1009:24: warning: 'dummy' may be used uninitialized [-Wmaybe-uninitialized]
+ 1009 |   StackLowerThanAddress(&dummy, &result);
+      |   ~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googletest/src/gtest-death-test.cc:999:6: note: by argument 1 of type 'const void*' to 'void testing::internal::StackLowerThanAddress(const void*, bool*)' declared here
+  999 | void StackLowerThanAddress(const void* ptr, bool* result) {
+      |      ^~~~~~~~~~~~~~~~~~~~~
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googletest/src/gtest-death-test.cc:1007:7: note: 'dummy' declared here
+ 1007 |   int dummy;
+      |       ^~~~~
+[7/11] Building CXX object googlemock/CMakeFiles/gmock.dir/__/googletest/src/gtest-all.cc.o
+In file included from /tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googletest/src/gtest-all.cc:43:
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googletest/src/gtest-death-test.cc: In function 'bool testing::internal::StackGrowsDown()':
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googletest/src/gtest-death-test.cc:1009:24: warning: 'dummy' may be used uninitialized [-Wmaybe-uninitialized]
+ 1009 |   StackLowerThanAddress(&dummy, &result);
+      |   ~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googletest/src/gtest-death-test.cc:999:6: note: by argument 1 of type 'const void*' to 'void testing::internal::StackLowerThanAddress(const void*, bool*)' declared here
+  999 | void StackLowerThanAddress(const void* ptr, bool* result) {
+      |      ^~~~~~~~~~~~~~~~~~~~~
+/tmp/cb761223/allocbench_rpmalloc_run1/build/googletest-prefix/src/googletest/googletest/src/gtest-death-test.cc:1007:7: note: 'dummy' declared here
+ 1007 |   int dummy;
+      |       ^~~~~
+[8/11] Linking CXX shared library googlemock/gtest/libgtest.so
+[9/11] Linking CXX shared library googlemock/libgmock.so
+[10/11] Linking CXX shared library googlemock/libgmock_main.so
+[11/11] Linking CXX shared library googlemock/gtest/libgtest_main.so
+[9/110] No install step for 'googletest'
+[10/110] Completed 'googletest'
+[11/110] Building CXX object api/CMakeFiles/ut_api_core_data.dir/test/core/data.cc.o
+In file included from /tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/api/include/allscale/api/core/data.h:6,
+                 from /tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/api/test/core/data.cc:8:
+/tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/utils/include/allscale/utils/serializer.h: In static member function 'static allscale::utils::Archive allscale::utils::Archive::load(allscale::utils::ArchiveReader&)':
+/tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/utils/include/allscale/utils/serializer.h:551:33: warning: redundant move in return statement [-Wredundant-move]
+  551 |                 return std::move(data);
+      |                        ~~~~~~~~~^~~~~~
+/tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/utils/include/allscale/utils/serializer.h:551:33: note: remove 'std::move' call
+[12/110] Linking CXX executable api/ut_api_core_data
+[13/110] Building CXX object api/CMakeFiles/ut_api_core_impl_reference_lock.dir/test/core/impl/reference/lock.cc.o
+[14/110] Linking CXX executable api/ut_api_core_impl_reference_lock
+[15/110] Building CXX object api/CMakeFiles/ut_api_core_impl_sequential_treeture.dir/test/core/impl/sequential/treeture.cc.o
+[16/110] Linking CXX executable api/ut_api_core_impl_sequential_treeture
+[17/110] Building CXX object api/CMakeFiles/ut_api_core_impl_reference_queue.dir/test/core/impl/reference/queue.cc.o
+[18/110] Building CXX object api/CMakeFiles/ut_api_core_impl_reference_task_id.dir/test/core/impl/reference/task_id.cc.o
+In file included from /tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/api/include/allscale/api/core/impl/reference/task_id.h:8,
+                 from /tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/api/test/core/impl/reference/task_id.cc:5:
+/tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/utils/include/allscale/utils/serializer.h: In static member function 'static allscale::utils::Archive allscale::utils::Archive::load(allscale::utils::ArchiveReader&)':
+/tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/utils/include/allscale/utils/serializer.h:551:33: warning: redundant move in return statement [-Wredundant-move]
+  551 |                 return std::move(data);
+      |                        ~~~~~~~~~^~~~~~
+/tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/utils/include/allscale/utils/serializer.h:551:33: note: remove 'std::move' call
+[19/110] Linking CXX executable api/ut_api_core_impl_reference_queue
+[20/110] Building CXX object api/CMakeFiles/ut_api_core_impl_reference_runtime_predictor.dir/test/core/impl/reference/runtime_predictor.cc.o
+[21/110] Linking CXX executable api/ut_api_core_impl_reference_task_id
+[22/110] Linking CXX executable api/ut_api_core_impl_reference_runtime_predictor
+[23/110] Building CXX object api/CMakeFiles/ut_api_core_treeture.dir/test/core/treeture.cc.o
+In file included from /tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/api/include/allscale/api/core/impl/reference/task_id.h:8,
+                 from /tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/api/include/allscale/api/core/impl/reference/profiling.h:10,
+                 from /tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/api/include/allscale/api/core/impl/reference/treeture.h:23,
+                 from /tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/api/include/allscale/api/core/treeture.h:13,
+                 from /tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/api/test/core/treeture.cc:7:
+/tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/utils/include/allscale/utils/serializer.h: In static member function 'static allscale::utils::Archive allscale::utils::Archive::load(allscale::utils::ArchiveReader&)':
+/tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/utils/include/allscale/utils/serializer.h:551:33: warning: redundant move in return statement [-Wredundant-move]
+  551 |                 return std::move(data);
+      |                        ~~~~~~~~~^~~~~~
+/tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/utils/include/allscale/utils/serializer.h:551:33: note: remove 'std::move' call
+[24/110] Linking CXX executable api/ut_api_core_treeture
+[25/110] Building CXX object api/CMakeFiles/ut_api_core_io.dir/test/core/io.cc.o
+In file included from /tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/api/include/allscale/api/core/impl/reference/io.h:41,
+                 from /tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/api/include/allscale/api/core/io.h:5,
+                 from /tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/api/test/core/io.cc:6:
+/tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/utils/include/allscale/utils/serializer.h: In static member function 'static allscale::utils::Archive allscale::utils::Archive::load(allscale::utils::ArchiveReader&)':
+/tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/utils/include/allscale/utils/serializer.h:551:33: warning: redundant move in return statement [-Wredundant-move]
+  551 |                 return std::move(data);
+      |                        ~~~~~~~~~^~~~~~
+/tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/utils/include/allscale/utils/serializer.h:551:33: note: remove 'std::move' call
+[26/110] Building CXX object api/CMakeFiles/ut_api_core_impl_reference_treeture.dir/test/core/impl/reference/treeture.cc.o
+In file included from /tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/api/include/allscale/api/core/impl/reference/task_id.h:8,
+                 from /tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/api/include/allscale/api/core/impl/reference/profiling.h:10,
+                 from /tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/api/include/allscale/api/core/impl/reference/treeture.h:23,
+                 from /tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/api/test/core/impl/reference/treeture.cc:3:
+/tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/utils/include/allscale/utils/serializer.h: In static member function 'static allscale::utils::Archive allscale::utils::Archive::load(allscale::utils::ArchiveReader&)':
+/tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/utils/include/allscale/utils/serializer.h:551:33: warning: redundant move in return statement [-Wredundant-move]
+  551 |                 return std::move(data);
+      |                        ~~~~~~~~~^~~~~~
+/tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/utils/include/allscale/utils/serializer.h:551:33: note: remove 'std::move' call
+[27/110] Building CXX object api/CMakeFiles/ut_api_core_impl_reference_profiling.dir/test/core/impl/reference/profiling.cc.o
+In file included from /tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/api/include/allscale/api/core/impl/reference/task_id.h:8,
+                 from /tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/api/include/allscale/api/core/impl/reference/profiling.h:10,
+                 from /tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/api/test/core/impl/reference/profiling.cc:7:
+/tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/utils/include/allscale/utils/serializer.h: In static member function 'static allscale::utils::Archive allscale::utils::Archive::load(allscale::utils::ArchiveReader&)':
+/tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/utils/include/allscale/utils/serializer.h:551:33: warning: redundant move in return statement [-Wredundant-move]
+  551 |                 return std::move(data);
+      |                        ~~~~~~~~~^~~~~~
+/tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/utils/include/allscale/utils/serializer.h:551:33: note: remove 'std::move' call
+[28/110] Linking CXX executable api/ut_api_core_io
+[29/110] Linking CXX executable api/ut_api_core_impl_reference_treeture
+[30/110] Linking CXX executable api/ut_api_core_impl_reference_profiling
+[31/110] Building CXX object api/CMakeFiles/ut_api_user_algorithm_internal_operator_reference.dir/test/user/algorithm/internal/operator_reference.cc.o
+In file included from /tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/api/include/allscale/api/core/impl/reference/task_id.h:8,
+                 from /tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/api/include/allscale/api/core/impl/reference/profiling.h:10,
+                 from /tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/api/include/allscale/api/core/impl/reference/treeture.h:23,
+                 from /tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/api/include/allscale/api/core/treeture.h:13,
+                 from /tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/api/include/allscale/api/user/algorithm/internal/operation_reference.h:3,
+                 from /tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/api/test/user/algorithm/internal/operator_reference.cc:6:
+/tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/utils/include/allscale/utils/serializer.h: In static member function 'static allscale::utils::Archive allscale::utils::Archive::load(allscale::utils::ArchiveReader&)':
+/tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/utils/include/allscale/utils/serializer.h:551:33: warning: redundant move in return statement [-Wredundant-move]
+  551 |                 return std::move(data);
+      |                        ~~~~~~~~~^~~~~~
+/tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/utils/include/allscale/utils/serializer.h:551:33: note: remove 'std::move' call
+[32/110] Linking CXX executable api/ut_api_user_algorithm_internal_operator_reference
+[33/110] Building CXX object api/CMakeFiles/ut_api_user_data_scalar.dir/test/user/data/scalar.cc.o
+In file included from /tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/api/include/allscale/api/core/data.h:6,
+                 from /tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/api/include/allscale/api/user/data/scalar.h:6,
+                 from /tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/api/test/user/data/scalar.cc:3:
+/tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/utils/include/allscale/utils/serializer.h: In static member function 'static allscale::utils::Archive allscale::utils::Archive::load(allscale::utils::ArchiveReader&)':
+/tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/utils/include/allscale/utils/serializer.h:551:33: warning: redundant move in return statement [-Wredundant-move]
+  551 |                 return std::move(data);
+      |                        ~~~~~~~~~^~~~~~
+/tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/utils/include/allscale/utils/serializer.h:551:33: note: remove 'std::move' call
+[34/110] Linking CXX executable api/ut_api_user_data_scalar
+[35/110] Building CXX object api/CMakeFiles/ut_api_user_algorithm_async.dir/test/user/algorithm/async.cc.o
+In file included from /tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/api/include/allscale/api/core/impl/reference/task_id.h:8,
+                 from /tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/api/include/allscale/api/core/impl/reference/profiling.h:10,
+                 from /tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/api/include/allscale/api/core/impl/reference/treeture.h:23,
+                 from /tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/api/include/allscale/api/core/treeture.h:13,
+                 from /tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/api/include/allscale/api/core/prec.h:10,
+                 from /tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/api/include/allscale/api/user/algorithm/async.h:7,
+                 from /tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/api/test/user/algorithm/async.cc:8:
+/tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/utils/include/allscale/utils/serializer.h: In static member function 'static allscale::utils::Archive allscale::utils::Archive::load(allscale::utils::ArchiveReader&)':
+/tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/utils/include/allscale/utils/serializer.h:551:33: warning: redundant move in return statement [-Wredundant-move]
+  551 |                 return std::move(data);
+      |                        ~~~~~~~~~^~~~~~
+/tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/utils/include/allscale/utils/serializer.h:551:33: note: remove 'std::move' call
+[36/110] Building CXX object api/CMakeFiles/ut_api_core_impl_reference_runtime.dir/test/core/impl/reference/runtime.cc.o
+In file included from /tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/api/include/allscale/api/core/impl/reference/task_id.h:8,
+                 from /tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/api/include/allscale/api/core/impl/reference/profiling.h:10,
+                 from /tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/api/include/allscale/api/core/impl/reference/treeture.h:23,
+                 from /tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/api/test/core/impl/reference/runtime.cc:5:
+/tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/utils/include/allscale/utils/serializer.h: In static member function 'static allscale::utils::Archive allscale::utils::Archive::load(allscale::utils::ArchiveReader&)':
+/tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/utils/include/allscale/utils/serializer.h:551:33: warning: redundant move in return statement [-Wredundant-move]
+  551 |                 return std::move(data);
+      |                        ~~~~~~~~~^~~~~~
+/tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/utils/include/allscale/utils/serializer.h:551:33: note: remove 'std::move' call
+[37/110] Linking CXX executable api/ut_api_user_algorithm_async
+[38/110] Linking CXX executable api/ut_api_core_impl_reference_runtime
+[39/110] Building CXX object utils/CMakeFiles/ut_utils_array_utils.dir/test/array_utils.cc.o
+[40/110] Building CXX object api/CMakeFiles/ut_api_user_data_map.dir/test/user/data/map.cc.o
+In file included from /tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/api/include/allscale/api/core/data.h:6,
+                 from /tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/api/include/allscale/api/user/data/map.h:8,
+                 from /tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/api/test/user/data/map.cc:4:
+/tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/utils/include/allscale/utils/serializer.h: In static member function 'static allscale::utils::Archive allscale::utils::Archive::load(allscale::utils::ArchiveReader&)':
+/tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/utils/include/allscale/utils/serializer.h:551:33: warning: redundant move in return statement [-Wredundant-move]
+  551 |                 return std::move(data);
+      |                        ~~~~~~~~~^~~~~~
+/tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/utils/include/allscale/utils/serializer.h:551:33: note: remove 'std::move' call
+[41/110] Linking CXX executable utils/ut_utils_array_utils
+[42/110] Linking CXX executable api/ut_api_user_data_map
+[43/110] Building CXX object utils/CMakeFiles/ut_utils_finalize.dir/test/finalize.cc.o
+[44/110] Linking CXX executable utils/ut_utils_finalize
+[45/110] Building CXX object api/CMakeFiles/ut_api_user_arithmetic.dir/test/user/arithmetic.cc.o
+In file included from /tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/api/include/allscale/api/core/impl/reference/task_id.h:8,
+                 from /tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/api/include/allscale/api/core/impl/reference/profiling.h:10,
+                 from /tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/api/include/allscale/api/core/impl/reference/treeture.h:23,
+                 from /tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/api/include/allscale/api/core/treeture.h:13,
+                 from /tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/api/test/user/arithmetic.cc:4:
+/tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/utils/include/allscale/utils/serializer.h: In static member function 'static allscale::utils::Archive allscale::utils::Archive::load(allscale::utils::ArchiveReader&)':
+/tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/utils/include/allscale/utils/serializer.h:551:33: warning: redundant move in return statement [-Wredundant-move]
+  551 |                 return std::move(data);
+      |                        ~~~~~~~~~^~~~~~
+/tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/utils/include/allscale/utils/serializer.h:551:33: note: remove 'std::move' call
+[46/110] Linking CXX executable api/ut_api_user_arithmetic
+[47/110] Building CXX object api/CMakeFiles/ut_api_user_algorithm_preduce.dir/test/user/algorithm/preduce.cc.o
+In file included from /tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/api/include/allscale/api/core/impl/reference/task_id.h:8,
+                 from /tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/api/include/allscale/api/core/impl/reference/profiling.h:10,
+                 from /tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/api/include/allscale/api/core/impl/reference/treeture.h:23,
+                 from /tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/api/include/allscale/api/core/treeture.h:13,
+                 from /tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/api/include/allscale/api/core/prec.h:10,
+                 from /tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/api/include/allscale/api/user/algorithm/preduce.h:5,
+                 from /tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/api/test/user/algorithm/preduce.cc:6:
+/tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/utils/include/allscale/utils/serializer.h: In static member function 'static allscale::utils::Archive allscale::utils::Archive::load(allscale::utils::ArchiveReader&)':
+/tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/utils/include/allscale/utils/serializer.h:551:33: warning: redundant move in return statement [-Wredundant-move]
+  551 |                 return std::move(data);
+      |                        ~~~~~~~~~^~~~~~
+/tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/utils/include/allscale/utils/serializer.h:551:33: note: remove 'std::move' call
+[48/110] Linking CXX executable api/ut_api_user_algorithm_preduce
+[49/110] Building CXX object utils/CMakeFiles/ut_utils_bag.dir/test/bag.cc.o
+[50/110] Building CXX object utils/CMakeFiles/ut_utils_functional_utils.dir/test/functional_utils.cc.o
+[51/110] Linking CXX executable utils/ut_utils_bag
+[52/110] Linking CXX executable utils/ut_utils_functional_utils
+[53/110] Building CXX object utils/CMakeFiles/ut_utils_optional.dir/test/optional.cc.o
+[54/110] Linking CXX executable utils/ut_utils_optional
+[55/110] Building CXX object utils/CMakeFiles/ut_utils_raw_buffer.dir/test/raw_buffer.cc.o
+[56/110] Linking CXX executable utils/ut_utils_raw_buffer
+[57/110] Building CXX object utils/CMakeFiles/ut_utils_range.dir/test/range.cc.o
+[58/110] Linking CXX executable utils/ut_utils_range
+[59/110] Building CXX object utils/CMakeFiles/ut_utils_serializer_arrays.dir/test/serializer/arrays.cc.o
+In file included from /tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/utils/include/allscale/utils/serializer/arrays.h:7,
+                 from /tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/utils/test/serializer/arrays.cc:5:
+/tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/utils/include/allscale/utils/serializer.h: In static member function 'static allscale::utils::Archive allscale::utils::Archive::load(allscale::utils::ArchiveReader&)':
+/tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/utils/include/allscale/utils/serializer.h:551:33: warning: redundant move in return statement [-Wredundant-move]
+  551 |                 return std::move(data);
+      |                        ~~~~~~~~~^~~~~~
+/tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/utils/include/allscale/utils/serializer.h:551:33: note: remove 'std::move' call
+[60/110] Building CXX object utils/CMakeFiles/ut_utils_serializer.dir/test/serializer.cc.o
+In file included from /tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/utils/test/serializer.cc:3:
+/tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/utils/include/allscale/utils/serializer.h: In static member function 'static allscale::utils::Archive allscale::utils::Archive::load(allscale::utils::ArchiveReader&)':
+/tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/utils/include/allscale/utils/serializer.h:551:33: warning: redundant move in return statement [-Wredundant-move]
+  551 |                 return std::move(data);
+      |                        ~~~~~~~~~^~~~~~
+/tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/utils/include/allscale/utils/serializer.h:551:33: note: remove 'std::move' call
+[61/110] Linking CXX executable utils/ut_utils_serializer_arrays
+[62/110] Linking CXX executable utils/ut_utils_serializer
+[63/110] Building CXX object api/CMakeFiles/ut_api_user_save_to_binary_test.dir/test/user/save_to_binary_test.cc.o
+In file included from /tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/api/include/allscale/api/core/impl/reference/io.h:41,
+                 from /tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/api/include/allscale/api/core/io.h:5,
+                 from /tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/api/include/allscale/api/user/save_to_binary.h:3,
+                 from /tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/api/test/user/save_to_binary_test.cc:3:
+/tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/utils/include/allscale/utils/serializer.h: In static member function 'static allscale::utils::Archive allscale::utils::Archive::load(allscale::utils::ArchiveReader&)':
+/tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/utils/include/allscale/utils/serializer.h:551:33: warning: redundant move in return statement [-Wredundant-move]
+  551 |                 return std::move(data);
+      |                        ~~~~~~~~~^~~~~~
+/tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/utils/include/allscale/utils/serializer.h:551:33: note: remove 'std::move' call
+[64/110] Linking CXX executable api/ut_api_user_save_to_binary_test
+[65/110] Building CXX object utils/CMakeFiles/ut_utils_large_array.dir/test/large_array.cc.o
+[66/110] Building CXX object utils/CMakeFiles/ut_utils_serializer_maps.dir/test/serializer/maps.cc.o
+In file included from /tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/utils/include/allscale/utils/serializer/maps.h:4,
+                 from /tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/utils/test/serializer/maps.cc:3:
+/tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/utils/include/allscale/utils/serializer.h: In static member function 'static allscale::utils::Archive allscale::utils::Archive::load(allscale::utils::ArchiveReader&)':
+/tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/utils/include/allscale/utils/serializer.h:551:33: warning: redundant move in return statement [-Wredundant-move]
+  551 |                 return std::move(data);
+      |                        ~~~~~~~~~^~~~~~
+/tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/utils/include/allscale/utils/serializer.h:551:33: note: remove 'std::move' call
+[67/110] Building CXX object utils/CMakeFiles/ut_utils_serializer_optionals.dir/test/serializer/optionals.cc.o
+In file included from /tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/utils/include/allscale/utils/serializer/optionals.h:3,
+                 from /tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/utils/test/serializer/optionals.cc:3:
+/tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/utils/include/allscale/utils/serializer.h: In static member function 'static allscale::utils::Archive allscale::utils::Archive::load(allscale::utils::ArchiveReader&)':
+/tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/utils/include/allscale/utils/serializer.h:551:33: warning: redundant move in return statement [-Wredundant-move]
+  551 |                 return std::move(data);
+      |                        ~~~~~~~~~^~~~~~
+/tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/utils/include/allscale/utils/serializer.h:551:33: note: remove 'std::move' call
+[68/110] Linking CXX executable utils/ut_utils_large_array
+[69/110] Linking CXX executable utils/ut_utils_serializer_maps
+[70/110] Linking CXX executable utils/ut_utils_serializer_optionals
+[71/110] Building CXX object utils/CMakeFiles/ut_utils_serializer_strings.dir/test/serializer/strings.cc.o
+In file included from /tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/utils/include/allscale/utils/serializer/strings.h:7,
+                 from /tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/utils/test/serializer/strings.cc:3:
+/tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/utils/include/allscale/utils/serializer.h: In static member function 'static allscale::utils::Archive allscale::utils::Archive::load(allscale::utils::ArchiveReader&)':
+/tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/utils/include/allscale/utils/serializer.h:551:33: warning: redundant move in return statement [-Wredundant-move]
+  551 |                 return std::move(data);
+      |                        ~~~~~~~~~^~~~~~
+/tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/utils/include/allscale/utils/serializer.h:551:33: note: remove 'std::move' call
+[72/110] Building CXX object utils/CMakeFiles/ut_utils_serializer_pairs.dir/test/serializer/pairs.cc.o
+In file included from /tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/utils/include/allscale/utils/serializer/pairs.h:3,
+                 from /tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/utils/test/serializer/pairs.cc:3:
+/tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/utils/include/allscale/utils/serializer.h: In static member function 'static allscale::utils::Archive allscale::utils::Archive::load(allscale::utils::ArchiveReader&)':
+/tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/utils/include/allscale/utils/serializer.h:551:33: warning: redundant move in return statement [-Wredundant-move]
+  551 |                 return std::move(data);
+      |                        ~~~~~~~~~^~~~~~
+/tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/utils/include/allscale/utils/serializer.h:551:33: note: remove 'std::move' call
+[73/110] Linking CXX executable utils/ut_utils_serializer_strings
+[74/110] Linking CXX executable utils/ut_utils_serializer_pairs
+[75/110] Building CXX object api/CMakeFiles/ut_api_core_prec.dir/test/core/prec.cc.o
+In file included from /tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/api/include/allscale/api/core/impl/reference/task_id.h:8,
+                 from /tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/api/include/allscale/api/core/impl/reference/profiling.h:10,
+                 from /tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/api/include/allscale/api/core/impl/reference/treeture.h:23,
+                 from /tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/api/include/allscale/api/core/treeture.h:13,
+                 from /tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/api/include/allscale/api/core/prec.h:10,
+                 from /tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/api/test/core/prec.cc:7:
+/tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/utils/include/allscale/utils/serializer.h: In static member function 'static allscale::utils::Archive allscale::utils::Archive::load(allscale::utils::ArchiveReader&)':
+/tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/utils/include/allscale/utils/serializer.h:551:33: warning: redundant move in return statement [-Wredundant-move]
+  551 |                 return std::move(data);
+      |                        ~~~~~~~~~^~~~~~
+/tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/utils/include/allscale/utils/serializer.h:551:33: note: remove 'std::move' call
+[76/110] Linking CXX executable api/ut_api_core_prec
+[77/110] Building CXX object utils/CMakeFiles/ut_utils_serializer_unordered_maps.dir/test/serializer/unordered_maps.cc.o
+In file included from /tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/utils/include/allscale/utils/serializer/unordered_maps.h:4,
+                 from /tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/utils/test/serializer/unordered_maps.cc:3:
+/tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/utils/include/allscale/utils/serializer.h: In static member function 'static allscale::utils::Archive allscale::utils::Archive::load(allscale::utils::ArchiveReader&)':
+/tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/utils/include/allscale/utils/serializer.h:551:33: warning: redundant move in return statement [-Wredundant-move]
+  551 |                 return std::move(data);
+      |                        ~~~~~~~~~^~~~~~
+/tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/utils/include/allscale/utils/serializer.h:551:33: note: remove 'std::move' call
+[78/110] Building CXX object utils/CMakeFiles/ut_utils_serializer_vectors.dir/test/serializer/vectors.cc.o
+In file included from /tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/utils/include/allscale/utils/serializer/vectors.h:4,
+                 from /tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/utils/test/serializer/vectors.cc:3:
+/tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/utils/include/allscale/utils/serializer.h: In static member function 'static allscale::utils::Archive allscale::utils::Archive::load(allscale::utils::ArchiveReader&)':
+/tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/utils/include/allscale/utils/serializer.h:551:33: warning: redundant move in return statement [-Wredundant-move]
+  551 |                 return std::move(data);
+      |                        ~~~~~~~~~^~~~~~
+/tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/utils/include/allscale/utils/serializer.h:551:33: note: remove 'std::move' call
+[79/110] Linking CXX executable utils/ut_utils_serializer_vectors
+[80/110] Linking CXX executable utils/ut_utils_serializer_unordered_maps
+[81/110] Building CXX object utils/CMakeFiles/ut_utils_static_map.dir/test/static_map.cc.o
+[82/110] Building CXX object utils/CMakeFiles/ut_utils_serializer_tuples.dir/test/serializer/tuples.cc.o
+In file included from /tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/utils/include/allscale/utils/serializer/tuple.h:3,
+                 from /tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/utils/test/serializer/tuples.cc:3:
+/tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/utils/include/allscale/utils/serializer.h: In static member function 'static allscale::utils::Archive allscale::utils::Archive::load(allscale::utils::ArchiveReader&)':
+/tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/utils/include/allscale/utils/serializer.h:551:33: warning: redundant move in return statement [-Wredundant-move]
+  551 |                 return std::move(data);
+      |                        ~~~~~~~~~^~~~~~
+/tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/utils/include/allscale/utils/serializer.h:551:33: note: remove 'std::move' call
+[83/110] Linking CXX executable utils/ut_utils_static_map
+[84/110] Linking CXX executable utils/ut_utils_serializer_tuples
+[85/110] Building CXX object utils/CMakeFiles/ut_utils_tuple_utils.dir/test/tuple_utils.cc.o
+[86/110] Linking CXX executable utils/ut_utils_tuple_utils
+[87/110] Building CXX object api/CMakeFiles/ut_api_user_data_static_grid.dir/test/user/data/static_grid.cc.o
+In file included from /tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/api/include/allscale/api/core/data.h:6,
+                 from /tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/api/include/allscale/api/user/data/grid.h:6,
+                 from /tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/api/include/allscale/api/user/data/static_grid.h:3,
+                 from /tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/api/test/user/data/static_grid.cc:3:
+/tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/utils/include/allscale/utils/serializer.h: In static member function 'static allscale::utils::Archive allscale::utils::Archive::load(allscale::utils::ArchiveReader&)':
+/tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/utils/include/allscale/utils/serializer.h:551:33: warning: redundant move in return statement [-Wredundant-move]
+  551 |                 return std::move(data);
+      |                        ~~~~~~~~~^~~~~~
+/tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/utils/include/allscale/utils/serializer.h:551:33: note: remove 'std::move' call
+[88/110] Building CXX object utils/CMakeFiles/ut_utils_table.dir/test/table.cc.o
+[89/110] Linking CXX executable utils/ut_utils_table
+[90/110] Linking CXX executable api/ut_api_user_data_static_grid
+[91/110] Building CXX object api/CMakeFiles/ut_api_user_data_binary_tree.dir/test/user/data/binary_tree.cc.o
+In file included from /tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/api/include/allscale/api/user/data/binary_tree.h:7,
+                 from /tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/api/test/user/data/binary_tree.cc:3:
+/tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/utils/include/allscale/utils/serializer.h: In static member function 'static allscale::utils::Archive allscale::utils::Archive::load(allscale::utils::ArchiveReader&)':
+/tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/utils/include/allscale/utils/serializer.h:551:33: warning: redundant move in return statement [-Wredundant-move]
+  551 |                 return std::move(data);
+      |                        ~~~~~~~~~^~~~~~
+/tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/utils/include/allscale/utils/serializer.h:551:33: note: remove 'std::move' call
+[92/110] Linking CXX executable api/ut_api_user_data_binary_tree
+[93/110] Building CXX object utils/CMakeFiles/ut_utils_type_list.dir/test/type_list.cc.o
+[94/110] Building CXX object utils/CMakeFiles/ut_utils_static_grid.dir/test/static_grid.cc.o
+In file included from /tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/utils/include/allscale/utils/static_grid.h:7,
+                 from /tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/utils/test/static_grid.cc:3:
+/tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/utils/include/allscale/utils/serializer.h: In static member function 'static allscale::utils::Archive allscale::utils::Archive::load(allscale::utils::ArchiveReader&)':
+/tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/utils/include/allscale/utils/serializer.h:551:33: warning: redundant move in return statement [-Wredundant-move]
+  551 |                 return std::move(data);
+      |                        ~~~~~~~~~^~~~~~
+/tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/utils/include/allscale/utils/serializer.h:551:33: note: remove 'std::move' call
+[95/110] Linking CXX executable utils/ut_utils_type_list
+[96/110] Linking CXX executable utils/ut_utils_static_grid
+[97/110] Building CXX object api/CMakeFiles/ut_api_user_algorithm_vcycle.dir/test/user/algorithm/vcycle.cc.o
+In file included from /tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/api/include/allscale/api/user/data/mesh.h:16,
+                 from /tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/api/test/user/algorithm/vcycle.cc:9:
+/tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/utils/include/allscale/utils/serializer.h: In static member function 'static allscale::utils::Archive allscale::utils::Archive::load(allscale::utils::ArchiveReader&)':
+/tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/utils/include/allscale/utils/serializer.h:551:33: warning: redundant move in return statement [-Wredundant-move]
+  551 |                 return std::move(data);
+      |                        ~~~~~~~~~^~~~~~
+/tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/utils/include/allscale/utils/serializer.h:551:33: note: remove 'std::move' call
+[98/110] Linking CXX executable api/ut_api_user_algorithm_vcycle
+[99/110] Building CXX object api/CMakeFiles/ut_api_user_data_grid.dir/test/user/data/grid.cc.o
+In file included from /tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/api/include/allscale/api/core/data.h:6,
+                 from /tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/api/include/allscale/api/user/data/grid.h:6,
+                 from /tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/api/test/user/data/grid.cc:3:
+/tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/utils/include/allscale/utils/serializer.h: In static member function 'static allscale::utils::Archive allscale::utils::Archive::load(allscale::utils::ArchiveReader&)':
+/tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/utils/include/allscale/utils/serializer.h:551:33: warning: redundant move in return statement [-Wredundant-move]
+  551 |                 return std::move(data);
+      |                        ~~~~~~~~~^~~~~~
+/tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/utils/include/allscale/utils/serializer.h:551:33: note: remove 'std::move' call
+[100/110] Linking CXX executable api/ut_api_user_data_grid
+[101/110] Building CXX object utils/CMakeFiles/ut_utils_vector.dir/test/vector.cc.o
+In file included from /tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/utils/include/allscale/utils/serializer/arrays.h:7,
+                 from /tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/utils/include/allscale/utils/vector.h:10,
+                 from /tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/utils/test/vector.cc:4:
+/tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/utils/include/allscale/utils/serializer.h: In static member function 'static allscale::utils::Archive allscale::utils::Archive::load(allscale::utils::ArchiveReader&)':
+/tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/utils/include/allscale/utils/serializer.h:551:33: warning: redundant move in return statement [-Wredundant-move]
+  551 |                 return std::move(data);
+      |                        ~~~~~~~~~^~~~~~
+/tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/utils/include/allscale/utils/serializer.h:551:33: note: remove 'std::move' call
+[102/110] Linking CXX executable utils/ut_utils_vector
+[103/110] Building CXX object api/CMakeFiles/ut_api_user_data_adaptive_grid.dir/test/user/data/adaptive_grid.cc.o
+In file included from /tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/api/include/allscale/api/core/data.h:6,
+                 from /tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/api/include/allscale/api/user/data/adaptive_grid.h:6,
+                 from /tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/api/test/user/data/adaptive_grid.cc:3:
+/tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/utils/include/allscale/utils/serializer.h: In static member function 'static allscale::utils::Archive allscale::utils::Archive::load(allscale::utils::ArchiveReader&)':
+/tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/utils/include/allscale/utils/serializer.h:551:33: warning: redundant move in return statement [-Wredundant-move]
+  551 |                 return std::move(data);
+      |                        ~~~~~~~~~^~~~~~
+/tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/utils/include/allscale/utils/serializer.h:551:33: note: remove 'std::move' call
+[104/110] Linking CXX executable api/ut_api_user_data_adaptive_grid
+[105/110] Building CXX object api/CMakeFiles/ut_api_user_data_mesh.dir/test/user/data/mesh.cc.o
+In file included from /tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/api/include/allscale/api/core/data.h:6,
+                 from /tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/api/test/user/data/mesh.cc:3:
+/tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/utils/include/allscale/utils/serializer.h: In static member function 'static allscale::utils::Archive allscale::utils::Archive::load(allscale::utils::ArchiveReader&)':
+/tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/utils/include/allscale/utils/serializer.h:551:33: warning: redundant move in return statement [-Wredundant-move]
+  551 |                 return std::move(data);
+      |                        ~~~~~~~~~^~~~~~
+/tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/utils/include/allscale/utils/serializer.h:551:33: note: remove 'std::move' call
+In file included from /tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/api/test/user/data/mesh.cc:4:
+/tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/api/include/allscale/api/user/data/mesh.h: In instantiation of 'static allscale::api::user::data::detail::MeshTopologyData<allscale::api::user::data::nodes<Kinds ...>, allscale::api::user::data::edges<Edges ...>, allscale::api::user::data::hierarchies<Hierarchies ...>, Levels> allscale::api::user::data::detail::MeshTopologyData<allscale::api::user::data::nodes<Kinds ...>, allscale::api::user::data::edges<Edges ...>, allscale::api::user::data::hierarchies<Hierarchies ...>, Levels>::load(std::istream&) [with Nodes = {allscale::api::user::data::Vertex}; Edges = {allscale::api::user::data::Edge}; Hierarchies = {allscale::api::user::data::Refine}; unsigned int Levels = 2; std::istream = std::basic_istream<char>]':
+/tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/api/include/allscale/api/user/data/mesh.h:3018:43:   required from 'static allscale::api::user::data::Mesh<allscale::api::user::data::nodes<Kinds ...>, allscale::api::user::data::edges<Edges ...>, allscale::api::user::data::hierarchies<Hierarchies ...>, Levels, PartitionDepth> allscale::api::user::data::Mesh<allscale::api::user::data::nodes<Kinds ...>, allscale::api::user::data::edges<Edges ...>, allscale::api::user::data::hierarchies<Hierarchies ...>, Levels, PartitionDepth>::load(std::istream&) [with NodeKinds = {allscale::api::user::data::Vertex}; EdgeKinds = {allscale::api::user::data::Edge}; Hierarchies = {allscale::api::user::data::Refine}; unsigned int Levels = 2; unsigned int PartitionDepth = 2; std::istream = std::basic_istream<char>]'
+/tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/api/test/user/data/mesh.cc:1479:25:   required from here
+/tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/api/include/allscale/api/user/data/mesh.h:1200:53: warning: moving a local object in a return statement prevents copy elision [-Wpessimizing-move]
+ 1200 |                                 return std::move(res);
+      |                                                     ^
+/tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/api/include/allscale/api/user/data/mesh.h:1200:53: note: remove 'std::move' call
+/tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/api/include/allscale/api/user/data/mesh.h: In instantiation of 'static allscale::api::user::data::detail::MeshTopologyData<allscale::api::user::data::nodes<Kinds ...>, allscale::api::user::data::edges<Edges ...>, allscale::api::user::data::hierarchies<Hierarchies ...>, Levels> allscale::api::user::data::detail::MeshTopologyData<allscale::api::user::data::nodes<Kinds ...>, allscale::api::user::data::edges<Edges ...>, allscale::api::user::data::hierarchies<Hierarchies ...>, Levels>::interpret(allscale::utils::RawBuffer&) [with Nodes = {allscale::api::user::data::Vertex}; Edges = {allscale::api::user::data::Edge}; Hierarchies = {allscale::api::user::data::Refine}; unsigned int Levels = 2]':
+/tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/api/include/allscale/api/user/data/mesh.h:3034:48:   required from 'static allscale::api::user::data::Mesh<allscale::api::user::data::nodes<Kinds ...>, allscale::api::user::data::edges<Edges ...>, allscale::api::user::data::hierarchies<Hierarchies ...>, Levels, PartitionDepth> allscale::api::user::data::Mesh<allscale::api::user::data::nodes<Kinds ...>, allscale::api::user::data::edges<Edges ...>, allscale::api::user::data::hierarchies<Hierarchies ...>, Levels, PartitionDepth>::interpret(allscale::utils::RawBuffer&) [with NodeKinds = {allscale::api::user::data::Vertex}; EdgeKinds = {allscale::api::user::data::Edge}; Hierarchies = {allscale::api::user::data::Refine}; unsigned int Levels = 2; unsigned int PartitionDepth = 2]'
+/tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/api/test/user/data/mesh.cc:1493:30:   required from here
+/tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/api/include/allscale/api/user/data/mesh.h:1208:53: warning: moving a local object in a return statement prevents copy elision [-Wpessimizing-move]
+ 1208 |                                 return std::move(res);
+      |                                                     ^
+/tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/api/include/allscale/api/user/data/mesh.h:1208:53: note: remove 'std::move' call
+[106/110] Linking CXX executable api/ut_api_user_data_mesh
+[107/110] Building CXX object api/CMakeFiles/ut_api_user_algorithm_stencil.dir/test/user/algorithm/stencil.cc.o
+In file included from /tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/api/include/allscale/api/core/data.h:6,
+                 from /tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/api/include/allscale/api/user/data/grid.h:6,
+                 from /tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/api/include/allscale/api/user/algorithm/stencil.h:8,
+                 from /tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/api/test/user/algorithm/stencil.cc:5:
+/tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/utils/include/allscale/utils/serializer.h: In static member function 'static allscale::utils::Archive allscale::utils::Archive::load(allscale::utils::ArchiveReader&)':
+/tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/utils/include/allscale/utils/serializer.h:551:33: warning: redundant move in return statement [-Wredundant-move]
+  551 |                 return std::move(data);
+      |                        ~~~~~~~~~^~~~~~
+/tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/utils/include/allscale/utils/serializer.h:551:33: note: remove 'std::move' call
+[108/110] Linking CXX executable api/ut_api_user_algorithm_stencil
+[109/110] Building CXX object api/CMakeFiles/ut_api_user_algorithm_pfor.dir/test/user/algorithm/pfor.cc.o
+In file included from /tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/api/include/allscale/api/core/impl/reference/io.h:41,
+                 from /tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/api/include/allscale/api/core/io.h:5,
+                 from /tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/api/test/user/algorithm/pfor.cc:6:
+/tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/utils/include/allscale/utils/serializer.h: In static member function 'static allscale::utils::Archive allscale::utils::Archive::load(allscale::utils::ArchiveReader&)':
+/tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/utils/include/allscale/utils/serializer.h:551:33: warning: redundant move in return statement [-Wredundant-move]
+  551 |                 return std::move(data);
+      |                        ~~~~~~~~~^~~~~~
+/tmp/cb761223/allocbench_rpmalloc_run1/allscale_api_code/code/utils/include/allscale/utils/serializer.h:551:33: note: remove 'std::move' call
+[110/110] Linking CXX executable api/ut_api_user_algorithm_pfor
+	Command being timed: "ninja -j 16"
+	User time (seconds): 591.64
+	System time (seconds): 28.14
+	Percent of CPU this job got: 653%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:34.88
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1435252
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 88
+	Minor (reclaiming a frame) page faults: 3066150
+	Voluntary context switches: 20782
+	Involuntary context switches: 6203
+	Swaps: 0
+	File system inputs: 160
+	File system outputs: 396864
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

@@ -1,0 +1,20 @@
+--- Job Info ---
+Job ID: 210545
+Job Name: mmul_tiled_tile8_run4
+Program Type: tiled
+Tile Size: 8
+Run Index: 4/5
+Executable: /gpfs/gpfs1/scratch/cb761223/exercises/sheet06/mmul_comparison_benchmark/build/mmul_tiled_exec
+Log File: /gpfs/gpfs1/scratch/cb761223/exercises/sheet06/mmul_comparison_benchmark/slurm_logs/mmul_tiled_tile8_run4.log
+Job started on n010.intern.lcc3.intra.uibk.ac.at at Fri May  2 11:27:06 CEST 2025
+--- Execution ---
+Running command: time -p /gpfs/gpfs1/scratch/cb761223/exercises/sheet06/mmul_comparison_benchmark/build/mmul_tiled_exec 8
+-------------------- Program Output Start --------------------
+Verification: OK
+real 20.59
+user 20.49
+sys 0.02
+-------------------- Program Output End ----------------------
+--- Completion ---
+Command finished with exit code: 0
+Job finished at: Fri May  2 11:27:27 CEST 2025
