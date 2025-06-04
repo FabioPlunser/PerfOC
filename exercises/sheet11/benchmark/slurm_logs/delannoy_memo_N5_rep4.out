@@ -1,0 +1,38 @@
+Job ID: 293294
+Job Name: delannoy_memo_N5_rep4
+Running on: n010.intern.lcc3.intra.uibk.ac.at
+Start time: Mi 4. Jun 14:39:48 CEST 2025
+Program: delannoy_memo
+N: 5
+Repetition: 4
+Executable: /gpfs/gpfs1/scratch/cb761223/sheet11/benchmark/bin/delannoy_memo
+----------------------------------------
+Internal_Time_ns: 1539
+Internal_Time_s: 0.000001539
+Verification: OK
+	Command being timed: "/gpfs/gpfs1/scratch/cb761223/sheet11/benchmark/bin/delannoy_memo 5"
+	User time (seconds): 0.00
+	System time (seconds): 0.00
+	Percent of CPU this job got: 33%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.00
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1576
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 72
+	Voluntary context switches: 5
+	Involuntary context switches: 0
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+----------------------------------------
+End time: Mi 4. Jun 14:39:48 CEST 2025
+Job completed.

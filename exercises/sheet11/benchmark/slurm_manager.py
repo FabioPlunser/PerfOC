@@ -74,7 +74,7 @@ def submit_slurm_job(script_path: Path) -> str | None:
         return None
 
 
-def wait_for_slurm_jobs(job_ids: list[str], check_interval: int = 30):
+def wait_for_slurm_jobs(job_ids: list[str], check_interval: int = 10):
     """Waits for a list of SLURM jobs to complete."""
     if not job_ids:
         logger.info("No SLURM jobs to wait for.")
@@ -87,64 +87,56 @@ def wait_for_slurm_jobs(job_ids: list[str], check_interval: int = 30):
     while active_job_ids:
         time.sleep(check_interval)
         try:
-            # squeue -h -j job_id1,job_id2 -o "%i %T"
-            # %i: Job ID, %T: State (compact form)
             squeue_cmd = [
-                "squeue",
-                "-h",
-                "-j",
-                ",".join(active_job_ids),
-                "-o",
-                "%i %T",
+                "squeue", 
+                "-h",  
+                '--me', 
             ]
             result = subprocess.run(
                 squeue_cmd, capture_output=True, text=True, check=False
             )
-
-            if (
-                result.returncode != 0
-                and "Invalid job id specified" not in result.stderr
-            ):
-                # If squeue fails for reasons other than jobs not existing anymore
-                logger.warning(
-                    f"squeue command failed: {result.stderr}. Assuming jobs might have finished or errored."
+            if result.returncode != 0:
+                logger.error(
+                    f"squeue command failed: {result.stderr}. Cannot monitor SLURM jobs."
                 )
-                # Potentially break or implement more robust error checking
-                # For now, we'll let it try to parse what it got or assume jobs are done if output is empty
+                return
 
-            current_running_jobs = []
-            if result.stdout.strip():
-                for line in result.stdout.strip().split("\n"):
-                    if not line.strip():
+            logger.debug(f"squeue output:\n{result.stdout}")
+
+            for line in result.stdout.strip().splitlines():
+                job_id = line.split()[0]
+                if job_id not in active_job_ids:
+                    logger.info(f"Job {job_id} is no longer tracked.")
+                    if "interact" in line:
+                        logger.info(f"Job {job_id} is an interactive job. Skipping.")
                         continue
-                    parts = line.strip().split()
-                    job_id, status = parts[0], parts[1]
-                    # Common SLURM states: PENDING (PD), RUNNING (R), COMPLETING (CG)
-                    # Consider these as still active. Others (COMPLETED, FAILED, TIMEOUT, etc.) are finished.
-                    if status in ["PD", "R", "CG"]:
-                        current_running_jobs.append(job_id)
+                    
+                    scancel_cmd = ["scancel", job_id]
+                    try:
+                        subprocess.run(scancel_cmd, check=True)
+                        logger.info(f"Cancelled job {job_id} as it is no longer tracked.")
+                    except subprocess.CalledProcessError as e:
+                        logger.error(f"Failed to cancel job {job_id}: {e}")
+                
+            active_job_ids = [
+                line.split()[0] for line in result.stdout.strip().splitlines()
+                if line.split()[0] in active_job_ids
+            ] 
 
-            active_job_ids = current_running_jobs
-            completed_count = total_jobs - len(active_job_ids)
-            logger.info(
-                f"{completed_count}/{total_jobs} jobs completed. "
-                f"{len(active_job_ids)} jobs remaining."
-            )
+            
+            logger.info(f"Still waiting for {len(active_job_ids)} SLURM jobs: {active_job_ids}")
 
         except FileNotFoundError:
             logger.error(
                 "squeue command not found. Cannot monitor SLURM jobs. Please check manually."
             )
-            return  # Stop trying if squeue is not available
+            return  
         except subprocess.CalledProcessError as e:
-            # This might happen if all jobs are already finished and squeue returns error for invalid job list
             logger.info(
                 f"squeue error (possibly all jobs done): {e}. Assuming completion."
             )
-            active_job_ids = []  # Assume all jobs are done
+            active_job_ids = []  
         except Exception as e:
             logger.error(f"An unexpected error occurred while checking job status: {e}")
-            # Decide how to handle: continue, break, or re-raise
-            break  # For safety, break loop on unexpected error
-
+            break  
     logger.info("All SLURM jobs have completed or are no longer tracked.")

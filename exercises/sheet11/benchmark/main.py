@@ -23,6 +23,7 @@ def compile_c_programs():
 
     for prog_name in config.PROGRAMS:
         source_file = config.C_SOURCE_DIR / f"{prog_name}.c"
+        time_source_file = config.C_SOURCE_DIR / "timing.c"
         executable_file = config.BIN_DIR / prog_name
 
         if not source_file.exists():
@@ -35,6 +36,7 @@ def compile_c_programs():
             "-Wextra",
             "-O3",
             str(source_file),
+            str(time_source_file),
             "-o",
             str(executable_file),
         ]
@@ -64,14 +66,16 @@ def generate_and_submit_jobs(compiled_executables: dict):
     job_details_for_parsing = []  
 
     for prog_name, exec_path in compiled_executables.items():
-        for n_val in config.N_VALUES:
-            if prog_name == "delannoy" and n_val > 18:  
-                logger.warning(
-                    f"Skipping {prog_name} for N={n_val} in SLURM submission "
-                    f"as it might be too slow. It will likely timeout. "
-                    f"Consider adjusting N_VALUES or SLURM_TIME_LIMIT if you want to run it."
-                )
+        n_values_for_this_program = config.PROGRAM_N_VALUES.get(prog_name)
+        if not n_values_for_this_program:
+            logger.warning(
+                f"No N_VALUES defined for program '{prog_name}' in "
+                f"config.PROGRAM_N_VALUES. Skipping this program."
+            )
+            continue # Skip to the next program if no N values are defined
 
+        logger.info(f"Using N values for {prog_name}: {n_values_for_this_program}")
+        for n_val in n_values_for_this_program:
             for rep in range(1, config.NUM_REPETITIONS + 1):
                 job_name = f"{prog_name}_N{n_val}_rep{rep}"
                 script_path = slurm_manager.create_slurm_script(
@@ -120,43 +124,137 @@ def collect_all_results(job_details: list):
 
     return pd.DataFrame(all_parsed_data)
 
+def clear_previous_results():
+    """Clears all folders"""
+    logger.info("Clearing previous results and logs...")
+    for folder in [
+        config.BIN_DIR,
+        config.SLURM_SCRIPTS_DIR,
+        config.SLURM_LOGS_DIR,
+        config.PLOTS_DIR,
+        config.TABLES_DIR,
+    ]:
+        if folder.exists():
+            for item in folder.iterdir():
+                if item.is_file():
+                    item.unlink()
+                elif item.is_dir():
+                    for sub_item in item.iterdir():
+                        sub_item.unlink()
+                    item.rmdir()
+            logger.info(f"Cleared contents of {folder}")
+        else:
+            logger.info(f"{folder} does not exist, skipping.")
 
+def generate_folders():
+    """Ensures all necessary directories exist."""
+    config.BIN_DIR.mkdir(parents=True, exist_ok=True)
+    config.SLURM_SCRIPTS_DIR.mkdir(parents=True, exist_ok=True)
+    config.SLURM_LOGS_DIR.mkdir(parents=True, exist_ok=True)
+    config.RESULTS_FILE.parent.mkdir(parents=True, exist_ok=True)
+    config.PLOTS_DIR.mkdir(parents=True, exist_ok=True)
+    config.TABLES_DIR.mkdir(parents=True, exist_ok=True)
+    logger.info("All necessary directories are ready.")
+
+def print_config():
+    """Prints the current configuration settings."""
+    print("Current Configuration:")
+    print(f"Programs: {config.PROGRAMS}")
+    print(f"N Values: {config.PROGRAM_N_VALUES}")
+    print(f"SLURM Partition: {config.SLURM_PARTITION}")
+    print(f"SLURM CPUs per Task: {config.SLURM_CPUS_PER_TASK}")
+    print(f"SLURM Memory: {config.SLURM_MEMORY}")
+    print(f"SLURM Time Limit: {config.SLURM_TIME_LIMIT}")
+    print(f"Number of Repetitions: {config.NUM_REPETITIONS}")
+    print(f"Plot Format: {config.PLOT_FORMAT}")
+    print(f"Plot DPI: {config.PLOT_DPI}")
+    print(f"Plot Style: {config.PLOT_STYLE}")
+    print(f"Base Output Directory: {config.BASE_OUTPUT_DIR}")
+    
+def check_for_input(): 
+    """Check if user provides input to do the benchmark, the plots and the markdown report."""
+    print("=" * 60)
+    print("Dellanoy Benchmark")
+    print("=" * 60)
+
+    print_config()
+    
+    print("\nSelect Operation:")
+    print("1. Run Benchmark")
+    print("2. Generate Plots")
+    print("3. Generate Markdown Report")
+    print("5. Exit")
+    print("=" * 60)
+
+    while True:
+        choice = input("Enter your choice (1-5): ").strip()
+        if choice in {'1', '2', '3', '4', '5'}:
+            return choice
+        else:
+            print("Invalid choice. Please enter a number between 1 and 5.") 
+            
+    
 def main():
     logger.info("Starting Delannoy Benchmark Suite...")
-
-    compiled_executables = compile_c_programs()
-    if not compiled_executables:
-        logger.error("Compilation failed. Exiting.")
+    
+    user_choice = check_for_input()
+    if user_choice == '5':
+        logger.info("Exiting without running any operations.")
         return
-
-    # --- Option to load existing results or run new benchmarks ---
-    # For simplicity, this script will always try to run new benchmarks.
-    # You could add a check here for config.RESULTS_FILE.exists() to load instead.
-
-    logger.info("Proceeding to generate and submit SLURM jobs.")
-    job_ids, job_details_for_parsing = generate_and_submit_jobs(compiled_executables)
-
-    if not job_ids:
-        logger.error("No jobs submitted or all submissions failed. Exiting.")
-        return
-
-    slurm_manager.wait_for_slurm_jobs(job_ids)
-    logger.info("All SLURM jobs presumed complete. Proceeding to parse results.")
-
-    results_df = collect_all_results(job_details_for_parsing)
-
-    if results_df.empty:
-        logger.error("No data collected after parsing. Check logs and parser.")
-    else:
-        logger.info(f"Successfully parsed {len(results_df)} results.")
-        results_df.to_csv(config.RESULTS_FILE, index=False)
-        logger.info(f"Raw results saved to {config.RESULTS_FILE}")
-
-        # Generate plots and markdown report
+    elif user_choice == '2':
+        logger.info("Generating plots only...")
+        results_df = pd.read_csv(config.RESULTS_FILE)
+        if results_df.empty:
+            logger.error("No results found to generate plots. Please run the benchmark first.")
+            return
         plot_generator.generate_all_plots(results_df)
+        logger.info("Plots generated successfully.")
+        return
+    elif user_choice == '3':
+        logger.info("Generating markdown report only...")
+        results_df = pd.read_csv(config.RESULTS_FILE)
+        if results_df.empty:
+            logger.error("No results found to generate markdown report. Please run the benchmark first.")
+            return
         markdown_generator.save_markdown_report(results_df)
+        logger.info("Markdown report generated successfully.")
+        return
+    elif user_choice == '1':
+        logger.info("Running all operations: Benchmark, Plots, and Markdown Report.")
 
-    logger.info("Delannoy Benchmark Suite finished.")
+        clear_previous_results()
+        generate_folders()
+        logger.info("Directories cleared and created as needed.")
+
+        compiled_executables = compile_c_programs()
+        if not compiled_executables:
+            logger.error("Compilation failed. Exiting.")
+            return
+
+        logger.info("Proceeding to generate and submit SLURM jobs.")
+        job_ids, job_details_for_parsing = generate_and_submit_jobs(compiled_executables)
+
+        if not job_ids:
+            logger.error("No jobs submitted or all submissions failed. Exiting.")
+            return
+
+        slurm_manager.wait_for_slurm_jobs(job_ids)
+        logger.info("All SLURM jobs presumed complete. Proceeding to parse results.")
+
+        results_df = collect_all_results(job_details_for_parsing)
+
+        if results_df.empty:
+            logger.error("No data collected after parsing. Check logs and parser.")
+        else:
+            logger.info(f"Successfully parsed {len(results_df)} results.")
+            results_df.to_csv(config.RESULTS_FILE, index=False)
+            logger.info(f"Raw results saved to {config.RESULTS_FILE}")
+
+            # Generate plots and markdown report
+            plot_generator.generate_all_plots(results_df)
+            markdown_generator.save_markdown_report(results_df)
+
+        logger.info("Delannoy Benchmark Suite finished.")
 
 
 if __name__ == "__main__":

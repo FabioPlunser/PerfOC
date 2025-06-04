@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include "timing.h"
 
 typedef unsigned long dn;
 
@@ -34,7 +35,13 @@ int main(int argc, char **argv) {
 	}
 
 	dn result = 0;
+	timing_info internal_timer;
+	start_timer(&internal_timer);
+
 	result = delannoy(n, n);
+	stop_timer(&internal_timer); 
+	printf("Internal_Time_ns: %lld\n", get_elapsed_nanoseconds(&internal_timer));
+	printf("Internal_Time_s: %.9f\n", get_elapsed_seconds(&internal_timer)); 
 	
 	if(result == DELANNOY_RESULTS[n]) {
 		printf("Verification: OK\n");

@@ -24,6 +24,10 @@ def generate_markdown_tables(df: pd.DataFrame):
             elapsed_time_std=("elapsed_time_s", "std"),
             max_rss_mean_mb=("max_rss_mb", "mean"),
             max_rss_std_mb=("max_rss_mb", "std"),
+            internal_time_s_precise=("internal_time_s_precise", "mean"),
+            internal_time_ns=("internal_time_s_precise", "mean"),
+            
+
             runs=("repetition", "count"),  # To show number of successful runs averaged
         )
         .reset_index()
@@ -31,14 +35,9 @@ def generate_markdown_tables(df: pd.DataFrame):
 
     # Format numbers for readability in Markdown
     for col in [
-        "user_time_mean",
-        "user_time_std",
-        "system_time_mean",
-        "system_time_std",
-        "elapsed_time_mean",
-        "elapsed_time_std",
         "max_rss_mean_mb",
         "max_rss_std_mb",
+        
     ]:
         df_summary[col] = df_summary[col].apply(
             lambda x: f"{x:.4f}" if pd.notnull(x) else "N/A"
@@ -62,25 +61,17 @@ def generate_markdown_tables(df: pd.DataFrame):
         [
             "program",
             "n_value",
-            "runs",
-            "elapsed_time_mean",
-            "elapsed_time_std",
-            "user_time_mean",
-            "system_time_mean",
             "max_rss_mean_mb",
             "max_rss_std_mb",
+            "internal_time_s_precise",
         ]
     ].copy()
     table_df.columns = [
         "Program",
         "N",
-        "Successful Runs",
-        "Elapsed Time (s)",
-        "Elapsed StdDev",
-        "User Time (s)",
-        "System Time (s)",
         "Peak Memory (MB)",
         "Memory StdDev",
+        "Internal Time (s)",
     ]
 
     md_content += table_df.to_markdown(index=False)

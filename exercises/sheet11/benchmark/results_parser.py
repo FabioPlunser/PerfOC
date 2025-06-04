@@ -57,15 +57,22 @@ def parse_time_output(log_content: str) -> dict:
         "swaps": r"Swaps:\s*(\d+)",
         "context_switches_voluntary": r"Voluntary context switches:\s*(\d+)",
         "context_switches_involuntary": r"Involuntary context switches:\s*(\d+)",
+        "internal_time_ns": r"Internal_Time_ns:\s*(\d+)",
+        "internal_time_s_precise": r"Internal_Time_s:\s*([\d\.]+)"
     }
+
 
     for key, pattern in patterns.items():
         match = re.search(pattern, log_content)
         if match:
             value_str = match.group(1)
-            if key == "elapsed_time_str":
+            if key == "internal_time_ns":
+                data[key] = int(value_str) 
+            elif key == "internal_time_s_precise":
+                data[key] = float(value_str)
+            elif key == "elapsed_time_str":
                 data["elapsed_time_s"] = parse_elapsed_time(value_str)
-                data[key] = value_str  # Store original string too
+                data[key] = value_str  
             elif key in [
                 "max_rss_kb",
                 "avg_rss_kb",
@@ -76,10 +83,10 @@ def parse_time_output(log_content: str) -> dict:
                 "context_switches_involuntary",
             ]:
                 data[key] = int(value_str)
-            else:  # Floats for times, percentages
+            else:  
                 data[key] = float(value_str)
         else:
-            data[key] = None  # Ensure all keys exist
+            data[key] = None  
 
     if data.get("max_rss_kb") is not None:
         data["max_rss_mb"] = data["max_rss_kb"] / 1024.0
