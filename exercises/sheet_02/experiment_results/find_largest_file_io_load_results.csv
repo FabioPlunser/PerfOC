@@ -1,4 +1,0 @@
-param,repetition,real_time,user_time,sys_time,max_memory,real_time_mean,real_time_ci,user_time_mean,sys_time_mean,max_memory_mean
-,1,0.0,0.0,0.0,948.0,0.0,0.0,0.0,0.0,925.3333333333334
-,2,0.0,0.0,0.0,948.0,0.0,0.0,0.0,0.0,925.3333333333334
-,3,0.0,0.0,0.0,880.0,0.0,0.0,0.0,0.0,925.3333333333334

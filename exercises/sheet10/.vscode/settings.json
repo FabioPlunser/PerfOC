@@ -1,0 +1,6 @@
+{
+  "files.associations": {
+    "tiered_array.h": "c",
+    "stddef.h": "c"
+  }
+}

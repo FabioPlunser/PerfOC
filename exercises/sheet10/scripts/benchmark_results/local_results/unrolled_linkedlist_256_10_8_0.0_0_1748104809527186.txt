@@ -1,0 +1,82 @@
+Container: unrolled_linkedlist_256
+Size: 10
+Element Size: 8 bytes
+Ratio: 0.0
+Test Duration: 3.0 seconds
+Timestamp: Sat May 24 18:40:09 2025
+Platform: Darwin 24.5.0
+----------------------------------------
+Initializing container registry...
+Registered container: array
+Registered container: linkedlist_seq
+Registered container: linkedlist_rand
+Registered container: unrolled_linkedlist_8
+Registered container: unrolled_linkedlist_16
+Registered container: unrolled_linkedlist_32
+Registered container: unrolled_linkedlist_64
+Registered container: unrolled_linkedlist_128
+Registered container: tiered_array_8
+Registered container: tiered_array_16
+Registered container: tiered_array_32
+Registered container: tiered_array_64
+Registered container: tiered_array_128
+Registered container: tiered_array_256
+Registry initialization complete!
+
+**Target Operation Distribution:**
+    Insert Operations: 0 (0.0%)
+    Delete Operations: 0 (0.0%)
+    Read Operations: 5 (50.0%)
+    Write Operations: 5 (50.0%)
+    Total Length: 10 operations
+
+**Sequence Validation:**
+    I/D Alternation Violations: 0 ✅ PERFECT
+    R/W Alternation Violations: 0 ✅ PERFECT
+    Open Insert Operations: 0 ✅ ALL CLOSED
+
+**Final Operation Statistics:**
+    Insert Operations: 0 (0.0%)
+    Delete Operations: 0 (0.0%)
+    Read Operations: 5 (50.0%)
+    Write Operations: 5 (50.0%)
+    Requested ins/del ratio: 0.00 → Actual: 0.00
+    Requested read ratio: 0.50 → Actual: 0.50
+    Insert-Delete Balance: ✅ PERFECT
+    Max Consecutive Inserts: 0 ✅ CONSTRAINT SATISFIED
+
+**Operation Sequence:**
+   📖 ✏️  📖 ✏️  📖 ✏️  📖 ✏️  📖 ✏️  
+Unknown container type 'unrolled_linkedlist_256'. Use --list-containers to see options.
+Cleaning up container registry...
+Cleaned up 14 container registrations
+Error initializing benchmark.
+
+--- Time Command Output ---
+Command exited with non-zero status 1
+	Command being timed: "/Users/fabioplunser/Nextcloud/Uni/7.Semester/PerfOCDominik/10/benchmark unrolled_linkedlist_256 10 8 0.0 3.0"
+	User time (seconds): 0.00
+	System time (seconds): 0.00
+	Percent of CPU this job got: 66%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.00
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1104
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 1
+	Minor (reclaiming a frame) page faults: 250
+	Voluntary context switches: 0
+	Involuntary context switches: 14
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 16384
+	Exit status: 1
+--- End Time Output ---
+----------------------------------------
+Benchmark completed at: Sat May 24 18:40:09 2025
