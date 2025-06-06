@@ -91,13 +91,12 @@ void store_memo(memo_table *table, dn x, dn y, dn result)
 	}
 
 	if (table->capacity == 0)
-		return; // Cannot store
+		return; 
 
 	int hash = hash_function(x, y, table->capacity);
 	int original_hash = hash;
 
 	// Find an empty slot (where .x and .y are both 0, due to calloc)
-	// This loop is guaranteed to find an empty slot if table->size < table->capacity
 	while (table->entries[hash].x != 0 || table->entries[hash].y != 0)
 	{
 		hash = (hash + 1) % table->capacity;
@@ -125,7 +124,6 @@ dn delannoy_memo(dn x, dn y)
 
 	dn cached = lookup_memo(memo, x, y);
 
-	// If cached is non-zero, it means the value was found.
 	if (cached != 0)
 		return cached;
 
